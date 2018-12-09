@@ -67,10 +67,6 @@
 #include <zmq/zmqnotificationinterface.h>
 #endif
 
-#ifdef USE_SSE2
-#include "crypto/scrypt.h"
-#endif
-
 bool fFeeEstimatesInitialized = false;
 static const bool DEFAULT_PROXYRANDOMIZE = true;
 static const bool DEFAULT_REST_ENABLE = false;
@@ -529,10 +525,10 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/miningenthusiastcoin-project/miningenthusiastcoin>";
-    const std::string URL_WEBSITE = "<https://miningenthusiastcoin.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/MiningEnthusiastCoin-Project/MiningEnthusiastCoin>";
+    const std::string URL_WEBSITE = "<https://miningenthusiastcoin.com>";
 
-    return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
+    return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2018, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
            strprintf(_("Please contribute if you find %s useful. "
                        "Visit %s for further information about the software."),
@@ -1277,11 +1273,6 @@ bool AppInitMain()
     }
 
     int64_t nStart;
-
-#if defined(USE_SSE2)
-    std::string sse2detect = scrypt_detect_sse2();
-    LogPrintf("%s\n", sse2detect);
-#endif
 
     // ********************************************************* Step 5: verify wallet database integrity
 #ifdef ENABLE_WALLET
