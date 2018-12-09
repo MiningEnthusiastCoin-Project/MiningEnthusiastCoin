@@ -270,6 +270,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/ripemd160.cpp \
   crypto/ripemd160.h \
   crypto/aes_helper.c \
+  crypto/md_helper.c \
   crypto/blake.c \
   crypto/bmw.c \
   crypto/cubehash.c \
