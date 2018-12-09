@@ -3442,7 +3442,7 @@ ROUND_FUN(whirlpool1, old1)
 
 #define RFUN   whirlpool_round
 #define HASH   whirlpool
-#include "md_helper.c"
+#include "crypto/md_helper.c"
 #undef RFUN
 #undef HASH
 
