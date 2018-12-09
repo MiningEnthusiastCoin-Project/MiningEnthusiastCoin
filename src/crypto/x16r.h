@@ -1,24 +1,28 @@
+#ifndef BITCOIN_CRYPTO_X16R_H
+#define BITCOIN_CRYPTO_X16R_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
 
-#include "crypto/sph_blake.h"
-#include "crypto/sph_bmw.h"
-#include "crypto/sph_groestl.h"
-#include "crypto/sph_jh.h"
-#include "crypto/sph_keccak.h"
-#include "crypto/sph_skein.h"
-#include "crypto/sph_luffa.h"
-#include "crypto/sph_cubehash.h"
-#include "crypto/sph_shavite.h"
-#include "crypto/sph_simd.h"
-#include "crypto/sph_echo.h"
-#include "crypto/sph_hamsi.h"
-#include "crypto/sph_fugue.h"
-#include "crypto/sph_shabal.h"
-#include "crypto/sph_whirlpool.h"
-#include "crypto/sph_sha2.h"
+#include <uint256.h>
+#include <crypto/sph_blake.h>
+#include <crypto/sph_bmw.h>
+#include <crypto/sph_groestl.h>
+#include <crypto/sph_jh.h>
+#include <crypto/sph_keccak.h>
+#include <crypto/sph_skein.h>
+#include <crypto/sph_luffa.h>
+#include <crypto/sph_cubehash.h>
+#include <crypto/sph_shavite.h>
+#include <crypto/sph_simd.h>
+#include <crypto/sph_echo.h>
+#include <crypto/sph_hamsi.h>
+#include <crypto/sph_fugue.h>
+#include <crypto/sph_shabal.h>
+#include <crypto/sph_whirlpool.h>
+#include <crypto/sph_sha2.h>
 
 #ifdef GLOBALDEFINED
 #define GLOBAL
@@ -50,6 +54,7 @@ GLOBAL sph_echo512_context      z_echo;
     sph_simd512_init(&z_simd); \
     sph_echo512_init(&z_echo); \
 } while (0)
+
 #define ZBLAKE (memcpy(&ctx_blake, &z_blake, sizeof(z_blake)))
 #define ZBMW (memcpy(&ctx_bmw, &z_bmw, sizeof(z_bmw)))
 #define ZGROESTL (memcpy(&ctx_groestl, &z_groestl, sizeof(z_groestl)))
@@ -192,3 +197,5 @@ inline uint256 HashX16R(const T1 pbegin, const T1 pend, const uint256 PrevBlockH
     }
     return hash[15].trim256();
 }
+
+#endif // BITCOIN_CRYPTO_X16R_H
