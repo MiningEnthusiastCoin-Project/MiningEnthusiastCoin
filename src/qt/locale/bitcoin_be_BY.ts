@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Правы клік, каб рэдагаваць адрас ці метку</translation>
+        <translation>Правы кл?к, каб рэдагаваць адрас ц? метку</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -15,23 +15,23 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Капіяваць пазначаны адрас у сістэмны буфер абмену</translation>
+        <translation>Кап?яваць пазначаны адрас у с?стэмны буфер абмену</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>Капіяваць</translation>
+        <translation>Кап?яваць</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Зачыніць</translation>
+        <translation>Зачын?ць</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Выдаліць абраны адрас са спісу</translation>
+        <translation>Выдал?ць абраны адрас са сп?су</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Экспартаваць гэтыя звесткі у файл</translation>
+        <translation>Экспартаваць гэтыя звестк? у файл</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -39,15 +39,15 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Выдаліць</translation>
+        <translation>Выдал?ць</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Выбраць адрас, куды выслаць сродкі</translation>
+        <translation>Выбраць адрас, куды выслаць сродк?</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Выбраць адрас, на які атрымаць сродкі</translation>
+        <translation>Выбраць адрас, на як? атрымаць сродк?</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,27 +55,27 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>адрасы Адпраўкі</translation>
+        <translation>адрасы Адпра?к?</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
         <translation>адрасы Прымання</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тут знаходзяцца Litecoin-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Тут знаходзяцца MiningEnthusiastCoin-адрасы для высылання плацяжо?. За?сёды спра?джвайце колькасць ? адрас прызначэння перад здзяйсненнем транзакцы?.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Тут знаходзяцца Litecoin-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Тут знаходзяцца MiningEnthusiastCoin-адрасы для прымання плацяжо?. Пажадана выкарысто?ваць новы адрас для кожнай транзакцы?.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>Капіяваць адрас</translation>
+        <translation>Кап?яваць адрас</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Капіяваць Метку</translation>
+        <translation>Кап?яваць Метку</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -83,19 +83,19 @@
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Экспартаваць Спіс Адрасоў</translation>
+        <translation>Экспартаваць Сп?с Адрасо?</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Коскамі падзелены файл (*.csv)</translation>
+        <translation>Коскам? падзелены файл (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Экспартаванне няўдалае</translation>
+        <translation>Экспартаванне ня?далае</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Адбылася памылка падчас спробы захаваць адрас у %1. Паспрабуйце зноў.</translation>
+        <translation>Адбылася памылка падчас спробы захаваць адрас у %1. Паспрабуйце зно?.</translation>
     </message>
 </context>
 <context>
@@ -121,7 +121,7 @@
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Увядзіце кодавую фразу</translation>
+        <translation>Увядз?це кодавую фразу</translation>
     </message>
     <message>
         <source>New passphrase</source>
@@ -129,11 +129,11 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Паўтарыце новую кодавую фразу</translation>
+        <translation>Па?тарыце новую кодавую фразу</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Увядзіце новы пароль для гаманца.&lt;br/&gt;Парольная фраза павинна складацца&lt;b&gt; не меньш чым з дзесяці сімвалаў&lt;/b&gt;, ці &lt;b&gt;больш чым з васьмі слоў&lt;/b&gt;.</translation>
+        <translation>Увядз?це новы пароль для гаманца.&lt;br/&gt;Парольная фраза павинна складацца&lt;b&gt; не меньш чым з дзесяц? с?мвала?&lt;/b&gt;, ц? &lt;b&gt;больш чым з васьм? сло?&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -157,23 +157,23 @@
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Змяніць пароль</translation>
+        <translation>Змян?ць пароль</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Увядзіце стары пароль і новы пароль для гаманца.</translation>
+        <translation>Увядз?це стары пароль ? новы пароль для гаманца.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Пацвердзіце шыфраванне гаманца</translation>
+        <translation>Пацвердз?це шыфраванне гаманца</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Увага: калі вы зашыфруеце свой гаманец і страціце парольную фразу, то &lt;b&gt;СТРАЦІЦЕ ЎСЕ СВАЕ БІТКОЙНЫ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Увага: кал? вы зашыфруеце свой гаманец ? страц?це парольную фразу, то &lt;b&gt;СТРАЦ?ЦЕ ?СЕ СВАЕ Б?ТКОЙНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ці ўпэўненыя вы, што жадаеце зашыфраваць свой гаманец?</translation>
+        <translation>Ц? ?пэ?неныя вы, што жадаеце зашыфраваць свой гаманец?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -181,23 +181,23 @@
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>ВАЖНА: Усе папярэднія копіі гаманца варта замяніць новым зашыфраваным файлам. У мэтах бяспекі папярэднія копіі незашыфраванага файла-гаманца стануць неўжывальнымі, калі вы станеце карыстацца новым зашыфраваным гаманцом.</translation>
+        <translation>ВАЖНА: Усе папярэдн?я коп?? гаманца варта замян?ць новым зашыфраваным файлам. У мэтах бяспек? папярэдн?я коп?? незашыфраванага файла-гаманца стануць не?жывальным?, кал? вы станеце карыстацца новым зашыфраваным гаманцом.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Шыфраванне гаманца няўдалае</translation>
+        <translation>Шыфраванне гаманца ня?далае</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Шыфраванне гаманца не адбылося з-за ўнутранай памылкі. Гаманец незашыфраваны.</translation>
+        <translation>Шыфраванне гаманца не адбылося з-за ?нутранай памылк?. Гаманец незашыфраваны.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Уведдзеныя паролі не супадаюць</translation>
+        <translation>Уведдзеныя парол? не супадаюць</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Разблакаванне гаманца няўдалае</translation>
+        <translation>Разблакаванне гаманца ня?далае</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
@@ -205,7 +205,7 @@
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Расшыфраванне гаманца няўдалае</translation>
+        <translation>Расшыфраванне гаманца ня?далае</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
@@ -223,11 +223,11 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Падпісаць паведамленне...</translation>
+        <translation>Падп?саць паведамленне...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Сінхранізацыя з сецівам...</translation>
+        <translation>С?нхран?зацыя з сец?вам...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -239,23 +239,23 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Паказвае агульныя звесткі аб гаманцы</translation>
+        <translation>Паказвае агульныя звестк? аб гаманцы</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>Транзакцыі</translation>
+        <translation>Транзакцы?</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Праглядзець гісторыю транзакцый</translation>
+        <translation>Праглядзець г?сторыю транзакцый</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Выйсці</translation>
+        <translation>Выйсц?</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Выйсці з праграмы</translation>
+        <translation>Выйсц? з праграмы</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -263,11 +263,11 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Паказаць інфармацыю аб Qt</translation>
+        <translation>Паказаць ?нфармацыю аб Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>Опцыі...</translation>
+        <translation>Опцы?...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Стварыць копію гаманца...</translation>
+        <translation>Стварыць коп?ю гаманца...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -295,35 +295,35 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Пераіндэксацыя блокаў на дыску...</translation>
+        <translation>Пера?ндэксацыя блока? на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Даслаць манеты на Litecoin-адрас</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Даслаць манеты на MiningEnthusiastCoin-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Зрабіце копію гаманца ў іншае месца</translation>
+        <translation>Зраб?це коп?ю гаманца ? ?ншае месца</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Змяніць пароль шыфравання гаманца</translation>
+        <translation>Змян?ць пароль шыфравання гаманца</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>Вакно адладкі</translation>
+        <translation>Вакно адладк?</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Адкрыць кансоль дыягностыкі і адладкі</translation>
+        <translation>Адкрыць кансоль дыягностык? ? адладк?</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -343,19 +343,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Паказаць альбо схаваць галоўнае вакно</translation>
+        <translation>Паказаць альбо схаваць гало?нае вакно</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Падпісаць паведамленне з дапамогай Litecoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Падп?саць паведамленне з дапамогай MiningEnthusiastCoin-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Спраўдзіць паведамленне з дапамогай Litecoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Спра?дз?ць паведамленне з дапамогай MiningEnthusiastCoin-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -363,31 +363,31 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>Наладкі</translation>
+        <translation>Наладк?</translation>
     </message>
     <message>
         <source>&amp;Help</source>
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для litecoin URI)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для miningenthusiastcoin URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Паказаць спіс адрасоў і метак для дасылання</translation>
+        <translation>Паказаць сп?с адрасо? ? метак для дасылання</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Паказаць спіс адрасоў і метак для прымання</translation>
+        <translation>Паказаць сп?с адрасо? ? метак для прымання</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Адкрыць litecoin: URI ці запыт плацяжу</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>Адкрыць miningenthusiastcoin: URI ц? запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Опцыі каманднага радка</translation>
+        <translation>Опцы? каманднага радка</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -395,7 +395,7 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Апошні прыняты блок генераваны %1 таму.</translation>
+        <translation>Апошн? прыняты блок генераваны %1 таму.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
@@ -411,11 +411,11 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Інфармацыя</translation>
+        <translation>?нфармацыя</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Сінхранізавана</translation>
+        <translation>С?нхран?завана</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -453,19 +453,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Дасланыя транзакцыі</translation>
+        <translation>Дасланыя транзакцы?</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Прынятыя транзакцыі</translation>
+        <translation>Прынятыя транзакцы?</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; і зараз &lt;b&gt;разблакаваны&lt;/b&gt;</translation>
+        <translation>Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; ? зараз &lt;b&gt;разблакаваны&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; і зараз &lt;b&gt;заблакаваны&lt;/b&gt;</translation>
+        <translation>Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; ? зараз &lt;b&gt;заблакаваны&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -476,7 +476,7 @@
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Байтаў:</translation>
+        <translation>Байта?:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -484,7 +484,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Камісія:</translation>
+        <translation>Кам?с?я:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -492,11 +492,11 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Пасля камісіі:</translation>
+        <translation>Пасля кам?с??:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(не)выбраць ўсё</translation>
+        <translation>(не)выбраць ?сё</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -504,7 +504,7 @@
     </message>
     <message>
         <source>List mode</source>
-        <translation>Рэжым спіса</translation>
+        <translation>Рэжым сп?са</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -524,7 +524,7 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Пацверджанняў</translation>
+        <translation>Пацверджання?</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -532,19 +532,19 @@
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Капіяваць адрас</translation>
+        <translation>Кап?яваць адрас</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Капіяваць пазнаку</translation>
+        <translation>Кап?яваць пазнаку</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Капіяваць колькасць</translation>
+        <translation>Кап?яваць колькасць</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Капіяваць ID транзакцыі</translation>
+        <translation>Кап?яваць ID транзакцы?</translation>
     </message>
     <message>
         <source>Lock unspent</source>
@@ -556,23 +556,23 @@
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Капіяваць колькасць</translation>
+        <translation>Кап?яваць колькасць</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Капіяваць камісію</translation>
+        <translation>Кап?яваць кам?с?ю</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Капіяваць з выняткам камісіі</translation>
+        <translation>Кап?яваць з выняткам кам?с??</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Капіяваць байты</translation>
+        <translation>Кап?яваць байты</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Капіяваць пыл</translation>
+        <translation>Кап?яваць пыл</translation>
     </message>
     <message>
         <source>yes</source>
@@ -619,7 +619,7 @@
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Уведзены адрас "%1" ужо ў кніге адрасоў</translation>
+        <translation>Уведзены адрас "%1" ужо ? кн?ге адрасо?</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -627,33 +627,33 @@
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Генерацыя новага ключа няўдалая</translation>
+        <translation>Генерацыя новага ключа ня?далая</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Будзе створаны новы каталог з данымі.</translation>
+        <translation>Будзе створаны новы каталог з даным?.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>імя</translation>
+        <translation>?мя</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Каталог ужо існуе. Дадайце %1 калі вы збіраецеся стварыць тут новы каталог.</translation>
+        <translation>Каталог ужо ?снуе. Дадайце %1 кал? вы зб?раецеся стварыць тут новы каталог.</translation>
     </message>
     </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-біт)</translation>
+        <translation>(%1-б?т)</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Опцыі каманднага радка</translation>
+        <translation>Опцы? каманднага радка</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -661,22 +661,22 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>опцыі каманднага радка</translation>
+        <translation>опцы? каманднага радка</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Стартаваць ммінімізаванай</translation>
+        <translation>Стартаваць мм?н?м?заванай</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Вітаем</translation>
+        <translation>В?таем</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -701,7 +701,7 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Опцыі</translation>
+        <translation>Опцы?</translation>
     </message>
     <message>
         <source>MB</source>
@@ -737,7 +737,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 і %2</translation>
+        <translation>%1 ? %2</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -754,11 +754,11 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>Інфармацыя</translation>
+        <translation>?нфармацыя</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Вакно адладкі</translation>
+        <translation>Вакно адладк?</translation>
     </message>
     </context>
 <context>
@@ -773,18 +773,18 @@
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Капіяваць пазнаку</translation>
+        <translation>Кап?яваць пазнаку</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Капіяваць колькасць</translation>
+        <translation>Кап?яваць колькасць</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Капіяваць адрас</translation>
+        <translation>Кап?яваць адрас</translation>
     </message>
     <message>
         <source>Address</source>
@@ -830,7 +830,7 @@
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Недастаткова сродкаў</translation>
+        <translation>Недастаткова сродка?</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -838,7 +838,7 @@
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Байтаў:</translation>
+        <translation>Байта?:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -846,15 +846,15 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Камісія:</translation>
+        <translation>Кам?с?я:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Пасля камісіі:</translation>
+        <translation>Пасля кам?с??:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Даслаць адразу некалькім атрымальнікам</translation>
+        <translation>Даслаць адразу некальк?м атрымальн?кам</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -866,39 +866,39 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Пацвердзіць дасыланне</translation>
+        <translation>Пацвердз?ць дасыланне</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Капіяваць колькасць</translation>
+        <translation>Кап?яваць колькасць</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Капіяваць колькасць</translation>
+        <translation>Кап?яваць колькасць</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Капіяваць камісію</translation>
+        <translation>Кап?яваць кам?с?ю</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Капіяваць з выняткам камісіі</translation>
+        <translation>Кап?яваць з выняткам кам?с??</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Капіяваць байты</translation>
+        <translation>Кап?яваць байты</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Капіяваць пыл</translation>
+        <translation>Кап?яваць пыл</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Пацвердзіць дасыланне манет</translation>
+        <translation>Пацвердз?ць дасыланне манет</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Велічыня плацяжу мае быць больш за 0.</translation>
+        <translation>Вел?чыня плацяжу мае быць больш за 0.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -913,7 +913,7 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Заплаціць да:</translation>
+        <translation>Заплац?ць да:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -925,7 +925,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Уставіць адрас з буферу абмена</translation>
+        <translation>Устав?ць адрас з буферу абмена</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -937,7 +937,7 @@
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Заплаціць да:</translation>
+        <translation>Заплац?ць да:</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -945,7 +945,7 @@
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Увядзіце пазнаку гэтаму адрасу, каб дадаць яго ў адрасную кнігу</translation>
+        <translation>Увядз?це пазнаку гэтаму адрасу, каб дадаць яго ? адрасную кн?гу</translation>
     </message>
 </context>
 <context>
@@ -962,7 +962,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Уставіць адрас з буферу абмена</translation>
+        <translation>Устав?ць адрас з буферу абмена</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -995,7 +995,7 @@
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 пацверджанняў</translation>
+        <translation>%1 пацверджання?</translation>
     </message>
     <message>
         <source>Status</source>
@@ -1034,7 +1034,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Гэтая панэль паказвае дэтальнае апісанне транзакцыі</translation>
+        <translation>Гэтая панэль паказвае дэтальнае ап?санне транзакцы?</translation>
     </message>
     </context>
 <context>
@@ -1053,11 +1053,11 @@
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Пацверджана (%1 пацверджанняў)</translation>
+        <translation>Пацверджана (%1 пацверджання?)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Гэты блок не быў прыняты іншымі вузламі і магчыма не будзе ўхвалены!</translation>
+        <translation>Гэты блок не бы? прыняты ?ншым? вузлам? ? магчыма не будзе ?хвалены!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -1093,19 +1093,19 @@
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Статус транзакцыі. Навядзіце курсар на гэтае поле, каб паказаць колькасць пацверджанняў.</translation>
+        <translation>Статус транзакцы?. Навядз?це курсар на гэтае поле, каб паказаць колькасць пацверджання?.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Дата і час, калі транзакцыя была прынята.</translation>
+        <translation>Дата ? час, кал? транзакцыя была прынята.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Тып транзакцыі</translation>
+        <translation>Тып транзакцы?</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Колькасць аднятая ці даданая да балансу.</translation>
+        <translation>Колькасць аднятая ц? даданая да балансу.</translation>
     </message>
 </context>
 <context>
@@ -1128,7 +1128,7 @@
     </message>
     <message>
         <source>Last month</source>
-        <translation>Мінулы месяц</translation>
+        <translation>М?нулы месяц</translation>
     </message>
     <message>
         <source>This year</source>
@@ -1156,27 +1156,27 @@
     </message>
     <message>
         <source>Other</source>
-        <translation>Іншыя</translation>
+        <translation>?ншыя</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Мін. колькасць</translation>
+        <translation>М?н. колькасць</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Капіяваць адрас</translation>
+        <translation>Кап?яваць адрас</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Капіяваць пазнаку</translation>
+        <translation>Кап?яваць пазнаку</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Капіяваць колькасць</translation>
+        <translation>Кап?яваць колькасць</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Капіяваць ID транзакцыі</translation>
+        <translation>Кап?яваць ID транзакцы?</translation>
     </message>
     <message>
         <source>Edit label</source>
@@ -1184,7 +1184,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Коскамі падзелены файл (*.csv)</translation>
+        <translation>Коскам? падзелены файл (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -1212,7 +1212,7 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Экспартаванне няўдалае</translation>
+        <translation>Экспартаванне ня?далае</translation>
     </message>
     <message>
         <source>Range:</source>
@@ -1244,14 +1244,14 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Экспартаваць гэтыя звесткі у файл</translation>
+        <translation>Экспартаваць гэтыя звестк? у файл</translation>
     </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
-        <translation>Опцыі:</translation>
+        <translation>Опцы?:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -1259,35 +1259,35 @@
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Прымаць камандны радок і JSON-RPC каманды</translation>
+        <translation>Прымаць камандны радок ? JSON-RPC каманды</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
+        <translation>Запусц?ць у фоне як дэман ? прымаць каманды</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>MiningEnthusiastCoin Core</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Ці жадаеце вы перабудаваць зараз базу звестак блокаў?</translation>
+        <translation>Ц? жадаеце вы перабудаваць зараз базу звестак блока??</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Памылка ініцыялізацыі базвы звестак блокаў</translation>
+        <translation>Памылка ?н?цыял?зацы? базвы звестак блока?</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Памалка ініцыялізацыі асяроддзя базы звестак гаманца %s!</translation>
+        <translation>Памалка ?н?цыял?зацы? асяроддзя базы звестак гаманца %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Памылка загрузкі базвы звестак блокаў</translation>
+        <translation>Памылка загрузк? базвы звестак блока?</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Памылка адчынення базы звестак блокаў</translation>
+        <translation>Памылка адчынення базы звестак блока?</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
@@ -1295,11 +1295,11 @@
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Імпартаванне...</translation>
+        <translation>?мпартаванне...</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Не хапае файлавых дэскрыптараў.</translation>
+        <translation>Не хапае файлавых дэскрыптара?.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -1307,27 +1307,27 @@
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Праверка блокаў...</translation>
+        <translation>Праверка блока?...</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Опцыі гаманца:</translation>
+        <translation>Опцы? гаманца:</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Інфармацыя</translation>
+        <translation>?нфармацыя</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Опцыі RPC сервера:</translation>
+        <translation>Опцы? RPC сервера:</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Слаць trace/debug звесткі ў кансоль замест файла debug.log</translation>
+        <translation>Слаць trace/debug звестк? ? кансоль замест файла debug.log</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Памылка подпісу транзакцыі</translation>
+        <translation>Памылка подп?су транзакцы?</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
@@ -1339,11 +1339,11 @@
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Транзакцыя занадта вялікая</translation>
+        <translation>Транзакцыя занадта вял?кая</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Імя карыстальника для JSON-RPC злучэнняў</translation>
+        <translation>?мя карыстальника для JSON-RPC злучэння?</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -1351,19 +1351,19 @@
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Пароль для JSON-RPC злучэнняў</translation>
+        <translation>Пароль для JSON-RPC злучэння?</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Выканаць каманду калі лепшы блок зменіцца (%s замяняецца на хэш блока)</translation>
+        <translation>Выканаць каманду кал? лепшы блок змен?цца (%s замяняецца на хэш блока)</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Недастаткова сродкаў</translation>
+        <translation>Недастаткова сродка?</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Загружаем індэкс блокаў...</translation>
+        <translation>Загружаем ?ндэкс блока?...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>

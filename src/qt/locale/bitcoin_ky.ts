@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>Жаң даректи жасоо</translation>
+        <translation>Жа? даректи жасоо</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Ө&amp;чүрүү</translation>
+        <translation>?&amp;ч?р??</translation>
     </message>
     </context>
 <context>
@@ -35,11 +35,11 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Билдирүүнү &amp;текшерүү...</translation>
+        <translation>Билдир??н? &amp;текшер??...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Эскертүү</translation>
+        <translation>Эскерт??</translation>
     </message>
     <message>
         <source>Information</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Жаңыланган</translation>
+        <translation>Жа?ыланган</translation>
     </message>
     </context>
 <context>
@@ -101,8 +101,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -211,7 +211,7 @@
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Message:</source>
-        <translation>Билдирүү:</translation>
+        <translation>Билдир??:</translation>
     </message>
     </context>
 <context>
@@ -222,7 +222,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Билдирүү</translation>
+        <translation>Билдир??</translation>
     </message>
     </context>
 <context>
@@ -233,7 +233,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Билдирүү</translation>
+        <translation>Билдир??</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Жөнөтүү</translation>
+        <translation>&amp;Ж?н?т??</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -263,7 +263,7 @@
     </message>
     <message>
         <source>Message:</source>
-        <translation>Билдирүү:</translation>
+        <translation>Билдир??:</translation>
     </message>
     </context>
 <context>
@@ -301,7 +301,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Билдирүү</translation>
+        <translation>Билдир??</translation>
     </message>
     </context>
 <context>
@@ -349,7 +349,7 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Эскертүү</translation>
+        <translation>Эскерт??</translation>
     </message>
     <message>
         <source>Error</source>

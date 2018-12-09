@@ -19,7 +19,7 @@
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Copïo</translation>
+        <translation>&amp;Copio</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
@@ -62,20 +62,20 @@
         <translation>Derbyn cyfeiriadau</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Rhain ydi eich cyfeiriadau Litecoin ar gyfer gyrru taliadau. Gwnewch yn sicr o'r swm a'r cyfeiriad derbyn cyn gyrru arian.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Rhain ydi eich cyfeiriadau MiningEnthusiastCoin ar gyfer gyrru taliadau. Gwnewch yn sicr o'r swm a'r cyfeiriad derbyn cyn gyrru arian.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dyma eich cyfeiriadau Litecoin ar gyfer derbyn taliadau. Argymhellwn ddefnyddio cyfeiriad derbyn newydd ar gyfer bob trafodyn.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dyma eich cyfeiriadau MiningEnthusiastCoin ar gyfer derbyn taliadau. Argymhellwn ddefnyddio cyfeiriad derbyn newydd ar gyfer bob trafodyn.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copïo Cyfeiriad</translation>
+        <translation>&amp;Copio Cyfeiriad</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copïo &amp;Label</translation>
+        <translation>Copio &amp;Label</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -91,7 +91,7 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Roedd camgymeriad yn trïo safio'r rhestr gyfeiriadau i'r %1. Triwch eto os gwelwch yn dda.</translation>
+        <translation>Roedd camgymeriad yn trio safio'r rhestr gyfeiriadau i'r %1. Triwch eto os gwelwch yn dda.</translation>
     </message>
 </context>
 <context>
@@ -164,8 +164,8 @@
         <translation>Cadarnhau amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Rhybudd: Os ydych yn amgryptio'r waled ag yn colli'r cyfrinair, byddwch yn &lt;b&gt; COLLI EICH LITECOINS I GYD &lt;b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Rhybudd: Os ydych yn amgryptio'r waled ag yn colli'r cyfrinair, byddwch yn &lt;b&gt; COLLI EICH MININGENTHUSIASTCOINS I GYD &lt;b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,8 +176,8 @@
         <translation>Waled Wedi Amgryptio</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Bydd %1 nawr yn gorffen y broses amgryptio. Cofiwch nad ydy amgryptio eich waled yn llawn amddiffyn eich litecoins rhag cael eu dwyn gan afiechyd yn heintio eich cyfrifiadur.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>Bydd %1 nawr yn gorffen y broses amgryptio. Cofiwch nad ydy amgryptio eich waled yn llawn amddiffyn eich miningenthusiastcoins rhag cael eu dwyn gan afiechyd yn heintio eich cyfrifiadur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -235,7 +235,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Cysoni â'r rhwydwaith...</translation>
+        <translation>Cysoni a'r rhwydwaith...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -334,8 +334,8 @@
         <translation>Ailfynegi y blociau ar ddisg...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Anfon arian i gyfeiriad Litecoin</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Anfon arian i gyfeiriad MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -354,8 +354,8 @@
         <translation>&amp;Gwirio neges...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -382,12 +382,12 @@
         <translation>Amgryptio'r allweddi preifat sy'n perthyn i'ch waled</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Arwyddo negeseuon gyda eich cyfeiriadau Litecoin i brofi mae chi sy'n berchen arnynt</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Arwyddo negeseuon gyda eich cyfeiriadau MiningEnthusiastCoin i brofi mae chi sy'n berchen arnynt</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau Litecoin penodol</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau MiningEnthusiastCoin penodol</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,8 +406,8 @@
         <translation>Bar offer tabiau</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Gofyn taliadau (creu côd QR a litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Gofyn taliadau (creu cod QR a miningenthusiastcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,8 +418,8 @@
         <translation>Dangos rhestr o gyfeiriadau derbyn a labelau wedi eu defnyddio</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Agor Litecoin: URI neu ofyn taliad</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>Agor MiningEnthusiastCoin: URI neu ofyn taliad</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -435,15 +435,15 @@
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 Tu ôl</translation>
+        <translation>%1 Tu ol</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Cafodd y bloc olaf i'w dderbyn ei greu %1 yn ôl.</translation>
+        <translation>Cafodd y bloc olaf i'w dderbyn ei greu %1 yn ol.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Ni fydd trafodion ar ôl hyn yn weledol eto.</translation>
+        <translation>Ni fydd trafodion ar ol hyn yn weledol eto.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -524,8 +524,8 @@
         <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Mae gwall angheuol wedi digwydd. Ni all Litecoin barhau'n ddiogel ac mae'n cau lawr.</translation>
+        <source>A fatal error occurred. MiningEnthusiastCoin can no longer continue safely and will quit.</source>
+        <translation>Mae gwall angheuol wedi digwydd. Ni all MiningEnthusiastCoin barhau'n ddiogel ac mae'n cau lawr.</translation>
     </message>
 </context>
 <context>
@@ -544,7 +544,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Ffî</translation>
+        <translation>Ffi</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -552,7 +552,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Ar Ôl Ffî</translation>
+        <translation>Ar Ol Ffi</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -584,15 +584,15 @@
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Copïo cyfeiriad</translation>
+        <translation>Copio cyfeiriad</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copïo label</translation>
+        <translation>Copio label</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copïo Cyfanswm</translation>
+        <translation>Copio Cyfanswm</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -635,8 +635,8 @@
         <translation>Croeso</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -753,11 +753,11 @@
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copïo label</translation>
+        <translation>Copio label</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copïo Cyfanswm</translation>
+        <translation>Copio Cyfanswm</translation>
     </message>
 </context>
 <context>
@@ -818,7 +818,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Ar Ôl Ffî</translation>
+        <translation>Ar Ol Ffi</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -842,7 +842,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copïo Cyfanswm</translation>
+        <translation>Copio Cyfanswm</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -964,15 +964,15 @@
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Copïo cyfeiriad</translation>
+        <translation>Copio cyfeiriad</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copïo label</translation>
+        <translation>Copio label</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copïo Cyfanswm</translation>
+        <translation>Copio Cyfanswm</translation>
     </message>
     <message>
         <source>Edit label</source>
@@ -1042,8 +1042,8 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Craidd Litecoin</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>Craidd MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Information</source>

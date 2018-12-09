@@ -3,42 +3,42 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>ஒரு புதிய முகவரியை உருவாக்கு</translation>
+        <translation>??? ????? ???????? ?????????</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;புதிய</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;நகல்</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;மூடு</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;ஏற்றுமதி</translation>
+        <translation>&amp;????????</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;அழி</translation>
+        <translation>&amp;???</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>முகவரிகள் அனுப்பப்படுகின்றன</translation>
+        <translation>????????? ?????????????????</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>முகவரிகள் பெறப்படுகின்றன</translation>
+        <translation>????????? ??????????????</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Address</source>
-        <translation>முகவரி</translation>
+        <translation>??????</translation>
     </message>
     </context>
 <context>
@@ -55,154 +55,154 @@
     <name>BitcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;கண்ணோட்டம்</translation>
+        <translation>&amp;???????????</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;பரிவர்த்தனைகள்</translation>
+        <translation>&amp;??????????????</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;வெளியேறு</translation>
+        <translation>&amp;????????</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>விலகு</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>&amp;Qt-ஐ பற்றி</translation>
+        <translation>&amp;Qt-? ?????</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;விருப்பங்கள்...</translation>
+        <translation>&amp;????????????...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;என்க்ரிப்ட் பணப்பை...</translation>
+        <translation>&amp;??????????? ??????...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>&amp;URI-ஐ திற</translation>
+        <translation>&amp;URI-? ???</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;செய்தியை சரிசெய்...</translation>
+        <translation>&amp;???????? ???????...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>பணப்பை</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;அனுப்பு</translation>
+        <translation>&amp;???????</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;பெறு</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;காட்டு/மறை</translation>
+        <translation>&amp;??????/???</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;கோப்பு</translation>
+        <translation>&amp;??????</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;அமைப்பு</translation>
+        <translation>&amp;???????</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;உதவி</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 பின்னால்</translation>
+        <translation>%1 ????????</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>தவறு</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>எச்சரிக்கை</translation>
+        <translation>??????????</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>தகவல்</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>தேதி: %1
+        <translation>????: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>தொகை: %1
+        <translation>????: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>வகை: %1
+        <translation>???: %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>முகவரி: %1
+        <translation>??????: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>அனுப்பிய பரிவர்த்தனை</translation>
+        <translation>???????? ???????????</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>அளவு</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>விலை:</translation>
+        <translation>????:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>கட்டணம்:</translation>
+        <translation>???????:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>கட்டணத்திறகுப் பின்:</translation>
+        <translation>?????????????? ????:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>மாற்று:</translation>
+        <translation>??????:</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>விலை</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>தேதி</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>உறுதிப்படுத்தல்கள்</translation>
+        <translation>??????????????????</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>உறுதியாக</translation>
+        <translation>????????</translation>
     </message>
     </context>
 <context>
@@ -212,7 +212,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>name</source>
-        <translation>பெயர்</translation>
+        <translation>?????</translation>
     </message>
     </context>
 <context>
@@ -222,33 +222,33 @@
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>நல்வரவு</translation>
+        <translation>???????</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>தவறு</translation>
+        <translation>????</translation>
     </message>
     </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>படிவம்</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>மறை</translation>
+        <translation>???</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>URI-ஐ திற</translation>
+        <translation>URI-? ???</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -259,11 +259,11 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>விருப்பத்தேர்வு</translation>
+        <translation>???????????????</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;தலைமை</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>MB</source>
@@ -271,15 +271,15 @@
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;பிணையம்</translation>
+        <translation>&amp;???????</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;பணப்பை</translation>
+        <translation>&amp;??????</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>வல்லுநர்</translation>
+        <translation>????????</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -295,23 +295,23 @@
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;சாளரம்</translation>
+        <translation>&amp;??????</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;காட்டு</translation>
+        <translation>&amp;??????</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;சரி</translation>
+        <translation>&amp;???</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;ரத்து</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>இயல்புநிலை</translation>
+        <translation>??????????</translation>
     </message>
     <message>
         <source>none</source>
@@ -319,34 +319,34 @@
     </message>
     <message>
         <source>Error</source>
-        <translation>தவறு</translation>
+        <translation>????</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>படிவம்</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>கிடைக்ககூடிய:</translation>
+        <translation>????????????:</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>நிலுவையில்:</translation>
+        <translation>??????????:</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>முதிராத:</translation>
+        <translation>???????:</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>மீதி</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>மொத்தம்:</translation>
+        <translation>???????:</translation>
     </message>
     </context>
 <context>
@@ -356,18 +356,18 @@
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>பயனர் முகவர்</translation>
+        <translation>????? ??????</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>அனுப்பிய</translation>
+        <translation>????????</translation>
     </message>
     </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>விலை</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -391,7 +391,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 மற்றும் %2</translation>
+        <translation>%1 ??????? %2</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -424,83 +424,83 @@
     </message>
     <message>
         <source>Client version</source>
-        <translation>வாடிக்கையாளர் பதிப்பு</translation>
+        <translation>????????????? ???????</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;தகவல்</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>பிணையம்</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>பெயர்</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>நினைவக குளம்</translation>
+        <translation>?????? ?????</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>நினைவக பயன்பாடு</translation>
+        <translation>?????? ????????</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>அனுப்பிய</translation>
+        <translation>????????</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>திசை</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>பதிப்பு</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>பயனர் முகவர்</translation>
+        <translation>????? ??????</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>பிங் நேரம்</translation>
+        <translation>???? ?????</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;திற</translation>
+        <translation>&amp;???</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;பணியகம்</translation>
+        <translation>&amp;???????</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>மொத்தம்</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>உள்ளே:</translation>
+        <translation>?????:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>வெளியே:</translation>
+        <translation>??????:</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;மணி</translation>
+        <translation>1 &amp;???</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;நாள்</translation>
+        <translation>1 &amp;????</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;வாரம்</translation>
+        <translation>1 &amp;?????</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;ஆண்டு</translation>
+        <translation>1 &amp;?????</translation>
     </message>
     <message>
         <source>via %1</source>
@@ -508,77 +508,77 @@
     </message>
     <message>
         <source>never</source>
-        <translation>ஒருபோதும்</translation>
+        <translation>??????????</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>உள்வரும்</translation>
+        <translation>????????</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>வெளி செல்லும்</translation>
+        <translation>???? ????????</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>ஆம்</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>மறு</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>அறியப்படாத</translation>
+        <translation>??????????</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;தொகை:</translation>
+        <translation>&amp;????:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;சிட்டை:</translation>
+        <translation>&amp;??????:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;செய்தி:</translation>
+        <translation>&amp;??????:</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>நீக்கு</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>காண்பி</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>நீக்கு</translation>
+        <translation>??????</translation>
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR குறியீடு</translation>
+        <translation>QR ????????</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>நகலை &amp;URI</translation>
+        <translation>???? &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>நகலை விலாசம்</translation>
+        <translation>???? ???????</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;படத்தை சேமி...</translation>
+        <translation>&amp;?????? ????...</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>முகவரி</translation>
+        <translation>??????</translation>
     </message>
     </context>
 <context>
@@ -588,50 +588,50 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>அளவு</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>விலை</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>கட்டணம்:</translation>
+        <translation>???????:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>கட்டணத்திறகுப் பின்:</translation>
+        <translation>?????????????? ????:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>மாற்று:</translation>
+        <translation>??????:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>தேர்ந்தெடு...</translation>
+        <translation>??????????...</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>மறை</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>மீதி:</translation>
+        <translation>????:</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;அனுப்பு</translation>
+        <translation>&amp;???????</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;தொகை:</translation>
+        <translation>&amp;????:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;சிட்டை:</translation>
+        <translation>&amp;??????:</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -643,7 +643,7 @@
     </message>
     <message>
         <source>Message:</source>
-        <translation>செய்தி:</translation>
+        <translation>??????:</translation>
     </message>
     </context>
 <context>
@@ -664,7 +664,7 @@
     </message>
     <message>
         <source>Signature</source>
-        <translation>கையொப்பம்</translation>
+        <translation>??????????</translation>
     </message>
     </context>
 <context>
@@ -690,7 +690,7 @@
     <name>TransactionView</name>
     <message>
         <source>Address</source>
-        <translation>முகவரி</translation>
+        <translation>??????</translation>
     </message>
     </context>
 <context>
@@ -708,8 +708,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin மையம்</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>MiningEnthusiastCoin ?????</translation>
     </message>
     <message>
         <source>(default: %u)</source>
@@ -717,11 +717,11 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>தகவல்</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>எச்சரிக்கை</translation>
+        <translation>??????????</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -729,7 +729,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation>தவறு</translation>
+        <translation>????</translation>
     </message>
 </context>
 </TS>

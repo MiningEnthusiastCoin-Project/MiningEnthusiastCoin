@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Høyreklikk for å redigere adresse, eller beskrivelse</translation>
+        <translation>Hoyreklikk for a redigere adresse, eller beskrivelse</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -43,7 +43,7 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Velg en adresse å sende mynter til</translation>
+        <translation>Velg en adresse a sende mynter til</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
@@ -62,12 +62,12 @@
         <translation>Mottager adresser</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dette er dine Litecoin adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dette er dine MiningEnthusiastCoin adresser for a sende  a sende betalinger. Husk a sjekke belop og mottager adresser for du sender mynter.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Litecoin adresse for å motta betalinger. Det er anbefalt å bruke en ny mottager adresse for hver transaksjon.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine MiningEnthusiastCoin adresse for a motta betalinger. Det er anbefalt a bruke en ny mottager adresse for hver transaksjon.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Fet oppstod en feil ved lagring av adresselisten til %1. Vennligst prøv igjen.</translation>
+        <translation>Fet oppstod en feil ved lagring av adresselisten til %1. Vennligst prov igjen.</translation>
     </message>
 </context>
 <context>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Oppgi passordsetningen for lommeboken. &lt;br/&gt;Vennligst bruk en passordsetninge med &lt;b&gt;ti, eller flere tilfeldige tegn &lt;/b&gt;, eller &lt;b&gt;åtte, eller flere ord&lt;/b&gt;.</translation>
+        <translation>Oppgi passordsetningen for lommeboken. &lt;br/&gt;Vennligst bruk en passordsetninge med &lt;b&gt;ti, eller flere tilfeldige tegn &lt;/b&gt;, eller &lt;b&gt;atte, eller flere ord&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -141,15 +141,15 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Denne operasjonen krever passordsetningen for å låse opp lommeboken.</translation>
+        <translation>Denne operasjonen krever passordsetningen for a lase opp lommeboken.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Lås opp lommeboken</translation>
+        <translation>Las opp lommeboken</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Denne operasjonen krever passordsetningen for å dekryptere lommeboken.</translation>
+        <translation>Denne operasjonen krever passordsetningen for a dekryptere lommeboken.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -168,24 +168,24 @@
         <translation>Bekreft kryptering av lommeboken</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Dersom du krypterer lommeboken og mister passordsetningen vil du &lt;b&gt;MISTE ALLE DINE LITECOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Advarsel: Dersom du krypterer lommeboken og mister passordsetningen vil du &lt;b&gt;MISTE ALLE DINE MININGENTHUSIASTCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Er du sikker på at du vil kryptere lommeboken?</translation>
+        <translation>Er du sikker pa at du vil kryptere lommeboken?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
         <translation>Lommeboken er kryptert</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 vil nå lukkes for å fullføre krypteringsprosessen. Husk at å kryptere lommeboken ikke kan beskytte dine litecoin fullstendig fra å bli stjålet av skadelig programvare som har infisert datamaskinen din.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 vil na lukkes for a fullfore krypteringsprosessen. Husk at a kryptere lommeboken ikke kan beskytte dine miningenthusiastcoin fullstendig fra a bli stjalet av skadelig programvare som har infisert datamaskinen din.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VIKTIG: Alle tidligere sikkerhetskopier du har tatt av lommebokfilen bør erstattes med den nye krypterte lommebokfilen. Av sikkerhetsgrunner vil tidligere sikkerhetskopier av lommebokfilen bli ubrukelige når du begynner å bruke den ny kypterte lommeboken.</translation>
+        <translation>VIKTIG: Alle tidligere sikkerhetskopier du har tatt av lommebokfilen bor erstattes med den nye krypterte lommebokfilen. Av sikkerhetsgrunner vil tidligere sikkerhetskopier av lommebokfilen bli ubrukelige nar du begynner a bruke den ny kypterte lommeboken.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -201,11 +201,11 @@
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Opplåsing av lommeboken feilet</translation>
+        <translation>Opplasing av lommeboken feilet</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Passordsetningen som ble oppgitt for å dekryptere lommeboken var feil.</translation>
+        <translation>Passordsetningen som ble oppgitt for a dekryptere lommeboken var feil.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -217,7 +217,7 @@
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Advarsel: Caps Lock er på!</translation>
+        <translation>Advarsel: Caps Lock er pa!</translation>
     </message>
 </context>
 <context>
@@ -315,19 +315,19 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Åpne &amp;URI</translation>
+        <translation>Apne &amp;URI</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Klikk for å slå av nettverksaktivitet.</translation>
+        <translation>Klikk for a sla av nettverksaktivitet.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Nettverksaktivitet er slått av</translation>
+        <translation>Nettverksaktivitet er slatt av</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Klikk for å slå på nettverksaktivitet igjen.</translation>
+        <translation>Klikk for a sla pa nettverksaktivitet igjen.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
@@ -335,11 +335,11 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindekserer blokker på disken</translation>
+        <translation>Reindekserer blokker pa disken</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Send mynter til en Litecoin adresse</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Send mynter til en MiningEnthusiastCoin adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -351,19 +351,19 @@
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Feilsøkingsvindu</translation>
+        <translation>&amp;Feilsokingsvindu</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Åpne konsoll for feilsøking og diagnostisering</translation>
+        <translation>Apne konsoll for feilsoking og diagnostisering</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifiser meldingen...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -387,15 +387,15 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
+        <translation>Krypter de private noklene som tilhorer lommeboken din</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Signer meldingene med Litecoin adresse for å bevise at diu eier dem</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Signer meldingene med MiningEnthusiastCoin adresse for a bevise at diu eier dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt Litecoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Verifiser meldinger for a sikre at de ble signert med en angitt MiningEnthusiastCoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Hjelpelinje for fliker</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Be om betalinger (genererer QR-koder og litecoin-URIer)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Be om betalinger (genererer QR-koder og miningenthusiastcoin-URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Vis lista over brukte mottakeradresser og merkelapper</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Åpne en litecoin: URI eller betalingsforespørsel</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>Apne en miningenthusiastcoin: URI eller betalingsforesporsel</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -435,7 +435,7 @@
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Behandler blokker på disken…</translation>
+        <translation>Behandler blokker pa disken…</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -447,7 +447,7 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaksjoner etter dette vil ikke være synlige ennå.</translation>
+        <translation>Transaksjoner etter dette vil ikke vare synlige enna.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -466,8 +466,8 @@
         <translation>Oppdatert</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige Litecoin-kommandolinjealternativer</translation>
+        <source>Show the %1 help message to get a list with possible MiningEnthusiastCoin command-line options</source>
+        <translation>Vis %1-hjelpemeldingen for a fa en liste over mulige MiningEnthusiastCoin-kommandolinjealternativer</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -535,8 +535,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>

@@ -31,7 +31,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Voer inligting uit van die huidige blad na n lêer</translation>
+        <translation>Voer inligting uit van die huidige blad na n leer</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Kies die adres vir die ontvangs van betaaling</translation>
+        <translation>Kies die adres?vir die ontvangs van betaaling</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Ontvang adresse</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit is jou Litecoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat u munte stuur.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit is jou MiningEnthusiastCoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat u munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit is jou Litecoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat jy munte stuur.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit is jou MiningEnthusiastCoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat jy munte stuur.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Koma geskeide lêer (*.csv)</translation>
+        <translation>Koma geskeide leer (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -172,8 +172,8 @@
         <translation>Bevestig beursie enkripsie.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Waarskuwing: As jy jou beursie enkripteer en jou wagwoord verloor, sal jy &lt;b&gt;AL JOU LITECOINS VERLOOR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: As jy jou beursie enkripteer en jou wagwoord verloor, sal jy &lt;b&gt;AL JOU MININGENTHUSIASTCOINS VERLOOR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +184,8 @@
         <translation>Beursie Enkripteer</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 gaan nou toe maak om die enkripsie proses klaar te maak. Onthou dat jou litecoins nie ten volle beskerm kan word deur die beursie te enkrip teen "malware" wat jou rekenaar besmet.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 gaan nou toe maak om die enkripsie proses klaar te maak. Onthou dat jou miningenthusiastcoins nie ten volle beskerm kan word deur die beursie te enkrip teen "malware" wat jou rekenaar besmet.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -310,8 +310,8 @@
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -327,7 +327,7 @@
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Lêer</translation>
+        <translation>&amp;Leer</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -600,7 +600,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>n Nuwe data  lêer sal geskep word.</translation>
+        <translation>n Nuwe data  leer sal geskep word.</translation>
     </message>
     <message>
         <source>name</source>
@@ -608,7 +608,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Lêer bestaan reeds. Voeg %1 indien u van plan is om n nuwe lêer hier te skep.</translation>
+        <translation>Leer bestaan reeds. Voeg %1 indien u van plan is om n nuwe leer?hier te skep.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
@@ -665,12 +665,12 @@
         <translation>Welkom by %1.</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
-        <translation>Die beursie sal ook gestoor word in hierdie lêer.</translation>
+        <translation>Die beursie sal ook gestoor word in hierdie leer.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1222,7 +1222,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Koma geskeide lêer (*.csv)</translation>
+        <translation>Koma geskeide leer (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -1282,7 +1282,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Voer inligting uit van die huidige blad na n lêer</translation>
+        <translation>Voer inligting uit van die huidige blad na n leer</translation>
     </message>
     </context>
 <context>

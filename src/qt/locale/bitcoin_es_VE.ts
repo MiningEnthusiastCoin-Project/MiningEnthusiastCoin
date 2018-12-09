@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Click derecho para editar la dirección o etiqueta</translation>
+        <translation>Click derecho para editar la direccion o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crear una nueva dirección</translation>
+        <translation>Crear una nueva direccion</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -31,7 +31,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar los datos en la pestaña actual a un archivo</translation>
+        <translation>Exportar los datos en la pestana actual a un archivo</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -47,23 +47,23 @@
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Elige la dirección para recibir monedas</translation>
+        <translation>Elige la direccion para recibir monedas</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Envío de direcciones</translation>
+        <translation>Envio de direcciones</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Direcciones de recepción</translation>
+        <translation>Direcciones de recepcion</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones Litecoin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones MiningEnthusiastCoin para realizar pagos. Verifica siempre el monto y la direccion de recepcion antes de enviar monedas. </translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones Litecoin para recibir pagos. Es recomendable usar una nueva dirección de recibo para cada transacción.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones MiningEnthusiastCoin para recibir pagos. Es recomendable usar una nueva direccion de recibo para cada transaccion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -89,19 +89,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Diálogo contraseña</translation>
+        <translation>Dialogo contrasena</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Ingresa frase de contraseña</translation>
+        <translation>Ingresa frase de contrasena</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nueva frase de contraseña</translation>
+        <translation>Nueva frase de contrasena</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repetir nueva frase de contraseña</translation>
+        <translation>Repetir nueva frase de contrasena</translation>
     </message>
     </context>
 <context>
@@ -123,7 +123,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Mostrar visión general de la billetera</translation>
+        <translation>Mostrar vision general de la billetera</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -139,7 +139,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Quitar aplicación</translation>
+        <translation>Quitar aplicacion</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -147,31 +147,31 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Recepción de direcciones</translation>
+        <translation>Recepcion de direcciones</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Enviar monedas a una dirección Litecoin</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Enviar monedas a una direccion MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Respaldar billetera en otra ubicación</translation>
+        <translation>Respaldar billetera en otra ubicacion</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Cambiar frase secreta usada para la encriptación de la billetera</translation>
+        <translation>Cambiar frase secreta usada para la encriptacion de la billetera</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Abre la consola de depuración y diágnostico</translation>
+        <translation>Abre la consola de depuracion y diagnostico</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -198,12 +198,12 @@
         <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones Litecoin para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones MiningEnthusiastCoin para probar que eres dueno de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Litecoin especificas</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones MiningEnthusiastCoin especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -211,23 +211,23 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Configuración</translation>
+        <translation>&amp;Configuracion</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Opciones de línea de comandos</translation>
+        <translation>Opciones de linea de comandos</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 detrás</translation>
+        <translation>%1 detras</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>El último bloque recibido fue generado hace %1 hora(s).</translation>
+        <translation>El ultimo bloque recibido fue generado hace %1 hora(s).</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacciones después de esta no serán visibles todavía.</translation>
+        <translation>Transacciones despues de esta no seran visibles todavia.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -239,11 +239,11 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Información</translation>
+        <translation>Informacion</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Al día</translation>
+        <translation>Al dia</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -251,26 +251,26 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transacción enviada</translation>
+        <translation>Transaccion enviada</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transacción entrante</translation>
+        <translation>Transaccion entrante</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>La billetera está encriptada y desbloqueada recientemente</translation>
+        <translation>La billetera esta encriptada y desbloqueada recientemente</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>La billetera está encriptada y bloqueada recientemente</translation>
+        <translation>La billetera esta encriptada y bloqueada recientemente</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Selección de moneda</translation>
+        <translation>Seleccion de moneda</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -286,7 +286,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Comisión:</translation>
+        <translation>Comision:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -302,7 +302,7 @@
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Modo de árbol</translation>
+        <translation>Modo de arbol</translation>
     </message>
     <message>
         <source>List mode</source>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Recibido con dirección</translation>
+        <translation>Recibido con direccion</translation>
     </message>
     <message>
         <source>Date</source>
@@ -338,7 +338,7 @@
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copiar comisión</translation>
+        <translation>Copiar comision</translation>
     </message>
     <message>
         <source>Copy bytes</source>
@@ -365,7 +365,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Editar dirección</translation>
+        <translation>Editar direccion</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -377,18 +377,18 @@
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>La dirección asociada con esta entrada de la lista de direcciones. Esta puede ser modificada solo para el envío de direcciones.</translation>
+        <translation>La direccion asociada con esta entrada de la lista de direcciones. Esta puede ser modificada solo para el envio de direcciones.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Dirección</translation>
+        <translation>&amp;Direccion</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Un nuevo directorio de datos será creado.</translation>
+        <translation>Un nuevo directorio de datos sera creado.</translation>
     </message>
     <message>
         <source>name</source>
@@ -396,7 +396,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>El directorio ya existe. Agrega %1 si tiene la intención de crear un nuevo directorio aquí.</translation>
+        <translation>El directorio ya existe. Agrega %1 si tiene la intencion de crear un nuevo directorio aqui.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -404,14 +404,14 @@
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>No puede crear directorio de datos aquí.</translation>
+        <translation>No puede crear directorio de datos aqui.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>versión</translation>
+        <translation>version</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opciones de línea de comandos</translation>
+        <translation>Opciones de linea de comandos</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -427,7 +427,7 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>opciones de línea de comandos</translation>
+        <translation>opciones de linea de comandos</translation>
     </message>
     </context>
 <context>
@@ -449,8 +449,8 @@
         <translation>Usa un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -552,7 +552,7 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>Información</translation>
+        <translation>Informacion</translation>
     </message>
     <message>
         <source>In:</source>
@@ -582,7 +582,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>&amp;Copiar Dirección</translation>
+        <translation>&amp;Copiar Direccion</translation>
     </message>
     </context>
 <context>
@@ -608,7 +608,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Comisión:</translation>
+        <translation>Comision:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -624,7 +624,7 @@
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copiar comisión</translation>
+        <translation>Copiar comision</translation>
     </message>
     <message>
         <source>Copy bytes</source>
@@ -709,7 +709,7 @@
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Especifique su propia dirección pública</translation>
+        <translation>Especifique su propia direccion publica</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -720,36 +720,36 @@
         <translation>Correr en segundo plano como daemon y aceptar comandos</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>MiningEnthusiastCoin Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Enlazar dirección dada y siempre escuchar en ella. Usar [host]:port notación para IPv6</translation>
+        <translation>Enlazar direccion dada y siempre escuchar en ella. Usar [host]:port notacion para IPv6</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Borrar todas las transacciones de la billetera y solo recuperar aquellas partes de la cadena de bloques a través de -rescan en el inicio del sistema.</translation>
+        <translation>Borrar todas las transacciones de la billetera y solo recuperar aquellas partes de la cadena de bloques a traves de -rescan en el inicio del sistema.</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Ejecutar comando cuando una transacción de la billetera cambia (%s en cmd es reemplazado por TxID)</translation>
+        <translation>Ejecutar comando cuando una transaccion de la billetera cambia (%s en cmd es reemplazado por TxID)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Fija el número de verificación de hilos de script (%u a %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</translation>
+        <translation>Fija el numero de verificacion de hilos de script (%u a %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Información</translation>
+        <translation>Informacion</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Transacción muy pequeña</translation>
+        <translation>Transaccion muy pequena</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transacción muy grande</translation>
+        <translation>Transaccion muy grande</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -757,23 +757,23 @@
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Esta es la tarifa mínima a pagar en cada transacción.</translation>
+        <translation>Esta es la tarifa minima a pagar en cada transaccion.</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Esta es la tarifa a pagar si realizas una transacción.</translation>
+        <translation>Esta es la tarifa a pagar si realizas una transaccion.</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Los montos de la transacción no debe ser negativo</translation>
+        <translation>Los montos de la transaccion no debe ser negativo</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>La transacción tiene largo tiempo en una cadena mempool</translation>
+        <translation>La transaccion tiene largo tiempo en una cadena mempool</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>La transacción debe tener al menos un destinatario</translation>
+        <translation>La transaccion debe tener al menos un destinatario</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

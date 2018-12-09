@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Högerklicka för att redigera adressen eller etiketten.</translation>
+        <translation>Hogerklicka for att redigera adressen eller etiketten.</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -23,11 +23,11 @@
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>S&amp;täng</translation>
+        <translation>S&amp;tang</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Ta bort den valda adressen från listan</translation>
+        <translation>Ta bort den valda adressen fran listan</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -43,31 +43,31 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Välj en adress att skicka transaktionen till</translation>
+        <translation>Valj en adress att skicka transaktionen till</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Välj en adress att ta emot transaktionen med</translation>
+        <translation>Valj en adress att ta emot transaktionen med</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>V&amp;älj</translation>
+        <translation>V&amp;alj</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Avsändaradresser</translation>
+        <translation>Avsandaradresser</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Litecoin-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar litecoin.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta ar dina MiningEnthusiastCoin-adresser for att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar miningenthusiastcoin.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Litecoin-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta ar dina MiningEnthusiastCoin-adresser for att ta emot betalningar. Det rekommenderas att anvanda en ny mottagningsadress for varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -95,8 +95,8 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Ett fel inträffade när adresslistan skulle sparas till %1.
-Var vänlig och försök igen.</translation>
+        <translation>Ett fel intraffade nar adresslistan skulle sparas till %1.
+Var vanlig och forsok igen.</translation>
     </message>
 </context>
 <context>
@@ -118,118 +118,118 @@ Var vänlig och försök igen.</translation>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Lösenordsdialog</translation>
+        <translation>Losenordsdialog</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Ange lösenord</translation>
+        <translation>Ange losenord</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nytt lösenord</translation>
+        <translation>Nytt losenord</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Upprepa nytt lösenord</translation>
+        <translation>Upprepa nytt losenord</translation>
     </message>
     <message>
         <source>Show password</source>
-        <translation>Visa lösenord</translation>
+        <translation>Visa losenord</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Ange plånbokens nya lösenord. &lt;br/&gt; Använd ett lösenord på &lt;b&gt;tio eller fler slumpmässiga tecken,&lt;/b&gt; eller &lt;b&gt;åtta eller fler ord.&lt;/b&gt;.</translation>
+        <translation>Ange planbokens nya losenord. &lt;br/&gt; Anvand ett losenord pa &lt;b&gt;tio eller fler slumpmassiga tecken,&lt;/b&gt; eller &lt;b&gt;atta eller fler ord.&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Kryptera plånbok</translation>
+        <translation>Kryptera planbok</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Denna operation behöver din plånboks lösenord för att låsa upp plånboken.</translation>
+        <translation>Denna operation behover din planboks losenord for att lasa upp planboken.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Lås upp plånbok</translation>
+        <translation>Las upp planbok</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Denna operation behöver din plånboks lösenord för att dekryptera plånboken.</translation>
+        <translation>Denna operation behover din planboks losenord for att dekryptera planboken.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dekryptera plånbok</translation>
+        <translation>Dekryptera planbok</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Ändra lösenord</translation>
+        <translation>Andra losenord</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Ge det gamla lösenordet och det nya lösenordet för plånboken.</translation>
+        <translation>Ge det gamla losenordet och det nya losenordet for planboken.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Bekräfta kryptering av plånbok</translation>
+        <translation>Bekrafta kryptering av planbok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA LITECOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>VARNING: Om du krypterar din planbok och glommer ditt losenord, kommer du att &lt;b&gt;FORLORA ALLA DINA MININGENTHUSIASTCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Är du säker på att du vill kryptera din plånbok?</translation>
+        <translation>Ar du saker pa att du vill kryptera din planbok?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Plånbok krypterad</translation>
+        <translation>Planbok krypterad</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 kommer nu att stänga ner för att slutföra krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 kommer nu att stanga ner for att slutfora krypteringen. Tank pa att en krypterad planbok inte skyddar mot stold om din dator ar infekterad med en keylogger.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VIKTIGT: Alla tidigare säkerhetskopior du har skapat av plånboksfilen ska ersättas med den nyss skapade, krypterade plånboksfilen. Av säkerhetsskäl kommer tidigare säkerhetskopior av den okrypterade plånboksfilen att bli oanvändbara när du börjar använda den nya, krypterade plånboken.</translation>
+        <translation>VIKTIGT: Alla tidigare sakerhetskopior du har skapat av planboksfilen ska ersattas med den nyss skapade, krypterade planboksfilen. Av sakerhetsskal kommer tidigare sakerhetskopior av den okrypterade planboksfilen att bli oanvandbara nar du borjar anvanda den nya, krypterade planboken.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Kryptering av plånbok misslyckades</translation>
+        <translation>Kryptering av planbok misslyckades</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Kryptering av plånbok misslyckades på grund av ett internt fel. Din plånbok krypterades inte.</translation>
+        <translation>Kryptering av planbok misslyckades pa grund av ett internt fel. Din planbok krypterades inte.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>De angivna lösenorden överensstämmer inte.</translation>
+        <translation>De angivna losenorden overensstammer inte.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Misslyckades låsa upp plånboken</translation>
+        <translation>Misslyckades lasa upp planboken</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Lösenordet för dekryptering av plånboken var felaktigt.</translation>
+        <translation>Losenordet for dekryptering av planboken var felaktigt.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Dekryptering av plånbok misslyckades</translation>
+        <translation>Dekryptering av planbok misslyckades</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Plånbokens lösenord ändrades.</translation>
+        <translation>Planbokens losenord andrades.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Varning: Caps Lock är påslaget!</translation>
+        <translation>Varning: Caps Lock ar paslaget!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/nätmask</translation>
+        <translation>IP/natmask</translation>
     </message>
     <message>
         <source>Banned Until</source>
@@ -244,11 +244,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synkroniserar med nätverk...</translation>
+        <translation>Synkroniserar med natverk...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Översikt</translation>
+        <translation>&amp;Oversikt</translation>
     </message>
     <message>
         <source>Node</source>
@@ -256,7 +256,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Visa generell översikt av plånboken</translation>
+        <translation>Visa generell oversikt av planboken</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -264,7 +264,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Bläddra i transaktionshistorik</translation>
+        <translation>Bladdra i transaktionshistorik</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -296,23 +296,23 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Ändra konfigurationsalternativ för %1</translation>
+        <translation>Andra konfigurationsalternativ for %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Kryptera plånbok...</translation>
+        <translation>&amp;Kryptera planbok...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Säkerhetskopiera plånbok...</translation>
+        <translation>&amp;Sakerhetskopiera planbok...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Ändra lösenord...</translation>
+        <translation>&amp;Andra losenord...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Av&amp;sändaradresser...</translation>
+        <translation>Av&amp;sandaradresser...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -320,19 +320,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Öppna &amp;URI...</translation>
+        <translation>Oppna &amp;URI...</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Klicka för att inaktivera nätverksaktivitet.</translation>
+        <translation>Klicka for att inaktivera natverksaktivitet.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Nätverksaktivitet inaktiverad.</translation>
+        <translation>Natverksaktivitet inaktiverad.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Klicka för att aktivera nätverksaktivitet igen.</translation>
+        <translation>Klicka for att aktivera natverksaktivitet igen.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
@@ -340,39 +340,39 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Återindexerar block på disken...</translation>
+        <translation>Aterindexerar block pa disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Skicka litecoin till en Litecoin-adress</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Skicka miningenthusiastcoin till en MiningEnthusiastCoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Säkerhetskopiera plånboken till en annan plats</translation>
+        <translation>Sakerhetskopiera planboken till en annan plats</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Byt lösenfras för kryptering av plånbok</translation>
+        <translation>Byt losenfras for kryptering av planbok</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Debug-fönster</translation>
+        <translation>&amp;Debug-fonster</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Öppna debug- och diagnostikkonsolen</translation>
+        <translation>Oppna debug- och diagnostikkonsolen</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Plånbok</translation>
+        <translation>Planbok</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -384,23 +384,23 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Visa / Göm</translation>
+        <translation>&amp;Visa / Gom</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Visa eller göm huvudfönstret</translation>
+        <translation>Visa eller gom huvudfonstret</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
+        <translation>Kryptera de privata nycklar som tillhor din planbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Litecoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina MiningEnthusiastCoin-adresser for att bevisa att du ager dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Litecoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Verifiera meddelanden for att vara saker pa att de signerades med angivna MiningEnthusiastCoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -408,47 +408,47 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Inställningar</translation>
+        <translation>&amp;Installningar</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hjälp</translation>
+        <translation>&amp;Hjalp</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Verktygsfält för tabbar</translation>
+        <translation>Verktygsfalt for tabbar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Begär betalningar (skapar QR-koder och litecoin: -URIer)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Begar betalningar (skapar QR-koder och miningenthusiastcoin: -URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Visa listan med använda avsändaradresser och etiketter</translation>
+        <translation>Visa listan med anvanda avsandaradresser och etiketter</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Visa listan med använda mottagningsadresser och etiketter</translation>
+        <translation>Visa listan med anvanda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Öppna en litecoin: URI eller betalningsbegäran</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>Oppna en miningenthusiastcoin: URI eller betalningsbegaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Litecoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Litecoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to MiningEnthusiastCoin network</source>
+        <translation><numerusform>%n aktiva anslutningar till MiningEnthusiastCoin-natverket.</numerusform><numerusform>%n aktiva anslutningar till MiningEnthusiastCoin-natverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Indexerar block på disken...</translation>
+        <translation>Indexerar block pa disken...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Bearbetar block på disken...</translation>
+        <translation>Bearbetar block pa disken...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -460,11 +460,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Senast mottagna block skapades för %1 sedan.</translation>
+        <translation>Senast mottagna block skapades for %1 sedan.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaktioner efter denna kommer inte ännu vara synliga.</translation>
+        <translation>Transaktioner efter denna kommer inte annu vara synliga.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -483,8 +483,8 @@ Var vänlig och försök igen.</translation>
         <translation>Uppdaterad</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Litecoin kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible MiningEnthusiastCoin command-line options</source>
+        <translation>Visa %1 hjalpmeddelande for att fa en lista med mojliga MiningEnthusiastCoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -496,7 +496,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Hämtar senaste...</translation>
+        <translation>Hamtar senaste...</translation>
     </message>
     <message>
         <source>Date: %1
@@ -538,23 +538,23 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD-nyckelgenerering är &lt;b&gt;aktiverad&lt;/b&gt;</translation>
+        <translation>HD-nyckelgenerering ar &lt;b&gt;aktiverad&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD-nyckelgenerering är &lt;b&gt;inaktiverad&lt;/b&gt;</translation>
+        <translation>HD-nyckelgenerering ar &lt;b&gt;inaktiverad&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;olåst&lt;/b&gt;</translation>
+        <translation>Denna planbok ar &lt;b&gt;krypterad&lt;/b&gt; och for narvarande &lt;b&gt;olast&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
+        <translation>Denna planbok ar &lt;b&gt;krypterad&lt;/b&gt; och for narvarande &lt;b&gt;last&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. Litecoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. MiningEnthusiastCoin can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. MiningEnthusiastCoin kan inte fortsatta att kora sakert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -589,7 +589,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Växel:</translation>
+        <translation>Vaxel:</translation>
     </message>
     <message>
         <source>(un)select all</source>
@@ -597,7 +597,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Trädvy</translation>
+        <translation>Tradvy</translation>
     </message>
     <message>
         <source>List mode</source>
@@ -605,7 +605,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Mängd</translation>
+        <translation>Mangd</translation>
     </message>
     <message>
         <source>Received with label</source>
@@ -621,11 +621,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Bekräftelser</translation>
+        <translation>Bekraftelser</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bekräftad</translation>
+        <translation>Bekraftad</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -645,11 +645,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Lås ospenderat</translation>
+        <translation>Las ospenderat</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Lås upp ospenderat</translation>
+        <translation>Las upp ospenderat</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -673,11 +673,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopiera växel</translation>
+        <translation>Kopiera vaxel</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 låst)</translation>
+        <translation>(%1 last)</translation>
     </message>
     <message>
         <source>yes</source>
@@ -689,7 +689,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Denna etikett blir röd om någon mottagare får en betalning som är mindre än aktuell dammtröskel.</translation>
+        <translation>Denna etikett blir rod om nagon mottagare far en betalning som ar mindre an aktuell dammtroskel.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
@@ -701,11 +701,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>växel från %1 (%2)</translation>
+        <translation>vaxel fran %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(växel)</translation>
+        <translation>(vaxel)</translation>
     </message>
 </context>
 <context>
@@ -724,7 +724,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Adressen associerad med denna post i adresslistan. Den kan bara ändras för sändningsadresser.</translation>
+        <translation>Adressen associerad med denna post i adresslistan. Den kan bara andras for sandningsadresser.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -736,7 +736,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Ny avsändaradress</translation>
+        <translation>Ny avsandaradress</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
@@ -744,11 +744,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Redigera avsändaradress</translation>
+        <translation>Redigera avsandaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Litecoin-adress.</translation>
+        <source>The entered address "%1" is not a valid MiningEnthusiastCoin address.</source>
+        <translation>Den angivna adressen "%1" ar inte en giltig MiningEnthusiastCoin-adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -756,7 +756,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Kunde inte låsa upp plånboken.</translation>
+        <translation>Kunde inte lasa upp planboken.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -775,15 +775,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Katalogen finns redan. Lägg till %1 om du vill skapa en ny katalog här.</translation>
+        <translation>Katalogen finns redan. Lagg till %1 om du vill skapa en ny katalog har.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Sökvägen finns redan, och är inte en katalog.</translation>
+        <translation>Sokvagen finns redan, och ar inte en katalog.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Kan inte skapa datakatalog här.</translation>
+        <translation>Kan inte skapa datakatalog har.</translation>
     </message>
 </context>
 <context>
@@ -806,7 +806,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Användning:</translation>
+        <translation>Anvandning:</translation>
     </message>
     <message>
         <source>command-line options</source>
@@ -814,15 +814,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>UI-inställningar:</translation>
+        <translation>UI-installningar:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Välj datakatalog vid uppstart (standard: %u)</translation>
+        <translation>Valj datakatalog vid uppstart (standard: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Ange språk, till exempel "de_DE" (standard: systemspråk)</translation>
+        <translation>Ange sprak, till exempel "de_DE" (standard: systemsprak)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -830,7 +830,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Ange SSL-rotcertifikat för betalningsbegäran (standard: -system-)</translation>
+        <translation>Ange SSL-rotcertifikat for betalningsbegaran (standard: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
@@ -838,54 +838,54 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>Återställ alla inställningar som gjorts i GUI</translation>
+        <translation>Aterstall alla installningar som gjorts i GUI</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Välkommen</translation>
+        <translation>Valkommen</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>Välkommen till %1.</translation>
+        <translation>Valkommen till %1.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Eftersom detta är första gången programmet startas får du välja var %1 skall lagra sitt data.</translation>
+        <translation>Eftersom detta ar forsta gangen programmet startas far du valja var %1 skall lagra sitt data.</translation>
     </message>
     <message>
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
-        <translation>Denna första synkronisering är väldigt krävande, och kan påvisa hårdvaruproblem med din dator som tidigare inte visats sig. Varje gång du kör %1, kommer nerladdningen att fortsätta där den avslutades.</translation>
+        <translation>Denna forsta synkronisering ar valdigt kravande, och kan pavisa hardvaruproblem med din dator som tidigare inte visats sig. Varje gang du kor %1, kommer nerladdningen att fortsatta dar den avslutades.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Använd den förvalda datakatalogen</translation>
+        <translation>Anvand den forvalda datakatalogen</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Använd en anpassad datakatalog:</translation>
+        <translation>Anvand en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Minst %1 GB data kommer att lagras i den här katalogen, och den växer över tiden.</translation>
+        <translation>Minst %1 GB data kommer att lagras i den har katalogen, och den vaxer over tiden.</translation>
     </message>
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
+        <translation>Ungefar %1 GB data kommer att lagras i den har katalogen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Litecoin block chain.</source>
-        <translation>%1 kommer att ladda ner och lagra en kopia av Litecoin-blockkedjan.</translation>
+        <source>%1 will download and store a copy of the MiningEnthusiastCoin block chain.</source>
+        <translation>%1 kommer att ladda ner och lagra en kopia av MiningEnthusiastCoin-blockkedjan.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
-        <translation>Plånboken lagras också i den här katalogen.</translation>
+        <translation>Planboken lagras ocksa i den har katalogen.</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -901,22 +901,22 @@ Var vänlig och försök igen.</translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(av %n GB behövs)</numerusform><numerusform>(av %n GB behövs)</numerusform></translation>
+        <translation><numerusform>(av %n GB behovs)</numerusform><numerusform>(av %n GB behovs)</numerusform></translation>
     </message>
 </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Formulär</translation>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med Litecoin-nätverket enligt detaljer nedan.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the miningenthusiastcoin network, as detailed below.</source>
+        <translation>Nyligen gjorda transaktioner visas inte korrekt och darfor kan din planboks saldo visas felaktigt. Denna information kommer att visas korrekt sa snart din planbok har synkroniserat klart med MiningEnthusiastCoin-natverket enligt detaljer nedan.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Att försöka spendera litecoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
+        <source>Attempting to spend miningenthusiastcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Att forsoka spendera miningenthusiastcoin som paverkas av transaktioner som annu inte visas kommer inte accepteras av natverket. </translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -924,7 +924,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Okänt...</translation>
+        <translation>Okant...</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -932,38 +932,38 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>Förlopp</translation>
+        <translation>Forlopp</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>Framstegssökning per timme</translation>
+        <translation>Framstegssokning per timme</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>beräknar...</translation>
+        <translation>beraknar...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Beräknad tid kvar tills synkroniserad</translation>
+        <translation>Beraknad tid kvar tills synkroniserad</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Göm</translation>
+        <translation>Gom</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Okänd. Synkar huvuden (%1)...</translation>
+        <translation>Okand. Synkar huvuden (%1)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Öppna URI</translation>
+        <translation>Oppna URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Öppna betalningsbegäran från URI eller fil</translation>
+        <translation>Oppna betalningsbegaran fran URI eller fil</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -971,11 +971,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Välj betalningsbegäransfil</translation>
+        <translation>Valj betalningsbegaransfil</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Välj betalningsbegäransfil som ska öppnas</translation>
+        <translation>Valj betalningsbegaransfil som ska oppnas</translation>
     </message>
 </context>
 <context>
@@ -986,7 +986,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Allmänt</translation>
+        <translation>&amp;Allmant</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
@@ -998,7 +998,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Storleken på &amp;databascache</translation>
+        <translation>Storleken pa &amp;databascache</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1006,7 +1006,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Antalet skript&amp;verifikationstrådar</translation>
+        <translation>Antalet skript&amp;verifikationstradar</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1014,59 +1014,59 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Visas, om den angivna standard-SOCKS5-proxyn används för att nå noder via den här nätverkstypen.</translation>
+        <translation>Visas, om den angivna standard-SOCKS5-proxyn anvands for att na noder via den har natverkstypen.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Använd separata SOCKS&amp;5-proxy för att nå noder via Tors dolda tjänster:</translation>
+        <translation>Anvand separata SOCKS&amp;5-proxy for att na noder via Tors dolda tjanster:</translation>
     </message>
     <message>
         <source>Hide the icon from the system tray.</source>
-        <translation>Göm ikonen från aktivitetsfältet.</translation>
+        <translation>Gom ikonen fran aktivitetsfaltet.</translation>
     </message>
     <message>
         <source>&amp;Hide tray icon</source>
-        <translation>&amp;Göm ikonen</translation>
+        <translation>&amp;Gom ikonen</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimera istället för att stänga programmet när fönstret stängs. När detta alternativ är aktiverat stängs programmet endast genom att välja Stäng i menyn.</translation>
+        <translation>Minimera istallet for att stanga programmet nar fonstret stangs. Nar detta alternativ ar aktiverat stangs programmet endast genom att valja Stang i menyn.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Tredjeparts URL:er (t.ex. en blockutforskare) som finns i transaktionstabben som ett menyval i sammanhanget. %s i URL:en ersätts med tansaktionshashen. Flera URL:er är separerade med vertikala streck |.</translation>
+        <translation>Tredjeparts URL:er (t.ex. en blockutforskare) som finns i transaktionstabben som ett menyval i sammanhanget. %s i URL:en ersatts med tansaktionshashen. Flera URL:er ar separerade med vertikala streck |.</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktiva kommandoradsalternativ som ersätter alternativen ovan:</translation>
+        <translation>Aktiva kommandoradsalternativ som ersatter alternativen ovan:</translation>
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
-        <translation>Öppna konfigurationsfilen %1 från arbetskatalogen.</translation>
+        <translation>Oppna konfigurationsfilen %1 fran arbetskatalogen.</translation>
     </message>
     <message>
         <source>Open Configuration File</source>
-        <translation>Öppna Konfigurationsfil</translation>
+        <translation>Oppna Konfigurationsfil</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Återställ alla klientinställningar till förvalen.</translation>
+        <translation>Aterstall alla klientinstallningar till forvalen.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Återställ alternativ</translation>
+        <translation>&amp;Aterstall alternativ</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Nätverk</translation>
+        <translation>&amp;Natverk</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = lämna så många kärnor lediga)</translation>
+        <translation>(0 = auto, &lt;0 = lamna sa manga karnor lediga)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;Plånbok</translation>
+        <translation>&amp;Planbok</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -1078,35 +1078,35 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Om du avaktiverar spendering av obekräftad växel, kan inte växeln från en transaktion användas förrän transaktionen har minst en bekräftelse. Detta påverkar också hur ditt saldo beräknas.</translation>
+        <translation>Om du avaktiverar spendering av obekraftad vaxel, kan inte vaxeln fran en transaktion anvandas forran transaktionen har minst en bekraftelse. Detta paverkar ocksa hur ditt saldo beraknas.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Spendera obekräftad växel</translation>
+        <translation>&amp;Spendera obekraftad vaxel</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Litecoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <source>Automatically open the MiningEnthusiastCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Oppna automatiskt MiningEnthusiastCoin-klientens port pa routern. Detta fungerar endast om din router stodjer UPnP och det ar ar aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Tilldela port med hjälp av &amp;UPnP</translation>
+        <translation>Tilldela port med hjalp av &amp;UPnP</translation>
     </message>
     <message>
         <source>Accept connections from outside.</source>
-        <translation>Acceptera anslutningar utifrån.</translation>
+        <translation>Acceptera anslutningar utifran.</translation>
     </message>
     <message>
         <source>Allow incomin&amp;g connections</source>
-        <translation>Tillåt ankommande anslutningar</translation>
+        <translation>Tillat ankommande anslutningar</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Litecoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the MiningEnthusiastCoin network through a SOCKS5 proxy.</source>
+        <translation>Anslut till MiningEnthusiastCoin-natverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Anslut genom SOCKS5-proxy (förvald proxy):</translation>
+        <translation>&amp;Anslut genom SOCKS5-proxy (forvald proxy):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1122,7 +1122,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Används för att nå noder via:</translation>
+        <translation>Anvands for att na noder via:</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1137,24 +1137,24 @@ Var vänlig och försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Anslut till Litecoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+        <source>Connect to the MiningEnthusiastCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Anslut till MiningEnthusiastCoin-natverket genom en separat SOCKS5-proxy for dolda tjanster i Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Fönster</translation>
+        <translation>&amp;Fonster</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Visa endast en systemfältsikon vid minimering.</translation>
+        <translation>Visa endast en systemfaltsikon vid minimering.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimera till systemfältet istället för aktivitetsfältet</translation>
+        <translation>&amp;Minimera till systemfaltet istallet for aktivitetsfaltet</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimera vid stängning</translation>
+        <translation>M&amp;inimera vid stangning</translation>
     </message>
     <message>
         <source>&amp;Display</source>
@@ -1162,19 +1162,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Användargränssnittets &amp;språk: </translation>
+        <translation>Anvandargranssnittets &amp;sprak: </translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av %1.</translation>
+        <translation>Anvandargranssnittets sprak kan stallas in har. Denna installning trader i kraft efter en omstart av %1.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Måttenhet att visa belopp i: </translation>
+        <translation>&amp;Mattenhet att visa belopp i: </translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Välj en måttenhet att visa i gränssnittet och när du skickar mynt.</translation>
+        <translation>Valj en mattenhet att visa i granssnittet och nar du skickar mynt.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1182,7 +1182,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>&amp;Third party transaction URLs</source>
-        <translation>&amp;URL:er för tredjepartstransaktioner</translation>
+        <translation>&amp;URL:er for tredjepartstransaktioner</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1202,15 +1202,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Bekräfta att alternativen ska återställs</translation>
+        <translation>Bekrafta att alternativen ska aterstalls</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Klientomstart är nödvändig för att aktivera ändringarna.</translation>
+        <translation>Klientomstart ar nodvandig for att aktivera andringarna.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Programmet kommer att stängas. Vill du fortsätta?</translation>
+        <translation>Programmet kommer att stangas. Vill du fortsatta?</translation>
     </message>
     <message>
         <source>Configuration options</source>
@@ -1218,7 +1218,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
-        <translation>Konfigurationsfilen används för att ange avancerade användaralternativ som överskrider GUI-inställningarna. Dessutom kommer alla kommandoradsalternativ att överskrida denna konfigurationsfil.</translation>
+        <translation>Konfigurationsfilen anvands for att ange avancerade anvandaralternativ som overskrider GUI-installningarna. Dessutom kommer alla kommandoradsalternativ att overskrida denna konfigurationsfil.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1226,26 +1226,26 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The configuration file could not be opened.</source>
-        <translation>Konfigurationsfilen kunde inte öppnas.</translation>
+        <translation>Konfigurationsfilen kunde inte oppnas.</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Denna ändring kräver en klientomstart.</translation>
+        <translation>Denna andring kraver en klientomstart.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Den angivna proxy-adressen är ogiltig.</translation>
+        <translation>Den angivna proxy-adressen ar ogiltig.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Formulär</translation>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Litecoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MiningEnthusiastCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Planboken synkroniseras automatiskt med MiningEnthusiastCoin-natverket efter att anslutningen ar upprattad, men denna process har inte slutforts annu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1253,19 +1253,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Tillgängligt:</translation>
+        <translation>Tillgangligt:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Ditt tillgängliga saldo</translation>
+        <translation>Ditt tillgangliga saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Pågående:</translation>
+        <translation>Pagaende:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Totalt antal transaktioner som ännu inte bekräftats, och som ännu inte räknas med i aktuellt saldo</translation>
+        <translation>Totalt antal transaktioner som annu inte bekraftats, och som annu inte raknas med i aktuellt saldo</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1273,7 +1273,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Genererat saldo som ännu inte har mognat</translation>
+        <translation>Genererat saldo som annu inte har mognat</translation>
     </message>
     <message>
         <source>Balances</source>
@@ -1297,15 +1297,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Nyligen genomförda transaktioner</translation>
+        <translation>Nyligen genomforda transaktioner</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Obekräftade transaktioner till granska-bara adresser</translation>
+        <translation>Obekraftade transaktioner till granska-bara adresser</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Genererat saldo i granska-bara adresser som ännu inte har mognat</translation>
+        <translation>Genererat saldo i granska-bara adresser som annu inte har mognat</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
@@ -1316,11 +1316,11 @@ Var vänlig och försök igen.</translation>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Fel vid betalningsbegäran</translation>
+        <translation>Fel vid betalningsbegaran</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Kan inte starta litecoin: klicka-och-betala hanteraren</translation>
+        <source>Cannot start miningenthusiastcoin: click-to-pay handler</source>
+        <translation>Kan inte starta miningenthusiastcoin: klicka-och-betala hanteraren</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1328,59 +1328,59 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Hämtningsadressen för betalningsbegäran är ogiltig: %1</translation>
+        <translation>Hamtningsadressen for betalningsbegaran ar ogiltig: %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Litecoin-adress eller felaktiga URI-parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid MiningEnthusiastCoin address or malformed URI parameters.</source>
+        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig MiningEnthusiastCoin-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Hantering av betalningsbegäransfil</translation>
+        <translation>Hantering av betalningsbegaransfil</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Betalningsbegäransfilen kan inte läsas! Detta kan orsakas av en ogiltig betalningsbegäransfil.</translation>
+        <translation>Betalningsbegaransfilen kan inte lasas! Detta kan orsakas av en ogiltig betalningsbegaransfil.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Betalningsbegäran avslogs</translation>
+        <translation>Betalningsbegaran avslogs</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Betalningsbegärans nätverk matchar inte klientens nätverk.</translation>
+        <translation>Betalningsbegarans natverk matchar inte klientens natverk.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Betalningsbegäran löpte ut.</translation>
+        <translation>Betalningsbegaran lopte ut.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Betalningsbegäran är inte initierad.</translation>
+        <translation>Betalningsbegaran ar inte initierad.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Overifierade betalningsbegäranden till anpassade betalningsskript stöds inte.</translation>
+        <translation>Overifierade betalningsbegaranden till anpassade betalningsskript stods inte.</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>Ogiltig betalningsbegäran.</translation>
+        <translation>Ogiltig betalningsbegaran.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Begärd betalning av %1 är för liten (betraktas som damm).</translation>
+        <translation>Begard betalning av %1 ar for liten (betraktas som damm).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Återbetalning från %1</translation>
+        <translation>Aterbetalning fran %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Betalningsbegäran %1 är för stor (%2 bytes, tillåten %3 bytes).</translation>
+        <translation>Betalningsbegaran %1 ar for stor (%2 bytes, tillaten %3 bytes).</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
@@ -1388,30 +1388,30 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Betalningsbegäran kan inte parsas!</translation>
+        <translation>Betalningsbegaran kan inte parsas!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Felaktigt svar från server %1</translation>
+        <translation>Felaktigt svar fran server %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Fel vid nätverksbegäran</translation>
+        <translation>Fel vid natverksbegaran</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Betalningen bekräftad</translation>
+        <translation>Betalningen bekraftad</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>Användaragent</translation>
+        <translation>Anvandaragent</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Nod/Tjänst</translation>
+        <translation>Nod/Tjanst</translation>
     </message>
     <message>
         <source>NodeId</source>
@@ -1434,11 +1434,11 @@ Var vänlig och försök igen.</translation>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Mängd</translation>
+        <translation>Mangd</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Ange en Litecoin-adress (t.ex. %1)</translation>
+        <source>Enter a MiningEnthusiastCoin address (e.g. %1)</source>
+        <translation>Ange en MiningEnthusiastCoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1462,7 +1462,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>ej tillgänglig</translation>
+        <translation>ej tillganglig</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -1494,7 +1494,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n år</numerusform><numerusform>%n år</numerusform></translation>
+        <translation><numerusform>%n ar</numerusform><numerusform>%n ar</numerusform></translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1514,11 +1514,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 avslutades inte ännu säkert...</translation>
+        <translation>%1 avslutades inte annu sakert...</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>okänd</translation>
+        <translation>okand</translation>
     </message>
 </context>
 <context>
@@ -1529,7 +1529,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Fel: Kan inte läsa konfigurationsfilen: %1. Använd bara nyckel=värde formatet.</translation>
+        <translation>Fel: Kan inte lasa konfigurationsfilen: %1. Anvand bara nyckel=varde formatet.</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -1559,7 +1559,7 @@ Var vänlig och försök igen.</translation>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>ej tillgänglig</translation>
+        <translation>ej tillganglig</translation>
     </message>
     <message>
         <source>Client version</source>
@@ -1571,7 +1571,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Debug fönster</translation>
+        <translation>Debug fonster</translation>
     </message>
     <message>
         <source>General</source>
@@ -1579,7 +1579,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Använder BerkeleyDB versionen</translation>
+        <translation>Anvander BerkeleyDB versionen</translation>
     </message>
     <message>
         <source>Datadir</source>
@@ -1591,7 +1591,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Nätverk</translation>
+        <translation>Natverk</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1619,11 +1619,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Minnesåtgång</translation>
+        <translation>Minnesatgang</translation>
     </message>
     <message>
         <source>&amp;Reset</source>
-        <translation>&amp;Återställ</translation>
+        <translation>&amp;Aterstall</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1643,7 +1643,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Välj en klient för att se detaljerad information.</translation>
+        <translation>Valj en klient for att se detaljerad information.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
@@ -1671,11 +1671,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Användaragent</translation>
+        <translation>Anvandaragent</translation>
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna %1 debug-loggfilen från aktuell datakatalog. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <translation>Oppna %1 debug-loggfilen fran aktuell datakatalog. Detta kan ta nagra sekunder for stora loggfiler.</translation>
     </message>
     <message>
         <source>Decrease font size</source>
@@ -1683,15 +1683,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Öka fontstorleken</translation>
+        <translation>Oka fontstorleken</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Tjänster</translation>
+        <translation>Tjanster</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Banpoäng</translation>
+        <translation>Banpoang</translation>
     </message>
     <message>
         <source>Connection Time</source>
@@ -1699,7 +1699,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Senast sänt</translation>
+        <translation>Senast sant</translation>
     </message>
     <message>
         <source>Last Receive</source>
@@ -1711,11 +1711,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Tidsåtgången för en aktuell utestående ping.</translation>
+        <translation>Tidsatgangen for en aktuell utestaende ping.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Pingväntetid</translation>
+        <translation>Pingvantetid</translation>
     </message>
     <message>
         <source>Min Ping</source>
@@ -1723,7 +1723,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Tidsförskjutning</translation>
+        <translation>Tidsforskjutning</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -1731,7 +1731,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Öppna</translation>
+        <translation>&amp;Oppna</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1739,7 +1739,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Nätverkstrafik</translation>
+        <translation>&amp;Natverkstrafik</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1775,7 +1775,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;år</translation>
+        <translation>1 &amp;ar</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
@@ -1791,27 +1791,27 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
-        <translation>Välkommen till %1 RPC-konsolen.</translation>
+        <translation>Valkommen till %1 RPC-konsolen.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>Använd upp- och ner-pilarna för att navigera i historiken, och %1 för att rensa skärmen.</translation>
+        <translation>Anvand upp- och ner-pilarna for att navigera i historiken, och %1 for att rensa skarmen.</translation>
     </message>
     <message>
         <source>Type %1 for an overview of available commands.</source>
-        <translation>Skriv %1 för att få en överblick över tillgängliga kommandon.</translation>
+        <translation>Skriv %1 for att fa en overblick over tillgangliga kommandon.</translation>
     </message>
     <message>
         <source>For more information on using this console type %1.</source>
-        <translation>För mer information om att använda denna konsol, skriv %1.</translation>
+        <translation>For mer information om att anvanda denna konsol, skriv %1.</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>VARNING: Bedragare är kända för att be användare skriva olika kommandon här, varpå de stjäl plånböckernas innehåll. Använd inte konsolen utan att fullt ut förstå konsekvenserna av ett visst kommando.</translation>
+        <translation>VARNING: Bedragare ar kanda for att be anvandare skriva olika kommandon har, varpa de stjal planbockernas innehall. Anvand inte konsolen utan att fullt ut forsta konsekvenserna av ett visst kommando.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Nätverksaktivitet inaktiverad</translation>
+        <translation>Natverksaktivitet inaktiverad</translation>
     </message>
     <message>
         <source>(node id: %1)</source>
@@ -1831,7 +1831,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Utgående</translation>
+        <translation>Utgaende</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -1843,7 +1843,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Okänd</translation>
+        <translation>Okand</translation>
     </message>
 </context>
 <context>
@@ -1861,8 +1861,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Litecoin-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MiningEnthusiastCoin network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegaran, vilket visas nar begaran oppnas. Obs: Meddelandet kommer inte att sandas med betalningen over MiningEnthusiastCoin-natverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1870,15 +1870,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Använd detta formulär för att begära betalningar. Alla fält är  &lt;b&gt;valfria&lt;/b&gt;.</translation>
+        <translation>Anvand detta formular for att begara betalningar. Alla falt ar  &lt;b&gt;valfria&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>En valfri summa att begära. Lämna denna tom eller noll för att inte begära en specifik summa.</translation>
+        <translation>En valfri summa att begara. Lamna denna tom eller noll for att inte begara en specifik summa.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Rensa alla formulärfälten</translation>
+        <translation>Rensa alla formularfalten</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -1886,15 +1886,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Historik för begärda betalningar</translation>
+        <translation>Historik for begarda betalningar</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>Begä&amp;r betalning</translation>
+        <translation>Bega&amp;r betalning</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Visa valda begäranden (gör samma som att dubbelklicka på en post)</translation>
+        <translation>Visa valda begaranden (gor samma som att dubbelklicka pa en post)</translation>
     </message>
     <message>
         <source>Show</source>
@@ -1902,7 +1902,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Ta bort valda poster från listan</translation>
+        <translation>Ta bort valda poster fran listan</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1945,7 +1945,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Begär betalning till %1</translation>
+        <translation>Begar betalning till %1</translation>
     </message>
     <message>
         <source>Payment information</source>
@@ -1973,11 +1973,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>URI:n är för lång, försöka minska texten för etikett / meddelande.</translation>
+        <translation>URI:n ar for lang, forsoka minska texten for etikett / meddelande.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Fel vid skapande av QR-kod från URI.</translation>
+        <translation>Fel vid skapande av QR-kod fran URI.</translation>
     </message>
 </context>
 <context>
@@ -2004,11 +2004,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation>(inget belopp begärt)</translation>
+        <translation>(inget belopp begart)</translation>
     </message>
     <message>
         <source>Requested</source>
-        <translation>Begärt</translation>
+        <translation>Begart</translation>
     </message>
 </context>
 <context>
@@ -2031,7 +2031,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Otillräckliga medel!</translation>
+        <translation>Otillrackliga medel!</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -2055,15 +2055,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Växel:</translation>
+        <translation>Vaxel:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Om denna är aktiverad men växeladressen är tom eller ogiltig kommer växeln att sändas till en nyss skapad adress.</translation>
+        <translation>Om denna ar aktiverad men vaxeladressen ar tom eller ogiltig kommer vaxeln att sandas till en nyss skapad adress.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Anpassad växeladress</translation>
+        <translation>Anpassad vaxeladress</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2071,19 +2071,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Välj...</translation>
+        <translation>Valj...</translation>
     </message>
     <message>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
-        <translation>Med standardavgiften riskerar en transaktion ta timmar eller dagar för att bekräftas, om den ens gör det. Överväg att själv välja avgift alternativt vänta tills du har validerat hela kedjan.</translation>
+        <translation>Med standardavgiften riskerar en transaktion ta timmar eller dagar for att bekraftas, om den ens gor det. Overvag att sjalv valja avgift alternativt vanta tills du har validerat hela kedjan.</translation>
     </message>
     <message>
         <source>Warning: Fee estimation is currently not possible.</source>
-        <translation>Varning: Avgiftsberäkning är för närvarande inte möjlig.</translation>
+        <translation>Varning: Avgiftsberakning ar for narvarande inte mojlig.</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>Fäll ihop avgiftsinställningarna</translation>
+        <translation>Fall ihop avgiftsinstallningarna</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2091,19 +2091,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om den anpassade avgiften är satt till 1000 satoshi och transaktionen bara är 250 byte, betalar "per kilobyte" bara 250 satoshi i avgift, medan "totalt minst" betalar 1000 satoshi. För transaktioner större än en kilobyte betalar båda per kilobyte.</translation>
+        <translation>Om den anpassade avgiften ar satt till 1000 satoshi och transaktionen bara ar 250 byte, betalar "per kilobyte" bara 250 satoshi i avgift, medan "totalt minst" betalar 1000 satoshi. For transaktioner storre an en kilobyte betalar bada per kilobyte.</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Göm</translation>
+        <translation>Gom</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Att bara betala den minsta avgiften är helt ok så länge transaktionsvolymen är mindre än ledigt utrymme i blocken. Men tänk på att det kan bli en en transaktion som aldrig bekräftas om efterfrågan på litecoin-transaktioner är större än vad nätverket kan hantera.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for miningenthusiastcoin transactions than the network can process.</source>
+        <translation>Att bara betala den minsta avgiften ar helt ok sa lange transaktionsvolymen ar mindre an ledigt utrymme i blocken. Men tank pa att det kan bli en en transaktion som aldrig bekraftas om efterfragan pa miningenthusiastcoin-transaktioner ar storre an vad natverket kan hantera.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(läs verktygstips)</translation>
+        <translation>(las verktygstips)</translation>
     </message>
     <message>
         <source>Recommended:</source>
@@ -2115,7 +2115,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Smartavgiften är inte initierad än. Detta tar vanligen några block...)</translation>
+        <translation>(Smartavgiften ar inte initierad an. Detta tar vanligen nagra block...)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2123,11 +2123,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Lägg till &amp;mottagare</translation>
+        <translation>Lagg till &amp;mottagare</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Rensa alla formulärfälten</translation>
+        <translation>Rensa alla formularfalten</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -2135,15 +2135,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>Bekräftelsestidsmål:</translation>
+        <translation>Bekraftelsestidsmal:</translation>
     </message>
     <message>
         <source>Enable Replace-By-Fee</source>
-        <translation>Möjliggör ersättande avgift</translation>
+        <translation>Mojliggor ersattande avgift</translation>
     </message>
     <message>
         <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
-        <translation>Med ersättande avgift (BIP-125) kan du höja transaktionsavgiften efter att transaktionen redan skickats. Om du väljer bort det kan en högre avgift rekommenderas för att kompensera för ökad risk för förhöjd transaktionstid.</translation>
+        <translation>Med ersattande avgift (BIP-125) kan du hoja transaktionsavgiften efter att transaktionen redan skickats. Om du valjer bort det kan en hogre avgift rekommenderas for att kompensera for okad risk for forhojd transaktionstid.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2155,7 +2155,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Bekräfta sändåtgärden</translation>
+        <translation>Bekrafta sandatgarden</translation>
     </message>
     <message>
         <source>S&amp;end</source>
@@ -2187,7 +2187,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopiera växel</translation>
+        <translation>Kopiera vaxel</translation>
     </message>
     <message>
         <source>%1 (%2 blocks)</source>
@@ -2199,7 +2199,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Är du säker på att du vill skicka?</translation>
+        <translation>Ar du saker pa att du vill skicka?</translation>
     </message>
     <message>
         <source>added as transaction fee</source>
@@ -2215,35 +2215,35 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
-        <translation>Du kan välja att höja avgiften senare (med ersättande avgift, BIP-125).</translation>
+        <translation>Du kan valja att hoja avgiften senare (med ersattande avgift, BIP-125).</translation>
     </message>
     <message>
         <source>Not signalling Replace-By-Fee, BIP-125.</source>
-        <translation>Använder inte ersättande avgift, BIP-125.</translation>
+        <translation>Anvander inte ersattande avgift, BIP-125.</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bekräfta att mynt ska skickas</translation>
+        <translation>Bekrafta att mynt ska skickas</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Mottagarens adress är ogiltig. Kontrollera igen.</translation>
+        <translation>Mottagarens adress ar ogiltig. Kontrollera igen.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Det betalade beloppet måste vara större än 0.</translation>
+        <translation>Det betalade beloppet maste vara storre an 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Beloppet överstiger ditt saldo.</translation>
+        <translation>Beloppet overstiger ditt saldo.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Totalbeloppet överstiger ditt saldo när transaktionsavgiften %1 är pålagd.</translation>
+        <translation>Totalbeloppet overstiger ditt saldo nar transaktionsavgiften %1 ar palagd.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Dubblettadress hittades: adresser skall endast användas en gång var.</translation>
+        <translation>Dubblettadress hittades: adresser skall endast anvandas en gang var.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -2251,39 +2251,39 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>Transaktionen avvisades med följande orsak: %1</translation>
+        <translation>Transaktionen avvisades med foljande orsak: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>En avgift högre än %1 anses vara en absurd hög avgift.</translation>
+        <translation>En avgift hogre an %1 anses vara en absurd hog avgift.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Betalningsbegäran löpte ut.</translation>
+        <translation>Betalningsbegaran lopte ut.</translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation>Betala endast den nödvändiga avgiften på %1</translation>
+        <translation>Betala endast den nodvandiga avgiften pa %1</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
+        <translation><numerusform>Uppskattas till att paborja bekraftelse inom %n block.</numerusform><numerusform>Uppskattas till att paborja bekraftelse inom %n block.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Varning: Ogiltig Litecoin-adress</translation>
+        <source>Warning: Invalid MiningEnthusiastCoin address</source>
+        <translation>Varning: Ogiltig MiningEnthusiastCoin-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Varning: Okänd växeladress</translation>
+        <translation>Varning: Okand vaxeladress</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>Bekräfta anpassad växeladress</translation>
+        <translation>Bekrafta anpassad vaxeladress</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>Den adress du valt för växel ingår inte i denna plånbok. Eventuella eller alla pengar i din plånbok kan komma att skickas till den här adressen. Är du säker?</translation>
+        <translation>Den adress du valt for vaxel ingar inte i denna planbok. Eventuella eller alla pengar i din planbok kan komma att skickas till den har adressen. Ar du saker?</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2306,15 +2306,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Välj tidigare använda adresser</translation>
+        <translation>Valj tidigare anvanda adresser</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Detta är en normal betalning.</translation>
+        <translation>Detta ar en normal betalning.</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Litecoin-adress att sända betalning till</translation>
+        <source>The MiningEnthusiastCoin address to send the payment to</source>
+        <translation>MiningEnthusiastCoin-adress att sanda betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2322,7 +2322,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Klistra in adress från Urklipp</translation>
+        <translation>Klistra in adress fran Urklipp</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2333,16 +2333,16 @@ Var vänlig och försök igen.</translation>
         <translation>Radera denna post</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre litecoin än du angivit i beloppsfältet. Om flera mottagare valts kommer avgiften att fördelas jämt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less miningenthusiastcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Avgiften dras fran beloppet som skickas. Mottagaren kommer att ta emot mindre miningenthusiastcoin an du angivit i beloppsfaltet. Om flera mottagare valts kommer avgiften att fordelas jamt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>S&amp;ubtrahera avgiften från beloppet</translation>
+        <translation>S&amp;ubtrahera avgiften fran beloppet</translation>
     </message>
     <message>
         <source>Use available balance</source>
-        <translation>Använd tillgängligt saldo</translation>
+        <translation>Anvand tillgangligt saldo</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -2350,19 +2350,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>Detta är en oautentiserad betalningsbegäran.</translation>
+        <translation>Detta ar en oautentiserad betalningsbegaran.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>Detta är en autentiserad betalningsbegäran.</translation>
+        <translation>Detta ar en autentiserad betalningsbegaran.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
+        <translation>Ange en etikett for denna adress for att lagga till den i listan med anvanda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Ett meddelande som bifogades litecoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Litecoin-nätverket.</translation>
+        <source>A message that was attached to the miningenthusiastcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MiningEnthusiastCoin network.</source>
+        <translation>Ett meddelande som bifogades miningenthusiastcoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sandas over MiningEnthusiastCoin-natverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2374,7 +2374,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Ange en etikett för denna adress för att lägga till den i din adressbok</translation>
+        <translation>Ange en etikett for denna adress for att lagga till den i din adressbok</translation>
     </message>
 </context>
 <context>
@@ -2388,11 +2388,11 @@ Var vänlig och försök igen.</translation>
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>%1 stängs av...</translation>
+        <translation>%1 stangs av...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Stäng inte av datorn förrän denna ruta försvinner.</translation>
+        <translation>Stang inte av datorn forran denna ruta forsvinner.</translation>
     </message>
 </context>
 <context>
@@ -2406,16 +2406,16 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Signera Meddelande</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot litecoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive miningenthusiastcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signera meddelanden/avtal med dina adresser for att bevisa att du kan ta emot miningenthusiastcoin som skickats till dem. Var forsiktig sa du inte signerar nagot oklart eller konstigt, eftersom phishing-angrepp kan forsoka fa dig att signera over din identitet till dem. Signera endast valdetaljerade meddelanden som du godkanner.</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Litecoin-adress att signera meddelandet med</translation>
+        <source>The MiningEnthusiastCoin address to sign the message with</source>
+        <translation>MiningEnthusiastCoin-adress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Välj tidigare använda adresser</translation>
+        <translation>Valj tidigare anvanda adresser</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2423,7 +2423,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Klistra in adress från Urklipp</translation>
+        <translation>Klistra in adress fran Urklipp</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2431,7 +2431,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Skriv in meddelandet du vill signera här</translation>
+        <translation>Skriv in meddelandet du vill signera har</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2442,8 +2442,8 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Litecoin-adress</translation>
+        <source>Sign the message to prove you own this MiningEnthusiastCoin address</source>
+        <translation>Signera meddelandet for att bevisa att du ager denna MiningEnthusiastCoin-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2451,7 +2451,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Rensa alla fält</translation>
+        <translation>Rensa alla falt</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2463,15 +2463,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva det signerade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
+        <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, for att verifiera meddelandet. Undvik att lasa in mera information i signaturen an vad som stod i sjalva det signerade meddelandet, for att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Litecoin-adress som meddelandet signerades med</translation>
+        <source>The MiningEnthusiastCoin address the message was signed with</source>
+        <translation>MiningEnthusiastCoin-adress som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Litecoin-adress</translation>
+        <source>Verify the message to ensure it was signed with the specified MiningEnthusiastCoin address</source>
+        <translation>Verifiera meddelandet for att vara saker pa att det signerades med angiven MiningEnthusiastCoin-adress</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2479,19 +2479,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Rensa alla fält</translation>
+        <translation>Rensa alla falt</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Klicka "Signera Meddelande" för att skapa en signatur</translation>
+        <translation>Klicka "Signera Meddelande" for att skapa en signatur</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Den angivna adressen är ogiltig.</translation>
+        <translation>Den angivna adressen ar ogiltig.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Vad god kontrollera adressen och försök igen.</translation>
+        <translation>Vad god kontrollera adressen och forsok igen.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
@@ -2499,11 +2499,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Upplåsningen av plånboken avbröts.</translation>
+        <translation>Upplasningen av planboken avbrots.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Den privata nyckeln för den angivna adressen är inte tillgänglig.</translation>
+        <translation>Den privata nyckeln for den angivna adressen ar inte tillganglig.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
@@ -2519,7 +2519,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Kontrollera signaturen och försök igen.</translation>
+        <translation>Kontrollera signaturen och forsok igen.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
@@ -2552,11 +2552,11 @@ Var vänlig och försök igen.</translation>
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n mer block</numerusform></translation>
+        <translation><numerusform>Oppet for %n mer block</numerusform><numerusform>Oppet for %n mer block</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Öppet till %1</translation>
+        <translation>Oppet till %1</translation>
     </message>
     <message>
         <source>conflicted with a transaction with %1 confirmations</source>
@@ -2568,7 +2568,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>0/obekräftade, %1</translation>
+        <translation>0/obekraftade, %1</translation>
     </message>
     <message>
         <source>in memory pool</source>
@@ -2580,15 +2580,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>abandoned</source>
-        <translation>övergiven</translation>
+        <translation>overgiven</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/obekräftade</translation>
+        <translation>%1/obekraftade</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 bekräftelser</translation>
+        <translation>%1 bekraftelser</translation>
     </message>
     <message>
         <source>Status</source>
@@ -2596,11 +2596,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>,har inte lyckats sända än</translation>
+        <translation>,har inte lyckats sanda an</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, sänd genom %n nod</numerusform><numerusform>, sänd genom %n noder</numerusform></translation>
+        <translation><numerusform>, sand genom %n nod</numerusform><numerusform>, sand genom %n noder</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
@@ -2608,7 +2608,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Källa</translation>
+        <translation>Kalla</translation>
     </message>
     <message>
         <source>Generated</source>
@@ -2616,11 +2616,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Från</translation>
+        <translation>Fran</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>okänd</translation>
+        <translation>okand</translation>
     </message>
     <message>
         <source>To</source>
@@ -2696,7 +2696,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Skapade mynt måste mogna i %1 block innan de kan spenderas. När du skapade detta block sändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer dess status att ändras till "ej accepterat" och går inte att spendera. Detta kan ibland hända om en annan nod skapar ett block nästan samtidigt som dig.</translation>
+        <translation>Skapade mynt maste mogna i %1 block innan de kan spenderas. Nar du skapade detta block sandes det till natverket for att laggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer dess status att andras till "ej accepterat" och gar inte att spendera. Detta kan ibland handa om en annan nod skapar ett block nastan samtidigt som dig.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2727,11 +2727,11 @@ Var vänlig och försök igen.</translation>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Den här panelen visar en detaljerad beskrivning av transaktionen</translation>
+        <translation>Den har panelen visar en detaljerad beskrivning av transaktionen</translation>
     </message>
     <message>
         <source>Details for %1</source>
-        <translation>Detaljer för %1</translation>
+        <translation>Detaljer for %1</translation>
     </message>
 </context>
 <context>
@@ -2750,11 +2750,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n fler block</numerusform></translation>
+        <translation><numerusform>Oppet for %n mer block</numerusform><numerusform>Oppet for %n fler block</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Öppet till %1</translation>
+        <translation>Oppet till %1</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -2762,19 +2762,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Obekräftade</translation>
+        <translation>Obekraftade</translation>
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>Övergiven</translation>
+        <translation>Overgiven</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Bekräftar (%1 av %2 rekommenderade bekräftelser)</translation>
+        <translation>Bekraftar (%1 av %2 rekommenderade bekraftelser)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bekräftad (%1 bekräftelser)</translation>
+        <translation>Bekraftad (%1 bekraftelser)</translation>
     </message>
     <message>
         <source>Conflicted</source>
@@ -2782,11 +2782,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Omogen (%1 bekräftelser, blir tillgänglig efter %2)</translation>
+        <translation>Omogen (%1 bekraftelser, blir tillganglig efter %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Det här blocket togs inte emot av några andra noder och kommer antagligen inte att accepteras!</translation>
+        <translation>Det har blocket togs inte emot av nagra andra noder och kommer antagligen inte att accepteras!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -2798,7 +2798,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Mottaget från</translation>
+        <translation>Mottaget fran</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -2806,7 +2806,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Betalning till dig själv</translation>
+        <translation>Betalning till dig sjalv</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -2826,11 +2826,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaktionsstatus. Håll muspekaren över för att se antal bekräftelser.</translation>
+        <translation>Transaktionsstatus. Hall muspekaren over for att se antal bekraftelser.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Datum och tid då transaktionen mottogs.</translation>
+        <translation>Datum och tid da transaktionen mottogs.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
@@ -2838,11 +2838,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Anger om en granska-bara--adress är involverad i denna transaktion.</translation>
+        <translation>Anger om en granska-bara--adress ar involverad i denna transaktion.</translation>
     </message>
     <message>
         <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Användardefinierat syfte/ändamål för transaktionen.</translation>
+        <translation>Anvandardefinierat syfte/andamal for transaktionen.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2865,15 +2865,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Denna månad</translation>
+        <translation>Denna manad</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Föregående månad</translation>
+        <translation>Foregaende manad</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Det här året</translation>
+        <translation>Det har aret</translation>
     </message>
     <message>
         <source>Range...</source>
@@ -2889,7 +2889,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Till dig själv</translation>
+        <translation>Till dig sjalv</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -2897,11 +2897,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Övriga</translation>
+        <translation>Ovriga</translation>
     </message>
     <message>
         <source>Enter address, transaction id, or label to search</source>
-        <translation>Ange adress, transaktions-id eller etikett för att söka</translation>
+        <translation>Ange adress, transaktions-id eller etikett for att soka</translation>
     </message>
     <message>
         <source>Min amount</source>
@@ -2913,7 +2913,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Increase transaction fee</source>
-        <translation>Öka transaktionsavgift</translation>
+        <translation>Oka transaktionsavgift</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -2933,7 +2933,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>Kopiera rå transaktion</translation>
+        <translation>Kopiera ra transaktion</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
@@ -2957,7 +2957,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bekräftad</translation>
+        <translation>Bekraftad</translation>
     </message>
     <message>
         <source>Watch-only</source>
@@ -2989,7 +2989,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Ett fel inträffade när transaktionshistoriken skulle sparas till %1.</translation>
+        <translation>Ett fel intraffade nar transaktionshistoriken skulle sparas till %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
@@ -3001,7 +3001,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Räckvidd:</translation>
+        <translation>Rackvidd:</translation>
     </message>
     <message>
         <source>to</source>
@@ -3012,29 +3012,29 @@ Var vänlig och försök igen.</translation>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>&amp;Enhet att visa belopp i. Klicka för att välja annan enhet.</translation>
+        <translation>&amp;Enhet att visa belopp i. Klicka for att valja annan enhet.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Ingen plånbok har lästs in.</translation>
+        <translation>Ingen planbok har lasts in.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Skicka Litecoins</translation>
+        <translation>Skicka MiningEnthusiastCoins</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>
-        <translation>Ökning av avgiften lyckades inte</translation>
+        <translation>Okning av avgiften lyckades inte</translation>
     </message>
     <message>
         <source>Do you want to increase the fee?</source>
-        <translation>Vill du öka avgiften?</translation>
+        <translation>Vill du oka avgiften?</translation>
     </message>
     <message>
         <source>Current fee:</source>
@@ -3042,7 +3042,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Increase:</source>
-        <translation>Öka:</translation>
+        <translation>Oka:</translation>
     </message>
     <message>
         <source>New fee:</source>
@@ -3050,7 +3050,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Confirm fee bump</source>
-        <translation>Bekräfta avgiftshöjning</translation>
+        <translation>Bekrafta avgiftshojning</translation>
     </message>
     <message>
         <source>Can't sign transaction.</source>
@@ -3073,42 +3073,42 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Säkerhetskopiera Plånbok</translation>
+        <translation>Sakerhetskopiera Planbok</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Plånboks-data (*.dat)</translation>
+        <translation>Planboks-data (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Säkerhetskopiering misslyckades</translation>
+        <translation>Sakerhetskopiering misslyckades</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Ett fel inträffade när plånbokens data skulle sparas till %1.</translation>
+        <translation>Ett fel intraffade nar planbokens data skulle sparas till %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Säkerhetskopiering lyckades</translation>
+        <translation>Sakerhetskopiering lyckades</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Plånbokens data sparades till %1.</translation>
+        <translation>Planbokens data sparades till %1.</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
-        <translation>Inställningar:</translation>
+        <translation>Installningar:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Ange katalog för data</translation>
+        <translation>Ange katalog for data</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Anslut till en nod för att hämta peer-adresser, och koppla från</translation>
+        <translation>Anslut till en nod for att hamta peer-adresser, och koppla fran</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
@@ -3116,7 +3116,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Tillåt kommandon från kommandotolken och JSON-RPC-kommandon</translation>
+        <translation>Tillat kommandon fran kommandotolken och JSON-RPC-kommandon</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
@@ -3128,23 +3128,23 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Beskärning konfigurerad under miniminivån %d MiB. Vänligen använd ett högre värde.</translation>
+        <translation>Beskarning konfigurerad under miniminivan %d MiB. Vanligen anvand ett hogre varde.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Beskärning: sista plånbokssynkroniseringen ligger utanför beskuren data. Du måste använda -reindex (ladda ner hela blockkedjan igen eftersom noden beskurits)</translation>
+        <translation>Beskarning: sista planbokssynkroniseringen ligger utanfor beskuren data. Du maste anvanda -reindex (ladda ner hela blockkedjan igen eftersom noden beskurits)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Omskanningar kan inte göras i beskuret läge. Du måste använda -reindex vilket kommer ladda ner hela blockkedjan igen.</translation>
+        <translation>Omskanningar kan inte goras i beskuret lage. Du maste anvanda -reindex vilket kommer ladda ner hela blockkedjan igen.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Fel: Ett kritiskt internt fel uppstod, se debug.log för detaljer</translation>
+        <translation>Fel: Ett kritiskt internt fel uppstod, se debug.log for detaljer</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i %s/kB) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
+        <translation>Avgift (i %s/kB) att lagga till pa transaktioner du skickar (forvalt: %s)</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
@@ -3152,15 +3152,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Kör i bakgrunden som tjänst och acceptera kommandon</translation>
+        <translation>Kor i bakgrunden som tjanst och acceptera kommandon</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Kunde inte starta HTTP-server. Se avlusningsloggen för detaljer.</translation>
+        <translation>Kunde inte starta HTTP-server. Se avlusningsloggen for detaljer.</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>MiningEnthusiastCoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3168,107 +3168,107 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>En avgiftskurs (i %s/kB) som används när det inte finns tillräcklig data för att uppskatta avgiften (förvalt: %s)</translation>
+        <translation>En avgiftskurs (i %s/kB) som anvands nar det inte finns tillracklig data for att uppskatta avgiften (forvalt: %s)</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Acceptera vidarebefodrade transaktioner från vitlistade noder även när transaktioner inte vidarebefodras (förvalt: %d)</translation>
+        <translation>Acceptera vidarebefodrade transaktioner fran vitlistade noder aven nar transaktioner inte vidarebefodras (forvalt: %d)</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bind till given adress och lyssna alltid på den. Använd [värd]:port notation för IPv6</translation>
+        <translation>Bind till given adress och lyssna alltid pa den. Anvand [vard]:port notation for IPv6</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. %s körs förmodligen redan.</translation>
+        <translation>Kan inte lasa data-mappen %s. %s kors formodligen redan.</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Ta bort alla plånbokstransaktioner och återskapa bara dom som är en del av blockkedjan genom att ange -rescan vid uppstart</translation>
+        <translation>Ta bort alla planbokstransaktioner och aterskapa bara dom som ar en del av blockkedjan genom att ange -rescan vid uppstart</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Fel vid läsning av %s! Alla nycklar lästes korrekt, men transaktionsdata eller poster i adressboken kanske saknas eller är felaktiga.</translation>
+        <translation>Fel vid lasning av %s! Alla nycklar lastes korrekt, men transaktionsdata eller poster i adressboken kanske saknas eller ar felaktiga.</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Exekvera kommando när en plånbokstransaktion ändras (%s i cmd är ersatt av TxID)</translation>
+        <translation>Exekvera kommando nar en planbokstransaktion andras (%s i cmd ar ersatt av TxID)</translation>
     </message>
     <message>
         <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
-        <translation>Extra transaktioner att hålla i minnet för kompakta blockrekonstruktioner (standard: %u)</translation>
+        <translation>Extra transaktioner att halla i minnet for kompakta blockrekonstruktioner (standard: %u)</translation>
     </message>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Maximalt tillåten median-peer tidsoffset justering. Lokalt perspektiv av tiden kan bli påverkad av partners, framåt eller bakåt denna tidsrymd. (förvalt: %u sekunder)</translation>
+        <translation>Maximalt tillaten median-peer tidsoffset justering. Lokalt perspektiv av tiden kan bli paverkad av partners, framat eller bakat denna tidsrymd. (forvalt: %u sekunder)</translation>
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Maximal total avgift (i %s) att använda i en plånbokstransaktion eller råa transaktioner. Sätts denna för lågt kan stora transaktioner avbrytas (förvalt: %s)</translation>
+        <translation>Maximal total avgift (i %s) att anvanda i en planbokstransaktion eller raa transaktioner. Satts denna for lagt kan stora transaktioner avbrytas (forvalt: %s)</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer %s inte att fungera korrekt.</translation>
+        <translation>Vanligen kolla sa att din dators datum och tid ar korrekt! Om din klocka gar fel kommer %s inte att fungera korrekt.</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Var snäll och bidra om du finner %s användbar. Besök %s för mer information om mjukvaran.</translation>
+        <translation>Var snall och bidra om du finner %s anvandbar. Besok %s for mer information om mjukvaran.</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Ange antalet skriptkontrolltrådar (%u till %d, 0 = auto, &lt;0 = lämna så många kärnor lediga, förval: %d)</translation>
+        <translation>Ange antalet skriptkontrolltradar (%u till %d, 0 = auto, &lt;0 = lamna sa manga karnor lediga, forval: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Blockdatabasen innehåller ett block som verkar vara från framtiden. Detta kan vara på grund av att din dators datum och tid är felaktiga. Bygg bara om blockdatabasen om du är säker på att datorns datum och tid är korrekt</translation>
+        <translation>Blockdatabasen innehaller ett block som verkar vara fran framtiden. Detta kan vara pa grund av att din dators datum och tid ar felaktiga. Bygg bara om blockdatabasen om du ar saker pa att datorns datum och tid ar korrekt</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Detta är ett förhandstestbygge - använd på egen risk - använd inte för brytning eller handelsapplikationer</translation>
+        <translation>Detta ar ett forhandstestbygge - anvand pa egen risk - anvand inte for brytning eller handelsapplikationer</translation>
     </message>
     <message>
         <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation>Kunde inte spela om block. Du kommer att behöva bygga om databasen med -reindex-chainstate.</translation>
+        <translation>Kunde inte spela om block. Du kommer att behova bygga om databasen med -reindex-chainstate.</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>Kan inte spola tillbaka databasen till obeskärt läge. Du måste ladda ner blockkedjan igen</translation>
+        <translation>Kan inte spola tillbaka databasen till obeskart lage. Du maste ladda ner blockkedjan igen</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Använd UPnP för att mappa den lyssnande porten (förvalt: 1 när lyssning aktiverat och utan -proxy)</translation>
+        <translation>Anvand UPnP for att mappa den lyssnande porten (forvalt: 1 nar lyssning aktiverat och utan -proxy)</translation>
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
-        <translation>Användarnamn och hashat lösenord för JSON-RPC-anslutningar. Fältet &lt;userpw&gt; kommer i formatet: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Ett kanoniskt pythonskript finns inkluderat i share/rpcuser. Klienten kopplas sedan normalt med rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; par argument. Detta alternativ kan anges flera gånger</translation>
+        <translation>Anvandarnamn och hashat losenord for JSON-RPC-anslutningar. Faltet &lt;userpw&gt; kommer i formatet: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Ett kanoniskt pythonskript finns inkluderat i share/rpcuser. Klienten kopplas sedan normalt med rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; par argument. Detta alternativ kan anges flera ganger</translation>
     </message>
     <message>
         <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
-        <translation>Plånboken skapar inte transaktioner som bryter mot mempools kedjegränser (förval: %u)</translation>
+        <translation>Planboken skapar inte transaktioner som bryter mot mempools kedjegranser (forval: %u)</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Varning: Nätverket verkar inte vara helt överens! Några brytare verkar ha problem.</translation>
+        <translation>Varning: Natverket verkar inte vara helt overens! Nagra brytare verkar ha problem.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Varning: Vi verkar inte helt överens med våra peers! Du kan behöva uppgradera, eller andra noder kan behöva uppgradera.</translation>
+        <translation>Varning: Vi verkar inte helt overens med vara peers! Du kan behova uppgradera, eller andra noder kan behova uppgradera.</translation>
     </message>
     <message>
         <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
-        <translation>Hurvida mempoolen ska sparas vid avstängning och läsas in vid omstart (förval: %u)</translation>
+        <translation>Hurvida mempoolen ska sparas vid avstangning och lasas in vid omstart (forval: %u)</translation>
     </message>
     <message>
         <source>%d of last 100 blocks have unexpected version</source>
-        <translation>%d av de senaste 100 blocken har oväntad version</translation>
+        <translation>%d av de senaste 100 blocken har ovantad version</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s är korrupt, räddning misslyckades</translation>
+        <translation>%s ar korrupt, raddning misslyckades</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool måste vara minst %d MB</translation>
+        <translation>-maxmempool maste vara minst %d MB</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -3276,19 +3276,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Acceptera anslutningar utifrån (förvalt: 1 om ingen -proxy eller -connect)</translation>
+        <translation>Acceptera anslutningar utifran (forvalt: 1 om ingen -proxy eller -connect)</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
-        <translation>Lägg till kommentar till user-agent-strängen</translation>
+        <translation>Lagg till kommentar till user-agent-strangen</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Försök att rädda privata nycklar från en korrupt plånbok vid uppstart</translation>
+        <translation>Forsok att radda privata nycklar fran en korrupt planbok vid uppstart</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Block skapande inställningar:</translation>
+        <translation>Block skapande installningar:</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
@@ -3296,7 +3296,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>Förändringsindexet utanför tillåtet intervall</translation>
+        <translation>Forandringsindexet utanfor tillatet intervall</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3308,7 +3308,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Korrupt blockdatabas har upptäckts</translation>
+        <translation>Korrupt blockdatabas har upptackts</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3316,7 +3316,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Läs inte in plånboken och stäng av RPC-anrop till plånboken</translation>
+        <translation>Las inte in planboken och stang av RPC-anrop till planboken</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -3332,15 +3332,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Aktivera publicering av råa block i &lt;address&gt;</translation>
+        <translation>Aktivera publicering av raa block i &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Aktivera publicering av råa transaktioner i &lt;address&gt;</translation>
+        <translation>Aktivera publicering av raa transaktioner i &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable transaction replacement in the memory pool (default: %u)</source>
-        <translation>Aktivera byte av transaktioner i minnespoolen (förvalt: %u)</translation>
+        <translation>Aktivera byte av transaktioner i minnespoolen (forvalt: %u)</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -3348,39 +3348,39 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Fel vid initiering av plånbokens databasmiljö %s!</translation>
+        <translation>Fel vid initiering av planbokens databasmiljo %s!</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>Fel vid inläsning av %s</translation>
+        <translation>Fel vid inlasning av %s</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>Fel vid inläsning av %s: Plånboken är korrupt</translation>
+        <translation>Fel vid inlasning av %s: Planboken ar korrupt</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Fel vid inläsning av %s: Plånboken kräver en senare version av %s</translation>
+        <translation>Fel vid inlasning av %s: Planboken kraver en senare version av %s</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Fel vid inläsning av blockdatabasen</translation>
+        <translation>Fel vid inlasning av blockdatabasen</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Fel vid öppning av blockdatabasen</translation>
+        <translation>Fel vid oppning av blockdatabasen</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Fel: Hårddiskutrymme är lågt!</translation>
+        <translation>Fel: Harddiskutrymme ar lagt!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Misslyckades att lyssna på någon port. Använd -listen=0 om du vill detta.</translation>
+        <translation>Misslyckades att lyssna pa nagon port. Anvand -listen=0 om du vill detta.</translation>
     </message>
     <message>
         <source>Failed to rescan the wallet during initialization</source>
-        <translation>Misslyckades med att skanna om plånboken under initiering.</translation>
+        <translation>Misslyckades med att skanna om planboken under initiering.</translation>
     </message>
     <message>
         <source>Importing...</source>
@@ -3388,51 +3388,51 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Felaktig eller inget genesisblock hittades. Fel datadir för nätverket?</translation>
+        <translation>Felaktig eller inget genesisblock hittades. Fel datadir for natverket?</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Initieringschecken fallerade. %s stängs av.</translation>
+        <translation>Initieringschecken fallerade. %s stangs av.</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Ogiltigt belopp för -%s=&lt;amount&gt;:'%s'</translation>
+        <translation>Ogiltigt belopp for -%s=&lt;amount&gt;:'%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ogiltigt belopp för -discardfee=&lt;amount&gt;:'%s'</translation>
+        <translation>Ogiltigt belopp for -discardfee=&lt;amount&gt;:'%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ogiltigt belopp för -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Ogiltigt belopp for -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Håll minnespoolen över transaktioner under &lt;n&gt; megabyte (förvalt: %u)</translation>
+        <translation>Hall minnespoolen over transaktioner under &lt;n&gt; megabyte (forvalt: %u)</translation>
     </message>
     <message>
         <source>Loading P2P addresses...</source>
-        <translation>Läser in P2P-adresser...</translation>
+        <translation>Laser in P2P-adresser...</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Läser in svarta listan...</translation>
+        <translation>Laser in svarta listan...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Plats för authcookie (förvalt: datamapp)</translation>
+        <translation>Plats for authcookie (forvalt: datamapp)</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Inte tillräckligt med filbeskrivningar tillgängliga.</translation>
+        <translation>Inte tillrackligt med filbeskrivningar tillgangliga.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Anslut enbart till noder i nätverket &lt;net&gt; (IPv4, IPv6 eller onion)</translation>
+        <translation>Anslut enbart till noder i natverket &lt;net&gt; (IPv4, IPv6 eller onion)</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Visa denna hjälptext och avsluta</translation>
+        <translation>Visa denna hjalptext och avsluta</translation>
     </message>
     <message>
         <source>Print version and exit</source>
@@ -3440,19 +3440,19 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>Beskärning kan inte konfigureras med ett negativt värde.</translation>
+        <translation>Beskarning kan inte konfigureras med ett negativt varde.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Beskärningsläge är inkompatibel med -txindex.</translation>
+        <translation>Beskarningslage ar inkompatibel med -txindex.</translation>
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Återskapa blockkedjans status och index från blk*.dat filer på disken</translation>
+        <translation>Aterskapa blockkedjans status och index fran blk*.dat filer pa disken</translation>
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Återskapa blockkedjans status från aktuella indexerade block</translation>
+        <translation>Aterskapa blockkedjans status fran aktuella indexerade block</translation>
     </message>
     <message>
         <source>Replaying blocks...</source>
@@ -3464,35 +3464,35 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Sätt databasens cachestorlek i megabyte (%d till %d, förvalt: %d)</translation>
+        <translation>Satt databasens cachestorlek i megabyte (%d till %d, forvalt: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Ange plånboksfil (inom datakatalogen)</translation>
+        <translation>Ange planboksfil (inom datakatalogen)</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>Källkoden är tillgänglig från %s.</translation>
+        <translation>Kallkoden ar tillganglig fran %s.</translation>
     </message>
     <message>
         <source>Transaction fee and change calculation failed</source>
-        <translation>Beräkning av transaktionsavgift och växel mislyckades</translation>
+        <translation>Berakning av transaktionsavgift och vaxel mislyckades</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. %s är förmodligen redan igång.</translation>
+        <translation>Det gar inte att binda till %s pa den har datorn. %s ar formodligen redan igang.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Argumentet -benchmark stöds inte och ignoreras, använd -debug=bench.</translation>
+        <translation>Argumentet -benchmark stods inte och ignoreras, anvand -debug=bench.</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Argumentet -debugnet stöds inte och ignoreras, använd -debug=net.</translation>
+        <translation>Argumentet -debugnet stods inte och ignoreras, anvand -debug=net.</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Argumentet -tor hittades men stöds inte, använd -onion.</translation>
+        <translation>Argumentet -tor hittades men stods inte, anvand -onion.</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>
@@ -3500,15 +3500,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Använd UPnP för att mappa den lyssnande porten (förvalt: %u)</translation>
+        <translation>Anvand UPnP for att mappa den lyssnande porten (forvalt: %u)</translation>
     </message>
     <message>
         <source>Use the test chain</source>
-        <translation>Använd testkedjan</translation>
+        <translation>Anvand testkedjan</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>Kommentaren i användaragent (%s) innehåller osäkra tecken.</translation>
+        <translation>Kommentaren i anvandaragent (%s) innehaller osakra tecken.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3516,31 +3516,31 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
-        <translation>Plånbokens Avlusnings/Testnings optioner:</translation>
+        <translation>Planbokens Avlusnings/Testnings optioner:</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Plånboken behöver sparas om: Starta om %s för att fullfölja</translation>
+        <translation>Planboken behover sparas om: Starta om %s for att fullfolja</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Plånboksinställningar:</translation>
+        <translation>Planboksinstallningar:</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Tillåt JSON-RPC-anslutningar från angiven källa. Tillåtna &lt;ip&gt; är en IP (t.ex 1.2.3.4), ett nätverk/nätmask (t.ex. 1.2.3.4/255.255.255.0) eller ett nätverk/CIDR (t.ex. 1.2.3.4/24). Detta alternativ kan anges flera gånger</translation>
+        <translation>Tillat JSON-RPC-anslutningar fran angiven kalla. Tillatna &lt;ip&gt; ar en IP (t.ex 1.2.3.4), ett natverk/natmask (t.ex. 1.2.3.4/255.255.255.0) eller ett natverk/CIDR (t.ex. 1.2.3.4/24). Detta alternativ kan anges flera ganger</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Bind till given adress och vitlista klienter som ansluter till den. Använd [värd]:port notation för IPv6</translation>
+        <translation>Bind till given adress och vitlista klienter som ansluter till den. Anvand [vard]:port notation for IPv6</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Skapa nya filer med systemets förvalda rättigheter, istället för umask 077 (bara effektivt med avaktiverad plånboks funktionalitet)</translation>
+        <translation>Skapa nya filer med systemets forvalda rattigheter, istallet for umask 077 (bara effektivt med avaktiverad planboks funktionalitet)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Upptäck egna IP adresser (standard: 1 vid lyssning och ingen -externalip eller -proxy)</translation>
+        <translation>Upptack egna IP adresser (standard: 1 vid lyssning och ingen -externalip eller -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3548,51 +3548,51 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Exekvera kommando när ett relevant meddelande är mottagen eller när vi ser en väldigt lång förgrening (%s i cmd är utbytt med ett meddelande)</translation>
+        <translation>Exekvera kommando nar ett relevant meddelande ar mottagen eller nar vi ser en valdigt lang forgrening (%s i cmd ar utbytt med ett meddelande)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Avgifter (i %s/kB) mindre än detta betraktas som nollavgift för vidarebefordran, brytning och transaktionsskapande (förvalt: %s)</translation>
+        <translation>Avgifter (i %s/kB) mindre an detta betraktas som nollavgift for vidarebefordran, brytning och transaktionsskapande (forvalt: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Om paytxfee inte har angivits, inkludera tillräcklig avgift så att transaktioner börjar bekräftas inom n blocks(förvalt: %u)</translation>
+        <translation>Om paytxfee inte har angivits, inkludera tillracklig avgift sa att transaktioner borjar bekraftas inom n blocks(forvalt: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Ogiltigt belopp för -maxtxfee=&lt;amount&gt;: '%s' (måste vara åtminstone minrelay avgift %s för att förhindra stoppade transaktioner)</translation>
+        <translation>Ogiltigt belopp for -maxtxfee=&lt;amount&gt;: '%s' (maste vara atminstone minrelay avgift %s for att forhindra stoppade transaktioner)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maximal storlek på data i databärartransaktioner som vi reläar och bryter (förvalt: %u) </translation>
+        <translation>Maximal storlek pa data i databarartransaktioner som vi relaar och bryter (forvalt: %u) </translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Slumpa autentiseringen för varje proxyanslutning. Detta möjliggör Tor ström-isolering (förvalt: %u)</translation>
+        <translation>Slumpa autentiseringen for varje proxyanslutning. Detta mojliggor Tor strom-isolering (forvalt: %u)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Transaktionen är för liten att skicka efter det att avgiften har dragits</translation>
+        <translation>Transaktionen ar for liten att skicka efter det att avgiften har dragits</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Vitlistade klienter kan inte bli DoS-bannade och deras transaktioner reläas alltid, även om dom redan är i mempoolen, användbart för t.ex en gateway  </translation>
+        <translation>Vitlistade klienter kan inte bli DoS-bannade och deras transaktioner relaas alltid, aven om dom redan ar i mempoolen, anvandbart for t.ex en gateway  </translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Du måste bygga om databasen genom att använda -reindex för att återgå till obeskärt läge. Detta kommer att ladda ner hela blockkedjan på nytt.</translation>
+        <translation>Du maste bygga om databasen genom att anvanda -reindex for att aterga till obeskart lage. Detta kommer att ladda ner hela blockkedjan pa nytt.</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(förvalt: %u)</translation>
+        <translation>(forvalt: %u)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Acceptera publika REST förfrågningar (förvalt: %u)</translation>
+        <translation>Acceptera publika REST forfragningar (forvalt: %u)</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Skapa automatiskt dold tjänst i Tor (förval: %d)</translation>
+        <translation>Skapa automatiskt dold tjanst i Tor (forval: %d)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3600,15 +3600,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Error loading %s: You can't disable HD on an already existing HD wallet</source>
-        <translation>Fel vid inläsning av %s: Du kan inte avaktivera HD på en redan existerande HD-plånbok</translation>
+        <translation>Fel vid inlasning av %s: Du kan inte avaktivera HD pa en redan existerande HD-planbok</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Fel vid läsning från databas, avslutar.</translation>
+        <translation>Fel vid lasning fran databas, avslutar.</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Importera block från extern blk000??.dat-fil vid uppstart</translation>
+        <translation>Importera block fran extern blk000??.dat-fil vid uppstart</translation>
     </message>
     <message>
         <source>Information</source>
@@ -3616,31 +3616,31 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Ogiltig -onion adress eller värdnamn: '%s'</translation>
+        <translation>Ogiltig -onion adress eller vardnamn: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation>Ogiltig -proxy adress eller värdnamn: '%s'</translation>
+        <translation>Ogiltig -proxy adress eller vardnamn: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Ogiltigt belopp för -paytxfee=&lt;amount&gt;:'%s' (måste vara minst %s)</translation>
+        <translation>Ogiltigt belopp for -paytxfee=&lt;amount&gt;:'%s' (maste vara minst %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Ogiltig nätmask angiven i -whitelist: '%s'</translation>
+        <translation>Ogiltig natmask angiven i -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Håll som mest &lt;n&gt; oanslutningsbara transaktioner i minnet (förvalt: %u)</translation>
+        <translation>Hall som mest &lt;n&gt; oanslutningsbara transaktioner i minnet (forvalt: %u)</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Port måste anges med -whitelist: '%s'</translation>
+        <translation>Port maste anges med -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Nodreläalternativ:</translation>
+        <translation>Nodrelaalternativ:</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3648,23 +3648,23 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Minskar -maxconnections från %d till %d, på grund av systembegränsningar.</translation>
+        <translation>Minskar -maxconnections fran %d till %d, pa grund av systembegransningar.</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Sök i blockkedjan efter saknade plånbokstransaktioner vid uppstart</translation>
+        <translation>Sok i blockkedjan efter saknade planbokstransaktioner vid uppstart</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Skicka trace-/debuginformation till terminalen istället för till debug.log</translation>
+        <translation>Skicka trace-/debuginformation till terminalen istallet for till debug.log</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Visa alla avlusningsalternativ (använd: --help -help-debug)</translation>
+        <translation>Visa alla avlusningsalternativ (anvand: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Krymp debug.log filen vid klient start (förvalt: 1 vid ingen -debug)</translation>
+        <translation>Krymp debug.log filen vid klient start (forvalt: 1 vid ingen -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -3676,43 +3676,43 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Specified -walletdir "%s" is a relative path</source>
-        <translation>Angiven -walletdir "%s" är en relativ sökväg</translation>
+        <translation>Angiven -walletdir "%s" ar en relativ sokvag</translation>
     </message>
     <message>
         <source>Specified -walletdir "%s" is not a directory</source>
-        <translation>Angiven -walletdir "%s" är inte en katalog</translation>
+        <translation>Angiven -walletdir "%s" ar inte en katalog</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>Transaktionen är för liten för att betala avgiften</translation>
+        <translation>Transaktionen ar for liten for att betala avgiften</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Detta är experimentmjukvara.</translation>
+        <translation>Detta ar experimentmjukvara.</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Lösenord för Tor-kontrollport (förval: inget)</translation>
+        <translation>Losenord for Tor-kontrollport (forval: inget)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Tor-kontrollport att använda om onion är aktiverat (förval: %s)</translation>
+        <translation>Tor-kontrollport att anvanda om onion ar aktiverat (forval: %s)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Transaktions belopp för liten</translation>
+        <translation>Transaktions belopp for liten</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transaktionen är för stor för avgiftspolicyn</translation>
+        <translation>Transaktionen ar for stor for avgiftspolicyn</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transaktionen är för stor</translation>
+        <translation>Transaktionen ar for stor</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Det går inte att binda till %s på den här datorn (bind returnerade felmeddelande %s)</translation>
+        <translation>Det gar inte att binda till %s pa den har datorn (bind returnerade felmeddelande %s)</translation>
     </message>
     <message>
         <source>Unable to generate initial keys</source>
@@ -3720,15 +3720,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
-        <translation>Uppgradera plånbok till senaste formatet vid uppstart</translation>
+        <translation>Uppgradera planbok till senaste formatet vid uppstart</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Användarnamn för JSON-RPC-anslutningar</translation>
+        <translation>Anvandarnamn for JSON-RPC-anslutningar</translation>
     </message>
     <message>
         <source>Verifying wallet(s)...</source>
-        <translation>Verifierar plånbok(er)...</translation>
+        <translation>Verifierar planbok(er)...</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3736,259 +3736,259 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Varning: okända nya regler aktiverade (versionsbit %i)</translation>
+        <translation>Varning: okanda nya regler aktiverade (versionsbit %i)</translation>
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Ska allt göras i endast block-läge (förval: %u)</translation>
+        <translation>Ska allt goras i endast block-lage (forval: %u)</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Du måste återskapa databasen med -reindex för att ändra -txindex</translation>
+        <translation>Du maste aterskapa databasen med -reindex for att andra -txindex</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Töm plånboken på alla transaktioner...</translation>
+        <translation>Tom planboken pa alla transaktioner...</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ-alternativ för notiser:</translation>
+        <translation>ZeroMQ-alternativ for notiser:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Lösenord för JSON-RPC-anslutningar</translation>
+        <translation>Losenord for JSON-RPC-anslutningar</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Exekvera kommando när det bästa blocket ändras (%s i cmd är utbytt av blockhash)</translation>
+        <translation>Exekvera kommando nar det basta blocket andras (%s i cmd ar utbytt av blockhash)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Tillåt DNS-sökningar för -addnode, -seednode och -connect</translation>
+        <translation>Tillat DNS-sokningar for -addnode, -seednode och -connect</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = spara tx metadata t.ex. kontoägare och betalningsbegäransinformation, 2 = släng tx metadata)</translation>
+        <translation>(1 = spara tx metadata t.ex. kontoagare och betalningsbegaransinformation, 2 = slang tx metadata)</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee är väldigt högt satt! Så höga avgifter kan komma att betalas för en enstaka transaktion.</translation>
+        <translation>-maxtxfee ar valdigt hogt satt! Sa hoga avgifter kan komma att betalas for en enstaka transaktion.</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Håll inte transaktioner i minnespoolen längre än &lt;n&gt; timmar (förvalt: %u)</translation>
+        <translation>Hall inte transaktioner i minnespoolen langre an &lt;n&gt; timmar (forvalt: %u)</translation>
     </message>
     <message>
         <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Samma antal byte per sigop i transaktioner som vi reläar och bryter (förvalt: %u)</translation>
+        <translation>Samma antal byte per sigop i transaktioner som vi relaar och bryter (forvalt: %u)</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on an already existing non-HD wallet</source>
-        <translation>Fel vid inläsning av %s: Du kan inte aktivera HD på en existerande icke-HD plånbok</translation>
+        <translation>Fel vid inlasning av %s: Du kan inte aktivera HD pa en existerande icke-HD planbok</translation>
     </message>
     <message>
         <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
-        <translation>Fel vid inläsningen av plånbok %s. -wallet parametern kan bara innehålla ett filnamn (inte en sökväg).</translation>
+        <translation>Fel vid inlasningen av planbok %s. -wallet parametern kan bara innehalla ett filnamn (inte en sokvag).</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i %s/kB) mindre än detta anses vara nollavgifter vid skapande av transaktion (standard: %s)</translation>
+        <translation>Avgifter (i %s/kB) mindre an detta anses vara nollavgifter vid skapande av transaktion (standard: %s)</translation>
     </message>
     <message>
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Vidarebefordra alltid transaktioner från vitlistade noder även om de bryter mot den lokala reläpolicyn (förvalt: %d)</translation>
+        <translation>Vidarebefordra alltid transaktioner fran vitlistade noder aven om de bryter mot den lokala relapolicyn (forvalt: %d)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Hur grundlig blockverifikationen vid -checkblocks är (0-4, förvalt: %u)</translation>
+        <translation>Hur grundlig blockverifikationen vid -checkblocks ar (0-4, forvalt: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Upprätthåll ett fullständigt transaktionsindex, som används av getrawtransaction rpc-anrop (förval: %u)</translation>
+        <translation>Uppratthall ett fullstandigt transaktionsindex, som anvands av getrawtransaction rpc-anrop (forval: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Antal sekunder att hindra klienter som missköter sig från att ansluta (förvalt: %u)</translation>
+        <translation>Antal sekunder att hindra klienter som misskoter sig fran att ansluta (forvalt: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Skriv ut avlusningsinformation (förvalt: %u, att ange &lt;category&gt; är valfritt)</translation>
+        <translation>Skriv ut avlusningsinformation (forvalt: %u, att ange &lt;category&gt; ar valfritt)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Stöd filtrering av block och transaktioner med bloomfilter (standard: %u)</translation>
+        <translation>Stod filtrering av block och transaktioner med bloomfilter (standard: %u)</translation>
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>Detta är transaktionsavgiften du kan komma att betala om uppskattad avgift inte finns tillgänglig.</translation>
+        <translation>Detta ar transaktionsavgiften du kan komma att betala om uppskattad avgift inte finns tillganglig.</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användning i OpenSSL Toolkit %s och kryptografisk mjukvara utvecklad av Eric Young samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
+        <translation>Denna produkten innehaller mjukvara utvecklad av OpenSSL Project for anvandning i OpenSSL Toolkit %s och kryptografisk mjukvara utvecklad av Eric Young samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Total längd på strängen för nätverksversion (%i) överskrider maxlängden (%i). Minska numret eller storleken på uacomments.</translation>
+        <translation>Total langd pa strangen for natverksversion (%i) overskrider maxlangden (%i). Minska numret eller storleken pa uacomments.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Försöker hålla utgående trafik under givet mål (i MiB per 24 timmar), 0 = ingen gräns (förvalt: %d)</translation>
+        <translation>Forsoker halla utgaende trafik under givet mal (i MiB per 24 timmar), 0 = ingen grans (forvalt: %d)</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Argumentet -socks hittades och stöds inte. Det är inte längre möjligt att sätta SOCKS-version längre, bara SOCKS5-proxy stöds.</translation>
+        <translation>Argumentet -socks hittades och stods inte. Det ar inte langre mojligt att satta SOCKS-version langre, bara SOCKS5-proxy stods.</translation>
     </message>
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Argumentet -whitelistalwaysrelay stöds inte utan ignoreras, använd -whitelistrelay och/eller -whitelistforcerelay.</translation>
+        <translation>Argumentet -whitelistalwaysrelay stods inte utan ignoreras, anvand -whitelistrelay och/eller -whitelistforcerelay.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Använd separat SOCKS5 proxy för att nå kollegor via dolda tjänster i Tor (förvalt: -%s)</translation>
+        <translation>Anvand separat SOCKS5 proxy for att na kollegor via dolda tjanster i Tor (forvalt: -%s)</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Varning: Okända blockversioner bryts! Det är möjligt att okända regler används</translation>
+        <translation>Varning: Okanda blockversioner bryts! Det ar mojligt att okanda regler anvands</translation>
     </message>
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Varning: Plånboksfilen var korrupt, data har räddats! Den ursprungliga %s har sparas som %s i %s. Om ditt saldo eller transaktioner är felaktiga bör du återställa från en säkerhetskopia.</translation>
+        <translation>Varning: Planboksfilen var korrupt, data har raddats! Den ursprungliga %s har sparas som %s i %s. Om ditt saldo eller transaktioner ar felaktiga bor du aterstalla fran en sakerhetskopia.</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
-        <translation>%s är satt väldigt högt!</translation>
+        <translation>%s ar satt valdigt hogt!</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(förvalt: %s)</translation>
+        <translation>(forvalt: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Fråga alltid efter klientadresser med DNS-sökning (förvalt: %u)</translation>
+        <translation>Fraga alltid efter klientadresser med DNS-sokning (forvalt: %u)</translation>
     </message>
     <message>
         <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
-        <translation>Fel vid inläsningen av plånbok %s. -wallet filnamn måste var en vanlig fil.</translation>
+        <translation>Fel vid inlasningen av planbok %s. -wallet filnamn maste var en vanlig fil.</translation>
     </message>
     <message>
         <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
-        <translation>Fel vid inläsningen av plånbok %s. Dublett -wallet filnamn angavs.</translation>
+        <translation>Fel vid inlasningen av planbok %s. Dublett -wallet filnamn angavs.</translation>
     </message>
     <message>
         <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
-        <translation>Fel vid inläsningen av plånbok %s. Ogiltiga tecken i -wallet filnamn.</translation>
+        <translation>Fel vid inlasningen av planbok %s. Ogiltiga tecken i -wallet filnamn.</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Hur många block att kontrollera vid uppstart (förvalt: %u, 0 = alla)</translation>
+        <translation>Hur manga block att kontrollera vid uppstart (forvalt: %u, 0 = alla)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Inkludera IP-adresser i debugutskrift (förvalt: %u)</translation>
+        <translation>Inkludera IP-adresser i debugutskrift (forvalt: %u)</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förval: %u eller testnet: %u)</translation>
+        <translation>Lyssna pa JSON-RPC-anslutningar pa &lt;port&gt; (forval: %u eller testnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Lyssna efter anslutningar på &lt;port&gt; (förvalt: %u eller testnet: %u)</translation>
+        <translation>Lyssna efter anslutningar pa &lt;port&gt; (forvalt: %u eller testnet: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Ha som mest &lt;n&gt; anslutningar till andra klienter (förvalt: %u)</translation>
+        <translation>Ha som mest &lt;n&gt; anslutningar till andra klienter (forvalt: %u)</translation>
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>
-        <translation>Gör så att plånboken sänder ut transaktionerna</translation>
+        <translation>Gor sa att planboken sander ut transaktionerna</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximal mottagningsbuffert per anslutning, &lt;n&gt;*1000 byte (förvalt: %u)</translation>
+        <translation>Maximal mottagningsbuffert per anslutning, &lt;n&gt;*1000 byte (forvalt: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximal sändningsbuffert per anslutning, &lt;n&gt;*1000 byte (förvalt: %u)</translation>
+        <translation>Maximal sandningsbuffert per anslutning, &lt;n&gt;*1000 byte (forvalt: %u)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Skriv ut tidsstämpel i avlusningsinformationen (förvalt: %u)</translation>
+        <translation>Skriv ut tidsstampel i avlusningsinformationen (forvalt: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Reläa och bryta databärartransaktioner (förvalt: %u) </translation>
+        <translation>Relaa och bryta databarartransaktioner (forvalt: %u) </translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Reläa icke-P2SH multisig (förvalt: %u)</translation>
+        <translation>Relaa icke-P2SH multisig (forvalt: %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Sätt storleken på nyckelpoolen till &lt;n&gt; (förvalt: %u)</translation>
+        <translation>Satt storleken pa nyckelpoolen till &lt;n&gt; (forvalt: %u)</translation>
     </message>
     <message>
         <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Sätt maximal BIP141 blockvikt (förvalt: %d)</translation>
+        <translation>Satt maximal BIP141 blockvikt (forvalt: %d)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Ange antalet trådar för att hantera RPC anrop (förvalt: %d)</translation>
+        <translation>Ange antalet tradar for att hantera RPC anrop (forvalt: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Ange konfigurationsfil (förvalt: %s)</translation>
+        <translation>Ange konfigurationsfil (forvalt: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Ange timeout för uppkoppling i millisekunder (minimum:1, förvalt: %d)</translation>
+        <translation>Ange timeout for uppkoppling i millisekunder (minimum:1, forvalt: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Ange pid-fil (förvalt: %s)</translation>
+        <translation>Ange pid-fil (forvalt: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Spendera obekräftad växel när transaktioner sänds (förvalt: %u)</translation>
+        <translation>Spendera obekraftad vaxel nar transaktioner sands (forvalt: %u)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>Startar nätverkstrådar...</translation>
+        <translation>Startar natverkstradar...</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>Plånboken undviker att betala mindre än lägsta reläavgift.</translation>
+        <translation>Planboken undviker att betala mindre an lagsta relaavgift.</translation>
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Det här är minimum avgiften du kommer betala för varje transaktion. </translation>
+        <translation>Det har ar minimum avgiften du kommer betala for varje transaktion. </translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Det här är transaktionsavgiften du kommer betala om du skickar en transaktion. </translation>
+        <translation>Det har ar transaktionsavgiften du kommer betala om du skickar en transaktion. </translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Tröskelvärde för att koppla ifrån klienter som missköter sig (förvalt: %u)</translation>
+        <translation>Troskelvarde for att koppla ifran klienter som misskoter sig (forvalt: %u)</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Transaktionens belopp får ej vara negativ</translation>
+        <translation>Transaktionens belopp far ej vara negativ</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>Transaktionen har för lång mempool-kedja</translation>
+        <translation>Transaktionen har for lang mempool-kedja</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>Transaktionen måste ha minst en mottagare</translation>
+        <translation>Transaktionen maste ha minst en mottagare</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Okänt nätverk angavs i -onlynet: '%s'</translation>
+        <translation>Okant natverk angavs i -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med litecoins</translation>
+        <translation>Otillrackligt med miningenthusiastcoins</translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -3996,15 +3996,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Laddar plånbok...</translation>
+        <translation>Laddar planbok...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Kan inte nedgradera plånboken</translation>
+        <translation>Kan inte nedgradera planboken</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Söker igen...</translation>
+        <translation>Soker igen...</translation>
     </message>
     <message>
         <source>Done loading</source>

@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Десен клик за уредување на адреса или етикета</translation>
+        <translation>Десен клик за уредува?е на адреса или етикета</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Креирај нова адреса</translation>
+        <translation>Креира? нова адреса</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,11 +15,11 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Копирај ја избраната адреса на системскиот клипборд</translation>
+        <translation>Копира? ?а избраната адреса на системскиот клипборд</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Копирај</translation>
+        <translation>&amp;Копира?</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Избриши ја избраната адреса од листата</translation>
+        <translation>Избриши ?а избраната адреса од листата</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Експортирај ги податоците од активното јазиче во датотека</translation>
+        <translation>Експортира? ги податоците од активното ?азиче во датотека</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -49,15 +49,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Внеси тајна фраза</translation>
+        <translation>Внеси та?на фраза</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Нова тајна фраза</translation>
+        <translation>Нова та?на фраза</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Повторете ја новата тајна фраза</translation>
+        <translation>Повторете ?а новата та?на фраза</translation>
     </message>
     </context>
 <context>
@@ -71,7 +71,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Синхронизација со мрежата...</translation>
+        <translation>Синхронизаци?а со мрежата...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -79,7 +79,7 @@
     </message>
     <message>
         <source>Node</source>
-        <translation>Јазол</translation>
+        <translation>?азол</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Преглед на историјата на трансакции</translation>
+        <translation>Преглед на истори?ата на трансакции</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Напушти ја апликацијата</translation>
+        <translation>Напушти ?а апликаци?ата</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Криптирање на Паричник...</translation>
+        <translation>&amp;Криптира?е на Паричник...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -119,15 +119,15 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Измени Тајна Фраза...</translation>
+        <translation>&amp;Измени Та?на Фраза...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Адреси за Испраќање...</translation>
+        <translation>&amp;Адреси за Испра?а?е...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Адреси за Примање...</translation>
+        <translation>&amp;Адреси за Прима?е...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -135,10 +135,10 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Повторно индексирање на блокови од дискот...</translation>
+        <translation>Повторно индексира?е на блокови од дискот...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
         <translation>Испрати биткоини на Биткоин адреса</translation>
     </message>
     <message>
@@ -146,7 +146,7 @@
         <translation>&amp;Потврди порака...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
+        <source>MiningEnthusiastCoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -163,15 +163,15 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Прикажи / Сокриј</translation>
+        <translation>&amp;Прикажи / Сокри?</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Криптирај ги приватните клучеви кои припаѓаат на твојот паричник</translation>
+        <translation>Криптира? ги приватните клучеви кои припа?аат на тво?от паричник</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Подесувања</translation>
+        <translation>&amp;Подесува?а</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -179,7 +179,7 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Обработен %n блок од историјата на трансакции.</numerusform><numerusform>Обработени %n блокови од историјата на трансакции.</numerusform></translation>
+        <translation><numerusform>Обработен %n блок од истори?ата на трансакции.</numerusform><numerusform>Обработени %n блокови од истори?ата на трансакции.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -191,7 +191,7 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Предупредување</translation>
+        <translation>Предупредува?е</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -232,7 +232,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>Bytes:</source>
-        <translation>Бајти:</translation>
+        <translation>Ба?ти:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Провизија:</translation>
+        <translation>Провизи?а:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>После Провизија:</translation>
+        <translation>После Провизи?а:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -289,7 +289,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>верзија</translation>
+        <translation>верзи?а</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -299,7 +299,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
+        <source>MiningEnthusiastCoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -442,7 +442,7 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Број на конекции</translation>
+        <translation>Бро? на конекции</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -454,7 +454,7 @@
     </message>
     <message>
         <source>Version</source>
-        <translation>Верзија</translation>
+        <translation>Верзи?а</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -488,11 +488,11 @@
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Копирај &amp;URI</translation>
+        <translation>Копира? &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Копирај &amp;Адреса</translation>
+        <translation>Копира? &amp;Адреса</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
@@ -506,7 +506,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Bytes:</source>
-        <translation>Бајти:</translation>
+        <translation>Ба?ти:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -514,11 +514,11 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Провизија:</translation>
+        <translation>Провизи?а:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>После Провизија:</translation>
+        <translation>После Провизи?а:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -590,12 +590,12 @@
         <translation>Опции:</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
+        <source>MiningEnthusiastCoin Core</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Предупредување</translation>
+        <translation>Предупредува?е</translation>
     </message>
     <message>
         <source>Error</source>

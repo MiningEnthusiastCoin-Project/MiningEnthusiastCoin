@@ -3,71 +3,71 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>קליל ימני כדי לערוך כתובת או תווית</translation>
+        <translation>???? ???? ??? ????? ????? ?? ?????</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>צור כתובת חדשה</translation>
+        <translation>??? ????? ????</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>וחדש</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>העתק את הכתובת הנבחרת ללוח</translation>
+        <translation>???? ?? ?????? ?????? ????</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>והעתק</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>וסגור</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>מחק את הכתובת הנבחרת מהרשימה</translation>
+        <translation>??? ?? ?????? ?????? ???????</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>יצא את המידע בעמוד הנוכחי לקובץ</translation>
+        <translation>??? ?? ????? ????? ?????? ?????</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>ייצוא</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>מחק</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>בחר את הכתובת כדי לשלוח אליה מטבעות</translation>
+        <translation>??? ?? ?????? ??? ????? ???? ??????</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>בחר את הכתובת כדי לקבל אליה מטבעות</translation>
+        <translation>??? ?? ?????? ??? ???? ???? ??????</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>בחר</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>שולח כתובות</translation>
+        <translation>???? ??????</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>מקבל כתובות</translation>
+        <translation>???? ??????</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. תמיד בדוק את כתובת הארנק המקבל לפני שליחת מטבעות</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>??? ?? ?????? ???????? ??? ?????? ???????. ???? ???? ?? ????? ????? ????? ???? ????? ??????</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>אלו הן כתובות לייטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה בכל העברת מטבעות</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>??? ?? ?????? ???????? ??? ????? ???????. ????? ?????? ?????? ???? ??? ????? ??????</translation>
     </message>
     </context>
 <context>
@@ -82,23 +82,23 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Litecoin</source>
-        <translation>לייטקוין</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>????????</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>ארנק</translation>
+        <translation>????</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Copy amount</source>
-        <translation>העתק סכום</translation>
+        <translation>???? ????</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>העתק כמות</translation>
+        <translation>???? ????</translation>
     </message>
     </context>
 <context>
@@ -113,8 +113,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
-        <translation>לייטקוין</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>????????</translation>
     </message>
     </context>
 <context>
@@ -151,7 +151,7 @@
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Copy amount</source>
-        <translation>העתק סכום</translation>
+        <translation>???? ????</translation>
     </message>
 </context>
 <context>
@@ -164,11 +164,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Copy quantity</source>
-        <translation>העתק כמות</translation>
+        <translation>???? ????</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>העתק סכום</translation>
+        <translation>???? ????</translation>
     </message>
     </context>
 <context>
@@ -202,7 +202,7 @@
     <name>TransactionView</name>
     <message>
         <source>Copy amount</source>
-        <translation>העתק סכום</translation>
+        <translation>???? ????</translation>
     </message>
     </context>
 <context>
@@ -218,11 +218,11 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>ייצוא</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>יצא את המידע בעמוד הנוכחי לקובץ</translation>
+        <translation>??? ?? ????? ????? ?????? ?????</translation>
     </message>
     </context>
 <context>

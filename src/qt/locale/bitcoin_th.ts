@@ -3,153 +3,153 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>คลิกขวาเพื่อแก้ไขที่อยู่หรือชื่อ</translation>
+        <translation>????????????????????????????????</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>สร้างที่อยู่ใหม่</translation>
+        <translation>????????????????</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>ใหม่</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>คัดลอกที่อยู่ที่เลือกอยู่ไปยังคลิบบอร์ดของระบบ</translation>
+        <translation>??????????????????????????????????????????????</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>คัดลอก</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>ปิด</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>ลบที่อยู่ที่เลือกไว้ออกจากรายการ</translation>
+        <translation>????????????????????????????????</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ส่งออกข้อมูลที่อยู่ในแถบนี้ไปในไฟล์</translation>
+        <translation>???????????????????????????????????</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>ส่งออก</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>ลบ</translation>
+        <translation>??</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>เลือกที่อยู่ที่จะส่งเหรียญ</translation>
+        <translation>??????????????????????????</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>เลือกที่อยู่ที่จะรับเหรียญ</translation>
+        <translation>??????????????????????????</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>เลือก</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>ที่อยู่ในการส่ง</translation>
+        <translation>???????????????</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>ที่อยู่ในการรับ</translation>
+        <translation>???????????????</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>ที่อยู่ Litecoin ของคุณสำหรับการส่งการชำระเงิน โปรดตรวจสอบจำนวนเงินและที่อยู่รับก่อนที่จะส่งเหรียญ</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>??????? MiningEnthusiastCoin ????????????????????????????? ???????????????????????????????????????????????????</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>ที่อยู่ Litecoin ของคุณสำหรับการรับเงิน แนะนำให้ใช้ที่อยู่รับใหม่สำหรับแต่ละธุรกรรม</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>??????? MiningEnthusiastCoin ?????????????????????? ???????????????????????????????????????????</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>คัดลอกที่อยู่</translation>
+        <translation>?????????????</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>คัดลอกชื่อ</translation>
+        <translation>??????????</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>แก้ไข</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>ส่งออกรายการที่อยู่</translation>
+        <translation>???????????????????</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>ไฟล์ที่คั่นด้วยจุลภาค (* .csv)</translation>
+        <translation>????????????????????? (* .csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>การส่งออกล้มเหลว</translation>
+        <translation>????????????????</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>ฉลาก, ป้าย,</translation>
+        <translation>????, ????,</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>ที่อยู่</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ไม่มีฉลาก)</translation>
+        <translation>(?????????)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>กล่องโต้ตอบวลีรหัสผ่าน</translation>
+        <translation>??????????????????????</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>ป้อนวลีรหัสผ่าน</translation>
+        <translation>???????????????</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>วลีรหัสผ่านใหม่</translation>
+        <translation>???????????????</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>ทำซ้ำข้อความรหัสใหม่</translation>
+        <translation>????????????????????</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>กระเป๋าสตางค์ เข้ารหัส</translation>
+        <translation>????????????? ????????</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>การดำเนินการนี้ต้องการกระเป๋าสตางค์กระเป๋าสตางค์ของคุณเพื่อปลดล็อกกระเป๋าสตางค์</translation>
+        <translation>???????????????????????????????????????????????????????????????????????????????</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>ปลดล็อค กระเป๋าสตางค์ </translation>
+        <translation>??????? ??????????????</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>การดำเนินการนี้ ต้องการ รหัสผ่าน กระเป๋าสตางค์ ของคุณ เพื่อ ถอดรหัส กระเป๋าสตางค์</translation>
+        <translation>??????????????? ??????? ???????? ????????????? ?????? ????? ??????? ?????????????</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>ถอดรหัส กระเป๋าสตางค์</translation>
+        <translation>??????? ?????????????</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>เปลี่ยน ข้อความรหัสผ่าน</translation>
+        <translation>??????? ???????????????</translation>
     </message>
     </context>
 <context>
@@ -162,7 +162,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(ไม่มีฉลาก)</translation>
+        <translation>(?????????)</translation>
     </message>
     </context>
 <context>
@@ -214,29 +214,29 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>ที่อยู่</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>ฉลาก, ป้าย,</translation>
+        <translation>????, ????,</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Label</source>
-        <translation>ฉลาก, ป้าย,</translation>
+        <translation>????, ????,</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ไม่มีฉลาก)</translation>
+        <translation>(?????????)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(ไม่มีฉลาก)</translation>
+        <translation>(?????????)</translation>
     </message>
 </context>
 <context>
@@ -267,30 +267,30 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Label</source>
-        <translation>ฉลาก, ป้าย,</translation>
+        <translation>????, ????,</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ไม่มีฉลาก)</translation>
+        <translation>(?????????)</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>ไฟล์ที่คั่นด้วยจุลภาค (* .csv)</translation>
+        <translation>????????????????????? (* .csv)</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>ฉลาก, ป้าย,</translation>
+        <translation>????, ????,</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>ที่อยู่</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>การส่งออกล้มเหลว</translation>
+        <translation>????????????????</translation>
     </message>
     </context>
 <context>
@@ -306,11 +306,11 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>ส่งออก</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ส่งออกข้อมูลที่อยู่ในแถบนี้ไปในไฟล์</translation>
+        <translation>???????????????????????????????????</translation>
     </message>
     </context>
 <context>

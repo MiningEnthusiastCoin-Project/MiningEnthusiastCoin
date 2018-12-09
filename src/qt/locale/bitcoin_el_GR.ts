@@ -3,205 +3,205 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Δεξί-κλικ για επεξεργασία της διεύθυνσης ή της ετικέτας</translation>
+        <translation>Δεξ?-κλικ για επεξεργασ?α τη? διε?θυνση? ? τη? ετικ?τα?</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Δημιουργία νέας διεύθυνσης</translation>
+        <translation>Δημιουργ?α ν?α? διε?θυνση?</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Νέo</translation>
+        <translation>&amp;Ν?o</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Αντέγραψε την επιλεγμένη διεύθυνση στο πρόχειρο του συστήματος</translation>
+        <translation>Αντ?γραψε την επιλεγμ?νη διε?θυνση στο πρ?χειρο του συστ?ματο?</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Αντιγραφή</translation>
+        <translation>&amp;Αντιγραφ?</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Κ&amp;λείσιμο</translation>
+        <translation>Κ&amp;λε?σιμο</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Διαγραφή της επιλεγμένης διεύθυνσης από τη λίστα</translation>
+        <translation>Διαγραφ? τη? επιλεγμ?νη? διε?θυνση? απ? τη λ?στα</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Εξαγωγή δεδομένων καρτέλας σε αρχείο</translation>
+        <translation>Εξαγωγ? δεδομ?νων καρτ?λα? σε αρχε?ο</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Εξαγωγή</translation>
+        <translation>&amp;Εξαγωγ?</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Διαγραφή</translation>
+        <translation>&amp;Διαγραφ?</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Επιλέξτε διεύθυνση αποστολής των νομισμάτων σας</translation>
+        <translation>Επιλ?ξτε διε?θυνση αποστολ?? των νομισμ?των σα?</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Επιλέξτε διεύθυνση παραλαβής νομισμάτων</translation>
+        <translation>Επιλ?ξτε διε?θυνση παραλαβ?? νομισμ?των</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Ε&amp;πιλογή</translation>
+        <translation>Ε&amp;πιλογ?</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Διευθύνσεις αποστολής</translation>
+        <translation>Διευθ?νσει? αποστολ??</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Διευθύνσεις λήψης</translation>
+        <translation>Διευθ?νσει? λ?ψη?</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να στέλνετε πληρωμές. Να ελέγχετε πάντα το ποσό, καθώς και τη διεύθυνση παραλήπτη πριν στείλετε νομίσματα.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Αυτ?? ε?ναι οι MiningEnthusiastCoin διευθ?νσει? σα? για να στ?λνετε πληρωμ??. Να ελ?γχετε π?ντα το ποσ?, καθ?? και τη διε?θυνση παραλ?πτη πριν στε?λετε νομ?σματα.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Προτείνετε να χρησιμοποιείτε μια νέα διεύθυνση παραλήπτη για κάθε συναλλαγή.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Αυτ?? ε?ναι οι MiningEnthusiastCoin διευθ?νσει? σα? για να λαμβ?νετε πληρωμ??. Προτε?νετε να χρησιμοποιε?τε μια ν?α διε?θυνση παραλ?πτη για κ?θε συναλλαγ?.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Αντιγραφή Διεύθυνσης</translation>
+        <translation>&amp;Αντιγραφ? Διε?θυνση?</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Αντιγραφή&amp;Ετικέτα</translation>
+        <translation>Αντιγραφ?&amp;Ετικ?τα</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Διόρθωση</translation>
+        <translation>&amp;Δι?ρθωση</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Εξαγωγή Λίστας Διευθύνσεων</translation>
+        <translation>Εξαγωγ? Λ?στα? Διευθ?νσεων</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Αρχείο οριοθετημένο με κόμματα (*.csv)</translation>
+        <translation>Αρχε?ο οριοθετημ?νο με κ?μματα (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Αποτυχία Εξαγωγής</translation>
+        <translation>Αποτυχ?α Εξαγωγ??</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Σφάλμα κατά την προσπάθεια αποθήκευσης της λίστας διευθύνσεων στο %1. Παρακαλώ δοκιμάστε ξανά.</translation>
+        <translation>Σφ?λμα κατ? την προσπ?θεια αποθ?κευση? τη? λ?στα? διευθ?νσεων στο %1. Παρακαλ? δοκιμ?στε ξαν?.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Ετικέτα</translation>
+        <translation>Ετικ?τα</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Διεύθυνση</translation>
+        <translation>Διε?θυνση</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(χωρίς ετικέτα)</translation>
+        <translation>(χωρ?? ετικ?τα)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Φράση πρόσβασης </translation>
+        <translation>Φρ?ση πρ?σβαση? </translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Βάλτε κωδικό πρόσβασης</translation>
+        <translation>Β?λτε κωδικ? πρ?σβαση?</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>&amp;Αλλαγή κωδικού</translation>
+        <translation>&amp;Αλλαγ? κωδικο?</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Επανέλαβε τον νέο κωδικό πρόσβασης</translation>
+        <translation>Επαν?λαβε τον ν?ο κωδικ? πρ?σβαση?</translation>
     </message>
     <message>
         <source>Show password</source>
-        <translation>Προβολή κωδικού πρόσβασης</translation>
+        <translation>Προβολ? κωδικο? πρ?σβαση?</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Εισάγετε το νέο κωδικό πρόσβασης στο πορτοφόλι. &lt;br/&gt;Παρακαλώ χρησιμοποιείστε έναν κωδικό με &lt;b&gt;δέκα ή περισσότερους τυχαίους χαρακτήρες &lt;/b&gt;, ή &lt;b&gt;οχτώ ή παραπάνω λέξεις &lt;/b&gt;.</translation>
+        <translation>Εισ?γετε το ν?ο κωδικ? πρ?σβαση? στο πορτοφ?λι. &lt;br/&gt;Παρακαλ? χρησιμοποιε?στε ?ναν κωδικ? με &lt;b&gt;δ?κα ? περισσ?τερου? τυχα?ου? χαρακτ?ρε? &lt;/b&gt;, ? &lt;b&gt;οχτ? ? παραπ?νω λ?ξει? &lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>&amp;Κρυπτογράφηση πορτοφολιού</translation>
+        <translation>&amp;Κρυπτογρ?φηση πορτοφολιο?</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Αυτή η ενέργεια χρειάζεται τον κωδικό του πορτοφολιού για να ξεκλειδώσει το πορτοφόλι.</translation>
+        <translation>Αυτ? η εν?ργεια χρει?ζεται τον κωδικ? του πορτοφολιο? για να ξεκλειδ?σει το πορτοφ?λι.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Ξεκλείδωσε το πορτοφόλι</translation>
+        <translation>Ξεκλε?δωσε το πορτοφ?λι</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Αυτή η ενέργεια χρειάζεται τον κωδικό του πορτοφολιού για να αποκρυπτογραφήσει το πορτοφόλι.</translation>
+        <translation>Αυτ? η εν?ργεια χρει?ζεται τον κωδικ? του πορτοφολιο? για να αποκρυπτογραφ?σει το πορτοφ?λι.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Αποκρυπτογράφησε το πορτοφόλι</translation>
+        <translation>Αποκρυπτογρ?φησε το πορτοφ?λι</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Αλλάξτε Φράση Πρόσβασης</translation>
+        <translation>Αλλ?ξτε Φρ?ση Πρ?σβαση?</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Εισάγετε την παλιά φράση κλειδί και την νέα φράση κλειδί στο πορτοφόλι.</translation>
+        <translation>Εισ?γετε την παλι? φρ?ση κλειδ? και την ν?α φρ?ση κλειδ? στο πορτοφ?λι.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Επιβεβαίωσε κρυπτογράφηση πορτοφολιού</translation>
+        <translation>Επιβεβα?ωσε κρυπτογρ?φηση πορτοφολιο?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Προσόχη! Εάν κρυπτογραφήσεις το πορτοφόλι σου και χάσεις τη φράση αποκατάστασης, θα &lt;b&gt; ΧΑΣΕΙΣ ΟΛΑ ΣΟΥ ΤΑ LITECOIN &lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Προσ?χη! Ε?ν κρυπτογραφ?σει? το πορτοφ?λι σου και χ?σει? τη φρ?ση αποκατ?σταση?, θα &lt;b&gt; ΧΑΣΕΙΣ ΟΛΑ ΣΟΥ ΤΑ MININGENTHUSIASTCOIN &lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Είστε σίγουρος/η ότι θέλετε να κρυπτογραφήσετε το πορτοφόλι σας;</translation>
+        <translation>Ε?στε σ?γουρο?/η ?τι θ?λετε να κρυπτογραφ?σετε το πορτοφ?λι σα?;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Πορτοφόλι κρυπτογραφήθηκε</translation>
+        <translation>Πορτοφ?λι κρυπτογραφ?θηκε</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 θα κλείσει τώρα για να τελειώσει η διαδικασία κρυπτογράφησης. Να θυμάστε ότι κρυπτογραφόντας το πορτοφόλι σας δεν μπορείτε να προστατεύσετε πλήρως τα litecoin σας απο κλοπή μέσω malware που μπορεί να προσβάλει τον υπολογιστή σας.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 θα κλε?σει τ?ρα για να τελει?σει η διαδικασ?α κρυπτογρ?φηση?. Να θυμ?στε ?τι κρυπτογραφ?ντα? το πορτοφ?λι σα? δεν μπορε?τε να προστατε?σετε πλ?ρω? τα miningenthusiastcoin σα? απο κλοπ? μ?σω malware που μπορε? να προσβ?λει τον υπολογιστ? σα?.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Η κρυπτογράφηση του πορτοφολιού απέτυχε</translation>
+        <translation>Η κρυπτογρ?φηση του πορτοφολιο? απ?τυχε</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Το ξεκλείδωμα του πορτοφολιού απέτυχε</translation>
+        <translation>Το ξεκλε?δωμα του πορτοφολιο? απ?τυχε</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation> Η αποκρυπτογράφηση του πορτοφολιού απέτυχε </translation>
+        <translation> Η αποκρυπτογρ?φηση του πορτοφολιο? απ?τυχε </translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Η φράση πρόσβασης άλλαξε επιτυχώς</translation>
+        <translation>Η φρ?ση πρ?σβαση? ?λλαξε επιτυχ??</translation>
     </message>
     </context>
 <context>
@@ -211,75 +211,75 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Υπογραφή &amp;μηνύματος...</translation>
+        <translation>Υπογραφ? &amp;μην?ματο?...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Συγχρονισμός με το δίκτυο...</translation>
+        <translation>Συγχρονισμ?? με το δ?κτυο...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Επισκόπηση</translation>
+        <translation>&amp;Επισκ?πηση</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Κόμβος</translation>
+        <translation>Κ?μβο?</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Εμφάνισε τη γενική εικόνα του πορτοφολιού</translation>
+        <translation>Εμφ?νισε τη γενικ? εικ?να του πορτοφολιο?</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Συναλλαγές</translation>
+        <translation>&amp;Συναλλαγ??</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Περιήγηση στο ιστορικό συναλλαγών</translation>
+        <translation>Περι?γηση στο ιστορικ? συναλλαγ?ν</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Έ&amp;ξοδος</translation>
+        <translation>?&amp;ξοδο?</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Έξοδος από την εφαρμογή</translation>
+        <translation>?ξοδο? απ? την εφαρμογ?</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;Περί %1</translation>
+        <translation>&amp;Περ? %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Σχετικά με &amp;Qt</translation>
+        <translation>Σχετικ? με &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Εμφάνισε πληροφορίες σχετικά με Qt</translation>
+        <translation>Εμφ?νισε πληροφορ?ε? σχετικ? με Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Επιλογές...</translation>
+        <translation>&amp;Επιλογ??...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Κρυπτογράφησε το πορτοφόλι</translation>
+        <translation>&amp;Κρυπτογρ?φησε το πορτοφ?λι</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Αντίγραφο ασφαλείας του πορτοφολιού</translation>
+        <translation>&amp;Αντ?γραφο ασφαλε?α? του πορτοφολιο?</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Άλλαξε Φράση Πρόσβασης</translation>
+        <translation>&amp;?λλαξε Φρ?ση Πρ?σβαση?</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Διευθύνσεις αποστολής</translation>
+        <translation>Διευθ?νσει? αποστολ??</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Διευθύνσεις λήψης</translation>
+        <translation>Διευθ?νσει? λ?ψη?</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -287,192 +287,192 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρό δίσκο...</translation>
+        <translation>Φ?ρτωση ευρετηρ?ου μπλοκ στον σκληρ? δ?σκο...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Στείλε νομίσματα σε μια διεύθυνση litecoin</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Στε?λε νομ?σματα σε μια διε?θυνση miningenthusiastcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Δημιουργία αντιγράφου ασφαλείας πορτοφολιού σε άλλη τοποθεσία</translation>
+        <translation>Δημιουργ?α αντιγρ?φου ασφαλε?α? πορτοφολιο? σε ?λλη τοποθεσ?α</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Αλλαγή του κωδικού κρυπτογράφησης του πορτοφολιού</translation>
+        <translation>Αλλαγ? του κωδικο? κρυπτογρ?φηση? του πορτοφολιο?</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Παράθυρο αποσφαλμάτωσης</translation>
+        <translation>&amp;Παρ?θυρο αποσφαλμ?τωση?</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Άνοιγμα κονσόλας αποσφαλμάτωσης και διαγνωστικών</translation>
+        <translation>?νοιγμα κονσ?λα? αποσφαλμ?τωση? και διαγνωστικ?ν</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Επιβεβαίωση μηνύματος</translation>
+        <translation>&amp;Επιβεβα?ωση μην?ματο?</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Πορτοφόλι</translation>
+        <translation>Πορτοφ?λι</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Αποστολή</translation>
+        <translation>&amp;Αποστολ?</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Παραλαβή </translation>
+        <translation>&amp;Παραλαβ? </translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Εμφάνισε/Κρύψε</translation>
+        <translation>&amp;Εμφ?νισε/Κρ?ψε</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Εμφάνιση ή απόκρυψη του κεντρικού παραθύρου</translation>
+        <translation>Εμφ?νιση ? απ?κρυψη του κεντρικο? παραθ?ρου</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Κρυπτογραφήστε τα ιδιωτικά κλειδιά που ανήκουν στο πορτοφόλι σας </translation>
+        <translation>Κρυπτογραφ?στε τα ιδιωτικ? κλειδι? που αν?κουν στο πορτοφ?λι σα? </translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Υπογρ?ψτε ?να μ?νυμα για να βεβαι?σετε πω? ε?στε ο κ?τοχο? αυτ?? τη? διε?θυνση?</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Litecoin</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Υπογρ?ψτε ?να μ?νυμα για ν' αποδε?ξετε πω? αν?κει μια συγκεκριμ?νη διε?θυνση MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Αρχείο</translation>
+        <translation>&amp;Αρχε?ο</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Ρυθμίσεις</translation>
+        <translation>&amp;Ρυθμ?σει?</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Βοήθεια</translation>
+        <translation>&amp;Βο?θεια</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Εργαλειοθήκη καρτελών</translation>
+        <translation>Εργαλειοθ?κη καρτελ?ν</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις litecoin: )</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Α?τηση πληρωμ?ν (δημιουργε? QR codes και διευθ?νσει? miningenthusiastcoin: )</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών αποστολής</translation>
+        <translation>Προβολ? τη? λ?στα? των χρησιμοποιημ?νων διευθ?νσεων και ετικετ?ν αποστολ??</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών λήψεως</translation>
+        <translation>Προβολ? τη? λ?στα? των χρησιμοποιημ?νων διευθ?νσεων και ετικετ?ν λ?ψεω?</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Άνοιγμα litecoin: URI αίτησης πληρωμής</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>?νοιγμα miningenthusiastcoin: URI α?τηση? πληρωμ??</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Επιλογές γραμμής εντολών</translation>
+        <translation>&amp;Επιλογ?? γραμμ?? εντολ?ν</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 πίσω</translation>
+        <translation>%1 π?σω</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Το τελευταίο μπλοκ που ελήφθη δημιουργήθηκε %1 πριν.</translation>
+        <translation>Το τελευτα?ο μπλοκ που ελ?φθη δημιουργ?θηκε %1 πριν.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Οι συναλλαγές μετά από αυτό δεν θα είναι ακόμη ορατές.</translation>
+        <translation>Οι συναλλαγ?? μετ? απ? αυτ? δεν θα ε?ναι ακ?μη ορατ??.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>Σφ?λμα</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Προειδοποίηση</translation>
+        <translation>Προειδοπο?ηση</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Πληροφορία</translation>
+        <translation>Πληροφορ?α</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Ενημερωμένο</translation>
+        <translation>Ενημερωμ?νο</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Ενημέρωση...</translation>
+        <translation>Ενημ?ρωση...</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>Ημερομηνία: %1
+        <translation>Ημερομην?α: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>Ποσό: %1
+        <translation>Ποσ?: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>Τύπος: %1
+        <translation>Τ?πο?: %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>Ετικέτα: %1
+        <translation>Ετικ?τα: %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>Διεύθυνση: %1
+        <translation>Διε?θυνση: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Η συναλλαγή απεστάλη</translation>
+        <translation>Η συναλλαγ? απεστ?λη</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Εισερχόμενη συναλλαγή</translation>
+        <translation>Εισερχ?μενη συναλλαγ?</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;ξεκλείδωτο&lt;/b&gt;</translation>
+        <translation>Το πορτοφ?λι ε?ναι &lt;b&gt;κρυπτογραφημ?νο&lt;/b&gt; και &lt;b&gt;ξεκλε?δωτο&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;κλειδωμένο&lt;/b&gt;</translation>
+        <translation>Το πορτοφ?λι ε?ναι &lt;b&gt;κρυπτογραφημ?νο&lt;/b&gt; και &lt;b&gt;κλειδωμ?νο&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Επιλογή κερμάτων</translation>
+        <translation>Επιλογ? κερμ?των</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Ποσότητα:</translation>
+        <translation>Ποσ?τητα:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -480,75 +480,75 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Ποσό:</translation>
+        <translation>Ποσ?:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Ταρίφα:</translation>
+        <translation>Ταρ?φα:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Σκόνη:</translation>
+        <translation>Σκ?νη:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Ταρίφα αλλαγής:</translation>
+        <translation>Ταρ?φα αλλαγ??:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Ρέστα:</translation>
+        <translation>Ρ?στα:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(από)επιλογή όλων</translation>
+        <translation>(απ?)επιλογ? ?λων</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Εμφάνιση τύπου δέντρο</translation>
+        <translation>Εμφ?νιση τ?που δ?ντρο</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Λίστα εντολών</translation>
+        <translation>Λ?στα εντολ?ν</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Ποσό</translation>
+        <translation>Ποσ?</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Παραλήφθηκε με επιγραφή</translation>
+        <translation>Παραλ?φθηκε με επιγραφ?</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Παραλείφθηκε με την εξής διεύθυνση</translation>
+        <translation>Παραλε?φθηκε με την εξ?? διε?θυνση</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Ημερομηνία</translation>
+        <translation>Ημερομην?α</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Επικυρώσεις</translation>
+        <translation>Επικυρ?σει?</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Επικυρωμένες</translation>
+        <translation>Επικυρωμ?νε?</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Αντιγραφή διεύθυνσης</translation>
+        <translation>Αντιγραφ? διε?θυνση?</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Αντιγραφή ετικέτας</translation>
+        <translation>Αντιγραφ? ετικ?τα?</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Αντιγραφή ποσού</translation>
+        <translation>Αντιγραφ? ποσο?</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Αντιγραφή ταυτότητας συναλλαγής</translation>
+        <translation>Αντιγραφ? ταυτ?τητα? συναλλαγ??</translation>
     </message>
     <message>
         <source>yes</source>
@@ -556,84 +556,84 @@
     </message>
     <message>
         <source>no</source>
-        <translation>όχι</translation>
+        <translation>?χι</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(χωρίς ετικέτα)</translation>
+        <translation>(χωρ?? ετικ?τα)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(αλλαγή)</translation>
+        <translation>(αλλαγ?)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Επεξεργασία Διεύθυνσης</translation>
+        <translation>Επεξεργασ?α Διε?θυνση?</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Επιγραφή</translation>
+        <translation>&amp;Επιγραφ?</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Η ετικέτα που συνδέεται με αυτήν την καταχώρηση στο βιβλίο διευθύνσεων</translation>
+        <translation>Η ετικ?τα που συνδ?εται με αυτ?ν την καταχ?ρηση στο βιβλ?ο διευθ?νσεων</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Η διεύθυνση σχετίζεται με αυτή την καταχώρηση του βιβλίου διευθύνσεων. Μπορεί να τροποποιηθεί μόνο για τις διευθύνσεις αποστολής.</translation>
+        <translation>Η διε?θυνση σχετ?ζεται με αυτ? την καταχ?ρηση του βιβλ?ου διευθ?νσεων. Μπορε? να τροποποιηθε? μ?νο για τι? διευθ?νσει? αποστολ??.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Διεύθυνση</translation>
+        <translation>&amp;Διε?θυνση</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Νέα Διεύθυνση Λήψης</translation>
+        <translation>Ν?α Διε?θυνση Λ?ψη?</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Νέα Διεύθυνση Αποστολής</translation>
+        <translation>Ν?α Διε?θυνση Αποστολ??</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Διόρθωση Διεύθυνσης Λήψης</translation>
+        <translation>Δι?ρθωση Διε?θυνση? Λ?ψη?</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation> Επεξεργασία διεύθυνσης αποστολής</translation>
+        <translation> Επεξεργασ?α διε?θυνση? αποστολ??</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Θα δημιουργηθεί ένας νέος φάκελος δεδομένων.</translation>
+        <translation>Θα δημιουργηθε? ?να? ν?ο? φ?κελο? δεδομ?νων.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>όνομα</translation>
+        <translation>?νομα</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Κατάλογος ήδη υπάρχει. Προσθήκη %1, αν σκοπεύετε να δημιουργήσετε έναν νέο κατάλογο εδώ.</translation>
+        <translation>Κατ?λογο? ?δη υπ?ρχει. Προσθ?κη %1, αν σκοπε?ετε να δημιουργ?σετε ?ναν ν?ο κατ?λογο εδ?.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Η διαδρομή υπάρχει ήδη αλλά δεν είναι φάκελος</translation>
+        <translation>Η διαδρομ? υπ?ρχει ?δη αλλ? δεν ε?ναι φ?κελο?</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Δεν μπορεί να δημιουργηθεί φάκελος δεδομένων εδώ.</translation>
+        <translation>Δεν μπορε? να δημιουργηθε? φ?κελο? δεδομ?νων εδ?.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>έκδοση</translation>
+        <translation>?κδοση</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -641,80 +641,80 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Επιλογές γραμμής εντολών</translation>
+        <translation>Επιλογ?? γραμμ?? εντολ?ν</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Χρήση:</translation>
+        <translation>Χρ?ση:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>επιλογές γραμμής εντολών</translation>
+        <translation>επιλογ?? γραμμ?? εντολ?ν</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Καλώς ήρθατε</translation>
+        <translation>Καλ?? ?ρθατε</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Χρήση του προεπιλεγμένου φακέλου δεδομένων</translation>
+        <translation>Χρ?ση του προεπιλεγμ?νου φακ?λου δεδομ?νων</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Προσαρμογή του φακέλου δεδομένων: </translation>
+        <translation>Προσαρμογ? του φακ?λου δεδομ?νων: </translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Σφάλμα: Ο καθορισμένος φάκελος δεδομένων "%1" δεν μπορεί να δημιουργηθεί.</translation>
+        <translation>Σφ?λμα: Ο καθορισμ?νο? φ?κελο? δεδομ?νων "%1" δεν μπορε? να δημιουργηθε?.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>Σφ?λμα</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB ελεύθερου χώρου διαθέσιμα</numerusform><numerusform>%n GB ελεύθερου χώρου διαθέσιμα</numerusform></translation>
+        <translation><numerusform>%n GB ελε?θερου χ?ρου διαθ?σιμα</numerusform><numerusform>%n GB ελε?θερου χ?ρου διαθ?σιμα</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(από το %n GB που απαιτείται)</numerusform><numerusform>(από τα %n GB που απαιτούνται)</numerusform></translation>
+        <translation><numerusform>(απ? το %n GB που απαιτε?ται)</numerusform><numerusform>(απ? τα %n GB που απαιτο?νται)</numerusform></translation>
     </message>
 </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Φόρμα</translation>
+        <translation>Φ?ρμα</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Άγνωστο...</translation>
+        <translation>?γνωστο...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Χρόνος τελευταίου μπλοκ</translation>
+        <translation>Χρ?νο? τελευτα?ου μπλοκ</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Απόκρυψη</translation>
+        <translation>Απ?κρυψη</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Άνοιγμα &amp;URI</translation>
+        <translation>?νοιγμα &amp;URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Ανοιχτό αίτημα πληρωμής από URI ή από αρχείο</translation>
+        <translation>Ανοιχτ? α?τημα πληρωμ?? απ? URI ? απ? αρχε?ο</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -722,22 +722,22 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Επιλέξτε πληρωμή αρχείου αίτησης</translation>
+        <translation>Επιλ?ξτε πληρωμ? αρχε?ου α?τηση?</translation>
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Ρυθμίσεις</translation>
+        <translation>Ρυθμ?σει?</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Κύριο</translation>
+        <translation>&amp;Κ?ριο</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Μέγεθος κρυφής μνήμης βάσης δεδομένων.</translation>
+        <translation>Μ?γεθο? κρυφ?? μν?μη? β?ση? δεδομ?νων.</translation>
     </message>
     <message>
         <source>MB</source>
@@ -745,127 +745,127 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Αριθμός script και γραμμές επαλήθευσης </translation>
+        <translation>Αριθμ?? script και γραμμ?? επαλ?θευση? </translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Διεύθυνση IP του διαμεσολαβητή (π.χ. 127.0.0.1  / IPv6: ::1)</translation>
+        <translation>Διε?θυνση IP του διαμεσολαβητ? (π.χ. 127.0.0.1  / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Ελαχιστοποίηση αντί για έξοδο κατά το κλείσιμο του παραθύρου. Όταν αυτή η επιλογή είναι ενεργοποιημένη, η εφαρμογή θα κλείνει μόνο αν επιλεχθεί η Έξοδος στο μενού.</translation>
+        <translation>Ελαχιστοπο?ηση αντ? για ?ξοδο κατ? το κλε?σιμο του παραθ?ρου. ?ταν αυτ? η επιλογ? ε?ναι ενεργοποιημ?νη, η εφαρμογ? θα κλε?νει μ?νο αν επιλεχθε? η ?ξοδο? στο μενο?.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URLs από τρίτους (π.χ. ένας εξερευνητής μπλοκ) τα οποία εμφανίζονται στην καρτέλα συναλλαγών ως στοιχεία μενού. Το %s στα URL αντικαθίσταται από την τιμή της κατατεμαχισμένης συναλλαγής.</translation>
+        <translation>URLs απ? τρ?του? (π.χ. ?να? εξερευνητ?? μπλοκ) τα οπο?α εμφαν?ζονται στην καρτ?λα συναλλαγ?ν ω? στοιχε?α μενο?. Το %s στα URL αντικαθ?σταται απ? την τιμ? τη? κατατεμαχισμ?νη? συναλλαγ??.</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Ενεργές επιλογές γραμμής-εντολών που παρακάμπτουν τις παραπάνω επιλογές:</translation>
+        <translation>Ενεργ?? επιλογ?? γραμμ??-εντολ?ν που παρακ?μπτουν τι? παραπ?νω επιλογ??:</translation>
     </message>
     <message>
         <source>Open Configuration File</source>
-        <translation>Άνοιγμα Αρχείου Ρυθμίσεων</translation>
+        <translation>?νοιγμα Αρχε?ου Ρυθμ?σεων</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Επαναφορά όλων των επιλογών του πελάτη στις αρχικές.</translation>
+        <translation>Επαναφορ? ?λων των επιλογ?ν του πελ?τη στι? αρχικ??.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Επαναφορά ρυθμίσεων</translation>
+        <translation>Επαναφορ? ρυθμ?σεων</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Δίκτυο</translation>
+        <translation>&amp;Δ?κτυο</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = αυτόματο, &lt;0 = ελεύθεροι πυρήνες)</translation>
+        <translation>(0 = αυτ?ματο, &lt;0 = ελε?θεροι πυρ?νε?)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Π&amp;ορτοφόλι</translation>
+        <translation>Π&amp;ορτοφ?λι</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Έμπειρος</translation>
+        <translation>?μπειρο?</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ενεργοποίηση δυνατοτήτων ελέγχου κερμάτων</translation>
+        <translation>Ενεργοπο?ηση δυνατοτ?των ελ?γχου κερμ?των</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Εάν απενεργοποιήσετε το ξόδεμα μη επικυρωμένων ρέστων, τα ρέστα από μια συναλλαγή δεν μπορούν να χρησιμοποιηθούν έως ότου αυτή η συναλλαγή έχει έστω μια επικύρωση. Αυτό επίσης επηρεάζει το πως υπολογίζεται το υπόλοιπό σας.</translation>
+        <translation>Ε?ν απενεργοποι?σετε το ξ?δεμα μη επικυρωμ?νων ρ?στων, τα ρ?στα απ? μια συναλλαγ? δεν μπορο?ν να χρησιμοποιηθο?ν ?ω? ?του αυτ? η συναλλαγ? ?χει ?στω μια επικ?ρωση. Αυτ? επ?ση? επηρε?ζει το πω? υπολογ?ζεται το υπ?λοιπ? σα?.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Ξόδεμα μη επικυρωμένων ρέστων</translation>
+        <translation>&amp;Ξ?δεμα μη επικυρωμ?νων ρ?στων</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Αυτόματο άνοιγμα των θυρών Litecoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <source>Automatically open the MiningEnthusiastCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Αυτ?ματο ?νοιγμα των θυρ?ν MiningEnthusiastCoin στον δρομολογητ?. Λειτουργε? μ?νο αν ο δρομολογητ?? σα? υποστηρ?ζει τη λειτουργ?α UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Απόδοση θυρών με χρήστη &amp;UPnP</translation>
+        <translation>Απ?δοση θυρ?ν με χρ?στη &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Σύνδεση στο δίκτυο Litecoin μέσω διαμεσολαβητή SOCKS5 (π.χ. για σύνδεση μέσω Tor)</translation>
+        <source>Connect to the MiningEnthusiastCoin network through a SOCKS5 proxy.</source>
+        <translation>Σ?νδεση στο δ?κτυο MiningEnthusiastCoin μ?σω διαμεσολαβητ? SOCKS5 (π.χ. για σ?νδεση μ?σω Tor)</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Σύνδεση μέσω διαμεσολαβητή SOCKS5 (προεπιλεγμένος)</translation>
+        <translation>&amp;Σ?νδεση μ?σω διαμεσολαβητ? SOCKS5 (προεπιλεγμ?νο?)</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP διαμεσολαβητή:</translation>
+        <translation>&amp;IP διαμεσολαβητ?:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Θύρα:</translation>
+        <translation>&amp;Θ?ρα:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Θύρα διαμεσολαβητή</translation>
+        <translation>Θ?ρα διαμεσολαβητ?</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Παράθυρο</translation>
+        <translation>&amp;Παρ?θυρο</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Εμφάνιση μόνο εικονιδίου στην περιοχή ειδοποιήσεων κατά την ελαχιστοποίηση.</translation>
+        <translation>Εμφ?νιση μ?νο εικονιδ?ου στην περιοχ? ειδοποι?σεων κατ? την ελαχιστοπο?ηση.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Ελαχιστοποίηση στην περιοχή ειδοποιήσεων αντί της γραμμής εργασιών</translation>
+        <translation>&amp;Ελαχιστοπο?ηση στην περιοχ? ειδοποι?σεων αντ? τη? γραμμ?? εργασι?ν</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>Ε&amp;λαχιστοποίηση κατά το κλείσιμο</translation>
+        <translation>Ε&amp;λαχιστοπο?ηση κατ? το κλε?σιμο</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Απεικόνιση</translation>
+        <translation>&amp;Απεικ?νιση</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Γλώσσα περιβάλλοντος εργασίας:</translation>
+        <translation>Γλ?σσα περιβ?λλοντο? εργασ?α?:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Μονάδα μέτρησης:</translation>
+        <translation>&amp;Μον?δα μ?τρηση?:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Διαλέξτε την προεπιλεγμένη υποδιαίρεση που θα εμφανίζεται όταν στέλνετε νομίσματα.</translation>
+        <translation>Διαλ?ξτε την προεπιλεγμ?νη υποδια?ρεση που θα εμφαν?ζεται ?ταν στ?λνετε νομ?σματα.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Επιλογή κατά πόσο να αναδείχνονται οι δυνατότητες ελέγχου κερμάτων.</translation>
+        <translation>Επιλογ? κατ? π?σο να αναδε?χνονται οι δυνατ?τητε? ελ?γχου κερμ?των.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -873,155 +873,155 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Ακύρωση</translation>
+        <translation>&amp;Ακ?ρωση</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>προεπιλογή</translation>
+        <translation>προεπιλογ?</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>κανένα</translation>
+        <translation>καν?να</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Επιβεβαίωση των επιλογών επαναφοράς</translation>
+        <translation>Επιβεβα?ωση των επιλογ?ν επαναφορ??</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Χρειάζεται επανεκκίνηση του προγράμματος για να ενεργοποιηθούν οι αλλαγές.</translation>
+        <translation>Χρει?ζεται επανεκκ?νηση του προγρ?μματο? για να ενεργοποιηθο?ν οι αλλαγ??.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>Σφ?λμα</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Η αλλαγή αυτή θα χρειαστεί επανεκκίνηση του προγράμματος</translation>
+        <translation>Η αλλαγ? αυτ? θα χρειαστε? επανεκκ?νηση του προγρ?μματο?</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Δεν είναι έγκυρη η διεύθυνση διαμεσολαβητή</translation>
+        <translation>Δεν ε?ναι ?γκυρη η διε?θυνση διαμεσολαβητ?</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Φόρμα</translation>
+        <translation>Φ?ρμα</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Litecoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MiningEnthusiastCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Οι πληροφορ?ε? που εμφαν?ζονται μπορε? να ε?ναι ξεπερασμ?νε?. Το πορτοφ?λι σα? συγχρον?ζεται αυτ?ματα με το δ?κτυο MiningEnthusiastCoin μετ? απ? μια σ?νδεση, αλλ? αυτ? η διαδικασ?α δεν ?χει ακ?μη ολοκληρωθε?. </translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Επίβλεψη μόνο:</translation>
+        <translation>Επ?βλεψη μ?νο:</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Διαθέσιμο:</translation>
+        <translation>Διαθ?σιμο:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Το τρέχον διαθέσιμο υπόλοιπο</translation>
+        <translation>Το τρ?χον διαθ?σιμο υπ?λοιπο</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Εκκρεμούν:</translation>
+        <translation>Εκκρεμο?ν:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Το άθροισμα των συναλλαγών που δεν έχουν ακόμα επιβεβαιωθεί και δεν προσμετρώνται στο τρέχον διαθέσιμο υπόλοιπό σας</translation>
+        <translation>Το ?θροισμα των συναλλαγ?ν που δεν ?χουν ακ?μα επιβεβαιωθε? και δεν προσμετρ?νται στο τρ?χον διαθ?σιμο υπ?λοιπ? σα?</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Ανώριμος</translation>
+        <translation>Αν?ριμο?</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Εξορυγμένο υπόλοιπο που δεν έχει ακόμα ωριμάσει</translation>
+        <translation>Εξορυγμ?νο υπ?λοιπο που δεν ?χει ακ?μα ωριμ?σει</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Υπόλοιπο:</translation>
+        <translation>Υπ?λοιπο:</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Σύνολο:</translation>
+        <translation>Σ?νολο:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Το τρέχον συνολικό υπόλοιπο</translation>
+        <translation>Το τρ?χον συνολικ? υπ?λοιπο</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Το τρέχον υπόλοιπο σας σε διευθύνσεις παρακολούθησης μόνο</translation>
+        <translation>Το τρ?χον υπ?λοιπο σα? σε διευθ?νσει? παρακολο?θηση? μ?νο</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Ξοδεμένα:</translation>
+        <translation>Ξοδεμ?να:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Πρόσφατες συναλλαγές</translation>
+        <translation>Πρ?σφατε? συναλλαγ??</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Μη επικυρωμένες συναλλαγές σε διευθύνσεις παρακολούθησης μόνο</translation>
+        <translation>Μη επικυρωμ?νε? συναλλαγ?? σε διευθ?νσει? παρακολο?θηση? μ?νο</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Εξορυγμένο υπόλοιπο σε διευθύνσεις παρακολούθησης μόνο που δεν έχει ωριμάσει ακόμα</translation>
+        <translation>Εξορυγμ?νο υπ?λοιπο σε διευθ?νσει? παρακολο?θηση? μ?νο που δεν ?χει ωριμ?σει ακ?μα</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Το τρέχον συνολικό υπόλοιπο σε διευθύνσεις παρακολούθησης μόνο</translation>
+        <translation>Το τρ?χον συνολικ? υπ?λοιπο σε διευθ?νσει? παρακολο?θηση? μ?νο</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Σφάλμα αίτησης πληρωμής</translation>
+        <translation>Σφ?λμα α?τηση? πληρωμ??</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του litecoin: χειριστής click-to-pay</translation>
+        <source>Cannot start miningenthusiastcoin: click-to-pay handler</source>
+        <translation>Δεν ε?ναι δυνατ? η εκκ?νηση του miningenthusiastcoin: χειριστ?? click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI χειριστής</translation>
+        <translation>URI χειριστ??</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Επεξεργασία αρχείου αίτησης πληρωμής</translation>
+        <translation>Επεξεργασ?α αρχε?ου α?τηση? πληρωμ??</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Η αίτηση πληρωμής απορρίφθηκε</translation>
+        <translation>Η α?τηση πληρωμ?? απορρ?φθηκε</translation>
     </message>
     </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Sent</source>
-        <translation>Αποστολή</translation>
+        <translation>Αποστολ?</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Παραλήφθησαν</translation>
+        <translation>Παραλ?φθησαν</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Ποσό</translation>
+        <translation>Ποσ?</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Εισάγετε μια διεύθυνση Litecoin (π.χ. %1)</translation>
+        <source>Enter a MiningEnthusiastCoin address (e.g. %1)</source>
+        <translation>Εισ?γετε μια διε?θυνση MiningEnthusiastCoin (π.χ. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1041,11 +1041,11 @@
     </message>
     <message>
         <source>None</source>
-        <translation>Κανένα</translation>
+        <translation>Καν?να</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>Μη διαθέσιμο</translation>
+        <translation>Μη διαθ?σιμο</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -1073,7 +1073,7 @@
     </message>
     <message>
         <source>unknown</source>
-        <translation>Άγνωστο</translation>
+        <translation>?γνωστο</translation>
     </message>
 </context>
 <context>
@@ -1086,271 +1086,271 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>Μη διαθέσιμο</translation>
+        <translation>Μη διαθ?σιμο</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Έκδοση Πελάτη</translation>
+        <translation>?κδοση Πελ?τη</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Πληροφορία</translation>
+        <translation>&amp;Πληροφορ?α</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Παράθυρο αποσφαλμάτωσης</translation>
+        <translation>Παρ?θυρο αποσφαλμ?τωση?</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Γενικά</translation>
+        <translation>Γενικ?</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Χρήση BerkeleyDB έκδοσης</translation>
+        <translation>Χρ?ση BerkeleyDB ?κδοση?</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Χρόνος εκκίνησης</translation>
+        <translation>Χρ?νο? εκκ?νηση?</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Δίκτυο</translation>
+        <translation>Δ?κτυο</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Όνομα</translation>
+        <translation>?νομα</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Αριθμός συνδέσεων</translation>
+        <translation>Αριθμ?? συνδ?σεων</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Αλυσίδα μπλοκ</translation>
+        <translation>Αλυσ?δα μπλοκ</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Τρέχον αριθμός μπλοκ</translation>
+        <translation>Τρ?χον αριθμ?? μπλοκ</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Παραλήφθησαν</translation>
+        <translation>Παραλ?φθησαν</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Αποστολή</translation>
+        <translation>Αποστολ?</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Χρήστες</translation>
+        <translation>&amp;Χρ?στε?</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Επιλέξτε ένα χρήστη για να δείτε αναλυτικές πληροφορίες.</translation>
+        <translation>Επιλ?ξτε ?να χρ?στη για να δε?τε αναλυτικ?? πληροφορ?ε?.</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Έκδοση</translation>
+        <translation>?κδοση</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Υπηρεσίες</translation>
+        <translation>Υπηρεσ?ε?</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Σκορ Aποκλεισμού</translation>
+        <translation>Σκορ Aποκλεισμο?</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Χρόνος σύνδεσης</translation>
+        <translation>Χρ?νο? σ?νδεση?</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Τελευταία αποστολή</translation>
+        <translation>Τελευτα?α αποστολ?</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Τελευταία λήψη</translation>
+        <translation>Τελευτα?α λ?ψη</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Χρόνος καθυστέρησης</translation>
+        <translation>Χρ?νο? καθυστ?ρηση?</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Χρόνος τελευταίου μπλοκ</translation>
+        <translation>Χρ?νο? τελευτα?ου μπλοκ</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Άνοιγμα</translation>
+        <translation>&amp;?νοιγμα</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Κονσόλα</translation>
+        <translation>&amp;Κονσ?λα</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Κίνηση δικτύου</translation>
+        <translation>&amp;Κ?νηση δικτ?ου</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Σύνολα</translation>
+        <translation>Σ?νολα</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>Εισερχόμενα:</translation>
+        <translation>Εισερχ?μενα:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Εξερχόμενα:</translation>
+        <translation>Εξερχ?μενα:</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
+        <translation>Αρχε?ο καταγραφ?? εντοπισμο? σφαλμ?των </translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Καθαρισμός κονσόλας</translation>
+        <translation>Καθαρισμ?? κονσ?λα?</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>μέσω %1</translation>
+        <translation>μ?σω %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>ποτέ</translation>
+        <translation>ποτ?</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Εισερχόμενα</translation>
+        <translation>Εισερχ?μενα</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Εξερχόμενα</translation>
+        <translation>Εξερχ?μενα</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Άγνωστο(α)</translation>
+        <translation>?γνωστο(α)</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Ποσό:</translation>
+        <translation>&amp;Ποσ?:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Επιγραφή</translation>
+        <translation>&amp;Επιγραφ?</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Μήνυμα:</translation>
+        <translation>&amp;Μ?νυμα:</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Καθαρισμός όλων των πεδίων της φόρμας.</translation>
+        <translation>Καθαρισμ?? ?λων των πεδ?ων τη? φ?ρμα?.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Καθαρισμός</translation>
+        <translation>Καθαρισμ??</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Αίτηση πληρωμής</translation>
+        <translation>&amp;Α?τηση πληρωμ??</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Εμφάνιση</translation>
+        <translation>Εμφ?νιση</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Αφαίρεση επιλεγμένων καταχωρίσεων από τη λίστα</translation>
+        <translation>Αφα?ρεση επιλεγμ?νων καταχωρ?σεων απ? τη λ?στα</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Αφαίρεση</translation>
+        <translation>Αφα?ρεση</translation>
     </message>
     <message>
         <source>Copy URI</source>
-        <translation>Αντιγραφή της επιλεγμένης διεύθυνσης στο πρόχειρο του συστήματος</translation>
+        <translation>Αντιγραφ? τη? επιλεγμ?νη? διε?θυνση? στο πρ?χειρο του συστ?ματο?</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Αντιγραφή ετικέτας</translation>
+        <translation>Αντιγραφ? ετικ?τα?</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Αντιγραφή ποσού</translation>
+        <translation>Αντιγραφ? ποσο?</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>Κώδικας QR</translation>
+        <translation>Κ?δικα? QR</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Αντιγραφή της επιλεγμένης διεύθυνσης στο πρόχειρο του συστήματος</translation>
+        <translation>Αντιγραφ? τη? επιλεγμ?νη? διε?θυνση? στο πρ?χειρο του συστ?ματο?</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Αντιγραφή &amp;Διεύθυνσης</translation>
+        <translation>Αντιγραφ? &amp;Διε?θυνση?</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Αποθήκευση εικόνας...</translation>
+        <translation>&amp;Αποθ?κευση εικ?να?...</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Διεύθυνση</translation>
+        <translation>Διε?θυνση</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Ετικέτα</translation>
+        <translation>Ετικ?τα</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Ημερομηνία</translation>
+        <translation>Ημερομην?α</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Ετικέτα</translation>
+        <translation>Ετικ?τα</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(χωρίς ετικέτα)</translation>
+        <translation>(χωρ?? ετικ?τα)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Αποστολή νομισμάτων</translation>
+        <translation>Αποστολ? νομισμ?των</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Χαρακτηριστικά επιλογής κερμάτων</translation>
+        <translation>Χαρακτηριστικ? επιλογ?? κερμ?των</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Εισροές...</translation>
+        <translation>Εισρο??...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>επιλεγμένο αυτόματα</translation>
+        <translation>επιλεγμ?νο αυτ?ματα</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Ανεπαρκές κεφάλαιο!</translation>
+        <translation>Ανεπαρκ?? κεφ?λαιο!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Ποσότητα:</translation>
+        <translation>Ποσ?τητα:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -1358,118 +1358,118 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Ποσό:</translation>
+        <translation>Ποσ?:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Ταρίφα:</translation>
+        <translation>Ταρ?φα:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Ταρίφα αλλαγής:</translation>
+        <translation>Ταρ?φα αλλαγ??:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Ρέστα:</translation>
+        <translation>Ρ?στα:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Όταν ενεργό, αλλά η διεύθυνση ρέστων είναι κενή ή άκυρη, τα ρέστα θα σταλούν σε μία πρόσφατα δημιουργημένη διεύθυνση.</translation>
+        <translation>?ταν ενεργ?, αλλ? η διε?θυνση ρ?στων ε?ναι κεν? ? ?κυρη, τα ρ?στα θα σταλο?ν σε μ?α πρ?σφατα δημιουργημ?νη διε?θυνση.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Προσαρμοσμένη διεύθυνση ρέστων</translation>
+        <translation>Προσαρμοσμ?νη διε?θυνση ρ?στων</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Τέλος συναλλαγής:</translation>
+        <translation>Τ?λο? συναλλαγ??:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Επιλογή...</translation>
+        <translation>Επιλογ?...</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>ανά kilobyte</translation>
+        <translation>αν? kilobyte</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Απόκρυψη</translation>
+        <translation>Απ?κρυψη</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Προτεινόμενο: </translation>
+        <translation>Προτειν?μενο: </translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Προσαρμογή:</translation>
+        <translation>Προσαρμογ?:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Αποστολή σε πολλούς αποδέκτες ταυτόχρονα</translation>
+        <translation>Αποστολ? σε πολλο?? αποδ?κτε? ταυτ?χρονα</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Προσθήκη αποδέκτη</translation>
+        <translation>&amp;Προσθ?κη αποδ?κτη</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Καθαρισμός όλων των πεδίων της φόρμας.</translation>
+        <translation>Καθαρισμ?? ?λων των πεδ?ων τη? φ?ρμα?.</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Σκόνη:</translation>
+        <translation>Σκ?νη:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Καθαρισμός &amp;Όλων</translation>
+        <translation>Καθαρισμ?? &amp;?λων</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Υπόλοιπο:</translation>
+        <translation>Υπ?λοιπο:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Επιβεβαίωση αποστολής</translation>
+        <translation>Επιβεβα?ωση αποστολ??</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>Αποστολή</translation>
+        <translation>Αποστολ?</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Αντιγραφή ποσού</translation>
+        <translation>Αντιγραφ? ποσο?</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(χωρίς ετικέτα)</translation>
+        <translation>(χωρ?? ετικ?τα)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Ποσό:</translation>
+        <translation>&amp;Ποσ?:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Πληρωμή &amp;σε:</translation>
+        <translation>Πληρωμ? &amp;σε:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Επιγραφή</translation>
+        <translation>&amp;Επιγραφ?</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Επιλογή διεύθυνσης που έχει ήδη χρησιμοποιηθεί</translation>
+        <translation>Επιλογ? διε?θυνση? που ?χει ?δη χρησιμοποιηθε?</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Αυτή είναι μια απλή πληρωμή.</translation>
+        <translation>Αυτ? ε?ναι μια απλ? πληρωμ?.</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Η διεύθυνση Litecoin που θα σταλεί η πληρωμή</translation>
+        <source>The MiningEnthusiastCoin address to send the payment to</source>
+        <translation>Η διε?θυνση MiningEnthusiastCoin που θα σταλε? η πληρωμ?</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1477,7 +1477,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Επικόλληση διεύθυνσης από το βιβλίο διευθύνσεων</translation>
+        <translation>Επικ?λληση διε?θυνση? απ? το βιβλ?ο διευθ?νσεων</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1485,23 +1485,23 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Αφαίρεση αυτής της καταχώρησης</translation>
+        <translation>Αφα?ρεση αυτ?? τη? καταχ?ρηση?</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Μήνυμα:</translation>
+        <translation>Μ?νυμα:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Εισάγετε μία ετικέτα για αυτή την διεύθυνση για να προστεθεί στη λίστα με τις χρησιμοποιημένες διευθύνσεις</translation>
+        <translation>Εισ?γετε μ?α ετικ?τα για αυτ? την διε?θυνση για να προστεθε? στη λ?στα με τι? χρησιμοποιημ?νε? διευθ?νσει?</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Πληρωμή σε:</translation>
+        <translation>Πληρωμ? σε:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Σημείωση:</translation>
+        <translation>Σημε?ωση:</translation>
     </message>
     </context>
 <context>
@@ -1511,26 +1511,26 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Μην απενεργοποιήσετε τον υπολογιστή μέχρι να κλείσει αυτό το παράθυρο.</translation>
+        <translation>Μην απενεργοποι?σετε τον υπολογιστ? μ?χρι να κλε?σει αυτ? το παρ?θυρο.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Υπογραφές - Είσοδος / Επαλήθευση Mηνύματος </translation>
+        <translation>Υπογραφ?? - Ε?σοδο? / Επαλ?θευση Mην?ματο? </translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Υπογραφή Μηνύματος</translation>
+        <translation>&amp;Υπογραφ? Μην?ματο?</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Διεύθυνση Litecoin που θα σταλεί το μήνυμα</translation>
+        <source>The MiningEnthusiastCoin address to sign the message with</source>
+        <translation>Διε?θυνση MiningEnthusiastCoin που θα σταλε? το μ?νυμα</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Επιλογή διεύθυνσης που έχει ήδη χρησιμοποιηθεί</translation>
+        <translation>Επιλογ? διε?θυνση? που ?χει ?δη χρησιμοποιηθε?</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1538,7 +1538,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Επικόλληση διεύθυνσης από το βιβλίο διευθύνσεων</translation>
+        <translation>Επικ?λληση διε?θυνση? απ? το βιβλ?ο διευθ?νσεων</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1546,51 +1546,51 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Εισάγετε εδώ το μήνυμα που θέλετε να υπογράψετε</translation>
+        <translation>Εισ?γετε εδ? το μ?νυμα που θ?λετε να υπογρ?ψετε</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Υπογραφή</translation>
+        <translation>Υπογραφ?</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Αντιγραφή της επιλεγμένης υπογραφής στο πρόχειρο του συστήματος</translation>
+        <translation>Αντιγραφ? τη? επιλεγμ?νη? υπογραφ?? στο πρ?χειρο του συστ?ματο?</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Υπογράψτε το μήνυμα για να αποδείξετε πως σας ανήκει η συγκεκριμένη διεύθυνση Litecoin</translation>
+        <source>Sign the message to prove you own this MiningEnthusiastCoin address</source>
+        <translation>Υπογρ?ψτε το μ?νυμα για να αποδε?ξετε πω? σα? αν?κει η συγκεκριμ?νη διε?θυνση MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Υπογραφη μήνυματος</translation>
+        <translation>Υπογραφη μ?νυματο?</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Επαναφορά όλων των πεδίων μήνυματος</translation>
+        <translation>Επαναφορ? ?λων των πεδ?ων μ?νυματο?</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Καθαρισμός &amp;Όλων</translation>
+        <translation>Καθαρισμ?? &amp;?λων</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Επιβεβαίωση Mηνύματος</translation>
+        <translation>&amp;Επιβεβα?ωση Mην?ματο?</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Διεύθυνση Litecoin με την οποία έχει υπογραφεί το μήνυμα</translation>
+        <source>The MiningEnthusiastCoin address the message was signed with</source>
+        <translation>Διε?θυνση MiningEnthusiastCoin με την οπο?α ?χει υπογραφε? το μ?νυμα</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Επαληθεύστε το μήνυμα για να αποδείξετε πως υπογράφθηκε από τη συγκεκριμένη διεύθυνση Litecoin</translation>
+        <source>Verify the message to ensure it was signed with the specified MiningEnthusiastCoin address</source>
+        <translation>Επαληθε?στε το μ?νυμα για να αποδε?ξετε πω? υπογρ?φθηκε απ? τη συγκεκριμ?νη διε?θυνση MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Επιβεβαίωση Mηνύματος</translation>
+        <translation>Επιβεβα?ωση Mην?ματο?</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Επαναφορά όλων των πεδίων επαλήθευσης μηνύματος</translation>
+        <translation>Επαναφορ? ?λων των πεδ?ων επαλ?θευση? μην?ματο?</translation>
     </message>
     </context>
 <context>
@@ -1611,151 +1611,151 @@
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
-        <translation>Ανοιχτό μέχρι %1</translation>
+        <translation>Ανοιχτ? μ?χρι %1</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/αποσυνδεδεμένο</translation>
+        <translation>%1/αποσυνδεδεμ?νο</translation>
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>0/ανεπιβεβαίωτο, %1</translation>
+        <translation>0/ανεπιβεβα?ωτο, %1</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Ημερομηνία</translation>
+        <translation>Ημερομην?α</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Πηγή</translation>
+        <translation>Πηγ?</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Παράχθηκε</translation>
+        <translation>Παρ?χθηκε</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Από</translation>
+        <translation>Απ?</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>Άγνωστο</translation>
+        <translation>?γνωστο</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Προς</translation>
+        <translation>Προ?</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>δική σας διεύθυνση</translation>
+        <translation>δικ? σα? διε?θυνση</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>παρακολούθηση-μόνο</translation>
+        <translation>παρακολο?θηση-μ?νο</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>ετικέτα</translation>
+        <translation>ετικ?τα</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Πίστωση</translation>
+        <translation>Π?στωση</translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>μη έγκυρο</translation>
+        <translation>μη ?γκυρο</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Συνολική πίστωση</translation>
+        <translation>Συνολικ? π?στωση</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Κόστος συναλλαγής</translation>
+        <translation>Κ?στο? συναλλαγ??</translation>
     </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Αυτό το παράθυρο δείχνει μια λεπτομερή περιγραφή της συναλλαγής</translation>
+        <translation>Αυτ? το παρ?θυρο δε?χνει μια λεπτομερ? περιγραφ? τη? συναλλαγ??</translation>
     </message>
     </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Ημερομηνία</translation>
+        <translation>Ημερομην?α</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Ετικέτα</translation>
+        <translation>Ετικ?τα</translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Ανοιχτό μέχρι %1</translation>
+        <translation>Ανοιχτ? μ?χρι %1</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>παρακολούθηση-μόνο</translation>
+        <translation>παρακολο?θηση-μ?νο</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(χωρίς ετικέτα)</translation>
+        <translation>(χωρ?? ετικ?τα)</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Copy address</source>
-        <translation>Αντιγραφή διεύθυνσης</translation>
+        <translation>Αντιγραφ? διε?θυνση?</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Αντιγραφή ετικέτας</translation>
+        <translation>Αντιγραφ? ετικ?τα?</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Αντιγραφή ποσού</translation>
+        <translation>Αντιγραφ? ποσο?</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Αντιγραφή ταυτότητας συναλλαγής</translation>
+        <translation>Αντιγραφ? ταυτ?τητα? συναλλαγ??</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>Αντιγραφή ανεπεξέργαστης συναλλαγής</translation>
+        <translation>Αντιγραφ? ανεπεξ?ργαστη? συναλλαγ??</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Επεξεργασία ετικέτας</translation>
+        <translation>Επεξεργασ?α ετικ?τα?</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Αρχείο οριοθετημένο με κόμματα (*.csv)</translation>
+        <translation>Αρχε?ο οριοθετημ?νο με κ?μματα (*.csv)</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Ημερομηνία</translation>
+        <translation>Ημερομην?α</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Ετικέτα</translation>
+        <translation>Ετικ?τα</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Διεύθυνση</translation>
+        <translation>Διε?θυνση</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Αποτυχία Εξαγωγής</translation>
+        <translation>Αποτυχ?α Εξαγωγ??</translation>
     </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Μονάδα μέτρησης προβολής ποσών. Κάντε κλικ για επιλογή άλλης μονάδας.</translation>
+        <translation>Μον?δα μ?τρηση? προβολ?? ποσ?ν. Κ?ντε κλικ για επιλογ? ?λλη? μον?δα?.</translation>
     </message>
 </context>
 <context>
@@ -1771,251 +1771,251 @@
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
-        <translation>Επιλογές:</translation>
+        <translation>Επιλογ??:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Ορισμός φακέλου δεδομένων</translation>
+        <translation>Ορισμ?? φακ?λου δεδομ?νων</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Σύνδεση σε έναν κόμβο για την ανάκτηση διευθύνσεων από ομότιμους, και αποσύνδεση</translation>
+        <translation>Σ?νδεση σε ?ναν κ?μβο για την αν?κτηση διευθ?νσεων απ? ομ?τιμου?, και αποσ?νδεση</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Διευκρινίστε τη δικιά σας δημόσια διεύθυνση.</translation>
+        <translation>Διευκριν?στε τη δικι? σα? δημ?σια διε?θυνση.</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Αποδοχή εντολών κονσόλας και JSON-RPC</translation>
+        <translation>Αποδοχ? εντολ?ν κονσ?λα? και JSON-RPC</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Εκτέλεση στο παρασκήνιο και αποδοχή εντολών</translation>
+        <translation>Εκτ?λεση στο παρασκ?νιο και αποδοχ? εντολ?ν</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>MiningEnthusiastCoin Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Δέσμευση σε συγκεκριμένη διεύθυνση και συνεχόμενη παρακολούθηση σε αυτή. Χρησιμοποιήστε τη σημειογραφία [διακομιστή]:θύρα για IPv6</translation>
+        <translation>Δ?σμευση σε συγκεκριμ?νη διε?θυνση και συνεχ?μενη παρακολο?θηση σε αυτ?. Χρησιμοποι?στε τη σημειογραφ?α [διακομιστ?]:θ?ρα για IPv6</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
+        <translation>Εκτ?λεσε την εντολ? ?ταν το καλ?τερο μπλοκ αλλ?ξει(%s στην εντολ? αντικαθ?σταται απ? το hash του μπλοκ)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Να δέχεσαι συνδέσεις από έξω(προεπιλογή:1)</translation>
+        <translation>Να δ?χεσαι συνδ?σει? απ? ?ξω(προεπιλογ?:1)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Επιλογές δημιουργίας μπλοκ:</translation>
+        <translation>Επιλογ?? δημιουργ?α? μπλοκ:</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Επιλογές σύνδεσης:</translation>
+        <translation>Επιλογ?? σ?νδεση?:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Εντοπίσθηκε διεφθαρμένη βάση δεδομένων των μπλοκ</translation>
+        <translation>Εντοπ?σθηκε διεφθαρμ?νη β?ση δεδομ?νων των μπλοκ</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Θέλετε να δημιουργηθεί τώρα η βάση δεδομένων των μπλοκ;</translation>
+        <translation>Θ?λετε να δημιουργηθε? τ?ρα η β?ση δεδομ?νων των μπλοκ;</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Σφάλμα κατά την ενεργοποίηση της βάσης δεδομένων των μπλοκ</translation>
+        <translation>Σφ?λμα κατ? την ενεργοπο?ηση τη? β?ση? δεδομ?νων των μπλοκ</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Σφάλμα κατά την ενεργοποίηση της βάσης δεδομένων πορτοφολιού %s!</translation>
+        <translation>Σφ?λμα κατ? την ενεργοπο?ηση τη? β?ση? δεδομ?νων πορτοφολιο? %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Σφάλμα φόρτωσης της βάσης δεδομένων των μπλοκ</translation>
+        <translation>Σφ?λμα φ?ρτωση? τη? β?ση? δεδομ?νων των μπλοκ</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Σφάλμα φόρτωσης της βάσης δεδομένων των μπλοκ</translation>
+        <translation>Σφ?λμα φ?ρτωση? τη? β?ση? δεδομ?νων των μπλοκ</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Σφάλμα: Χαμηλός χώρος στο δίσκο!</translation>
+        <translation>Σφ?λμα: Χαμηλ?? χ?ρο? στο δ?σκο!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Αποτυχία παρακολούθησης σε οποιαδήποτε θύρα. Χρησιμοποιήστε -listen=0 αν θέλετε αυτό.</translation>
+        <translation>Αποτυχ?α παρακολο?θηση? σε οποιαδ?ποτε θ?ρα. Χρησιμοποι?στε -listen=0 αν θ?λετε αυτ?.</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Εισαγωγή...</translation>
+        <translation>Εισαγωγ?...</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Δεν υπάρχουν αρκετοί περιγραφείς αρχείων διαθέσιμοι.</translation>
+        <translation>Δεν υπ?ρχουν αρκετο? περιγραφε?? αρχε?ων διαθ?σιμοι.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Σύνδεση μόνο σε κόμβους του δικτύου &lt;net&gt; (ipv4, ipv6 ή onion)</translation>
+        <translation>Σ?νδεση μ?νο σε κ?μβου? του δικτ?ου &lt;net&gt; (ipv4, ipv6 ? onion)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Επιλέξτε αρχείο πορτοφολιού (μέσα από κατάλογο δεδομένων)</translation>
+        <translation>Επιλ?ξτε αρχε?ο πορτοφολιο? (μ?σα απ? κατ?λογο δεδομ?νων)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Επαλήθευση των μπλοκ...</translation>
+        <translation>Επαλ?θευση των μπλοκ...</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Επιλογές πορτοφολιού:</translation>
+        <translation>Επιλογ?? πορτοφολιο?:</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Σύνδεση μέσω διαμεσολαβητή SOCKS5</translation>
+        <translation>Σ?νδεση μ?σω διαμεσολαβητ? SOCKS5</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Σφάλμα ανάγνωσης από τη βάση δεδομένων, γίνεται τερματισμός.</translation>
+        <translation>Σφ?λμα αν?γνωση? απ? τη β?ση δεδομ?νων, γ?νεται τερματισμ??.</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Πληροφορία</translation>
+        <translation>Πληροφορ?α</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Επιλογές αναμετάδοσης κόμβου:</translation>
+        <translation>Επιλογ?? αναμετ?δοση? κ?μβου:</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Επιλογές διακομιστή RPC:</translation>
+        <translation>Επιλογ?? διακομιστ? RPC:</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Αποστολή πληροφοριών εντοπισμού σφαλμάτων στην κονσόλα αντί του αρχείου debug.log</translation>
+        <translation>Αποστολ? πληροφορι?ν εντοπισμο? σφαλμ?των στην κονσ?λα αντ? του αρχε?ου debug.log</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Προβολή όλων των επιλογών εντοπισμού σφαλμάτων (χρήση: --help -help-debug)</translation>
+        <translation>Προβολ? ?λων των επιλογ?ν εντοπισμο? σφαλμ?των (χρ?ση: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Συρρίκνωση του αρχείου debug.log κατα την εκκίνηση του πελάτη (προεπιλογή: 1 όταν δεν είναι -debug)</translation>
+        <translation>Συρρ?κνωση του αρχε?ου debug.log κατα την εκκ?νηση του πελ?τη (προεπιλογ?: 1 ?ταν δεν ε?ναι -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Η υπογραφή συναλλαγής απέτυχε </translation>
+        <translation>Η υπογραφ? συναλλαγ?? απ?τυχε </translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Η εφαρμογή είναι σε πειραματικό στάδιο.</translation>
+        <translation>Η εφαρμογ? ε?ναι σε πειραματικ? στ?διο.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Το ποσό της συναλλαγής είναι πολύ μικρό</translation>
+        <translation>Το ποσ? τη? συναλλαγ?? ε?ναι πολ? μικρ?</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Η συναλλαγή είναι πολύ μεγάλη</translation>
+        <translation>Η συναλλαγ? ε?ναι πολ? μεγ?λη</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Όνομα χρήστη για τις συνδέσεις JSON-RPC</translation>
+        <translation>?νομα χρ?στη για τι? συνδ?σει? JSON-RPC</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Προειδοποίηση</translation>
+        <translation>Προειδοπο?ηση</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Μεταφορά όλων των συναλλαγών από το πορτοφόλι</translation>
+        <translation>Μεταφορ? ?λων των συναλλαγ?ν απ? το πορτοφ?λι</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Κωδικός για τις συνδέσεις JSON-RPC</translation>
+        <translation>Κωδικ?? για τι? συνδ?σει? JSON-RPC</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
+        <translation>Εκτ?λεσε την εντολ? ?ταν το καλ?τερο μπλοκ αλλ?ξει(%s στην εντολ? αντικαθ?σταται απ? το hash του μπλοκ)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Να επιτρέπονται οι έλεγχοι DNS για προσθήκη και σύνδεση κόμβων</translation>
+        <translation>Να επιτρ?πονται οι ?λεγχοι DNS για προσθ?κη και σ?νδεση κ?μβων</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Πόσο εξονυχιστική να είναι η επιβεβαίωση του μπλοκ (0-4, προεπιλογή: %u)</translation>
+        <translation>Π?σο εξονυχιστικ? να ε?ναι η επιβεβα?ωση του μπλοκ (0-4, προεπιλογ?: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Διατήρηση ένος πλήρους ευρετηρίου συναλλαγών (προεπιλογή: %u)</translation>
+        <translation>Διατ?ρηση ?νο? πλ?ρου? ευρετηρ?ου συναλλαγ?ν (προεπιλογ?: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Αριθμός δευτερολέπτων πριν επιτραπεί ξανά η σύνδεση των προβληματικών χρηστών (προεπιλογή: %u)</translation>
+        <translation>Αριθμ?? δευτερολ?πτων πριν επιτραπε? ξαν? η σ?νδεση των προβληματικ?ν χρηστ?ν (προεπιλογ?: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Πόσα μπλοκ να ελεγχθούν κατά την εκκίνηση (προεπιλογή: %u, 0 = όλα)</translation>
+        <translation>Π?σα μπλοκ να ελεγχθο?ν κατ? την εκκ?νηση (προεπιλογ?: %u, 0 = ?λα)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Να συμπεριληφθεί η διεύθυνση IP στην αναφορά? (προεπιλογή: %u)</translation>
+        <translation>Να συμπεριληφθε? η διε?θυνση IP στην αναφορ?? (προεπιλογ?: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Μέγιστες αριθμός συνδέσεων με τους χρήστες &lt;n&gt; (προεπιλογή: %u)</translation>
+        <translation>Μ?γιστε? αριθμ?? συνδ?σεων με του? χρ?στε? &lt;n&gt; (προεπιλογ?: %u)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: %s)</translation>
+        <translation>Ορ?στε αρχε?ο ρυθμ?σεων (προεπιλογ?: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Ορισμός λήξης χρονικού ορίου σε χιλιοστά του δευτερολέπτου(προεπιλογή: %d)</translation>
+        <translation>Ορισμ?? λ?ξη? χρονικο? ορ?ου σε χιλιοστ? του δευτερολ?πτου(προεπιλογ?: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: %s)</translation>
+        <translation>Ορ?στε αρχε?ο pid (προεπιλογ?: %s)</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Όριο αποσύνδεσης προβληματικών χρηστών (προεπιλογή: %u)</translation>
+        <translation>?ριο αποσ?νδεση? προβληματικ?ν χρηστ?ν (προεπιλογ?: %u)</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Έχει οριστεί άγνωστo δίκτυο στο -onlynet: '%s'</translation>
+        <translation>?χει οριστε? ?γνωστo δ?κτυο στο -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Ανεπαρκές κεφάλαιο</translation>
+        <translation>Ανεπαρκ?? κεφ?λαιο</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Φόρτωση ευρετηρίου μπλοκ...</translation>
+        <translation>Φ?ρτωση ευρετηρ?ου μπλοκ...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Φόρτωση πορτοφολιού...</translation>
+        <translation>Φ?ρτωση πορτοφολιο?...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Δεν μπορώ να υποβαθμίσω το πορτοφόλι</translation>
+        <translation>Δεν μπορ? να υποβαθμ?σω το πορτοφ?λι</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Ανίχνευση...</translation>
+        <translation>Αν?χνευση...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Η φόρτωση ολοκληρώθηκε</translation>
+        <translation>Η φ?ρτωση ολοκληρ?θηκε</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>Σφ?λμα</translation>
     </message>
 </context>
 </TS>

@@ -3,15 +3,15 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>Жаңа адрес енгізу</translation>
+        <translation>Жа?а адрес енг?зу</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>Жаңа</translation>
+        <translation>Жа?а</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Таңдаған адресті тізімнен жою</translation>
+        <translation>Та?да?ан адрест? т?з?мнен жою</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
@@ -33,15 +33,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Құпия сөзді енгізу</translation>
+        <translation>??пия с?зд? енг?зу</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Жаңа құпия сөзі</translation>
+        <translation>Жа?а ??пия с?з?</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Жаңа құпия сөзді қайта енгізу</translation>
+        <translation>Жа?а ??пия с?зд? ?айта енг?зу</translation>
     </message>
     </context>
 <context>
@@ -55,31 +55,31 @@
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Шығу</translation>
+        <translation>Шы?у</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>Параметрлері</translation>
+        <translation>Параметрлер?</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Әмиянды жасыру</translation>
+        <translation>?миянды жасыру</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Құпия сөзді өзгерту</translation>
+        <translation>??пия с?зд? ?згерту</translation>
     </message>
     <message>
-        <source>Litecoin</source>
+        <source>MiningEnthusiastCoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Әмиян</translation>
+        <translation>?миян</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>Жіберу</translation>
+        <translation>Ж?беру</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -91,15 +91,15 @@
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>Көмек</translation>
+        <translation>К?мек</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 қалмады</translation>
+        <translation>%1 ?алмады</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>қате</translation>
+        <translation>?ате</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Жаңартылған</translation>
+        <translation>Жа?артыл?ан</translation>
     </message>
     </context>
 <context>
@@ -126,11 +126,11 @@
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Шаң</translation>
+        <translation>Ша?</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Комиссия алу кейін</translation>
+        <translation>Комиссия алу кей?н</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -138,7 +138,7 @@
     </message>
     <message>
         <source>Date</source>
-        <translation>Күні</translation>
+        <translation>К?н?</translation>
     </message>
     <message>
         <source>Confirmations</source>
@@ -146,14 +146,14 @@
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Растық</translation>
+        <translation>Расты?</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Label</source>
-        <translation>таңба</translation>
+        <translation>та?ба</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -169,12 +169,12 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
+        <source>MiningEnthusiastCoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>қате</translation>
+        <translation>?ате</translation>
     </message>
     </context>
 <context>
@@ -187,11 +187,11 @@
     <name>OptionsDialog</name>
     <message>
         <source>W&amp;allet</source>
-        <translation>Әмиян</translation>
+        <translation>?миян</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>қате</translation>
+        <translation>?ате</translation>
     </message>
     </context>
 <context>
@@ -252,11 +252,11 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Комиссия алу кейін:</translation>
+        <translation>Комиссия алу кей?н:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Шаң</translation>
+        <translation>Ша?</translation>
     </message>
     </context>
 <context>
@@ -313,11 +313,11 @@
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Транзакция өте кішкентай</translation>
+        <translation>Транзакция ?те к?шкентай</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Транзакция өте үлкен</translation>
+        <translation>Транзакция ?те ?лкен</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -325,7 +325,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation>қате</translation>
+        <translation>?ате</translation>
     </message>
 </context>
 </TS>

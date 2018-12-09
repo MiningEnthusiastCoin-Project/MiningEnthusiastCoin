@@ -62,12 +62,12 @@
         <translation>Indirizzi riceventi</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i suoi indirizzi Litecoin per ricevere i pagamenti. Controlla sempre l'importo e gli indirizzi prima di inviare i coins.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono i suoi indirizzi MiningEnthusiastCoin per ricevere i pagamenti. Controlla sempre l'importo e gli indirizzi prima di inviare i coins.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi Litecoin per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo per ogni transazione.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi MiningEnthusiastCoin per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Inserisci la nuova password per il portafoglio.&lt;br/&gt;Per favore usa una password di &lt;b&gt;dieci o più caratteri casuali&lt;/b&gt;, oppure &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
+        <translation>Inserisci la nuova password per il portafoglio.&lt;br/&gt;Per favore usa una password di &lt;b&gt;dieci o piu caratteri casuali&lt;/b&gt;, oppure &lt;b&gt;otto o piu parole&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -168,8 +168,8 @@
         <translation>Conferma criptaggio portafoglio</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Attenzione: Se cripti il tuo portafoglio e perdi la password, &lt;b&gt;PERDERAI TUTTI I TUOI LITECOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Attenzione: Se cripti il tuo portafoglio e perdi la password, &lt;b&gt;PERDERAI TUTTI I TUOI MININGENTHUSIASTCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +180,8 @@
         <translation>Portafoglio criptato</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 ora si chiuderà per concludere il processo di criptaggio. Ricorda che criptare il tuo portafoglio non può definitivamente proteggere i tuoi litecoin da furti tramite malware che infetta il tuo computer.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 ora si chiudera per concludere il processo di criptaggio. Ricorda che criptare il tuo portafoglio non puo definitivamente proteggere i tuoi miningenthusiastcoin da furti tramite malware che infetta il tuo computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Criptaggio del portafoglio fallito per un errore interno. Il tuo portafoglio non è stato criptato.</translation>
+        <translation>Criptaggio del portafoglio fallito per un errore interno. Il tuo portafoglio non e stato criptato.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -205,7 +205,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La password inserita per decriptare il portafoglio è errata.</translation>
+        <translation>La password inserita per decriptare il portafoglio e errata.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -213,11 +213,11 @@
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>La password del portafoglio è stata cambiata correttamente.</translation>
+        <translation>La password del portafoglio e stata cambiata correttamente.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Attenzione: Il tasto blocco delle maiuscole è attivo!</translation>
+        <translation>Attenzione: Il tasto blocco delle maiuscole e attivo!</translation>
     </message>
 </context>
 <context>
@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>Di più su %1</translation>
+        <translation>Di piu su %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
@@ -279,7 +279,7 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Di più su Qt</translation>
+        <translation>Di piu su Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
@@ -319,15 +319,15 @@
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Clicca per disabilitare attività di rete.</translation>
+        <translation>Clicca per disabilitare attivita di rete.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Attività di rete disabilitata.</translation>
+        <translation>Attivita di rete disabilitata.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Clicca per riabilitare attività di rete.</translation>
+        <translation>Clicca per riabilitare attivita di rete.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
@@ -338,8 +338,8 @@
         <translation>Reindicizzazione dei blocchi sul disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Invia monete ad un indirizzo Litecoin...</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Invia monete ad un indirizzo MiningEnthusiastCoin...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>Verifica messaggio...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Cripta le chiavi private che appartengono al tuo portafoglio</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Firma messaggi con i tuoi indirizzi Litecoin per provare che li possiedi</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Firma messaggi con i tuoi indirizzi MiningEnthusiastCoin per provare che li possiedi</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifica messaggi per accertarti che siano firmati dagli indirizzi Litecoin specificati</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Verifica messaggi per accertarti che siano firmati dagli indirizzi MiningEnthusiastCoin specificati</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Barra degli strumenti</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e litecoin: URI)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e miningenthusiastcoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Mostra la lista degli indirizzi di ricezione usati e le relative etichette</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Apri un litecoin: URI o una richiesta di pagamento</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>Apri un miningenthusiastcoin: URI o una richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -451,7 +451,7 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Le transazioni dopo di questa non saranno più visibili</translation>
+        <translation>Le transazioni dopo di questa non saranno piu visibili</translation>
     </message>
     <message>
         <source>Error</source>
@@ -470,8 +470,8 @@
         <translation>Aggiornato</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Mostra il %1 messaggio d'aiuto per ottenere una lista con le possibili opzioni per la riga di comando di Litecoin</translation>
+        <source>Show the %1 help message to get a list with possible MiningEnthusiastCoin command-line options</source>
+        <translation>Mostra il %1 messaggio d'aiuto per ottenere una lista con le possibili opzioni per la riga di comando di MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Date: %1
@@ -512,8 +512,8 @@
         <translation>Transazione in arrivo</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Si è verificato un errore fatale. Litecoin non può continuare in maniera sicura e sarà chiuso.</translation>
+        <source>A fatal error occurred. MiningEnthusiastCoin can no longer continue safely and will quit.</source>
+        <translation>Si e verificato un errore fatale. MiningEnthusiastCoin non puo continuare in maniera sicura e sara chiuso.</translation>
     </message>
 </context>
 <context>
@@ -524,7 +524,7 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantità:</translation>
+        <translation>Quantita:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -552,11 +552,11 @@
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Modalità albero</translation>
+        <translation>Modalita albero</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Modalità lista</translation>
+        <translation>Modalita lista</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -608,7 +608,7 @@
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copia quantità</translation>
+        <translation>Copia quantita</translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -667,7 +667,7 @@
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>L'indirizzo associato con questa voce dell'elenco indirizzi. Può essere modificato per inviare indirizzi.</translation>
+        <translation>L'indirizzo associato con questa voce dell'elenco indirizzi. Puo essere modificato per inviare indirizzi.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -690,12 +690,12 @@
         <translation>Modifica l'indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo Litecoin valido.</translation>
+        <source>The entered address "%1" is not a valid MiningEnthusiastCoin address.</source>
+        <translation>L'indirizzo inserito "%1" non e un indirizzo MiningEnthusiastCoin valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>L'indirizzo inserito "%1" è già nella rubrica.</translation>
+        <translation>L'indirizzo inserito "%1" e gia nella rubrica.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -710,7 +710,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Una nuova cartella dei dati verrà creata.</translation>
+        <translation>Una nuova cartella dei dati verra creata.</translation>
     </message>
     <message>
         <source>name</source>
@@ -718,11 +718,11 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>La cartella esiste già. Aggiungi %1 se vuoi creare una nuova cartella qui.</translation>
+        <translation>La cartella esiste gia. Aggiungi %1 se vuoi creare una nuova cartella qui.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Il percorso esiste già, e non è una cartella.</translation>
+        <translation>Il percorso esiste gia, e non e una cartella.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
@@ -763,8 +763,8 @@
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -902,7 +902,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Quantità:</translation>
+        <translation>Quantita:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -926,7 +926,7 @@
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copia quantità</translation>
+        <translation>Copia quantita</translation>
     </message>
     <message>
         <source>Copy amount</source>

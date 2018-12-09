@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Kliko me të djathtën për të ndryshuar adresën ose etiketen.</translation>
+        <translation>Kliko me te djathten per te ndryshuar adresen ose etiketen.</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Krijo një adresë të re</translation>
+        <translation>Krijo nje adrese te re</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopjo adresën e zgjedhur në memorjen e sistemit </translation>
+        <translation>Kopjo adresen e zgjedhur ne memorjen e sistemit </translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksporto të dhënat e skedës korrente në një skedar</translation>
+        <translation>Eksporto te dhenat e skedes korrente ne nje skedar</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -39,7 +39,7 @@
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Zgjidh adresën ku do të merrni monedhat</translation>
+        <translation>Zgjidh adresen ku do te merrni monedhat</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -54,12 +54,12 @@
         <translation>Duke marr adresen</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Këto janë Litecoin adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Keto jane MiningEnthusiastCoin adresat e juaja per te derguar pagesa. Gjithmon kontrolloni shumen dhe adresen pranuese para se te dergoni monedha.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Këto janë Litecoin adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Keto jane MiningEnthusiastCoin adresat e juaja per te pranuar pagesa. Rekomandohet qe gjithmon te perdorni nje adrese te re per cdo transaksion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopjo &amp;Etiketë</translation>
+        <translation>Kopjo &amp;Etikete</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -75,53 +75,53 @@
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Eksporto listën e adresave</translation>
+        <translation>Eksporto listen e adresave</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Skedar i ndarë me pikëpresje(*.csv)</translation>
+        <translation>Skedar i ndare me pikepresje(*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Eksportimi dështoj</translation>
+        <translation>Eksportimi deshtoj</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Gabim gjatë ruajtjes së listës së adresave në %1. Ju lutem provoni prapë.</translation>
+        <translation>Gabim gjate ruajtjes se listes se adresave ne %1. Ju lutem provoni prape.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Etiketë</translation>
+        <translation>Etikete</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresë</translation>
+        <translation>Adrese</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pa etiketë)</translation>
+        <translation>(pa etikete)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Futni fjalëkalimin</translation>
+        <translation>Futni fjalekalimin</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Fjalëkalimi i ri</translation>
+        <translation>Fjalekalimi i ri</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Përsërisni fjalëkalimin e ri</translation>
+        <translation>Perserisni fjalekalimin e ri</translation>
     </message>
     <message>
         <source>Show password</source>
-        <translation>Trego fjalëkalimin</translation>
+        <translation>Trego fjalekalimin</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ky veprim ka nevojë per fjalëkalimin e portofolit tuaj që të hapë portofolin.</translation>
+        <translation>Ky veprim ka nevoje per fjalekalimin e portofolit tuaj qe te hape portofolin.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -137,7 +137,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ky veprim kërkon frazkalimin e portofolit tuaj që të dekriptoj portofolin.</translation>
+        <translation>Ky veprim kerkon frazkalimin e portofolit tuaj qe te dekriptoj portofolin.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -145,11 +145,11 @@
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Ndrysho fjalëkalimin</translation>
+        <translation>Ndrysho fjalekalimin</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Fusni fjalëkalimin e vjetër dhe fjalëkalimin e ri që të hapni portofolin.</translation>
+        <translation>Fusni fjalekalimin e vjeter dhe fjalekalimin e ri qe te hapni portofolin.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -165,27 +165,27 @@
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Enkriptimi i portofolit dështoi</translation>
+        <translation>Enkriptimi i portofolit deshtoi</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Enkriptimi i portofolit dështoi për shkak të një gabimi të brëndshëm. portofoli juaj nuk u enkriptua.</translation>
+        <translation>Enkriptimi i portofolit deshtoi per shkak te nje gabimi te brendshem. portofoli juaj nuk u enkriptua.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Frazkalimet e plotësuara nuk përputhen.</translation>
+        <translation>Frazkalimet e plotesuara nuk perputhen.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>ç'kyçja e portofolit dështoi</translation>
+        <translation>c'kycja e portofolit deshtoi</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Frazkalimi i futur për dekriptimin e portofolit nuk ishte i saktë.</translation>
+        <translation>Frazkalimi i futur per dekriptimin e portofolit nuk ishte i sakte.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Dekriptimi i portofolit dështoi</translation>
+        <translation>Dekriptimi i portofolit deshtoi</translation>
     </message>
     </context>
 <context>
@@ -199,11 +199,11 @@
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Përmbledhje</translation>
+        <translation>&amp;Permbledhje</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Trego një përmbledhje te përgjithshme të portofolit</translation>
+        <translation>Trego nje permbledhje te pergjithshme te portofolit</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Shfleto historinë e transaksioneve</translation>
+        <translation>Shfleto historine e transaksioneve</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -227,11 +227,11 @@
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
+        <translation>Ndrysho frazkalimin e perdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Ndihmë</translation>
+        <translation>&amp;Ndihme</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
@@ -287,19 +287,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Dërgo transaksionin</translation>
+        <translation>Dergo transaksionin</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transaksion në ardhje</translation>
+        <translation>Transaksion ne ardhje</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portofoli po &lt;b&gt; enkriptohet&lt;/b&gt; dhe është &lt;b&gt; i ç'kyçur&lt;/b&gt;</translation>
+        <translation>Portofoli po &lt;b&gt; enkriptohet&lt;/b&gt; dhe eshte &lt;b&gt; i c'kycur&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portofoli po &lt;b&gt; enkriptohet&lt;/b&gt; dhe është &lt;b&gt; i kyçur&lt;/b&gt;</translation>
+        <translation>Portofoli po &lt;b&gt; enkriptohet&lt;/b&gt; dhe eshte &lt;b&gt; i kycur&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -322,7 +322,7 @@
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopjo adresën</translation>
+        <translation>Kopjo adresen</translation>
     </message>
     <message>
         <source>yes</source>
@@ -334,18 +334,18 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pa etiketë)</translation>
+        <translation>(pa etikete)</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Ndrysho Adresën</translation>
+        <translation>Ndrysho Adresen</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Etiketë</translation>
+        <translation>&amp;Etikete</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -353,31 +353,31 @@
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Adresë e re pritëse</translation>
+        <translation>Adrese e re pritese</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Adresë e re dërgimi</translation>
+        <translation>Adrese e re dergimi</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Ndrysho adresën pritëse</translation>
+        <translation>Ndrysho adresen pritese</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>ndrysho adresën dërguese</translation>
+        <translation>ndrysho adresen derguese</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Adresa e dhënë "%1" është e zënë në librin e adresave. </translation>
+        <translation>Adresa e dhene "%1" eshte e zene ne librin e adresave. </translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Nuk mund të ç'kyçet portofoli.</translation>
+        <translation>Nuk mund te c'kycet portofoli.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Krijimi i çelësit të ri dështoi.</translation>
+        <translation>Krijimi i celesit te ri deshtoi.</translation>
     </message>
 </context>
 <context>
@@ -401,8 +401,8 @@
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -413,7 +413,7 @@
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Formilarë</translation>
+        <translation>Formilare</translation>
     </message>
     </context>
 <context>
@@ -438,7 +438,7 @@
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Formilarë</translation>
+        <translation>Formilare</translation>
     </message>
     </context>
 <context>
@@ -495,7 +495,7 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Etiketë:</translation>
+        <translation>&amp;Etikete:</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -510,7 +510,7 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresë</translation>
+        <translation>Adrese</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -518,7 +518,7 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Etiketë</translation>
+        <translation>Etikete</translation>
     </message>
     </context>
 <context>
@@ -529,18 +529,18 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Etiketë</translation>
+        <translation>Etikete</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pa etiketë)</translation>
+        <translation>(pa etikete)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Dërgo Monedha</translation>
+        <translation>Dergo Monedha</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -552,7 +552,7 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Dërgo marrësve të ndryshëm njëkohësisht</translation>
+        <translation>Dergo marresve te ndryshem njekohesisht</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -560,19 +560,19 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Konfirmo veprimin e dërgimit</translation>
+        <translation>Konfirmo veprimin e dergimit</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>konfirmo dërgimin e monedhave</translation>
+        <translation>konfirmo dergimin e monedhave</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Shuma e paguar duhet të jetë më e madhe se 0.</translation>
+        <translation>Shuma e paguar duhet te jete me e madhe se 0.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pa etiketë)</translation>
+        <translation>(pa etikete)</translation>
     </message>
 </context>
 <context>
@@ -587,7 +587,7 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Etiketë:</translation>
+        <translation>&amp;Etikete:</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -607,7 +607,7 @@
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Krijoni një etiketë për këtë adresë që t'ja shtoni librit të adresave</translation>
+        <translation>Krijoni nje etikete per kete adrese qe t'ja shtoni librit te adresave</translation>
     </message>
 </context>
 <context>
@@ -645,7 +645,7 @@
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
-        <translation>Hapur deri më %1</translation>
+        <translation>Hapur deri me %1</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -657,7 +657,7 @@
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, nuk është transmetuar me sukses deri tani</translation>
+        <translation>, nuk eshte transmetuar me sukses deri tani</translation>
     </message>
     <message>
         <source>Date</source>
@@ -680,7 +680,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ky panel tregon një përshkrim të detajuar të transaksionit</translation>
+        <translation>Ky panel tregon nje pershkrim te detajuar te transaksionit</translation>
     </message>
     </context>
 <context>
@@ -695,11 +695,11 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Etiketë</translation>
+        <translation>Etikete</translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Hapur deri më %1</translation>
+        <translation>Hapur deri me %1</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -707,7 +707,7 @@
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ky bllok është marrë nga ndonjë nyje dhe ka shumë mundësi të mos pranohet! </translation>
+        <translation>Ky bllok eshte marre nga ndonje nyje dhe ka shume mundesi te mos pranohet! </translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -715,15 +715,15 @@
     </message>
     <message>
         <source>Received with</source>
-        <translation>Marrë me</translation>
+        <translation>Marre me</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Dërguar drejt</translation>
+        <translation>Derguar drejt</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Pagesë ndaj vetvetes</translation>
+        <translation>Pagese ndaj vetvetes</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -735,18 +735,18 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pa etiketë)</translation>
+        <translation>(pa etikete)</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Received with</source>
-        <translation>Marrë me</translation>
+        <translation>Marre me</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Dërguar drejt</translation>
+        <translation>Derguar drejt</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -754,11 +754,11 @@
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopjo adresën</translation>
+        <translation>Kopjo adresen</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Skedar i ndarë me pikëpresje(*.csv)</translation>
+        <translation>Skedar i ndare me pikepresje(*.csv)</translation>
     </message>
     <message>
         <source>Date</source>
@@ -770,15 +770,15 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Etiketë</translation>
+        <translation>Etikete</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresë</translation>
+        <translation>Adrese</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Eksportimi dështoj</translation>
+        <translation>Eksportimi deshtoj</translation>
     </message>
     </context>
 <context>
@@ -791,14 +791,14 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Dërgo Monedha</translation>
+        <translation>Dergo Monedha</translation>
     </message>
     </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksporto të dhënat e skedës korrente në një skedar</translation>
+        <translation>Eksporto te dhenat e skedes korrente ne nje skedar</translation>
     </message>
     </context>
 <context>
@@ -808,8 +808,8 @@
         <translation>Opsionet:</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Berthama Litecoin</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>Berthama MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Information</source>

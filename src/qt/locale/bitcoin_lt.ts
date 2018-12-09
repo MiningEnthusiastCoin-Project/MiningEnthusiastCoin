@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Spustelėkite dešinįjį klavišą norint keisti adresą arba etiketę</translation>
+        <translation>Spustel?kite de?in?j? klavi?? norint keisti adres? arba etiket?</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Sukurti naują adresą</translation>
+        <translation>Sukurti nauj? adres?</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopijuoti esamą adresą į mainų atmintį</translation>
+        <translation>Kopijuoti esam? adres? ? main? atmint?</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -23,15 +23,15 @@
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Užverti</translation>
+        <translation>&amp;U?verti</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Ištrinti pasirinktą adresą iš sąrašo</translation>
+        <translation>I?trinti pasirinkt? adres? i? s?ra?o</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksportuoti informaciją iš dabartinės lentelės į failą</translation>
+        <translation>Eksportuoti informacij? i? dabartin?s lentel?s ? fail?</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -53,33 +53,33 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Slaptafrazės dialogas</translation>
+        <translation>Slaptafraz?s dialogas</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Įvesti slaptafrazę</translation>
+        <translation>?vesti slaptafraz?</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nauja slaptafrazė</translation>
+        <translation>Nauja slaptafraz?</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Pakartokite naują slaptafrazę</translation>
+        <translation>Pakartokite nauj? slaptafraz?</translation>
     </message>
     </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>Banned Until</source>
-        <translation>Užblokuotas iki</translation>
+        <translation>U?blokuotas iki</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Pasirašyti ži&amp;nutę...</translation>
+        <translation>Pasira?yti ?i&amp;nut?...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -87,15 +87,15 @@
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Apžvalga</translation>
+        <translation>&amp;Ap?valga</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Taškas</translation>
+        <translation>Ta?kas</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Rodyti piniginės bendrą apžvalgą</translation>
+        <translation>Rodyti pinigin?s bendr? ap?valg?</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -103,15 +103,15 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Apžvelgti sandorių istoriją</translation>
+        <translation>Ap?velgti sandori? istorij?</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Išeiti</translation>
+        <translation>&amp;I?eiti</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Išjungti programą</translation>
+        <translation>I?jungti program?</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -119,7 +119,7 @@
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Rodyti informaciją apie %1</translation>
+        <translation>Rodyti informacij? apie %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Rodyti informaciją apie Qt</translation>
+        <translation>Rodyti informacij? apie Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -135,19 +135,19 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Užšifruoti piniginę...</translation>
+        <translation>&amp;U??ifruoti pinigin?...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup piniginę...</translation>
+        <translation>&amp;Backup pinigin?...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Keisti slaptafrazę...</translation>
+        <translation>&amp;Keisti slaptafraz?...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Siunčiami adresai...</translation>
+        <translation>&amp;Siun?iami adresai...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -159,19 +159,19 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Blokai iš naujo indeksuojami...</translation>
+        <translation>Blokai i? naujo indeksuojami...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Siųsti monetas Litecoin adresui</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Si?sti monetas MiningEnthusiastCoin adresui</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Daryti piniginės atsarginę kopiją</translation>
+        <translation>Daryti pinigin?s atsargin? kopij?</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Pakeisti slaptafrazę naudojamą piniginės užšifravimui</translation>
+        <translation>Pakeisti slaptafraz? naudojam? pinigin?s u??ifravimui</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -179,23 +179,23 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Atverti derinimo ir diagnostikos konsolę</translation>
+        <translation>Atverti derinimo ir diagnostikos konsol?</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Tikrinti žinutę...</translation>
+        <translation>&amp;Tikrinti ?inut?...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Piniginė</translation>
+        <translation>Pinigin?</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Siųsti</translation>
+        <translation>&amp;Si?sti</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -203,15 +203,15 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Rodyti / Slėpti</translation>
+        <translation>&amp;Rodyti / Sl?pti</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Rodyti arba slėpti pagrindinį langą</translation>
+        <translation>Rodyti arba sl?pti pagrindin? lang?</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Užšifruoti privačius raktus, kurie priklauso jūsų piniginei</translation>
+        <translation>U??ifruoti priva?ius raktus, kurie priklauso j?s? piniginei</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -227,11 +227,11 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Kortelių įrankinė</translation>
+        <translation>Korteli? ?rankin?</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Komandinės eilutės parametrai</translation>
+        <translation>Komandin?s eilut?s parametrai</translation>
     </message>
     <message>
         <source>Error</source>
@@ -239,7 +239,7 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Įspėjimas</translation>
+        <translation>?sp?jimas</translation>
     </message>
     <message>
         <source>Information</source>
@@ -261,7 +261,7 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Sandoris nusiųstas</translation>
+        <translation>Sandoris nusi?stas</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
@@ -269,18 +269,18 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;atrakinta&lt;/b&gt;</translation>
+        <translation>Pinigin? &lt;b&gt;u??ifruota&lt;/b&gt; ir ?iuo metu &lt;b&gt;atrakinta&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;užrakinta&lt;/b&gt;</translation>
+        <translation>Pinigin? &lt;b&gt;u??ifruota&lt;/b&gt; ir ?iuo metu &lt;b&gt;u?rakinta&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Monetų pasirinkimas</translation>
+        <translation>Monet? pasirinkimas</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -300,23 +300,23 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po mokesčio:</translation>
+        <translation>Po mokes?io:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Graža:</translation>
+        <translation>Gra?a:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(ne)pasirinkti viską</translation>
+        <translation>(ne)pasirinkti visk?</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Medžio režimas</translation>
+        <translation>Med?io re?imas</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Sąrašo režimas</translation>
+        <translation>S?ra?o re?imas</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -339,11 +339,11 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Keisti adresą</translation>
+        <translation>Keisti adres?</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>Ž&amp;ymė</translation>
+        <translation>?&amp;ym?</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -365,7 +365,7 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Komandinės eilutės parametrai</translation>
+        <translation>Komandin?s eilut?s parametrai</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -373,7 +373,7 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>komandinės eilutės parametrai</translation>
+        <translation>komandin?s eilut?s parametrai</translation>
     </message>
     </context>
 <context>
@@ -383,8 +383,8 @@
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -413,7 +413,7 @@
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Pagrindinės</translation>
+        <translation>&amp;Pagrindin?s</translation>
     </message>
     <message>
         <source>MB</source>
@@ -433,15 +433,15 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Piniginė</translation>
+        <translation>Pinigin?</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Litecoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the MiningEnthusiastCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automati?kai atidaryti MiningEnthusiastCoin kliento prievad? mar?rutizatoriuje. Tai veikia tik tada, kai j?s? mar?rutizatorius palaiko UPnP ir ji ?jungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Persiųsti prievadą naudojant &amp;UPnP</translation>
+        <translation>Persi?sti prievad? naudojant &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -473,15 +473,15 @@
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Po programos lango sumažinimo rodyti tik programos ikoną.</translation>
+        <translation>Po programos lango suma?inimo rodyti tik programos ikon?.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;M sumažinti langą bet ne užduočių juostą</translation>
+        <translation>&amp;M suma?inti lang? bet ne u?duo?i? juost?</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>&amp;Sumažinti uždarant</translation>
+        <translation>&amp;Suma?inti u?darant</translation>
     </message>
     <message>
         <source>&amp;Display</source>
@@ -489,7 +489,7 @@
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Naudotojo sąsajos &amp;kalba:</translation>
+        <translation>Naudotojo s?sajos &amp;kalba:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -497,7 +497,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Rodomų ir siunčiamų monetų kiekio matavimo vienetai</translation>
+        <translation>Rodom? ir siun?iam? monet? kiekio matavimo vienetai</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -505,7 +505,7 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Atšaukti</translation>
+        <translation>&amp;At?aukti</translation>
     </message>
     <message>
         <source>default</source>
@@ -517,11 +517,11 @@
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Patvirtinti nustatymų atstatymą</translation>
+        <translation>Patvirtinti nustatym? atstatym?</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Kliento perkrovimas reikalingas nustatymų aktyvavimui</translation>
+        <translation>Kliento perkrovimas reikalingas nustatym? aktyvavimui</translation>
     </message>
     <message>
         <source>Error</source>
@@ -529,7 +529,7 @@
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Šis pakeitimas reikalautų kliento perkrovimo</translation>
+        <translation>?is pakeitimas reikalaut? kliento perkrovimo</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -548,7 +548,7 @@
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Jūsų dabartinis išleidžiamas balansas</translation>
+        <translation>J?s? dabartinis i?leid?iamas balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -556,7 +556,7 @@
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Nepribrendę:</translation>
+        <translation>Nepribrend?:</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -564,7 +564,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Jūsų balansas</translation>
+        <translation>J?s? balansas</translation>
     </message>
     </context>
 <context>
@@ -593,7 +593,7 @@
     </message>
     <message>
         <source>N/A</source>
-        <translation>nėra</translation>
+        <translation>n?ra</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -613,7 +613,7 @@
     </message>
     <message>
         <source>unknown</source>
-        <translation>nežinomas</translation>
+        <translation>ne?inomas</translation>
     </message>
 </context>
 <context>
@@ -626,7 +626,7 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>nėra</translation>
+        <translation>n?ra</translation>
     </message>
     <message>
         <source>Client version</source>
@@ -654,15 +654,15 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Prisijungimų kiekis</translation>
+        <translation>Prisijungim? kiekis</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Blokų grandinė</translation>
+        <translation>Blok? grandin?</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Dabartinis blokų skaičius</translation>
+        <translation>Dabartinis blok? skai?ius</translation>
     </message>
     <message>
         <source>Received</source>
@@ -686,7 +686,7 @@
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Konsolė</translation>
+        <translation>&amp;Konsol?</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -694,11 +694,11 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Derinimo žurnalo failas</translation>
+        <translation>Derinimo ?urnalo failas</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Išvalyti konsolę</translation>
+        <translation>I?valyti konsol?</translation>
     </message>
     <message>
         <source>never</source>
@@ -721,15 +721,15 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>Ž&amp;ymė:</translation>
+        <translation>?&amp;ym?:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>Žinutė:</translation>
+        <translation>?inut?:</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Išvalyti</translation>
+        <translation>I?valyti</translation>
     </message>
     </context>
 <context>
@@ -740,7 +740,7 @@
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>&amp;Kopijuoti adresą</translation>
+        <translation>&amp;Kopijuoti adres?</translation>
     </message>
     <message>
         <source>Address</source>
@@ -754,11 +754,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Siųsti monetas</translation>
+        <translation>Si?sti monetas</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Nepakanka lėšų</translation>
+        <translation>Nepakanka l???</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -778,11 +778,11 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po mokesčio:</translation>
+        <translation>Po mokes?io:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Graža:</translation>
+        <translation>Gra?a:</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -790,15 +790,15 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Siųsti keliems gavėjams vienu metu</translation>
+        <translation>Si?sti keliems gav?jams vienu metu</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;A Pridėti gavėją</translation>
+        <translation>&amp;A Prid?ti gav?j?</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Išvalyti &amp;viską</translation>
+        <translation>I?valyti &amp;visk?</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -806,11 +806,11 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Patvirtinti siuntimo veiksmą</translation>
+        <translation>Patvirtinti siuntimo veiksm?</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Siųsti</translation>
+        <translation>&amp;Si?sti</translation>
     </message>
     </context>
 <context>
@@ -821,11 +821,11 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Mokėti &amp;gavėjui:</translation>
+        <translation>Mok?ti &amp;gav?jui:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>Ž&amp;ymė:</translation>
+        <translation>?&amp;ym?:</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -833,7 +833,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Įvesti adresą iš mainų atminties</translation>
+        <translation>?vesti adres? i? main? atminties</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -841,11 +841,11 @@
     </message>
     <message>
         <source>Message:</source>
-        <translation>Žinutė:</translation>
+        <translation>?inut?:</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Mokėti gavėjui:</translation>
+        <translation>Mok?ti gav?jui:</translation>
     </message>
     </context>
 <context>
@@ -858,7 +858,7 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Pasirašyti žinutę</translation>
+        <translation>&amp;Pasira?yti ?inut?</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -866,7 +866,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Įvesti adresą iš mainų atminties</translation>
+        <translation>?vesti adres? i? main? atminties</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -874,31 +874,31 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
+        <translation>?veskite prane?im?, kur? norite pasira?yti ?ia</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
+        <source>Sign the message to prove you own this MiningEnthusiastCoin address</source>
+        <translation>Registruotis ?inute ?rodymuii, kad turite ?? adres?</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Registruoti praneši&amp;mą</translation>
+        <translation>Registruoti prane?i&amp;m?</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Išvalyti &amp;viską</translation>
+        <translation>I?valyti &amp;visk?</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Patikrinti žinutę</translation>
+        <translation>&amp;Patikrinti ?inut?</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Litecoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified MiningEnthusiastCoin address</source>
+        <translation>Patikrinkite ?inut?, jog ?sitikintum?te, kad j? pasira?? nurodytas MiningEnthusiastCoin adresas</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>&amp;Patikrinti žinutę</translation>
+        <translation>&amp;Patikrinti ?inut?</translation>
     </message>
     </context>
 <context>
@@ -922,7 +922,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Šis langas sandorio detalų aprašymą</translation>
+        <translation>?is langas sandorio detal? apra?ym?</translation>
     </message>
     </context>
 <context>
@@ -955,27 +955,27 @@
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Nustatyti duomenų aplanką</translation>
+        <translation>Nustatyti duomen? aplank?</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Nurodykite savo nuosavą viešą adresą</translation>
+        <translation>Nurodykite savo nuosav? vie?? adres?</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Priimti komandinę eilutę ir JSON-RPC komandas</translation>
+        <translation>Priimti komandin? eilut? ir JSON-RPC komandas</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Dirbti fone kaip šešėlyje ir priimti komandas</translation>
+        <translation>Dirbti fone kaip ?e??lyje ir priimti komandas</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin branduolys</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>MiningEnthusiastCoin branduolys</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Klaida atveriant blokų duombazę</translation>
+        <translation>Klaida atveriant blok? duombaz?</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -987,7 +987,7 @@
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Siųsti atsekimo/derinimo info į konsolę vietoj debug.log failo</translation>
+        <translation>Si?sti atsekimo/derinimo info ? konsol? vietoj debug.log failo</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -995,35 +995,35 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Įspėjimas</translation>
+        <translation>?sp?jimas</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Slaptažodis JSON-RPC sujungimams</translation>
+        <translation>Slapta?odis JSON-RPC sujungimams</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Leisti DNS paiešką sujungimui ir mazgo pridėjimui</translation>
+        <translation>Leisti DNS paie?k? sujungimui ir mazgo prid?jimui</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nepakanka lėšų</translation>
+        <translation>Nepakanka l???</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Įkeliamas blokų indeksas...</translation>
+        <translation>?keliamas blok? indeksas...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Užkraunama piniginė...</translation>
+        <translation>U?kraunama pinigin?...</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Peržiūra</translation>
+        <translation>Per?i?ra</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Įkėlimas baigtas</translation>
+        <translation>?k?limas baigtas</translation>
     </message>
     <message>
         <source>Error</source>

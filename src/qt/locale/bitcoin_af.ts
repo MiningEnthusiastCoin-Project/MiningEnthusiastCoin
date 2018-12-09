@@ -62,12 +62,12 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Litecoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u MiningEnthusiastCoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Litecoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u MiningEnthusiastCoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Bevestig dat die beursie gekodifiseer is</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U LITECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U MININGENTHUSIASTCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>BELANGRIK:  Alle vorige kopieë en rugsteun-weergawes wat u tevore van die gemaak het, moet vervang word met die jongste weergawe van u nuutste gekodifiseerde beursie.  Alle vorige weergawes en rugsteun-kopieë van u beursie sal nutteloos raak die oomblik wat u die nuut-gekodifiseerde beursie begin gebruik.</translation>
+        <translation>BELANGRIK:  Alle vorige kopiee en rugsteun-weergawes wat u tevore van die gemaak het, moet vervang word met die jongste weergawe van u nuutste gekodifiseerde beursie.  Alle vorige weergawes en rugsteun-kopiee van u beursie sal nutteloos raak die oomblik wat u die nuut-gekodifiseerde beursie begin gebruik.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -334,12 +334,12 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Stuur munte na 'n Litecoin adres</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Stuur munte na 'n MiningEnthusiastCoin adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Maak 'n rugsteun-kopié van beursie na 'n ander stoorplek</translation>
+        <translation>Maak 'n rugsteun-kopie van beursie na 'n ander stoorplek</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -386,16 +386,16 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Litecoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u MiningEnthusiastCoin adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Litecoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Verifieer boodskappe om seker te maak dat dit met die gespesifiseerde MiningEnthusiastCoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Leër</translation>
+        <translation>&amp;Leer</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -410,8 +410,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en litecoin: URI's)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en miningenthusiastcoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Skep 'n litecoin: URI of betalingsversoek</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>Skep 'n miningenthusiastcoin: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -431,7 +431,7 @@
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Blokke op skyf word geïndekseer...</translation>
+        <translation>Blokke op skyf word geindekseer...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -467,11 +467,11 @@
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 kliënt</translation>
+        <translation>%1 klient</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>Koppel aan eweknieë...</translation>
+        <translation>Koppel aan ewekniee...</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -516,8 +516,8 @@
         <translation>Inkomende transaksie</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Litecoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <source>A fatal error occurred. MiningEnthusiastCoin can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. MiningEnthusiastCoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -652,7 +652,7 @@
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Hierdie etiket raak rooi as enige ontvanger 'n bedrag kleiner as die huidige stof drempel ontvang.</translation>
+        <translation>Hierdie etiket raak rooi as enige?ontvanger 'n bedrag kleiner as die huidige stof drempel ontvang.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
@@ -710,8 +710,8 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Litecoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid MiningEnthusiastCoin address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige MiningEnthusiastCoin adres nie.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -823,8 +823,8 @@
         <translation>Gebruik 'n persoonlike data gids:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -832,7 +832,7 @@
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Fout: Gespesifiseerde dataleêr "%1" kon nie geskep word nie.</translation>
+        <translation>Fout: Gespesifiseerde dataleer "%1" kon nie geskep word nie.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -890,7 +890,7 @@
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Open betaling versoek van URI of lêer</translation>
+        <translation>Open betaling versoek van URI of leer</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -898,11 +898,11 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Kies betaling versoek lêer</translation>
+        <translation>Kies betaling versoek leer</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Kies betaling versoek lêer om oop te maak</translation>
+        <translation>Kies betaling versoek leer om oop te maak</translation>
     </message>
 </context>
 <context>
@@ -941,15 +941,15 @@
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
-        <translation>Maak die %1 konfigurasie lêer oop van die werk gids.</translation>
+        <translation>Maak die %1 konfigurasie leer oop van die werk gids.</translation>
     </message>
     <message>
         <source>Open Configuration File</source>
-        <translation>Open Konfigurasie Lêer</translation>
+        <translation>Open Konfigurasie Leer</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Alle kliëntopsies na verstek terugstel.</translation>
+        <translation>Alle klientopsies na verstek terugstel.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -981,7 +981,7 @@
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Word gebruik vir die bereik van eweknieë via:</translation>
+        <translation>Word gebruik vir die bereik van ewekniee via:</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1017,7 +1017,7 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Of om munt beheer funksies te wys of nie.</translation>
+        <translation>Of om munt beheer funksies te wys?of nie.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1041,11 +1041,11 @@
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Kliënt moet herbegin word om veranderinge te aktiveer.</translation>
+        <translation>Klient moet herbegin word om veranderinge te aktiveer.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Kliënt sal toegemaak word. Wil u voortgaan?</translation>
+        <translation>Klient sal toegemaak word. Wil u voortgaan?</translation>
     </message>
     <message>
         <source>Configuration options</source>
@@ -1057,11 +1057,11 @@
     </message>
     <message>
         <source>The configuration file could not be opened.</source>
-        <translation>Die konfigurasie lêer kon nie oopgemaak word nie.</translation>
+        <translation>Die konfigurasie leer kon nie oopgemaak word nie.</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Hierdie verandering sal 'n herbegin van die kliënt vereis. </translation>
+        <translation>Hierdie verandering sal 'n herbegin van die klient vereis. </translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1131,15 +1131,15 @@
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Betalings versoek netwerk stem nie ooreen met die kliënt netwerk nie.</translation>
+        <translation>Betalings versoek?netwerk stem nie ooreen met die klient netwerk nie.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Betalings versoek verstryk.</translation>
+        <translation>Betalings versoek?verstryk.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Betalings versoek is nie geïnitialiseer nie.</translation>
+        <translation>Betalings versoek is nie geinitialiseer nie.</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
@@ -1188,8 +1188,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Voer in 'n Litecoin adres (bv. %1)</translation>
+        <source>Enter a MiningEnthusiastCoin address (e.g. %1)</source>
+        <translation>Voer in 'n MiningEnthusiastCoin adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1258,7 +1258,7 @@
     </message>
     <message>
         <source>Client version</source>
-        <translation>Kliëntweergawe</translation>
+        <translation>Klientweergawe</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -1634,7 +1634,7 @@
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Betalings versoek verstryk.</translation>
+        <translation>Betalings versoek?verstryk.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1918,8 +1918,8 @@
         <translation>Opsies:</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Kern</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>MiningEnthusiastCoin Kern</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -1959,7 +1959,7 @@
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Dié is eksperimentele sagteware.</translation>
+        <translation>Die is eksperimentele sagteware.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -2019,15 +2019,15 @@
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Spesifiseer konfigurasie lêer (verstek: %s)</translation>
+        <translation>Spesifiseer konfigurasie?leer (verstek: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Spesifiseer konneksie timeout in millisekondes (minimum: 1, verstek: %d)</translation>
+        <translation>Spesifiseer?konneksie timeout in millisekondes (minimum: 1, verstek: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Spesifiseer pid lêer (verstek: %s)</translation>
+        <translation>Spesifiseer pid?leer (verstek: %s)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
@@ -2051,15 +2051,15 @@
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>Transaksie se mempool ketting is te lank</translation>
+        <translation>Transaksie se mempool ketting?is te lank</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>Transaksie moet ten minste een ontvanger hê</translation>
+        <translation>Transaksie moet ten minste een ontvanger he</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Onbekend netwerk gespesifiseer in -onlynet: '%s'</translation>
+        <translation>Onbekend netwerk gespesifiseer?in -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

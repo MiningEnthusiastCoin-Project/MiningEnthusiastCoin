@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Haga clic para editar la dirección o etiqueta</translation>
+        <translation>Haga clic para editar la direccion o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crear una nueva dirección</translation>
+        <translation>Crear una nueva direccion</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,11 +15,11 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copia la dirección seleccionada al portapapeles del sistema</translation>
+        <translation>Copia la direccion seleccionada al portapapeles del sistema</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Borrar la dirección que esta seleccionada en la lista</translation>
+        <translation>Borrar la direccion que esta seleccionada en la lista</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Seleccione la dirección a la que enviará las monedas</translation>
+        <translation>Seleccione la direccion a la que enviara las monedas</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Seleccione la dirección con la que recibirá las monedas</translation>
+        <translation>Seleccione la direccion con la que recibira las monedas</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -42,8 +42,8 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones de Litecoin para enviar sus pagos. Siempre revise el monto y la dirección recibida antes de enviar monedas.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones de MiningEnthusiastCoin para enviar sus pagos. Siempre revise el monto y la direccion recibida antes de enviar monedas.</translation>
     </message>
     </context>
 <context>

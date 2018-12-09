@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Click derecho para editar la dirección o etiqueta</translation>
+        <translation>Click derecho para editar la direccion o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crear una nueva dirección</translation>
+        <translation>Crear una nueva direccion</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copiar la dirección seleccionada al portapapeles</translation>
+        <translation>Copiar la direccion seleccionada al portapapeles</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Borrar de la lista la dirección seleccionada</translation>
+        <translation>Borrar de la lista la direccion seleccionada</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar los datos de la pestaña actual a un archivo</translation>
+        <translation>Exportar los datos de la pestana actual a un archivo</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Seleccione la dirección donde enviará las monedas</translation>
+        <translation>Seleccione la direccion donde enviara las monedas</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Seleccione la dirección donde recibirá las monedas</translation>
+        <translation>Seleccione la direccion donde recibira las monedas</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,20 +55,20 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Dirección origen</translation>
+        <translation>Direccion origen</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Dirección destino</translation>
+        <translation>Direccion destino</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones Litecoin para enviar pagos. Chequea siempre el monto y la dirección destino antes de mandar monedas.
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones MiningEnthusiastCoin para enviar pagos. Chequea siempre el monto y la direccion destino antes de mandar monedas.
 </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copiar Dirección</translation>
+        <translation>&amp;Copiar Direccion</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>Dirección
+        <translation>Direccion
 </translation>
     </message>
     <message>
@@ -107,19 +107,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Diálogo de Frase de Contraseña</translation>
+        <translation>Dialogo de Frase de Contrasena</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Ingresar la Frase de Contraseña</translation>
+        <translation>Ingresar la Frase de Contrasena</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nueva Frase de Contraseña</translation>
+        <translation>Nueva Frase de Contrasena</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repetí la nueva Frase de Contraseña</translation>
+        <translation>Repeti la nueva Frase de Contrasena</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -196,7 +196,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>Dirección
+        <translation>Direccion
 </translation>
     </message>
     <message>
@@ -265,7 +265,7 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>Dirección
+        <translation>Direccion
 </translation>
     </message>
     <message>

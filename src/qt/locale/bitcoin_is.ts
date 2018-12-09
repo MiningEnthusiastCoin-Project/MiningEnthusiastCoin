@@ -3,19 +3,19 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Smelltu á hægri músatakka til að breyta færslugildi eða merkingu</translation>
+        <translation>Smelltu a hagri musatakka til ad breyta farslugildi eda merkingu</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Búa til nýtt færslugildi</translation>
+        <translation>Bua til nytt farslugildi</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nýtt</translation>
+        <translation>&amp;Nytt</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Afrita valið færslugildi í klemmuspjald</translation>
+        <translation>Afrita valid farslugildi i klemmuspjald</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,27 +27,27 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Eyða völdu færslugildi úr listanum</translation>
+        <translation>Eyda voldu farslugildi ur listanum</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Flytja gögn í flipanum í skrá</translation>
+        <translation>Flytja gogn i flipanum i skra</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Flytja út</translation>
+        <translation>&amp;Flytja ut</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Eyða</translation>
+        <translation>&amp;Eyda</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Veldu færslugildi sem greiða skal til</translation>
+        <translation>Veldu farslugildi sem greida skal til</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Veldu færslugildi sem á að taka við mynt</translation>
+        <translation>Veldu farslugildi sem a ad taka vid mynt</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,23 +55,23 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Færslugildi sem senda frá sér</translation>
+        <translation>Farslugildi sem senda fra ser</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Færslugildi sem þiggja til sín</translation>
+        <translation>Farslugildi sem tiggja til sin</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Þetta eru Litecoin færslugildin sem senda greiðslur. Skoðið ævinlega vel upphæðina og færslugildin sem þiggja greiðslur áður en mynt er send.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tetta eru MiningEnthusiastCoin farslugildin sem senda greidslur. Skodid avinlega vel upphadina og farslugildin sem tiggja greidslur adur en mynt er send.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Þetta eru Litecoin færslugildin sem þiggja greiðslur. Mælt er með að nota aldrei sama færslugildið til að þiggja fleiri en eina greiðslu.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tetta eru MiningEnthusiastCoin farslugildin sem tiggja greidslur. Malt er med ad nota aldrei sama farslugildid til ad tiggja fleiri en eina greidslu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Afrita færslugildi</translation>
+        <translation>&amp;Afrita farslugildi</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -83,19 +83,19 @@
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Flytja út færslulista</translation>
+        <translation>Flytja ut farslulista</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Gildi aðskilin með kommu (*.csv)</translation>
+        <translation>Gildi adskilin med kommu (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Útflutningur tókst ekki</translation>
+        <translation>Utflutningur tokst ekki</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Ekki tókst að vista færslugildalistann á %1. Reyndu aftur.</translation>
+        <translation>Ekki tokst ad vista farslugildalistann a %1. Reyndu aftur.</translation>
     </message>
 </context>
 <context>
@@ -106,7 +106,7 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>Færslugildi</translation>
+        <translation>Farslugildi</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -121,39 +121,39 @@
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Skráðu lykilsetningu</translation>
+        <translation>Skradu lykilsetningu</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Ný lykilsetning</translation>
+        <translation>Ny lykilsetning</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Endurtaktu nýja lykilsetningu</translation>
+        <translation>Endurtaktu nyja lykilsetningu</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Skráðu nýju lykilsetninguna í veskið. &lt;br/&gt;Vinsamlegast notaðu lykilsetningu með &lt;b&gt;tíu eða fleiri slembibókstöfum&lt;/b&gt;, eða &lt;b&gt;átta eða fleiri orðum&lt;/b&gt;.</translation>
+        <translation>Skradu nyju lykilsetninguna i veskid. &lt;br/&gt;Vinsamlegast notadu lykilsetningu med &lt;b&gt;tiu eda fleiri slembibokstofum&lt;/b&gt;, eda &lt;b&gt;atta eda fleiri ordum&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Dulkóða veski</translation>
+        <translation>Dulkoda veski</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Þessi aðgerð þarf að fá lykilsetninguna þína til að opna veskið.</translation>
+        <translation>Tessi adgerd tarf ad fa lykilsetninguna tina til ad opna veskid.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Opna veskið</translation>
+        <translation>Opna veskid</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Þessi aðgerð þarf lykilsetninguna þína til að dulráða veskið.</translation>
+        <translation>Tessi adgerd tarf lykilsetninguna tina til ad dulrada veskid.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dulráða veskið</translation>
+        <translation>Dulrada veskid</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -161,85 +161,85 @@
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Skráðu gömlu lykilsetninguna og þá nýju í veskið.</translation>
+        <translation>Skradu gomlu lykilsetninguna og ta nyju i veskid.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Staðfesta dulkóðun veskis</translation>
+        <translation>Stadfesta dulkodun veskis</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Viðvörun: Ef þú dulkóðar veskið og týnir lykilsetningunn þá munt þú &lt;b&gt;TAPA ALLRI ÞINNI LITECOIN MYNT&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Vidvorun: Ef tu dulkodar veskid og tynir lykilsetningunn ta munt tu &lt;b&gt;TAPA ALLRI TINNI MININGENTHUSIASTCOIN MYNT&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ertu viss um að þú viljir dulkóða veskið þitt?</translation>
+        <translation>Ertu viss um ad tu viljir dulkoda veskid titt?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Veski dulkóðað</translation>
+        <translation>Veski dulkodad</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 lokast núna til að dulkóðun klárist. Mundu að dulkóðun veskis kemur ekki að fullu í veg fyrir að mynt verði stolið úr tölvunni þinni með aðstoð smitforrita. </translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 lokast nuna til ad dulkodun klarist. Mundu ad dulkodun veskis kemur ekki ad fullu i veg fyrir ad mynt verdi stolid ur tolvunni tinni med adstod smitforrita. </translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>MIKILVÆGT: Nýja dulkóðaða veskisskráin þarf að koma í staðinn fyrir öll fyrri afrit sem þú hefur gert af upprunalegu veskisskránni. Af öryggisástæðum munu öll fyrri afrit af ódulkóðaða veskinu verða óvirk um leið og þú byrjar að nota nýja, dulkóðaða veskið.</translation>
+        <translation>MIKILVAGT: Nyja dulkodada veskisskrain tarf ad koma i stadinn fyrir oll fyrri afrit sem tu hefur gert af upprunalegu veskisskranni. Af oryggisastadum munu oll fyrri afrit af odulkodada veskinu verda ovirk um leid og tu byrjar ad nota nyja, dulkodada veskid.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Dulkóðun veskis mistókst</translation>
+        <translation>Dulkodun veskis mistokst</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Dulkóðun veskis mistóks vegna innri villu. Veskið þitt var ekki dulkóðað.</translation>
+        <translation>Dulkodun veskis mistoks vegna innri villu. Veskid titt var ekki dulkodad.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Lykilsetningarnar eru ekki þær sömu.</translation>
+        <translation>Lykilsetningarnar eru ekki tar somu.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Ekki tókst að opna veskið</translation>
+        <translation>Ekki tokst ad opna veskid</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Lykilsetningin sem notuð var til að dulráða veskið var ekki rétt.</translation>
+        <translation>Lykilsetningin sem notud var til ad dulrada veskid var ekki rett.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Ekki tókst að dulráða veski</translation>
+        <translation>Ekki tokst ad dulrada veski</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Það tókst að breyta lykilsetningu veskis.</translation>
+        <translation>Tad tokst ad breyta lykilsetningu veskis.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Viðvörun: Kveikt er á HÁSTÖFUM!</translation>
+        <translation>Vidvorun: Kveikt er a HASTOFUM!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Netgríma</translation>
+        <translation>IP/Netgrima</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Bannað til</translation>
+        <translation>Bannad til</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Undirrita &amp;skilaboð</translation>
+        <translation>Undirrita &amp;skilabod</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Samstilli við netið...</translation>
+        <translation>Samstilli vid netid...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -247,27 +247,27 @@
     </message>
     <message>
         <source>Node</source>
-        <translation>Hnútur</translation>
+        <translation>Hnutur</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Sýna almennt yfirlit af veski</translation>
+        <translation>Syna almennt yfirlit af veski</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Færslur</translation>
+        <translation>&amp;Farslur</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Skoða færslusögu</translation>
+        <translation>Skoda farslusogu</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Hætta</translation>
+        <translation>&amp;Hatta</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Hætta í forriti</translation>
+        <translation>Hatta i forriti</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Sýna upplýsingar um %1</translation>
+        <translation>Syna upplysingar um %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -283,7 +283,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Sýna upplýsingar um Qt</translation>
+        <translation>Syna upplysingar um Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -295,11 +295,11 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Dulkóða veski...</translation>
+        <translation>&amp;Dulkoda veski...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Öryggisafrit á veski...</translation>
+        <translation>&amp;Oryggisafrit a veski...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -307,11 +307,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Sendi færslugildi...</translation>
+        <translation>&amp;Sendi farslugildi...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Tek við færslugildum...</translation>
+        <translation>&amp;Tek vid farslugildum...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -319,15 +319,15 @@
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Smelltu til að loka fyrir netumferð.</translation>
+        <translation>Smelltu til ad loka fyrir netumferd.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Slökkt á netumferð.</translation>
+        <translation>Slokkt a netumferd.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Smelltu til að hefja aftur netumferð.</translation>
+        <translation>Smelltu til ad hefja aftur netumferd.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
@@ -335,19 +335,19 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Endurraða blokkum á drifi...</translation>
+        <translation>Endurrada blokkum a drifi...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Senda mynt í Litecoin færslugildi</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Senda mynt i MiningEnthusiastCoin farslugildi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Öryggisafrita veski á annan stað</translation>
+        <translation>Oryggisafrita veski a annan stad</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Breyta lykilsetningunni sem gildir um dulkóðun veskis</translation>
+        <translation>Breyta lykilsetningunni sem gildir um dulkodun veskis</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -355,15 +355,15 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Opna kembunar- og greiningarstjórnborð</translation>
+        <translation>Opna kembunar- og greiningarstjornbord</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Yfirfara skilaboð...</translation>
+        <translation>&amp;Yfirfara skilabod...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -375,31 +375,31 @@
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Taka við</translation>
+        <translation>&amp;Taka vid</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Sýna / Fela</translation>
+        <translation>&amp;Syna / Fela</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Sýna eða fela megin glugga</translation>
+        <translation>Syna eda fela megin glugga</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Dulkóða einkalyklana sem tilheyra veskinu þínu</translation>
+        <translation>Dulkoda einkalyklana sem tilheyra veskinu tinu</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Kvitta undir skilaboð með Litecoin færslugildunum þínum til að sanna að þú eigir þau</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Kvitta undir skilabod med MiningEnthusiastCoin farslugildunum tinum til ad sanna ad tu eigir tau</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Yfirfara skilaboð til að tryggja að kvittað hafi verið fyrir þau með tilteknum Litecoin færslugildum</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Yfirfara skilabod til ad tryggja ad kvittad hafi verid fyrir tau med tilteknum MiningEnthusiastCoin farslugildum</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Skrá</translation>
+        <translation>&amp;Skra</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -407,47 +407,47 @@
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hjálp</translation>
+        <translation>&amp;Hjalp</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Tólaborð flipa</translation>
+        <translation>Tolabord flipa</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Óska eftir greiðslum (býr til QR kóða og litecoin: URI)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Oska eftir greidslum (byr til QR koda og miningenthusiastcoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Sýna lista yfir færslugildi sem notuð hafa verið til sendingar og merkingar þeirra</translation>
+        <translation>Syna lista yfir farslugildi sem notud hafa verid til sendingar og merkingar teirra</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Sýna færslugildi sem notuð hafa verið til að taka við mynt og merkingar þeirra</translation>
+        <translation>Syna farslugildi sem notud hafa verid til ad taka vid mynt og merkingar teirra</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Opna litecoin: URI eða greiðslubeiðni</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>Opna miningenthusiastcoin: URI eda greidslubeidni</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Raða blokkum á drifi</translation>
+        <translation>Rada blokkum a drifi</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Vinn úr blokkum á drifi...</translation>
+        <translation>Vinn ur blokkum a drifi...</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 á eftir</translation>
+        <translation>%1 a eftir</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Síðasta viðtekna blokk var búin til fyrir %1 síðan.</translation>
+        <translation>Sidasta vidtekna blokk var buin til fyrir %1 sidan.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Færslur á eftir þessari munu ekki sjást.</translation>
+        <translation>Farslur a eftir tessari munu ekki sjast.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -455,23 +455,23 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Viðvörun</translation>
+        <translation>Vidvorun</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Upplýsingar</translation>
+        <translation>Upplysingar</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Uppfært</translation>
+        <translation>Uppfart</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Sýna %1 hjálparskilaboðin til að fá lista yfir valkosti Litecoin aðgerðir í skipanalínu</translation>
+        <source>Show the %1 help message to get a list with possible MiningEnthusiastCoin command-line options</source>
+        <translation>Syna %1 hjalparskilabodin til ad fa lista yfir valkosti MiningEnthusiastCoin adgerdir i skipanalinu</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 biðlarar</translation>
+        <translation>%1 bidlarar</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Færist nær...</translation>
+        <translation>Farist nar...</translation>
     </message>
     <message>
         <source>Date: %1
@@ -490,7 +490,7 @@
     <message>
         <source>Amount: %1
 </source>
-        <translation>Upphæð: %1
+        <translation>Upphad: %1
 </translation>
     </message>
     <message>
@@ -508,36 +508,36 @@
     <message>
         <source>Address: %1
 </source>
-        <translation>Færslugildi: %1
+        <translation>Farslugildi: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Send færsla</translation>
+        <translation>Send farsla</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Móttökufærsla</translation>
+        <translation>Mottokufarsla</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD lyklagerð er &lt;b&gt;virkjuð&lt;/b&gt;</translation>
+        <translation>HD lyklagerd er &lt;b&gt;virkjud&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD lyklagerð er &lt;b&gt;óvirk&lt;/b&gt;</translation>
+        <translation>HD lyklagerd er &lt;b&gt;ovirk&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Veskið er &lt;b&gt;dulkóðað&lt;/b&gt; og núna &lt;b&gt;ólæst&lt;/b&gt;</translation>
+        <translation>Veskid er &lt;b&gt;dulkodad&lt;/b&gt; og nuna &lt;b&gt;olast&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Veskið er &lt;b&gt;dulkóðað&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
+        <translation>Veskid er &lt;b&gt;dulkodad&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Alvarleg villa átti sér stað. Litecoin getur ekki haldið áfram með öruggum hætti og stoppar hér.</translation>
+        <source>A fatal error occurred. MiningEnthusiastCoin can no longer continue safely and will quit.</source>
+        <translation>Alvarleg villa atti ser stad. MiningEnthusiastCoin getur ekki haldid afram med oruggum hatti og stoppar her.</translation>
     </message>
 </context>
 <context>
@@ -552,11 +552,11 @@
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bæti:</translation>
+        <translation>Bati:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Upphæð:</translation>
+        <translation>Upphad:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -580,7 +580,7 @@
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Hrísluhamur</translation>
+        <translation>Hrisluhamur</translation>
     </message>
     <message>
         <source>List mode</source>
@@ -588,19 +588,19 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation>Upphæð</translation>
+        <translation>Upphad</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Móttekið með merkingu</translation>
+        <translation>Mottekid med merkingu</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Móttekið með færslugildi</translation>
+        <translation>Mottekid med farslugildi</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Afrita færslugildi</translation>
+        <translation>Afrita farslugildi</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -608,7 +608,7 @@
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Þetta merki verður rautt ef einhver viðtakandi tekur við upphæð sem er lægri en núgildandi þröskuldur.</translation>
+        <translation>Tetta merki verdur rautt ef einhver vidtakandi tekur vid upphad sem er lagri en nugildandi troskuldur.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -619,7 +619,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Breyta færslugildi</translation>
+        <translation>Breyta farslugildi</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -627,35 +627,35 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Merking tengd þessu færslugildi</translation>
+        <translation>Merking tengd tessu farslugildi</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Færslugildið sem tengt er þessari færslu. Þessu má einungis breyta þegar sent er.</translation>
+        <translation>Farslugildid sem tengt er tessari farslu. Tessu ma einungis breyta tegar sent er.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>Nýtt móttökufærslugildi</translation>
+        <translation>Nytt mottokufarslugildi</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nýtt móttökufærslugildi</translation>
+        <translation>Nytt mottokufarslugildi</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nýtt sendingarfærslugildi</translation>
+        <translation>Nytt sendingarfarslugildi</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Breyta móttökufærslugildi</translation>
+        <translation>Breyta mottokufarslugildi</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Breyta sendingarfærslugildi</translation>
+        <translation>Breyta sendingarfarslugildi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Færslugildið sem slegið var inn "%1" er ekki leyfilegt Litecoin færslugildi.</translation>
+        <source>The entered address "%1" is not a valid MiningEnthusiastCoin address.</source>
+        <translation>Farslugildid sem slegid var inn "%1" er ekki leyfilegt MiningEnthusiastCoin farslugildi.</translation>
     </message>
     </context>
 <context>
@@ -667,8 +667,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -679,11 +679,11 @@
     <name>ModalOverlay</name>
     <message>
         <source>Number of blocks left</source>
-        <translation>Fjöldi blokka sem eftir eru</translation>
+        <translation>Fjoldi blokka sem eftir eru</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Tími síðustu blokkar</translation>
+        <translation>Timi sidustu blokkar</translation>
     </message>
     </context>
 <context>
@@ -693,11 +693,11 @@
     <name>OptionsDialog</name>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP tala staðgengils (t.d. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP tala stadgengils (t.d. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL frá þriðja aðila (t.d. blokkarskoðari) sem birtast í færsluflipanum sem samhengisatriði. %s í URL-inu skipt út fyrir færslutvíkross. Mörg URL eru aðskilin með lóðréttu striki |.</translation>
+        <translation>URL fra tridja adila (t.d. blokkarskodari) sem birtast i farsluflipanum sem samhengisatridi. %s i URL-inu skipt ut fyrir farslutvikross. Morg URL eru adskilin med lodrettu striki |.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -705,37 +705,37 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Uppgefið færslugildi staðgengils er ógilt.</translation>
+        <translation>Uppgefid farslugildi stadgengils er ogilt.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Námuunnin innistæða sem hefur enn ekki komið fram</translation>
+        <translation>Namuunnin innistada sem hefur enn ekki komid fram</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Innistæða færslugilda sem eru einungis til skoðunar</translation>
+        <translation>Innistada farslugilda sem eru einungis til skodunar</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Óstaðfestar færslur til færslugilda sem eru einungis til skoðunar</translation>
+        <translation>Ostadfestar farslur til farslugilda sem eru einungis til skodunar</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Námuunnin innistæða á færslugildum sem eru einungis til skoðunar og hafa ekki komið fram</translation>
+        <translation>Namuunnin innistada a farslugildum sem eru einungis til skodunar og hafa ekki komid fram</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Innistæða á færslugildum sem eru einungis til skoðunar</translation>
+        <translation>Innistada a farslugildum sem eru einungis til skodunar</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Ógilt færslugildi til greiðslu %1</translation>
+        <translation>Ogilt farslugildi til greidslu %1</translation>
     </message>
     </context>
 <context>
@@ -745,7 +745,7 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Upphæð</translation>
+        <translation>Upphad</translation>
     </message>
     </context>
 <context>
@@ -758,11 +758,11 @@
     <name>RPCConsole</name>
     <message>
         <source>Block chain</source>
-        <translation>Blokkarkeðja</translation>
+        <translation>Blokkarkedja</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Núverandi fjöldi blokka</translation>
+        <translation>Nuverandi fjoldi blokka</translation>
     </message>
     <message>
         <source>Starting Block</source>
@@ -770,11 +770,11 @@
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Samhæfðar blokkir</translation>
+        <translation>Samhafdar blokkir</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Tími síðustu blokkar</translation>
+        <translation>Timi sidustu blokkar</translation>
     </message>
     </context>
 <context>
@@ -785,7 +785,7 @@
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Valfrjálst merki sem tengist nýju móttökufærslutölunni.</translation>
+        <translation>Valfrjalst merki sem tengist nyju mottokufarslutolunni.</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -800,7 +800,7 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation>Upphæð</translation>
+        <translation>Upphad</translation>
     </message>
     <message>
         <source>Label</source>
@@ -808,7 +808,7 @@
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>URI varð of langt, reyndu að minnka texta í merki / skilaboðum.</translation>
+        <translation>URI vard of langt, reyndu ad minnka texta i merki / skilabodum.</translation>
     </message>
     </context>
 <context>
@@ -830,11 +830,11 @@
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bæti:</translation>
+        <translation>Bati:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Upphæð:</translation>
+        <translation>Upphad:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -849,12 +849,12 @@
         <translation>Skiptimynt:</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Það er í lagi að greiða einungis lágmarksupphæðina svo framarlega sem færslurúmtakið er minna en plássið í blokkunum. En gætið þess að þegar það er meiri eftirspurn eftir litecoin færslum en netið getur unnið úr þá gæti svo farið að færslurnar verða aldrei samþykktar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for miningenthusiastcoin transactions than the network can process.</source>
+        <translation>Tad er i lagi ad greida einungis lagmarksupphadina svo framarlega sem farslurumtakid er minna en plassid i blokkunum. En gatid tess ad tegar tad er meiri eftirspurn eftir miningenthusiastcoin farslum en netid getur unnid ur ta gati svo farid ad farslurnar verda aldrei samtykktar.</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Smart gjald er ekki gangsett ennþá. Þetta tekur venjulega nokkrar blokkir...)</translation>
+        <translation>(Smart gjald er ekki gangsett ennta. Tetta tekur venjulega nokkrar blokkir...)</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -891,11 +891,11 @@
     <name>TransactionDesc</name>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Fullgerð mynt verður að nýta %1 blokkir. Þegar þú bjóst til þessa blokk, þá var jafnóðum tilkynnt á netinu að hún eigi að bætast við blokkakeðjuna. Ef hún kemst ekki í keðjuna þá mun staða hennar breytast í "ósamþykkt" og ekki verður hægt að nota hana. Þetta gerist annað slagið ef annar hnútpunktur klárar blokk nokkrum sekúndum á undan þinni.</translation>
+        <translation>Fullgerd mynt verdur ad nyta %1 blokkir. Tegar tu bjost til tessa blokk, ta var jafnodum tilkynnt a netinu ad hun eigi ad batast vid blokkakedjuna. Ef hun kemst ekki i kedjuna ta mun stada hennar breytast i "osamtykkt" og ekki verdur hagt ad nota hana. Tetta gerist annad slagid ef annar hnutpunktur klarar blokk nokkrum sekundum a undan tinni.</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Upphæð</translation>
+        <translation>Upphad</translation>
     </message>
     </context>
 <context>
@@ -909,11 +909,11 @@
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Þessi blokk barst ekki í neinn annan hnútpunkt og verður sennilega ekki samþykkt!</translation>
+        <translation>Tessi blokk barst ekki i neinn annan hnutpunkt og verdur sennilega ekki samtykkt!</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Námuunnið</translation>
+        <translation>Namuunnid</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -924,11 +924,11 @@
     <name>TransactionView</name>
     <message>
         <source>Mined</source>
-        <translation>Námuunnið</translation>
+        <translation>Namuunnid</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Afrita færslugildi</translation>
+        <translation>Afrita farslugildi</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -936,7 +936,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Gildi aðskilin með kommu (*.csv)</translation>
+        <translation>Gildi adskilin med kommu (*.csv)</translation>
     </message>
     <message>
         <source>Label</source>
@@ -948,7 +948,7 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Útflutningur tókst ekki</translation>
+        <translation>Utflutningur tokst ekki</translation>
     </message>
     </context>
 <context>
@@ -964,42 +964,42 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Flytja út</translation>
+        <translation>&amp;Flytja ut</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Flytja gögn í flipanum í skrá</translation>
+        <translation>Flytja gogn i flipanum i skra</translation>
     </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Villa við lestur %s! Allir lyklar fóru inn á réttan hátt, en færslugögn eða færslugildi gætu verið röng eða horfin.</translation>
+        <translation>Villa vid lestur %s! Allir lyklar foru inn a rettan hatt, en farslugogn eda farslugildi gatu verid rong eda horfin.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Viðvörun: Netið er ekki í fullu samræmi! Einhver námuvinnsla virðist í ólagi.</translation>
+        <translation>Vidvorun: Netid er ekki i fullu samrami! Einhver namuvinnsla virdist i olagi.</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Hámarks gagnastærð í burðarfærslum sem við tökum við til námavinnslu (sjálfgefið: %u)</translation>
+        <translation>Hamarks gagnastard i burdarfarslum sem vid tokum vid til namavinnslu (sjalfgefid: %u)</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Upplýsingar</translation>
+        <translation>Upplysingar</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Viðvörun</translation>
+        <translation>Vidvorun</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Viðvörun: Óþekkt blokkarútgáfa í námavinnslu! Það er mögulegt að óþekktum reglum sé fylgt</translation>
+        <translation>Vidvorun: Otekkt blokkarutgafa i namavinnslu! Tad er mogulegt ad otekktum reglum se fylgt</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Hleypa í gegn og námuvinna gagnaburðarfærslur (sjálfgefið: %u)</translation>
+        <translation>Hleypa i gegn og namuvinna gagnaburdarfarslur (sjalfgefid: %u)</translation>
     </message>
     <message>
         <source>Error</source>

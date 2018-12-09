@@ -3,1097 +3,1097 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>برای تغییر آدرس و یا برچسب کلیک راست کنید</translation>
+        <translation>???? ????? ???? ? ?? ????? ???? ???? ????</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>ایجاد آدرس جدید</translation>
+        <translation>????? ???? ????</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;جدید</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>کپی‌برداری از آدرس منتخب به حافظهٔ سیستم</translation>
+        <translation>?????????? ?? ???? ????? ?? ?????? ?????</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;کپی</translation>
+        <translation>&amp;???</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;بستن</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>حذف آدرس منتخب از لیست</translation>
+        <translation>??? ???? ????? ?? ????</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>صدور داده‌های برگهٔ فعلی به یک پرونده</translation>
+        <translation>???? ???????? ????? ???? ?? ?? ??????</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;صدور</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;حذف</translation>
+        <translation>&amp;???</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>آدرس مورد نظر برای ارسال سکه‌ها را انتخاب کنید</translation>
+        <translation>???? ???? ??? ???? ????? ?????? ?? ?????? ????</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>آدرس موردنظر برای دریافت سکه‌ها را انتخاب کنید</translation>
+        <translation>???? ??????? ???? ?????? ?????? ?? ?????? ????</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>ان&amp;تخاب</translation>
+        <translation>??&amp;????</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>آدرس‌های ارسالی</translation>
+        <translation>???????? ??????</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>آدرس‌های دریافتی</translation>
+        <translation>???????? ???????</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>این‌ها آدرس‌های بیتکوین برای پرداخت‌ها هستند. همیشه قبل از فرستادن سکه‌ها مقدار و آدرس دریافت‌کننده را بررسی نمایید.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>?????? ???????? ??????? ???? ????????? ?????. ????? ??? ?? ??????? ?????? ????? ? ???? ???????????? ?? ????? ??????.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>این‌ها آدرس‌های بیتکوین شما برای دریافت مبالغ می‌باشد. توصیه می‌شود برای هر تراکنش از یک آدرس جدید استفاده کنید.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>?????? ???????? ??????? ??? ???? ?????? ????? ???????. ????? ?????? ???? ?? ?????? ?? ?? ???? ???? ??????? ????.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>کپ&amp;ی کردن آدرس</translation>
+        <translation>??&amp;? ???? ????</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>کپی و برچسب‌&amp;گذاری</translation>
+        <translation>??? ? ??????&amp;?????</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;ویرایش</translation>
+        <translation>&amp;??????</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>صدور لیست آدرس ها</translation>
+        <translation>???? ???? ???? ??</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>فایل جدا شده با ویرگول(*.csv)</translation>
+        <translation>???? ??? ??? ?? ??????(*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>صدور موفق نبود</translation>
+        <translation>???? ???? ????</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>خطا در ذخیره‌سازی لیست آدرس‌ها در %1.</translation>
+        <translation>??? ?? ?????????? ???? ??????? ?? %1.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>برچسب</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(بدون برچسب)</translation>
+        <translation>(???? ?????)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>پنجرهٔ گذرواژه</translation>
+        <translation>?????? ???????</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>گذرواژه را وارد کنید</translation>
+        <translation>??????? ?? ???? ????</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>گذرواژهٔ جدید</translation>
+        <translation>???????? ????</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>تکرار گذرواژهٔ جدید</translation>
+        <translation>????? ???????? ????</translation>
     </message>
     <message>
         <source>Show password</source>
-        <translation>نمایش گذرواژه</translation>
+        <translation>????? ???????</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>رمزنگاری کیف پول</translation>
+        <translation>???????? ??? ???</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>این عملیات نیاز به عبارت کیف پول شما برای بازگشایی کیف پول دارد.</translation>
+        <translation>??? ?????? ???? ?? ????? ??? ??? ??? ???? ???????? ??? ??? ????.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>باز کردن قفل کیف پول</translation>
+        <translation>??? ???? ??? ??? ???</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>این عملیات نیاز به عبارت کیف پول شما برای رمزگشایی کیف پول دارد.</translation>
+        <translation>??? ?????? ???? ?? ????? ??? ??? ??? ???? ???????? ??? ??? ????.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>رمزگشایی کیف پول</translation>
+        <translation>???????? ??? ???</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>تغییر گذرواژه</translation>
+        <translation>????? ???????</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>عبارت کهنه و جدید کیف پول را وارد کنید.</translation>
+        <translation>????? ???? ? ???? ??? ??? ?? ???? ????.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>تأیید رمزنگاری کیف پول</translation>
+        <translation>????? ???????? ??? ???</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>آیا مطمئن هستید که می‌خواهید کیف پول خود را رمزنگاری کنید؟</translation>
+        <translation>??? ????? ????? ?? ????????? ??? ??? ??? ?? ???????? ?????</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>کیف پول رمزنگاری شد</translation>
+        <translation>??? ??? ???????? ??</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>رمزنگاری کیف پول با شکست مواجه شد</translation>
+        <translation>???????? ??? ??? ?? ???? ????? ??</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>رمزنگاری کیف پول بنا به یک خطای داخلی با شکست مواجه شد. کیف پول شما رمزنگاری نشد.</translation>
+        <translation>???????? ??? ??? ??? ?? ?? ???? ????? ?? ???? ????? ??. ??? ??? ??? ???????? ???.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>بازگشایی قفل کیف‌پول با شکست مواجه شد</translation>
+        <translation>???????? ??? ??????? ?? ???? ????? ??</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>رمزگشایی کیف پول با شکست مواجه شد</translation>
+        <translation>???????? ??? ??? ?? ???? ????? ??</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>گذرواژهٔ کیف پول با موفقیت عوض شد.</translation>
+        <translation>???????? ??? ??? ?? ?????? ??? ??.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>هشدار: کلید Caps Lock روشن است!</translation>
+        <translation>?????: ???? Caps Lock ???? ???!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>آی‌پی/نت‌ماسک</translation>
+        <translation>?????/???????</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>مسدود شده تا</translation>
+        <translation>????? ??? ??</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>&amp;امضای پیام...</translation>
+        <translation>&amp;????? ????...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>همگام‌سازی با شبکه...</translation>
+        <translation>?????????? ?? ????...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;بررسی اجمالی</translation>
+        <translation>&amp;????? ??????</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>گره</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>نمایش بررسی اجمالی کیف پول</translation>
+        <translation>????? ????? ?????? ??? ???</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;تراکنش‌ها</translation>
+        <translation>&amp;?????????</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>مرور تاریخچهٔ تراکنش‌ها</translation>
+        <translation>???? ???????? ?????????</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;خروج</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>خروج از برنامه</translation>
+        <translation>???? ?? ??????</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;حدود%1</translation>
+        <translation>&amp;????%1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>نمایش اطلاعات دربارهٔ %1</translation>
+        <translation>????? ??????? ??????? %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>دربارهٔ &amp;کیوت</translation>
+        <translation>??????? &amp;????</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>نمایش اطلاعات دربارهٔ کیوت</translation>
+        <translation>????? ??????? ??????? ????</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;تنظیمات...</translation>
+        <translation>&amp;???????...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>تغییر تنظیمات %1</translation>
+        <translation>????? ??????? %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;رمزنگاری کیف پول...</translation>
+        <translation>&amp;???????? ??? ???...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;پیشتیبان‌گیری از کیف پول...</translation>
+        <translation>&amp;????????????? ?? ??? ???...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;تغییر گذرواژه...</translation>
+        <translation>&amp;????? ???????...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;در حال ارسال آدرس ها...</translation>
+        <translation>&amp;?? ??? ????? ???? ??...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;در حال دریافت آدرس ها...</translation>
+        <translation>&amp;?? ??? ?????? ???? ??...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>باز کردن &amp;آدرس</translation>
+        <translation>??? ???? &amp;????</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>برای غیر فعال کردن فعالیت شبکه کلیک کنید.</translation>
+        <translation>???? ??? ???? ???? ?????? ???? ???? ????.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>فعالیت شبکه غیر فعال شد.</translation>
+        <translation>?????? ???? ??? ???? ??.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>برای فعال کردن دوباره فعالیت شبکه کلیک کنید.</translation>
+        <translation>???? ???? ???? ?????? ?????? ???? ???? ????.</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
+        <translation>???????? ??????? ??? ????...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>ارسال وجه به نشانی Litecoin</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>????? ??? ?? ????? MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>تهیهٔ پشتیبان از کیف پول در یک مکان دیگر</translation>
+        <translation>????? ??????? ?? ??? ??? ?? ?? ???? ????</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>تغییر گذرواژهٔ مورد استفاده در رمزنگاری کیف پول</translation>
+        <translation>????? ???????? ???? ??????? ?? ???????? ??? ???</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>پنجرهٔ ا&amp;شکال‌زدایی</translation>
+        <translation>?????? ?&amp;??????????</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>باز کردن کنسول خطایابی و اشکال‌زدایی</translation>
+        <translation>??? ???? ????? ??????? ? ???????????</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>با&amp;زبینی پیام...</translation>
+        <translation>??&amp;????? ????...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>کیف پول</translation>
+        <translation>??? ???</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;ارسال</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;دریافت</translation>
+        <translation>&amp;??????</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;نمایش/ عدم نمایش</translation>
+        <translation>&amp;?????/ ??? ?????</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>نمایش یا مخفی‌کردن پنجرهٔ اصلی</translation>
+        <translation>????? ?? ????????? ?????? ????</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
+        <translation>???????? ??????? ????? ????? ?? ??? ??? ???</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Litecoin خود امضا کنید</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>???? ????? ????? ??????? ?? ??? ???? ?????? ????? ?? ?? ????? MiningEnthusiastCoin ??? ???? ????</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>???? ???? ??????? ?? ????? ???? ?? ????? MiningEnthusiastCoin ???? ??? ???? ??? ?? ???? ???? ?? ??????? ????</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;فایل</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;تنظیمات</translation>
+        <translation>&amp;???????</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;کمک‌رسانی</translation>
+        <translation>&amp;?????????</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>نوارابزار برگه‌ها</translation>
+        <translation>????????? ???????</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس litecoin)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>??????? ?????? ( ????? ?? ????? ? ???? miningenthusiastcoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>نمایش لیست آدرس های ارسال و لیبل ها</translation>
+        <translation>????? ???? ???? ??? ????? ? ???? ??</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
+        <translation>????? ???? ???? ??? ?????? ? ???? ??</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>بازکردن یک litecoin: آدرس یا درخواست پرداخت</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>??????? ?? miningenthusiastcoin: ???? ?? ??????? ??????</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>گزینه‌های خط‌فرمان</translation>
+        <translation>????????? ????????</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n ارتباط فعال با شبکهٔ Litecoin</numerusform><numerusform>%n ارتباط فعال با شبکهٔ Litecoin</numerusform></translation>
+        <source>%n active connection(s) to MiningEnthusiastCoin network</source>
+        <translation><numerusform>%n ?????? ???? ?? ????? MiningEnthusiastCoin</numerusform><numerusform>%n ?????? ???? ?? ????? MiningEnthusiastCoin</numerusform></translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>پردازش بلوک‌ها روی دیسک...</translation>
+        <translation>?????? ??????? ??? ????...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>پردازش %n  بلاک از تاریخچه ی تراکنش ها </numerusform><numerusform>پردازش %n  بلاک از تاریخچه ی تراکنش ها </numerusform></translation>
+        <translation><numerusform>?????? %n  ???? ?? ??????? ? ?????? ?? </numerusform><numerusform>?????? %n  ???? ?? ??????? ? ?????? ?? </numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 عقب‌تر</translation>
+        <translation>%1 ??????</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>آخرین بلاک دریافتی %1 پیش ایجاد شده است.</translation>
+        <translation>????? ???? ??????? %1 ??? ????? ??? ???.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>تراکنش‌های بعد از این هنوز قابل مشاهده نیستند.</translation>
+        <translation>?????????? ??? ?? ??? ???? ???? ?????? ??????.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>خطا</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>هشدار</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>اطلاعات</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>وضعیت به‌روز</translation>
+        <translation>????? ??????</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>به‌روز رسانی...</translation>
+        <translation>?????? ?????...</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>تاریخ: %1
+        <translation>?????: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>مقدار: %1
+        <translation>?????: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>نوع: %1
+        <translation>???: %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>برچسب: %1
+        <translation>?????: %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>نشانی: %1
+        <translation>?????: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>تراکنش ارسال شد</translation>
+        <translation>?????? ????? ??</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>تراکنش دریافت شد</translation>
+        <translation>?????? ?????? ??</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>کیف پول &lt;b&gt;رمزنگاری شده&lt;/b&gt; است و هم‌اکنون &lt;b&gt;باز&lt;/b&gt; است</translation>
+        <translation>??? ??? &lt;b&gt;???????? ???&lt;/b&gt; ??? ? ???????? &lt;b&gt;???&lt;/b&gt; ???</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>کیف پول &lt;b&gt;رمزنگاری شده&lt;/b&gt; است و هم‌اکنون &lt;b&gt;قفل&lt;/b&gt; است</translation>
+        <translation>??? ??? &lt;b&gt;???????? ???&lt;/b&gt; ??? ? ???????? &lt;b&gt;???&lt;/b&gt; ???</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>انتخاب سکه</translation>
+        <translation>?????? ???</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>تعداد:</translation>
+        <translation>?????:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>بایت ها:</translation>
+        <translation>???? ??:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>مبلغ:</translation>
+        <translation>????:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>هزینه:</translation>
+        <translation>?????:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>هزینه ی پسین:</translation>
+        <translation>????? ? ????:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>پول خورد:</translation>
+        <translation>??? ????:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(لغو)انتخاب همه</translation>
+        <translation>(???)?????? ???</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>مدل درختی</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>مدل لیست</translation>
+        <translation>??? ????</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>مبلغ</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>دریافت شده با برچسب</translation>
+        <translation>?????? ??? ?? ?????</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>دریافت شده با نشانی</translation>
+        <translation>?????? ??? ?? ?????</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>تاریخ</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>تاییدیه ها</translation>
+        <translation>??????? ??</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>تأیید شده</translation>
+        <translation>????? ???</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>کپی ادرس</translation>
+        <translation>??? ????</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>کپی برچسب</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>کپی مقدار</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>کپی شناسهٔ تراکنش</translation>
+        <translation>??? ?????? ??????</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>قفل کردن خرج نشده ها</translation>
+        <translation>??? ???? ??? ???? ??</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>بازکردن قفل خرج نشده ها</translation>
+        <translation>??????? ??? ??? ???? ??</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>کپی تعداد</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>رونوشت کارمزد</translation>
+        <translation>?????? ??????</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>کپی کردن بایت ها</translation>
+        <translation>??? ???? ???? ??</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>کپی کردن تغییر</translation>
+        <translation>??? ???? ?????</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 قفل شده)</translation>
+        <translation>(%1 ??? ???)</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>بله</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>خیر</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(بدون برچسب)</translation>
+        <translation>(???? ?????)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(تغییر)</translation>
+        <translation>(?????)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>ویرایش نشانی</translation>
+        <translation>?????? ?????</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;برچسب</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;نشانی</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>نشانی گیرنده جدید</translation>
+        <translation>????? ?????? ????</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>نشانی فرستنده جدید</translation>
+        <translation>????? ??????? ????</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>ویرایش آدرس گیرنده</translation>
+        <translation>?????? ???? ??????</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>ویرایش آدرس قرستنده</translation>
+        <translation>?????? ???? ???????</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>نشانی وارد شده "%1" یک نشانی معتبر Litecoin نیست.</translation>
+        <source>The entered address "%1" is not a valid MiningEnthusiastCoin address.</source>
+        <translation>????? ???? ??? "%1" ?? ????? ????? MiningEnthusiastCoin ????.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>نشانی وارد شده «%1» در حال حاضر در دفترچه وجود دارد.</translation>
+        <translation>????? ???? ??? ≪%1≫ ?? ??? ???? ?? ?????? ???? ????.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>نمی‌توان کیف پول را رمزگشایی کرد.</translation>
+        <translation>???????? ??? ??? ?? ???????? ???.</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>یک مسیر دادهٔ جدید ایجاد خواهد شد.</translation>
+        <translation>?? ???? ????? ???? ????? ????? ??.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>نام</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>این پوشه در حال حاضر وجود دارد. اگر می‌خواهید یک دایرکتوری جدید در این‌جا ایجاد کنید، %1 را اضافه کنید.</translation>
+        <translation>??? ???? ?? ??? ???? ???? ????. ??? ????????? ?? ????????? ???? ?? ?????? ????? ????? %1 ?? ????? ????.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>مسیر داده شده موجود است و به یک پوشه اشاره نمی‌کند.</translation>
+        <translation>???? ???? ??? ????? ??? ? ?? ?? ???? ????? ???????.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>نمی‌توان پوشهٔ داده در این‌جا ایجاد کرد.</translation>
+        <translation>???????? ????? ???? ?? ?????? ????? ???.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>نسخه</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-بیت)</translation>
+        <translation>(%1-???)</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>درباره %1</translation>
+        <translation>?????? %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>گزینه‌های خط‌فرمان</translation>
+        <translation>????????? ????????</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>استفاده:</translation>
+        <translation>???????:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>گزینه‌های خط فرمان</translation>
+        <translation>????????? ?? ?????</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>گزینه‌های رابط کاربری:</translation>
+        <translation>????????? ???? ??????:</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>زبان را تنظیم کنید؛ برای مثال «de_DE» (پیشفرض: زبان سیستم)</translation>
+        <translation>???? ?? ????? ????? ???? ???? ≪de_DE≫ (??????: ???? ?????)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>شروع برنامه به صورت کوچک‌شده</translation>
+        <translation>???? ?????? ?? ???? ????????</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>تنظیم گواهی ریشه SSl برای درخواست پرداخت (پیشفرض: -system-)</translation>
+        <translation>????? ????? ???? SSl ???? ??????? ?????? (??????: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>نمایش پنجرهٔ خوشامدگویی در ابتدای اجرای برنامه (پیش‌فرض: %u)</translation>
+        <translation>????? ?????? ?????????? ?? ?????? ????? ?????? (???????: %u)</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>خوش‌آمدید</translation>
+        <translation>?????????</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>به %1 خوش‌آمدید.</translation>
+        <translation>?? %1 ?????????.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>استفاده از مسیر پیش‌فرض</translation>
+        <translation>??????? ?? ???? ???????</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>استفاده از یک مسیر سفارشی:</translation>
+        <translation>??????? ?? ?? ???? ??????:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>خطا</translation>
+        <translation>???</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n گیگابایت فضا موجود است</numerusform><numerusform>%n گیگابایت فضا موجود است</numerusform></translation>
+        <translation><numerusform>%n ???????? ??? ????? ???</numerusform><numerusform>%n ???????? ??? ????? ???</numerusform></translation>
     </message>
     </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>فرم</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>مشخص نیست</translation>
+        <translation>???? ????</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>زمان آخرین بلوک</translation>
+        <translation>???? ????? ????</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>پیشروی</translation>
+        <translation>??????</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>پیشروی در هر ساعت بیشتر میشود</translation>
+        <translation>?????? ?? ?? ???? ????? ?????</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>در حال محاسبه...</translation>
+        <translation>?? ??? ??????...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>زمان تخمینی تا سینک شدن</translation>
+        <translation>???? ?????? ?? ???? ???</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>پنهان کردن</translation>
+        <translation>????? ????</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>بازکردن آدرس</translation>
+        <translation>??????? ????</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>بازکردن درخواست پرداخت از آدرس یا فایل</translation>
+        <translation>??????? ??????? ?????? ?? ???? ?? ????</translation>
     </message>
     <message>
         <source>URI:</source>
-        <translation>آدرس اینترنتی:</translation>
+        <translation>???? ????????:</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>انتخاب فایل درخواست پرداخت</translation>
+        <translation>?????? ???? ??????? ??????</translation>
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>گزینه‌ها</translation>
+        <translation>????????</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;عمومی</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>اجرای خودکار %1 بعد زمان ورود به سیستم.</translation>
+        <translation>????? ?????? %1 ??? ???? ???? ?? ?????.</translation>
     </message>
     <message>
         <source>MB</source>
-        <translation>مگابایت</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>بازنشانی تمام تنظیمات به پیش‌فرض.</translation>
+        <translation>???????? ???? ??????? ?? ???????.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;بازنشانی تنظیمات</translation>
+        <translation>&amp;???????? ???????</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;شبکه</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>کیف پول</translation>
+        <translation>??? ???</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>استخراج</translation>
+        <translation>???????</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>باز کردن خودکار درگاه شبکهٔ Litecoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+        <source>Automatically open the MiningEnthusiastCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>??? ???? ?????? ????? ????? MiningEnthusiastCoin ??? ??????. ???? ????? ??? ?????? ?? ???? ?? ?????? UPnP ???????? ??? ? ??? ?????? ???? ????.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>نگاشت درگاه شبکه با استفاده از پروتکل &amp;UPnP</translation>
+        <translation>????? ????? ???? ?? ??????? ?? ?????? &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>آ&amp;ی‌پی پراکسی:</translation>
+        <translation>?&amp;???? ??????:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;درگاه:</translation>
+        <translation>&amp;?????:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>درگاه پراکسی (مثال 9050)</translation>
+        <translation>????? ?????? (???? 9050)</translation>
     </message>
     <message>
         <source>IPv4</source>
-        <translation>آی‌پی نسخه 4</translation>
+        <translation>????? ???? 4</translation>
     </message>
     <message>
         <source>IPv6</source>
-        <translation>آی‌پی نسخه 6</translation>
+        <translation>????? ???? 6</translation>
     </message>
     <message>
         <source>Tor</source>
-        <translation>تور</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;پنجره</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>تنها بعد از کوچک کردن پنجره، tray icon را نشان بده.</translation>
+        <translation>???? ??? ?? ???? ???? ?????? tray icon ?? ???? ???.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;کوچک کردن به سینی به‌جای نوار وظیفه</translation>
+        <translation>&amp;???? ???? ?? ???? ?????? ???? ?????</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>کوچک کردن &amp;در زمان بسته شدن</translation>
+        <translation>???? ???? &amp;?? ???? ???? ???</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;نمایش</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>زبان &amp;رابط کاربری:</translation>
+        <translation>???? &amp;???? ??????:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;واحد نمایش مبالغ:</translation>
+        <translation>&amp;???? ????? ?????:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>انتخاب واحد پول مورد استفاده برای نمایش در پنجره‌ها و برای ارسال سکه.</translation>
+        <translation>?????? ???? ??? ???? ??????? ???? ????? ?? ???????? ? ???? ????? ???.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;تأیید</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;لغو</translation>
+        <translation>&amp;???</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>پیش‌فرض</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>هیچکدام</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>تأییدِ بازنشانی گزینه‌ها</translation>
+        <translation>?????? ???????? ????????</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>خطا</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>برای این تغییرات بازنشانی مشتری ضروری است</translation>
+        <translation>???? ??? ??????? ???????? ????? ????? ???</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>آدرس پراکسی داده شده صحیح نیست.</translation>
+        <translation>???? ?????? ???? ??? ???? ????.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>فرم</translation>
+        <translation>???</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Litecoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MiningEnthusiastCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>??????? ?????????? ??? ???? ??? ????? ?????. ??? ?? ??? ?? ?? ????? ?? ???? ?????? ??? ??? ??? ??? ??????? ?????? ?? ????? MiningEnthusiastCoin ?????????? ??????. ??? ??? ???? ???? ???? ???? ???.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>در دسترس:</translation>
+        <translation>?? ?????:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>تراز علی‌الحساب شما</translation>
+        <translation>???? ?????????? ???</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>در انتظار:</translation>
+        <translation>?? ??????:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>مجموع تراکنش‌هایی که هنوز تأیید نشده‌اند؛ و هنوز روی تراز علی‌الحساب اعمال نشده‌اند</translation>
+        <translation>????? ??????????? ?? ???? ????? ????????? ? ???? ??? ???? ?????????? ????? ????????</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>نارسیده:</translation>
+        <translation>???????:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>تراز استخراج شده از معدن که هنوز بالغ نشده است</translation>
+        <translation>???? ??????? ??? ?? ???? ?? ???? ???? ???? ???</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>تراز ها</translation>
+        <translation>???? ??</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>جمع کل:</translation>
+        <translation>??? ??:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>تراز کل فعلی شما</translation>
+        <translation>???? ?? ???? ???</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>:قابل خرج کردن</translation>
+        <translation>:???? ??? ????</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>تراکنش های اخیر</translation>
+        <translation>?????? ??? ????</translation>
     </message>
     </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Invalid payment request.</source>
-        <translation>درخواست پرداخت نامعتبر.</translation>
+        <translation>??????? ?????? ???????.</translation>
     </message>
     </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Sent</source>
-        <translation>ارسال شده</translation>
+        <translation>????? ???</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>دریافتی</translation>
+        <translation>???????</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>مبلغ</translation>
+        <translation>????</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>یک آدرس Litecoin وارد کنید (مثلاً %1)</translation>
+        <source>Enter a MiningEnthusiastCoin address (e.g. %1)</source>
+        <translation>?? ???? MiningEnthusiastCoin ???? ???? (????? %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 روز</translation>
+        <translation>%1 ???</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 ساعت</translation>
+        <translation>%1 ????</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 دقیقه</translation>
+        <translation>%1 ?????</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 ثانیه</translation>
+        <translation>%1 ?????</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>هیچکدام</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>ناموجود</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 میلیونم ثانیه</translation>
+        <translation>%1 ??????? ?????</translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 و %2</translation>
+        <translation>%1 ? %2</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation>%1 بایت</translation>
+        <translation>%1 ????</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 کیلوبایت</translation>
+        <translation>%1 ????????</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 مگابایت</translation>
+        <translation>%1 ???????</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 گیگابایت</translation>
+        <translation>%1 ????????</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>ناشناس</translation>
+        <translation>??????</translation>
     </message>
 </context>
 <context>
@@ -1106,386 +1106,386 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>ناموجود</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>نسخهٔ کلاینت</translation>
+        <translation>????? ??????</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;اطلاعات</translation>
+        <translation>&amp;???????</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>پنجرهٔ اشکالزدایی</translation>
+        <translation>?????? ??????????</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>عمومی</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>زمان آغاز به کار</translation>
+        <translation>???? ???? ?? ???</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>شبکه</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>اسم</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>تعداد ارتباطات</translation>
+        <translation>????? ????????</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>زنجیرهٔ بلوک‌ها</translation>
+        <translation>??????? ???????</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>تعداد فعلی بلوک‌ها</translation>
+        <translation>????? ???? ???????</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>استخر حافظه</translation>
+        <translation>????? ?????</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>مصرف حافظه</translation>
+        <translation>???? ?????</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>دریافتی</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>ارسال شده</translation>
+        <translation>????? ???</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>نسخه</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>سرویس ها</translation>
+        <translation>????? ??</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>مدت اتصال</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>ارسال شده آخرین بار</translation>
+        <translation>????? ??? ????? ???</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>آخرین دریافتی</translation>
+        <translation>????? ???????</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>زمان پینگ</translation>
+        <translation>???? ????</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>انتظار پینگ</translation>
+        <translation>?????? ????</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>زمان آخرین بلوک</translation>
+        <translation>???? ????? ????</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>با&amp;ز کردن</translation>
+        <translation>??&amp;? ????</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;کنسول</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>جمع کل:</translation>
+        <translation>??? ??:</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>در:</translation>
+        <translation>??:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>خروجی:</translation>
+        <translation>?????:</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>فایلِ لاگِ اشکال زدایی</translation>
+        <translation>????? ???? ????? ?????</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>پاکسازی کنسول</translation>
+        <translation>??????? ?????</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 ساعت</translation>
+        <translation>1 ????</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 روز</translation>
+        <translation>1 ???</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 هفته</translation>
+        <translation>1 ????</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 سال</translation>
+        <translation>1 ???</translation>
     </message>
     <message>
         <source>Ban for</source>
-        <translation>محدود شده برای</translation>
+        <translation>????? ??? ????</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>هرگز</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>بله</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>خیر</translation>
+        <translation>???</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>ناشناخته</translation>
+        <translation>????????</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>مبلغ:</translation>
+        <translation>????:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;برچسب:</translation>
+        <translation>&amp;?????:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>پیام:</translation>
+        <translation>????:</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>برای درخواست پرداخت از این فرم استفاده کنید.تمام قسمت ها &lt;b&gt;اختیاری&lt;b&gt; هستند.</translation>
+        <translation>???? ??????? ?????? ?? ??? ??? ??????? ????.???? ???? ?? &lt;b&gt;???????&lt;b&gt; ?????.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>تمام قسمت های فرم را خالی کن.</translation>
+        <translation>???? ???? ??? ??? ?? ???? ??.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>پاک‌کردن</translation>
+        <translation>????????</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>نمایش</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>حذف ورودی های انتخاب‌شده از لیست</translation>
+        <translation>??? ????? ??? ?????????? ?? ????</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>حذف کردن</translation>
+        <translation>??? ????</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>کپی برچسب</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>کپی مقدار</translation>
+        <translation>??? ?????</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>کد QR</translation>
+        <translation>?? QR</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>&amp;کپی نشانی</translation>
+        <translation>&amp;??? ?????</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;ذخیره عکس...</translation>
+        <translation>&amp;????? ???...</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>برچسب</translation>
+        <translation>?????</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Label</source>
-        <translation>برچسب</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(بدون برچسب)</translation>
+        <translation>(???? ?????)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>ارسال سکه</translation>
+        <translation>????? ???</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>ورودی‌ها...</translation>
+        <translation>????????...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>به طور خودکار انتخاب شدند</translation>
+        <translation>?? ??? ?????? ?????? ????</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>بود جه نا کافی </translation>
+        <translation>??? ?? ?? ???? </translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>تعداد:</translation>
+        <translation>?????:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>بایت ها:</translation>
+        <translation>???? ??:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>مبلغ:</translation>
+        <translation>????:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>هزینه:</translation>
+        <translation>?????:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>هزینه ی پسین:</translation>
+        <translation>????? ? ????:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>پول خورد:</translation>
+        <translation>??? ????:</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>هزینهٔ تراکنش:</translation>
+        <translation>?????? ??????:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>انتخاب...</translation>
+        <translation>??????...</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>در هر کیلوبایت</translation>
+        <translation>?? ?? ????????</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>پنهان کردن</translation>
+        <translation>????? ????</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>توصیه شده:</translation>
+        <translation>????? ???:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>سفارشی:</translation>
+        <translation>??????:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>ارسال به چند دریافت‌کنندهٔ به‌طور همزمان</translation>
+        <translation>????? ?? ??? ????????????? ?????? ??????</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;دریافت‌کنندهٔ جدید</translation>
+        <translation>&amp;????????????? ????</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>تمام قسمت های فرم را خالی کن.</translation>
+        <translation>???? ???? ??? ??? ?? ???? ??.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>پاکسازی &amp;همه</translation>
+        <translation>??????? &amp;???</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>تزار:</translation>
+        <translation>????:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>عملیات ارسال را تأیید کنید</translation>
+        <translation>?????? ????? ?? ????? ????</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;ارسال</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>کپی تعداد</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>کپی مقدار</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>رونوشت کارمزد</translation>
+        <translation>?????? ??????</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>کپی کردن بایت ها</translation>
+        <translation>??? ???? ???? ??</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>کپی کردن تغییر</translation>
+        <translation>??? ???? ?????</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(بدون برچسب)</translation>
+        <translation>(???? ?????)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>A&amp;مبلغ :</translation>
+        <translation>A&amp;???? :</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>پرداخ&amp;ت به:</translation>
+        <translation>?????&amp;? ??:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;برچسب:</translation>
+        <translation>&amp;?????:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>انتخاب نشانی پیش‌تر استفاده شده</translation>
+        <translation>?????? ????? ?????? ??????? ???</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>این یک پرداخت عادی است</translation>
+        <translation>??? ?? ?????? ???? ???</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
-        <translation>نشانی Litecoin برای ارسال پرداخت به آن</translation>
+        <source>The MiningEnthusiastCoin address to send the payment to</source>
+        <translation>????? MiningEnthusiastCoin ???? ????? ?????? ?? ??</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1493,7 +1493,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>چسباندن نشانی از حافظهٔ سیستم</translation>
+        <translation>??????? ????? ?? ?????? ?????</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1501,19 +1501,19 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>حذف این مدخل</translation>
+        <translation>??? ??? ????</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>پیام:</translation>
+        <translation>????:</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>پرداخت به:</translation>
+        <translation>?????? ??:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>یادداشت:</translation>
+        <translation>???????:</translation>
     </message>
     </context>
 <context>
@@ -1523,26 +1523,26 @@
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>%1 در حال خاموش شدن است...</translation>
+        <translation>%1 ?? ??? ????? ??? ???...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>امضاها - امضا / تأیید یک پیام</translation>
+        <translation>?????? - ???? / ????? ?? ????</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>ا&amp;مضای پیام</translation>
+        <translation>?&amp;???? ????</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>نشانی Litecoin برای امضاء پیغام با آن</translation>
+        <source>The MiningEnthusiastCoin address to sign the message with</source>
+        <translation>????? MiningEnthusiastCoin ???? ????? ????? ?? ??</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>انتخاب نشانی پیشتر استفاده شده</translation>
+        <translation>?????? ????? ????? ??????? ???</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1550,7 +1550,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>چسباندن نشانی از حافظهٔ سیستم</translation>
+        <translation>??????? ????? ?? ?????? ?????</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1558,65 +1558,65 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>پیامی را که می‌خواهید امضا کنید در اینجا وارد کنید</translation>
+        <translation>????? ?? ?? ????????? ???? ???? ?? ????? ???? ????</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>امضا</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
+        <translation>????? ???? ?? ?? ?????? ????? ??? ??</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
+        <source>Sign the message to prove you own this MiningEnthusiastCoin address</source>
+        <translation>???? ????? ???? ??? ????? ?? ???? ???? ?? ???? ????</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>ا&amp;مضای پیام</translation>
+        <translation>?&amp;???? ????</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>بازنشانی تمام فیلدهای پیام</translation>
+        <translation>???????? ???? ??????? ????</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>پاک &amp;کردن همه</translation>
+        <translation>??? &amp;???? ???</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;شناسایی پیام</translation>
+        <translation>&amp;??????? ????</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>نشانی Litecoin که پیغام با آن امضاء شده</translation>
+        <source>The MiningEnthusiastCoin address the message was signed with</source>
+        <translation>????? MiningEnthusiastCoin ?? ????? ?? ?? ????? ???</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify the message to ensure it was signed with the specified MiningEnthusiastCoin address</source>
+        <translation>???? ???? ??????? ?? ????? ???? ?? ????? MiningEnthusiastCoin ???? ??? ???? ??? ?? ???? ???? ?? ??????? ????</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>&amp;شناسایی پیام</translation>
+        <translation>&amp;??????? ????</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>بازنشانی تمام فیلدهای پیام</translation>
+        <translation>???????? ???? ??????? ????</translation>
     </message>
     </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>[testnet]</source>
-        <translation>آزمایش شبکه</translation>
+        <translation>?????? ????</translation>
     </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
-        <translation>کیلوبایت</translation>
+        <translation>????????</translation>
     </message>
 </context>
 <context>
@@ -1626,53 +1626,53 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>این پانل شامل توصیف کاملی از جزئیات تراکنش است</translation>
+        <translation>??? ???? ???? ????? ????? ?? ?????? ?????? ???</translation>
     </message>
     </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Label</source>
-        <translation>برچسب</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(بدون برچسب)</translation>
+        <translation>(???? ?????)</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Copy address</source>
-        <translation>کپی ادرس</translation>
+        <translation>??? ????</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>کپی برچسب</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>کپی مقدار</translation>
+        <translation>??? ?????</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>کپی شناسهٔ تراکنش</translation>
+        <translation>??? ?????? ??????</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>فایل جدا شده با ویرگول(*.csv)</translation>
+        <translation>???? ??? ??? ?? ??????(*.csv)</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>برچسب</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>????</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>صدور موفق نبود</translation>
+        <translation>???? ???? ????</translation>
     </message>
     </context>
 <context>
@@ -1688,202 +1688,202 @@
     <name>WalletView</name>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>صدور داده‌های برگهٔ فعلی به یک پرونده</translation>
+        <translation>???? ???????? ????? ???? ?? ?? ??????</translation>
     </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
-        <translation>گزینه‌ها:</translation>
+        <translation>????????:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>مشخص کردن دایرکتوری داده‌ها</translation>
+        <translation>???? ???? ????????? ???????</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>اتصال به یک گره برای دریافت آدرس‌های همتا و قطع اتصال پس از اتمام عملیات</translation>
+        <translation>????? ?? ?? ??? ???? ?????? ???????? ???? ? ??? ????? ?? ?? ????? ??????</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>آدرس عمومی خود را مشخص کنید</translation>
+        <translation>???? ????? ??? ?? ???? ????</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>پذیرش دستورات خط فرمان و دستورات JSON-RPC</translation>
+        <translation>????? ??????? ?? ????? ? ??????? JSON-RPC</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>اجرا در پشت زمینه به‌صورت یک سرویس و پذیرش دستورات</translation>
+        <translation>???? ?? ??? ????? ??????? ?? ????? ? ????? ???????</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation> هسته Litecoin </translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation> ???? MiningEnthusiastCoin </translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>مقید به نشانی داده شده باشید و همیشه از آن پیروی کنید. از نشانه گذاری استاندار IPv6 به صورت Host]:Port] استفاده کنید.</translation>
+        <translation>???? ?? ????? ???? ??? ????? ? ????? ?? ?? ????? ????. ?? ????? ????? ???????? IPv6 ?? ???? Host]:Port] ??????? ????.</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>هنگامی که یک تراکنش در کیف پولی رخ می دهد، دستور را اجرا کن(%s در دستورات بوسیله ی TxID جایگزین می شود)</translation>
+        <translation>?????? ?? ?? ?????? ?? ??? ???? ?? ?? ???? ????? ?? ???? ??(%s ?? ??????? ?????? ? TxID ??????? ?? ???)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>پذیرش اتصالات از بیرون (پیش فرض:1 بدون پراکسی یا اتصال)</translation>
+        <translation>????? ??????? ?? ????? (??? ???:1 ???? ?????? ?? ?????)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>بستن گزینه ایجاد</translation>
+        <translation>???? ????? ?????</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>گزینه‌های اتصال:</translation>
+        <translation>????????? ?????:</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
-        <translation>حق تألیف (C) %i-%i</translation>
+        <translation>?? ????? (C) %i-%i</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>یک پایگاه داده ی بلوک خراب یافت شد</translation>
+        <translation>?? ?????? ???? ? ???? ???? ???? ??</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>آیا مایلید که اکنون پایگاه داده ی بلوک را بازسازی کنید؟</translation>
+        <translation>??? ?????? ?? ????? ?????? ???? ? ???? ?? ??????? ?????</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>خطا در آماده سازی پایگاه داده ی بلوک</translation>
+        <translation>??? ?? ????? ???? ?????? ???? ? ????</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>خطا در بارگیری %s</translation>
+        <translation>??? ?? ??????? %s</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>خطا در بارگذاری پایگاه داده ها</translation>
+        <translation>??? ?? ???????? ?????? ???? ??</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>خطا در بازگشایی پایگاه داده ی بلوک</translation>
+        <translation>??? ?? ???????? ?????? ???? ? ????</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>خطا: فضای دیسک کم است!</translation>
+        <translation>???: ???? ???? ?? ???!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>شنیدن هر گونه درگاه انجام پذیر نیست. ازlisten=0  برای اینکار استفاده کیند.</translation>
+        <translation>????? ?? ???? ????? ????? ???? ????. ??listen=0  ???? ?????? ??????? ????.</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>در حال پیاده‌سازی...</translation>
+        <translation>?? ??? ??????????...</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>بارگذاری لیست‌سیاه...</translation>
+        <translation>???????? ?????????...</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>چاپ ایت پیام کمک و خروج</translation>
+        <translation>??? ??? ???? ??? ? ????</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>چاپ نسخه و خروج</translation>
+        <translation>??? ???? ? ????</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>در حال بازبینی بلوک‌ها...</translation>
+        <translation>?? ??? ??????? ???????...</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>گزینه‌های کیف پول:</translation>
+        <translation>????????? ??? ???:</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(پیش‌فرض %u)</translation>
+        <translation>(??????? %u)</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>اطلاعات</translation>
+        <translation>???????</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>اطلاعات ردگیری/اشکال‌زدایی را به جای فایل لاگ اشکال‌زدایی به کنسول بفرستید</translation>
+        <translation>??????? ??????/??????????? ?? ?? ??? ???? ??? ??????????? ?? ????? ???????</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>فایل debug.log  را در startup مشتری کوچک کن (پیش فرض:1 اگر اشکال زدایی روی نداد)</translation>
+        <translation>???? debug.log  ?? ?? startup ????? ???? ?? (??? ???:1 ??? ????? ????? ??? ????)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>مقدار تراکنش بسیار کم است</translation>
+        <translation>????? ?????? ????? ?? ???</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>تراکنش بسیار بزرگ است</translation>
+        <translation>?????? ????? ???? ???</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>JSON-RPC شناسه برای ارتباطات</translation>
+        <translation>JSON-RPC ????? ???? ????????</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>هشدار</translation>
+        <translation>?????</translation>
     </message>
     <message>
         <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>هشدار: قوانین جدید ناشناخته‌ای فعال شده‌اند (نسخه‌بیت %i)</translation>
+        <translation>?????: ?????? ???? ??????????? ???? ??????? (???????? %i)</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC عبارت عبور برای ارتباطات</translation>
+        <translation>JSON-RPC ????? ???? ???? ????????</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>زمانی که بهترین بلاک تغییر کرد، دستور را اجرا کن (%s در cmd با block hash جایگزین شده است)</translation>
+        <translation>????? ?? ?????? ???? ????? ???? ????? ?? ???? ?? (%s ?? cmd ?? block hash ??????? ??? ???)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>به DNS اجازه بده تا برای addnode ، seednode و اتصال جستجو کند</translation>
+        <translation>?? DNS ????? ??? ?? ???? addnode ? seednode ? ????? ????? ???</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(پیش‌فرض %s)</translation>
+        <translation>(??????? %s)</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>شبکه مشخص شده غیرقابل شناسایی در onlynet: '%s'</translation>
+        <translation>???? ???? ??? ??????? ??????? ?? onlynet: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>بود جه نا کافی </translation>
+        <translation>??? ?? ?? ???? </translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>بار گیری شاخص بلوک</translation>
+        <translation>??? ???? ???? ????</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>بار گیری والت</translation>
+        <translation>??? ???? ????</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>امکان تنزل نسخه در wallet وجود ندارد</translation>
+        <translation>????? ???? ???? ?? wallet ???? ?????</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>اسکان مجدد</translation>
+        <translation>????? ????</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>بار گیری انجام شده است</translation>
+        <translation>??? ???? ????? ??? ???</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>خطا</translation>
+        <translation>???</translation>
     </message>
 </context>
 </TS>

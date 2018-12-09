@@ -3,99 +3,99 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>ចុចខាងស្តាំដើម្បីកែអាស្រយដ្ឋាន​ ឬ ស្លាក</translation>
+        <translation>??????????????????????????????? ? ?????</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>  បង្កើតអាស្រយដ្ឋានថ្មីមួយ</translation>
+        <translation>  ????????????????????????</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;ថ្មី</translation>
+        <translation>&amp;????</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>ចម្លងអាសយដ្ឋានដែលបានរើស</translation>
+        <translation>???????????????????????</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;ចម្លង</translation>
+        <translation>&amp;?????</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;បិទ</translation>
+        <translation>&amp;???</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>លុប​អាសយដ្ឋានដែល​បាន​រើស​ពី​បញ្ជី</translation>
+        <translation>?????????????????????????????????</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;នាំចេញ</translation>
+        <translation>&amp;??????</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;លុប</translation>
+        <translation>&amp;???</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>អាសយដ្ឋានផ្ញើ</translation>
+        <translation>?????????????</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>អាសយដ្ឋានទទួួល</translation>
+        <translation>??????????????</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Address</source>
-        <translation>អាសយដ្ឋាន</translation>
+        <translation>?????????</translation>
     </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>បញ្ចូលពាក្យសម្ងាត់</translation>
+        <translation>??????????????????</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>ពាក្យសម្ងាត់ថ្មី</translation>
+        <translation>????????????????</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>វាយពាក្យសម្ងាត់ម្ដងទៀត</translation>
+        <translation>??????????????????????</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>ដោះសោរកាបូបលុយ</translation>
+        <translation>??????????????</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>ប្ដូរពាក្យសម្ងាត់</translation>
+        <translation>?????????????????</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>បរាជ័យដោះសោរកាបូប</translation>
+        <translation>?????????????????</translation>
     </message>
     </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>Banned Until</source>
-        <translation>ផ្អាកដល់</translation>
+        <translation>????????</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Litecoin មួយ</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>?????????????? ????????? MiningEnthusiastCoin ???</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>កាបូប</translation>
+        <translation>?????</translation>
     </message>
     </context>
 <context>
@@ -150,7 +150,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>អាសយដ្ឋាន</translation>
+        <translation>?????????</translation>
     </message>
     </context>
 <context>
@@ -190,7 +190,7 @@
     <name>TransactionView</name>
     <message>
         <source>Address</source>
-        <translation>អាសយដ្ឋាន</translation>
+        <translation>?????????</translation>
     </message>
     </context>
 <context>
@@ -206,7 +206,7 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;នាំចេញ</translation>
+        <translation>&amp;??????</translation>
     </message>
     </context>
 <context>

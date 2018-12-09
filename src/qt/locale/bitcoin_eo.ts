@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Dekstre-klaku por redakti adreson aŭ etikedon</translation>
+        <translation>Dekstre-klaku por redakti adreson a? etikedon</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -62,12 +62,12 @@
         <translation>Ricevaj adresoj</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Litecoin-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Jen viaj MiningEnthusiastCoin-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson anta? ol sendi.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Jen viaj litecoinj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Jen viaj miningenthusiastcoinj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ?iu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -133,59 +133,59 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enigu novan pasfrazon por la monujo.&lt;br/&gt;Bonvolu uzi pasfrazon kun &lt;b&gt;almenaŭ 10 hazardaj signoj&lt;/b&gt;, aŭ &lt;b&gt;almenaŭ ok aŭ pli vortoj&lt;/b&gt;.</translation>
+        <translation>Enigu novan pasfrazon por la monujo.&lt;br/&gt;Bonvolu uzi pasfrazon kun &lt;b&gt;almenau? 10 hazardaj signoj&lt;/b&gt;, a? &lt;b&gt;almenau? ok a? pli vortoj&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Ĉifri la monujon</translation>
+        <translation>?ifri la monujon</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ĉi tiu operacio bezonas vian monujan pasfrazon, por malŝlosi la monujon.</translation>
+        <translation>?i tiu operacio bezonas vian monujan pasfrazon, por mal?losi la monujon.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Malŝlosi la monujon</translation>
+        <translation>Mal?losi la monujon</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ĉi tiu operacio bezonas vian monujan pasfrazon, por malĉifri la monujon.</translation>
+        <translation>?i tiu operacio bezonas vian monujan pasfrazon, por mal?ifri la monujon.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Malĉifri la monujon</translation>
+        <translation>Mal?ifri la monujon</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Ŝanĝi la pasfrazon</translation>
+        <translation>S?ang?i la pasfrazon</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
         <translation>Tajpu la malnovan pasvorton kaj la novan pasvorton por la monujo.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA BITMONO&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Atentu! Se vi c?ifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA BITMONO&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ĉu vi certas, ke vi volas ĉifri la monujon?</translation>
+        <translation>C?u vi certas, ke vi volas c?ifri la monujon?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>La monujo estas ĉifrita</translation>
+        <translation>La monujo estas ?ifrita</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 nun fermig?os por fini la c?ifradon. Memoru, ke ec? c?ifrado ne protektas kontrau? c?iu atako, ekz. se viruso infektus vian komputilon.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>GRAVE: antaŭaj sekur-kopioj de via monujo-dosiero estas forigindaj kiam vi havas nove kreitan ĉifritan monujo-dosieron. Pro sekureco, antaŭaj kopioj de la neĉifrita dosiero ne plu funkcios tuj kiam vi ekuzos la novan ĉifritan dosieron.</translation>
+        <translation>GRAVE: antau?aj sekur-kopioj de via monujo-dosiero estas forigindaj kiam vi havas nove kreitan c?ifritan monujo-dosieron. Pro sekureco, antau?aj kopioj de la nec?ifrita dosiero ne plu funkcios tuj kiam vi ekuzos la novan c?ifritan dosieron.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Ĉifrado de la monujo fiaskis</translation>
+        <translation>C?ifrado de la monujo fiaskis</translation>
     </message>
     </context>
 <context>
@@ -195,7 +195,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Subskribi &amp;mesaĝon...</translation>
+        <translation>Subskribi &amp;mesa?on...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Vidigi ĝeneralan superrigardon de la monujo</translation>
+        <translation>Vidigi g?eneralan superrigardon de la monujo</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -227,7 +227,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Eliri la aplikaĵon</translation>
+        <translation>Eliri la aplika?on</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Ĉifri &amp;Monujon...</translation>
+        <translation>C?ifri &amp;Monujon...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -251,7 +251,7 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Ŝanĝi &amp;Pasfrazon...</translation>
+        <translation>S?ang?i &amp;Pasfrazon...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -270,8 +270,8 @@
         <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Sendi monon al Litecoin-adreso</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Sendi monon al MiningEnthusiastCoin-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -279,7 +279,7 @@
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Ŝanĝi la pasfrazon por ĉifri la monujon</translation>
+        <translation>S?ang?i la pasfrazon por c?ifri la monujon</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -291,11 +291,11 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Kontroli mesaĝon...</translation>
+        <translation>&amp;Kontroli mesa?on...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -311,23 +311,23 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Montri / Kaŝi</translation>
+        <translation>&amp;Montri / Kas?i</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Montri aŭ kaŝi la ĉefan fenestron</translation>
+        <translation>Montri au? kas?i la c?efan fenestron</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Ĉifri la privatajn ŝlosilojn de via monujo</translation>
+        <translation>C?ifri la privatajn s?losilojn de via monujo</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Litecoin-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Subskribi mesag?ojn per via MiningEnthusiastCoin-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Litecoin-adresoj</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Kontroli mesag?ojn por kontroli ?u ili estas subskribitaj per specifaj MiningEnthusiastCoin-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -346,8 +346,8 @@
         <translation>Langeto-breto</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso litecoin:)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso miningenthusiastcoin:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -358,12 +358,12 @@
         <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Malfermi litecoin:-URI-on aŭ pagpeton</translation>
+        <source>Open a miningenthusiastcoin: URI or payment request</source>
+        <translation>Malfermi miningenthusiastcoin:-URI-on a? pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Komandliniaj agordaĵoj</translation>
+        <translation>&amp;Komandliniaj agordaj?oj</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -371,11 +371,11 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Lasta ricevita bloko kreiĝis antaŭ %1.</translation>
+        <translation>Lasta ricevita bloko kreig?is antau? %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcioj por tio ankoraŭ ne videblas.</translation>
+        <translation>Transakcioj por tio ankorau? ne videblas.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -391,11 +391,11 @@
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Ĝisdata</translation>
+        <translation>?isdata</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Ĝisdatigante...</translation>
+        <translation>?isdatigante...</translation>
     </message>
     <message>
         <source>Date: %1
@@ -437,11 +437,11 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;malŝlosita&lt;/b&gt;</translation>
+        <translation>Monujo estas &lt;b&gt;?ifrita&lt;/b&gt; kaj aktuale &lt;b&gt;mal?losita&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;ŝlosita&lt;/b&gt;</translation>
+        <translation>Monujo estas &lt;b&gt;?ifrita&lt;/b&gt; kaj aktuale &lt;b&gt;?losita&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -476,15 +476,15 @@
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(mal)elekti ĉion</translation>
+        <translation>(mal)elekti ?ion</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Arboreĝimo</translation>
+        <translation>Arbore?imo</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Listreĝimo</translation>
+        <translation>Listre?imo</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -527,11 +527,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>La etikedo ligita al tiu ĉi adreslistero</translation>
+        <translation>La etikedo ligita al tiu ?i adreslistero</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>La adreso ligita al tiu ĉi adreslistero. Eblas modifi tion nur por sendaj adresoj.</translation>
+        <translation>La adreso ligita al tiu ?i adreslistero. Eblas modifi tion nur por sendaj adresoj.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -542,7 +542,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Kreiĝos nova dosierujo por la datumoj.</translation>
+        <translation>Kreig?os nova dosierujo por la datumoj.</translation>
     </message>
     <message>
         <source>name</source>
@@ -550,7 +550,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Tiu dosierujo jam ekzistas. Aldonu %1 si vi volas krei novan dosierujon ĉi tie.</translation>
+        <translation>Tiu dosierujo jam ekzistas. Aldonu %1 si vi volas krei novan dosierujon c?i tie.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -558,7 +558,7 @@
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Ne eblas krei dosierujon por datumoj ĉi tie.</translation>
+        <translation>Ne eblas krei dosierujon por datumoj c?i tie.</translation>
     </message>
 </context>
 <context>
@@ -569,7 +569,7 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Komandliniaj agordaĵoj</translation>
+        <translation>Komandliniaj agordaj?oj</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -577,7 +577,7 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>komandliniaj agordaĵoj</translation>
+        <translation>komandliniaj agordaj?oj</translation>
     </message>
     <message>
         <source>UI Options:</source>
@@ -592,15 +592,15 @@
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Uzi la defaŭltan dosierujon por datumoj</translation>
+        <translation>Uzi la defau?ltan dosierujon por datumoj</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
         <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -630,7 +630,7 @@
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Malfermi pagpeton el URI aŭ dosiero</translation>
+        <translation>Malfermi pagpeton el URI a? dosiero</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -645,15 +645,15 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Agordaĵoj</translation>
+        <translation>Agordaj?oj</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>Ĉ&amp;efa</translation>
+        <translation>C?&amp;efa</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Dosiergrando de &amp;datumbasa kaŝmemoro</translation>
+        <translation>Dosiergrando de &amp;datumbasa ka?memoro</translation>
     </message>
     <message>
         <source>MB</source>
@@ -661,7 +661,7 @@
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Reagordi ĉion al defaŭlataj valoroj.</translation>
+        <translation>Reagordi c?ion al defau?lataj valoroj.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -680,8 +680,8 @@
         <translation>Fakulo</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Litecoin. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <source>Automatically open the MiningEnthusiastCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Au?tomate malfermi la kursilan pordon por MiningEnthusiastCoin. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu c?i estas s?altita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -717,7 +717,7 @@
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimumigi al la sistempleto anstataŭ al la taskopleto</translation>
+        <translation>&amp;Minimumigi al la sistempleto anstatau? al la taskopleto</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -737,11 +737,11 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elekti la defaŭltan manieron por montri litecoinjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
+        <translation>Elekti la defau?ltan manieron por montri miningenthusiastcoinjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Ĉu montri detalan adres-regilon, aŭ ne.</translation>
+        <translation>?u montri detalan adres-regilon, a? ne.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -753,7 +753,7 @@
     </message>
     <message>
         <source>default</source>
-        <translation>defaŭlta</translation>
+        <translation>defau?lta</translation>
     </message>
     <message>
         <source>none</source>
@@ -761,7 +761,7 @@
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Konfirmi reŝargo de agordoj</translation>
+        <translation>Konfirmi res?argo de agordoj</translation>
     </message>
     <message>
         <source>Error</source>
@@ -779,8 +779,8 @@
         <translation>Formularo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la litecoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MiningEnthusiastCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Eblas, ke la informoj videblaj c?i tie estas eksdataj. Via monujo au?tomate sinkonig?as kun la miningenthusiastcoin reto kiam ili konektig?as, sed tiu procezo ankorau? ne finfarig?is.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -788,7 +788,7 @@
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>la sumo de transakcioj ankoraŭ ne konfirmitaj, kiuj ankoraŭ ne elspezeblas</translation>
+        <translation>la sumo de transakcioj ankorau? ne konfirmitaj, kiuj ankorau? ne elspezeblas</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -796,7 +796,7 @@
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Minita saldo, kiu ankoraŭ ne maturiĝis</translation>
+        <translation>Minita saldo, kiu ankorau? ne maturig?is</translation>
     </message>
     <message>
         <source>Balances</source>
@@ -914,11 +914,11 @@
     </message>
     <message>
         <source>General</source>
-        <translation>Ĝenerala</translation>
+        <translation>?enerala</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Horo de lanĉo</translation>
+        <translation>Horo de lanc?o</translation>
     </message>
     <message>
         <source>Network</source>
@@ -934,7 +934,7 @@
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Blokĉeno</translation>
+        <translation>Blok?eno</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
@@ -1017,11 +1017,11 @@
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Mesaĝo:</translation>
+        <translation>&amp;Mesa?o:</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Malplenigi ĉiujn kampojn de la formularo.</translation>
+        <translation>Malplenigi ?iujn kampojn de la formularo.</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -1045,7 +1045,7 @@
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopiu mesaĝon</translation>
+        <translation>Kopiu mesa?on</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1096,11 +1096,11 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Mesaĝo</translation>
+        <translation>Mesag?o</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>La rezultanta URI estas tro longa. Provu malplilongigi la tekston de la etikedo / mesaĝo.</translation>
+        <translation>La rezultanta URI estas tro longa. Provu malplilongigi la tekston de la etikedo / mesag?o.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
@@ -1119,7 +1119,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Mesaĝo</translation>
+        <translation>Mesag?o</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1127,14 +1127,14 @@
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(neniu mesaĝo)</translation>
+        <translation>(neniu mesa?o)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Litecoinn</translation>
+        <translation>Sendi MiningEnthusiastCoinn</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1146,7 +1146,7 @@
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Nesufiĉa mono!</translation>
+        <translation>Nesufi?a mono!</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1186,7 +1186,7 @@
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Malplenigi ĉiujn kampojn de la formularo.</translation>
+        <translation>Malplenigi ?iujn kampojn de la formularo.</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -1194,7 +1194,7 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Forigi Ĉion</translation>
+        <translation>&amp;Forigi C?ion</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -1206,7 +1206,7 @@
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>Ŝendi</translation>
+        <translation>?endi</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1242,7 +1242,7 @@
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Ĉu vi certas, ke vi volas sendi?</translation>
+        <translation>?u vi certas, ke vi volas sendi?</translation>
     </message>
     <message>
         <source>added as transaction fee</source>
@@ -1254,7 +1254,7 @@
     </message>
     <message>
         <source>or</source>
-        <translation>aŭ</translation>
+        <translation>a?</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1277,8 +1277,8 @@
         <translation>Kreo de transakcio fiaskis!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Averto: Nevalida Litecoin-adreso</translation>
+        <source>Warning: Invalid MiningEnthusiastCoin address</source>
+        <translation>Averto: Nevalida MiningEnthusiastCoin-adreso</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1321,15 +1321,15 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Forigu ĉi tiun enskribon</translation>
+        <translation>Forigu ?i tiun enskribon</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Mesaĝo:</translation>
+        <translation>Mesag?o:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Tajpu etikedon por tiu ĉi adreso por aldoni ĝin al la listo de uzitaj adresoj</translation>
+        <translation>Tajpu etikedon por tiu ?i adreso por aldoni ?in al la listo de uzitaj adresoj</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1341,7 +1341,7 @@
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Tajpu etikedon por tiu ĉi adreso kaj aldonu ĝin al via adresaro</translation>
+        <translation>Tajpu etikedon por tiu c?i adreso kaj aldonu g?in al via adresaro</translation>
     </message>
 </context>
 <context>
@@ -1351,18 +1351,18 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Ne sistemfermu ĝis ĉi tiu fenestro malaperas.</translation>
+        <translation>Ne sistemfermu ?is ?i tiu fenestro malaperas.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Subskriboj - Subskribi / Kontroli mesaĝon</translation>
+        <translation>Subskriboj - Subskribi / Kontroli mesag?on</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Subskribi Mesaĝon</translation>
+        <translation>&amp;Subskribi Mesag?on</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1382,7 +1382,7 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Tajpu la mesaĝon, kiun vi volas sendi, cîi tie</translation>
+        <translation>Tajpu la mesag?on, kiun vi volas sendi, cii tie</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -1393,40 +1393,40 @@
         <translation>Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Litecoin-adreso</translation>
+        <source>Sign the message to prove you own this MiningEnthusiastCoin address</source>
+        <translation>Subskribi la mesag?on por pravigi, ke vi estas la posedanto de tiu MiningEnthusiastCoin-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Subskribi &amp;Mesaĝon</translation>
+        <translation>Subskribi &amp;Mesag?on</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Reagordigi ĉiujn prisubskribajn kampojn</translation>
+        <translation>Reagordigi c?iujn prisubskribajn kampojn</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Forigi Ĉion</translation>
+        <translation>&amp;Forigi C?ion</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Kontroli Mesaĝon</translation>
+        <translation>&amp;Kontroli Mesag?on</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Litecoin-adreso</translation>
+        <source>Verify the message to ensure it was signed with the specified MiningEnthusiastCoin address</source>
+        <translation>Kontroli la mesag?on por pravigi, ke g?i ja estas subskribita per la specifa MiningEnthusiastCoin-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Kontroli &amp;Mesaĝon</translation>
+        <translation>Kontroli &amp;Mesag?on</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Reagordigi ĉiujn prikontrolajn kampojn</translation>
+        <translation>Reagordigi c?iujn prikontrolajn kampojn</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Klaku "Subskribi Mesaĝon" por krei subskribon</translation>
+        <translation>Klaku "Subskribi Mesag?on" por krei subskribon</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1438,27 +1438,27 @@
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>La adreso, kiun vi enmetis, referencas neniun ŝlosilon.</translation>
+        <translation>La adreso, kiun vi enmetis, referencas neniun s?losilon.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Malŝloso de monujo estas nuligita.</translation>
+        <translation>Mal?loso de monujo estas nuligita.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>La privata ŝlosilo por la enigita adreso ne disponeblas.</translation>
+        <translation>La privata s?losilo por la enigita adreso ne disponeblas.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Subskribo de mesaĝo fiaskis.</translation>
+        <translation>Subskribo de mesag?o fiaskis.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Mesaĝo estas subskribita.</translation>
+        <translation>Mesag?o estas subskribita.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Ne eblis malĉifri la subskribon.</translation>
+        <translation>Ne eblis malc?ifri la subskribon.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
@@ -1466,15 +1466,15 @@
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>La subskribo ne kongruis kun la mesaĝ-kompilaĵo.</translation>
+        <translation>La subskribo ne kongruis kun la mesag?-kompilaj?o.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Kontrolo de mesaĝo malsukcesis.</translation>
+        <translation>Kontrolo de mesag?o malsukcesis.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Mesaĝo sukcese kontrolita.</translation>
+        <translation>Mesag?o sukcese kontrolita.</translation>
     </message>
 </context>
 <context>
@@ -1495,7 +1495,7 @@
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
-        <translation>Malferma ĝis %1</translation>
+        <translation>Malferma g?is %1</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -1515,7 +1515,7 @@
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, ankoraŭ ne elsendita sukcese</translation>
+        <translation>, ankora? ne elsendita sukcese</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1571,7 +1571,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Mesaĝo</translation>
+        <translation>Mesag?o</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -1587,7 +1587,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Kreitaj moneroj devas esti maturaj je %1 blokoj antaŭ ol eblas elspezi ilin. Kiam vi generis tiun ĉi blokon, ĝi estis elsendita al la reto por aldono al la blokĉeno. Se tiu aldono malsukcesas, ĝia stato ŝanĝiĝos al "neakceptita" kaj ne eblos elspezi ĝin. Tio estas malofta, sed povas okazi se alia bloko estas kreita je preskaŭ la sama momento kiel la via.</translation>
+        <translation>Kreitaj moneroj devas esti maturaj je %1 blokoj anta? ol eblas elspezi ilin. Kiam vi generis tiun ?i blokon, ?i estis elsendita al la reto por aldono al la blok?eno. Se tiu aldono malsukcesas, ?ia stato ?an?i?os al "neakceptita" kaj ne eblos elspezi ?in. Tio estas malofta, sed povas okazi se alia bloko estas kreita je preska? la sama momento kiel la via.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -1618,7 +1618,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Tiu ĉi panelo montras detalan priskribon de la transakcio</translation>
+        <translation>Tiu c?i panelo montras detalan priskribon de la transakcio</translation>
     </message>
     </context>
 <context>
@@ -1637,7 +1637,7 @@
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Malferma ĝis %1</translation>
+        <translation>Malferma g?is %1</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -1653,7 +1653,7 @@
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Tiun ĉi blokon ne ricevis ajna alia nodo, kaj ĝi verŝajne ne akceptiĝos!</translation>
+        <translation>Tiun c?i blokon ne ricevis ajna alia nodo, kaj g?i vers?ajne ne akceptig?os!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -1689,7 +1689,7 @@
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transakcia stato. Ŝvebi super tiu ĉi kampo por montri la nombron de konfirmoj.</translation>
+        <translation>Transakcia stato. S?vebi super tiu c?i kampo por montri la nombron de konfirmoj.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
@@ -1701,26 +1701,26 @@
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Sumo elprenita de aŭ aldonita al la saldo.</translation>
+        <translation>Sumo elprenita de au? aldonita al la saldo.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Ĉiuj</translation>
+        <translation>?iuj</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Hodiaŭ</translation>
+        <translation>Hodia?</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Ĉi-semajne</translation>
+        <translation>C?i-semajne</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Ĉi-monate</translation>
+        <translation>C?i-monate</translation>
     </message>
     <message>
         <source>Last month</source>
@@ -1728,7 +1728,7 @@
     </message>
     <message>
         <source>This year</source>
-        <translation>Ĉi-jare</translation>
+        <translation>C?i-jare</translation>
     </message>
     <message>
         <source>Range...</source>
@@ -1833,7 +1833,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Litecoinn</translation>
+        <translation>Sendi MiningEnthusiastCoinn</translation>
     </message>
     </context>
 <context>
@@ -1890,28 +1890,28 @@
         <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Kerno de Litecoin</translation>
+        <source>MiningEnthusiastCoin Core</source>
+        <translation>Kerno de MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bindi al donita adreso kaj ĉiam aŭskulti per ĝi. Uzu la formaton [gastigo]:pordo por IPv6</translation>
+        <translation>Bindi al donita adreso kaj c?iam au?skulti per g?i. Uzu la formaton [gastigo]:pordo por IPv6</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Plenumi komandon kiam monuja transakcio ŝanĝiĝas (%s en cmd anstataŭiĝas per TxID)</translation>
+        <translation>Plenumi komandon kiam monuja transakcio s?ang?ig?as (%s en cmd anstatau?ig?as per TxID)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Tiu ĉi estas antaŭeldona testa versio - uzu laŭ via propra risko - ne uzu por minado aŭ por aplikaĵoj por vendistoj</translation>
+        <translation>Tiu c?i estas antau?eldona testa versio - uzu la? via propra risko - ne uzu por minado au? por aplikaj?oj por vendistoj</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Averto: La reto ne tute konsentas! Kelkaj minantoj ŝajne spertas problemojn aktuale.</translation>
+        <translation>Averto: La reto ne tute konsentas! Kelkaj minantoj ?ajne spertas problemojn aktuale.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Averto: ŝajne ni ne tute konsentas kun niaj samtavolanoj! Eble vi devas ĝisdatigi vian klienton, aŭ eble aliaj nodoj faru same.</translation>
+        <translation>Averto: ?ajne ni ne tute konsentas kun niaj samtavolanoj! Eble vi devas ?isdatigi vian klienton, a? eble aliaj nodoj faru same.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -1919,11 +1919,11 @@
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
+        <translation>Akcepti konektojn el ekstere (defau?lte: 1 se ne estas -proxy nek -connect)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Blok-kreaj agordaĵoj:</translation>
+        <translation>Blok-kreaj agordaj?oj:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -1931,7 +1931,7 @@
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Ĉu vi volas rekonstrui la blokdatumbazon nun?</translation>
+        <translation>C?u vi volas rekonstrui la blokdatumbazon nun?</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -1939,11 +1939,11 @@
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Eraro dum pravalorizado de monuj-datumbaza ĉirkaŭaĵo %s!</translation>
+        <translation>Eraro dum pravalorizado de monuj-datumbaza c?irkau?aj?o %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Eraro dum ŝargado de blokdatumbazo</translation>
+        <translation>Eraro dum s?argado de blokdatumbazo</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -1955,15 +1955,15 @@
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Ne sukcesis aŭskulti ajnan pordon. Uzu -listen=0 se tion vi volas.</translation>
+        <translation>Ne sukcesis au?skulti ajnan pordon. Uzu -listen=0 se tion vi volas.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Geneza bloko aŭ netrovita aŭ neĝusta. Ĉu eble la datadir de la reto malĝustas?</translation>
+        <translation>Geneza bloko au? netrovita au? neg?usta. C?u eble la datadir de la reto malg?ustas?</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Nesufiĉa nombro de dosierpriskribiloj disponeblas.</translation>
+        <translation>Nesufic?a nombro de dosierpriskribiloj disponeblas.</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -1979,7 +1979,7 @@
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Plenumi komandon kiam rilata alerto riceviĝas, aŭ kiam ni vidas tre longan forkon (%s en cms anstataŭiĝas per mesaĝo)</translation>
+        <translation>Plenumi komandon kiam rilata alerto ricevi?as, a? kiam ni vidas tre longan forkon (%s en cms anstata?i?as per mesa?o)</translation>
     </message>
     <message>
         <source>Information</source>
@@ -1987,11 +1987,11 @@
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Sendi spurajn/sencimigajn informojn al la konzolo anstataŭ al dosiero debug.log</translation>
+        <translation>Sendi spurajn/sencimigajn informojn al la konzolo anstatau? al dosiero debug.log</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Malpligrandigi la sencimigan protokol-dosieron kiam kliento lanĉiĝas (defaŭlte: 1 kiam mankas -debug)</translation>
+        <translation>Malpligrandigi la sencimigan protokol-dosieron kiam kliento lanc?ig?as (defau?lte: 1 kiam mankas -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -1999,7 +1999,7 @@
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>ĝi estas eksperimenta programo</translation>
+        <translation>?i estas eksperimenta programo</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -2019,7 +2019,7 @@
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Vi devas rekontrui la datumbazon kun -reindex por ŝanĝi -txindex</translation>
+        <translation>Vi devas rekontrui la datumbazon kun -reindex por s?ang?i -txindex</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -2027,11 +2027,11 @@
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Plenumi komandon kiam plej bona bloko ŝanĝiĝas (%s en cmd anstataŭiĝas per bloka haketaĵo)</translation>
+        <translation>Plenumi komandon kiam plej bona bloko s?ang?ig?as (%s en cmd anstatau?ig?as per bloka haketaj?o)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Permesi DNS-elserĉojn por -addnote, -seednote kaj -connect</translation>
+        <translation>Permesi DNS-elserc?ojn por -addnote, -seednote kaj -connect</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -2039,15 +2039,15 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nesufiĉa mono</translation>
+        <translation>Nesufi?a mono</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Ŝarĝante blok-indekson...</translation>
+        <translation>?ar?ante blok-indekson...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Ŝargado de monujo...</translation>
+        <translation>?argado de monujo...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -2059,7 +2059,7 @@
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Ŝargado finiĝis</translation>
+        <translation>?argado finig?is</translation>
     </message>
     <message>
         <source>Error</source>

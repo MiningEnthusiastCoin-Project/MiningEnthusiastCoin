@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>按右擊修改位址或標記</translation>
+        <translation>按右?修改位址或標記</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -31,7 +31,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>把目前分頁的資料匯出至檔案</translation>
+        <translation>把目前分頁的資料匯出至?案</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -62,12 +62,12 @@
         <translation>收款地址</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要付款過去的 Litecoin 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這些是?要付款過去的 MiningEnthusiastCoin 位址。在付款之前，務必要檢?金額和收款位址是否正確。</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這些是你用來收款的 Litecoin 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這些是?用來收款的 MiningEnthusiastCoin 位址。建議在?次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>逗號分隔檔 (*.csv)</translation>
+        <translation>逗號分隔? (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -141,7 +141,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>這個動作需要你的錢包密碼來將錢包解鎖。</translation>
+        <translation>這個動作需要?的錢包密碼來將錢包解鎖。</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -149,7 +149,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>這個動作需要你的錢包密碼來將錢包解密。</translation>
+        <translation>這個動作需要?的錢包密碼來將錢包解密。</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -168,24 +168,24 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Litecoin 了&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>警告: 如果?將錢包加密後又忘記密碼，?就會&lt;b&gt;失去所有 MiningEnthusiastCoin 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>你確定要把錢包加密嗎？</translation>
+        <translation>?確定要把錢包加密?？</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 現在要關閉來完成加密程序。請記得將錢包加密不能完全防止你的 Litecoins 經被入侵電腦的惡意程式偷取。</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your miningenthusiastcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 現在要關閉來完成加密程序。請記得將錢包加密不能完全防止?的 MiningEnthusiastCoins 經被入侵電腦的惡意程式?取。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 請改用新產生的加密錢包檔，來取代所以舊錢包檔的備份。為安全計，當你開始使用新的加密錢包檔後，舊錢包檔的備份就不能再使用了。</translation>
+        <translation>重要: 請改用新?生的加密錢包?，來取代所以舊錢包?的備?。為安全計，當?開始使用新的加密錢包?後，舊錢包?的備?就不能再使用了。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>因內部錯誤導致錢包加密失敗，你的錢包尚未加密。</translation>
+        <translation>因?部錯誤導致錢包加密失敗，?的錢包尚未加密。</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -217,7 +217,7 @@
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: Caps Lock 已啟用！</translation>
+        <translation>警告: Caps Lock 已?用！</translation>
     </message>
 </context>
 <context>
@@ -239,7 +239,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>與網絡同步中...</translation>
+        <translation>與網絡同?中...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>瀏覽交易紀錄</translation>
+        <translation>瀏覽交易紀?</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>備份錢包... &amp;B</translation>
+        <translation>備?錢包... &amp;B</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -319,15 +319,15 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>正在為磁碟區塊重建索引...</translation>
+        <translation>正在為磁?區塊重建索引...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>付款至一個 Litecoin 位址</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>付款至一個 MiningEnthusiastCoin 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>把錢包備份到其它地方</translation>
+        <translation>把錢包備?到其它地方</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -346,8 +346,8 @@
         <translation>驗證訊息... &amp;V</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -371,7 +371,7 @@
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>檔案 &amp;F</translation>
+        <translation>?案 &amp;F</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -379,15 +379,15 @@
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>說明 &amp;H</translation>
+        <translation>?明 &amp;H</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>要求付款 (產生QR碼 litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and miningenthusiastcoin: URIs)</source>
+        <translation>要求付款 (?生QR碼 miningenthusiastcoin: URIs)</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>正在為磁碟區塊建立索引...</translation>
+        <translation>正在為磁?區塊建立索引...</translation>
     </message>
     <message>
         <source>Error</source>
@@ -427,8 +427,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -468,8 +468,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>輸入一個 Litecoin 位址 (例如 %1)</translation>
+        <source>Enter a MiningEnthusiastCoin address (e.g. %1)</source>
+        <translation>輸入一個 MiningEnthusiastCoin 位址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -652,7 +652,7 @@
     <name>TransactionView</name>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>逗號分隔檔 (*.csv)</translation>
+        <translation>逗號分隔? (*.csv)</translation>
     </message>
     <message>
         <source>Label</source>
@@ -684,7 +684,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>把目前分頁的資料匯出至檔案</translation>
+        <translation>把目前分頁的資料匯出至?案</translation>
     </message>
     </context>
 <context>

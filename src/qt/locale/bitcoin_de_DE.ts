@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Ausgewählte Adresse aus der Liste löschen</translation>
+        <translation>Ausgewahlte Adresse aus der Liste loschen</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -39,19 +39,19 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Löschen</translation>
+        <translation>&amp;Loschen</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wähle die Empfängeradresse</translation>
+        <translation>Wahle die Empfangeradresse</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wähle die Empfangsadresse</translation>
+        <translation>Wahle die Empfangsadresse</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Auswählen</translation>
+        <translation>Auswahlen</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind Ihre Litecoin-Adressen zum Senden von Zahlungen. Überprüfen Sie immer die Menge und die Empfangsadresse, bevor Sie Litecoins senden.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind Ihre MiningEnthusiastCoin-Adressen zum Senden von Zahlungen. Uberprufen Sie immer die Menge und die Empfangsadresse, bevor Sie MiningEnthusiastCoins senden.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind Ihre Litecoin-Adressen für den Empfang von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your MiningEnthusiastCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind Ihre MiningEnthusiastCoin-Adressen fur den Empfang von Zahlungen. Es wird empfohlen, fur jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -133,31 +133,31 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Geben Sie das neue Passwort Ihrer digitalen Geldbörse ein.&lt;br/&gt;Verwenden Sie bitte ein Passwort bestehend aus &lt;b&gt;zehn oder mehr zufälligen Zeichen&lt;/b&gt;, oder aus &lt;b&gt;acht oder mehr Wörtern&lt;/b&gt;.</translation>
+        <translation>Geben Sie das neue Passwort Ihrer digitalen Geldborse ein.&lt;br/&gt;Verwenden Sie bitte ein Passwort bestehend aus &lt;b&gt;zehn oder mehr zufalligen Zeichen&lt;/b&gt;, oder aus &lt;b&gt;acht oder mehr Wortern&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Brieftasche verschlüsseln</translation>
+        <translation>Brieftasche verschlusseln</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Diese Aktion benötigt ihr Passwort zum entsperren der Wallet.</translation>
+        <translation>Diese Aktion benotigt ihr Passwort zum entsperren der Wallet.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Brieftasche entschlüsseln</translation>
+        <translation>Brieftasche entschlusseln</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Diese Operation benötigt Ihr Wallet-Passwort zum entschlüsseln der Wallet.</translation>
+        <translation>Diese Operation benotigt Ihr Wallet-Passwort zum entschlusseln der Wallet.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Brieftasche entschlüsseln</translation>
+        <translation>Brieftasche entschlusseln</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Passwort ändern</translation>
+        <translation>Passwort andern</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
@@ -165,51 +165,51 @@
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Brieftaschenverschlüsselung bestätigen</translation>
+        <translation>Brieftaschenverschlusselung bestatigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Achtung: Wenn Sie Ihre Wallet verschlüsseln und das Passwort verlieren, gehen &lt;b&gt;alle Ihre Litecoins verloren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MININGENTHUSIASTCOINS&lt;/b&gt;!</source>
+        <translation>Achtung: Wenn Sie Ihre Wallet verschlusseln und das Passwort verlieren, gehen &lt;b&gt;alle Ihre MiningEnthusiastCoins verloren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Möchten Sie Ihre Wallet wirklich verschlüsseln?</translation>
+        <translation>Mochten Sie Ihre Wallet wirklich verschlusseln?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Brieftasche verschlüsselt</translation>
+        <translation>Brieftasche verschlusselt</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WICHTIG: Alle früheren Sicherungen, die Sie von Ihrer Wallet-Datei gemacht haben, sollten durch die neu erzeugte, verschlüsselte Wallet-Datei ersetzt werden. Sobald Sie die neue, verschlüsselte Wallet verwenden, werden frühere Sicherungen der unverschlüsselten Wallet-Datei aus Sicherheitsgründen nutzlos.</translation>
+        <translation>WICHTIG: Alle fruheren Sicherungen, die Sie von Ihrer Wallet-Datei gemacht haben, sollten durch die neu erzeugte, verschlusselte Wallet-Datei ersetzt werden. Sobald Sie die neue, verschlusselte Wallet verwenden, werden fruhere Sicherungen der unverschlusselten Wallet-Datei aus Sicherheitsgrunden nutzlos.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Brieftaschenverschlüsselung fehlgeschlagen</translation>
+        <translation>Brieftaschenverschlusselung fehlgeschlagen</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Die Wallet-Verschlüsselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Wallet wurde nicht verschlüsselt.</translation>
+        <translation>Die Wallet-Verschlusselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Wallet wurde nicht verschlusselt.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Die eingegebenen Passwörter stimmen nicht überein.</translation>
+        <translation>Die eingegebenen Passworter stimmen nicht uberein.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Brieftasche öffnen fehlgeschlagen</translation>
+        <translation>Brieftasche offnen fehlgeschlagen</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Inkorrektes Passwort um die Brieftasche zu entschlüsseln</translation>
+        <translation>Inkorrektes Passwort um die Brieftasche zu entschlusseln</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Brieftasche entschlüsseln fehlgeschlagen</translation>
+        <translation>Brieftasche entschlusseln fehlgeschlagen</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Brieftaschen Passwort erfolgreich geändert</translation>
+        <translation>Brieftaschen Passwort erfolgreich geandert</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -231,11 +231,11 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Über das Netzwerk abgleichen</translation>
+        <translation>Uber das Netzwerk abgleichen</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Übersicht</translation>
+        <translation>&amp;Ubersicht</translation>
     </message>
     <message>
         <source>Node</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Generelle Übersicht der Brieftasche </translation>
+        <translation>Generelle Ubersicht der Brieftasche </translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -263,7 +263,7 @@
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;Über %1</translation>
+        <translation>&amp;Uber %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
@@ -271,11 +271,11 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Über &amp;Qt</translation>
+        <translation>Uber &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Informationen über Qt anzeigen</translation>
+        <translation>Informationen uber Qt anzeigen</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -283,11 +283,11 @@
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Ändern Sie die Konfigurationsoptionen für %1</translation>
+        <translation>Andern Sie die Konfigurationsoptionen fur %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Brieftasche verschlüsseln...</translation>
+        <translation>&amp;Brieftasche verschlusseln...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -295,7 +295,7 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Passwort ändern...</translation>
+        <translation>&amp;Passwort andern...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -307,19 +307,19 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Öffne &amp;URI...</translation>
+        <translation>Offne &amp;URI...</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Klicken Sie, um die Netzwerkaktivität zu deaktivieren.</translation>
+        <translation>Klicken Sie, um die Netzwerkaktivitat zu deaktivieren.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Netzwerkaktivität wurde deaktiviert.</translation>
+        <translation>Netzwerkaktivitat wurde deaktiviert.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Klicken Sie, um die Netzwerkaktivität wieder zu aktivieren.</translation>
+        <translation>Klicken Sie, um die Netzwerkaktivitat wieder zu aktivieren.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
@@ -327,11 +327,11 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindexiere Blöcke auf dem Datenträger...</translation>
+        <translation>Reindexiere Blocke auf dem Datentrager...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Coins an eine Litecoin-Adresse senden</translation>
+        <source>Send coins to a MiningEnthusiastCoin address</source>
+        <translation>Coins an eine MiningEnthusiastCoin-Adresse senden</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Ändern Sie das Passwort, das für die Wallet-Verschlüsselung verwendet wird</translation>
+        <translation>Andern Sie das Passwort, das fur die Wallet-Verschlusselung verwendet wird</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -347,15 +347,15 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Die Debugging- und Diagnosekonsole öffnen</translation>
+        <translation>Die Debugging- und Diagnosekonsole offnen</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Nachricht &amp;bestätigen</translation>
+        <translation>Nachricht &amp;bestatigen</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -379,15 +379,15 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Verschlüssele die Private Keys, die zu deiner Brieftasche gehören</translation>
+        <translation>Verschlussele die Private Keys, die zu deiner Brieftasche gehoren</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Nachrichten mit Ihrer Litecoin-Adresse signieren, um zu beweisen, dass sie Ihnen gehören</translation>
+        <source>Sign messages with your MiningEnthusiastCoin addresses to prove you own them</source>
+        <translation>Nachrichten mit Ihrer MiningEnthusiastCoin-Adresse signieren, um zu beweisen, dass sie Ihnen gehoren</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Überprüfen Sie Nachrichten, um sicherzustellen, dass sie mit den angegebenen Litecoin-Adressen signiert wurden</translation>
+        <source>Verify messages to ensure they were signed with specified MiningEnthusiastCoin addresses</source>
+        <translation>Uberprufen Sie Nachrichten, um sicherzustellen, dass sie mit den angegebenen MiningEnthusiastCoin-Adressen signiert wurden</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -415,15 +415,15 @@
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Indexiere Blöcke auf dem Datenträger...</translation>
+        <translation>Indexiere Blocke auf dem Datentrager...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Verarbeite Blöcke auf dem Datenträger...</translation>
+        <translation>Verarbeite Blocke auf dem Datentrager...</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 im Rückstand</translation>
+        <translation>%1 im Ruckstand</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
@@ -461,15 +461,15 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Überweisung gesendet</translation>
+        <translation>Uberweisung gesendet</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Überweisung empfangen</translation>
+        <translation>Uberweisung empfangen</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Ein schwerwiegender Fehler ist aufgetreten. Litecoin kann nicht mehr sicher fortfahren und beendet sich.</translation>
+        <source>A fatal error occurred. MiningEnthusiastCoin can no longer continue safely and will quit.</source>
+        <translation>Ein schwerwiegender Fehler ist aufgetreten. MiningEnthusiastCoin kann nicht mehr sicher fortfahren und beendet sich.</translation>
     </message>
 </context>
 <context>
@@ -488,7 +488,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Gebühr:</translation>
+        <translation>Gebuhr:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -496,7 +496,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Nach Gebühr:</translation>
+        <translation>Nach Gebuhr:</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -508,11 +508,11 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Bestätigungen</translation>
+        <translation>Bestatigungen</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bestätigt</translation>
+        <translation>Bestatigt</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -599,8 +599,8 @@
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>MiningEnthusiastCoin</source>
+        <translation>MiningEnthusiastCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -652,8 +652,8 @@
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Litecoin Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a MiningEnthusiastCoin address (e.g. %1)</source>
+        <translation>MiningEnthusiastCoin Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -730,11 +730,11 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Gebühr:</translation>
+        <translation>Gebuhr:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Nach Gebühr:</translation>
+        <translation>Nach Gebuhr:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -824,7 +824,7 @@
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bestätigt</translation>
+        <translation>Bestatigt</translation>
     </message>
     <message>
         <source>Date</source>
@@ -891,23 +891,23 @@
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Das ist die Mindestgebühr für jede Transaktion</translation>
+        <translation>Das ist die Mindestgebuhr fur jede Transaktion</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Das ist die Gebühr für die Überweisung</translation>
+        <translation>Das ist die Gebuhr fur die Uberweisung</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Überweisungsbetrag kann nicht negativ sein</translation>
+        <translation>Uberweisungsbetrag kann nicht negativ sein</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>Überweisung muss mindestens einen Empfänger haben </translation>
+        <translation>Uberweisung muss mindestens einen Empfanger haben </translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Ungenügendes Guthaben</translation>
+        <translation>Ungenugendes Guthaben</translation>
     </message>
     <message>
         <source>Loading block index...</source>
