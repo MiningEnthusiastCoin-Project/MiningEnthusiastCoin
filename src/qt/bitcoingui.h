@@ -30,12 +30,19 @@ class WalletFrame;
 class WalletModel;
 class HelpMessageDialog;
 class ModalOverlay;
+class TitleBar;
+class NavigationBar;
+class QtumVersionChecker;
+class CWallet;
 
 QT_BEGIN_NAMESPACE
 class QAction;
 class QProgressBar;
 class QProgressDialog;
+class QDockWidget;
 QT_END_NAMESPACE
+
+typedef CWallet* CWalletRef;
 
 /**
   Bitcoin GUI main class. This class represents the main window of the Bitcoin UI. It communicates with both the client and
@@ -86,10 +93,13 @@ private:
     QLabel *connectionsControl;
     QLabel *labelBlocksIcon;
     QLabel *progressBarLabel;
+    QLabel *labelStakingIcon;
     QProgressBar *progressBar;
     QProgressDialog *progressDialog;
 
     QMenuBar *appMenuBar;
+    TitleBar *appTitleBar;
+    NavigationBar *appNavigationBar;
     QAction *overviewAction;
     QAction *historyAction;
     QAction *quitAction;
@@ -106,7 +116,10 @@ private:
     QAction *toggleHideAction;
     QAction *encryptWalletAction;
     QAction *backupWalletAction;
+    QAction *restoreWalletAction;
     QAction *changePassphraseAction;
+    QAction *unlockWalletAction;
+    QAction *lockWalletAction;
     QAction *aboutQtAction;
     QAction *openRPCConsoleAction;
     QAction *openAction;
@@ -118,6 +131,8 @@ private:
     RPCConsole *rpcConsole;
     HelpMessageDialog *helpMessageDialog;
     ModalOverlay *modalOverlay;
+    QtumVersionChecker *qtumVersionChecker;
+    ModalOverlay *modalBackupOverlay;
 
     /** Keep track of previous number of blocks, to detect progress */
     int prevBlocks;
@@ -125,12 +140,17 @@ private:
 
     const PlatformStyle *platformStyle;
 
+    /** Current weight of the wallet */
+    uint64_t nWeight;
+
     /** Create the main UI actions. */
     void createActions();
     /** Create the menu bar and sub-menus. */
     void createMenuBar();
     /** Create the toolbars */
     void createToolBars();
+    /** Create title bar */
+    void createTitleBars();
     /** Create system tray icon and notification */
     void createTrayIcon(const NetworkStyle *networkStyle);
     /** Create system tray menu (or setup the dock menu) */
@@ -148,6 +168,9 @@ private:
     void updateNetworkState();
 
     void updateHeadersSyncProgressLabel();
+
+    /** Add docking windows to the main windows */
+    void addDockWindows(Qt::DockWidgetArea area, QWidget* widget);
 
 Q_SIGNALS:
     /** Signal raised when a URI was entered or dragged to the GUI */
@@ -189,6 +212,8 @@ public Q_SLOTS:
     void incomingTransaction(const QString& date, int unit, const CAmount& amount, const QString& type, const QString& address, const QString& label);
 #endif // ENABLE_WALLET
 
+    void setTabBarInfo(QObject* into);
+
 private Q_SLOTS:
 #ifdef ENABLE_WALLET
     /** Switch to overview (home) page */
@@ -227,6 +252,8 @@ private Q_SLOTS:
     void showNormalIfMinimized(bool fToggleHidden = false);
     /** Simply calls showNormalIfMinimized(true) for use in SLOT() macro */
     void toggleHidden();
+    /** Update staking icon **/
+    void updateStakingIcon();
 
     /** called by a timer to check if fRequestShutdown has been set **/
     void detectShutdown();
@@ -241,6 +268,12 @@ private Q_SLOTS:
     void toggleNetworkActive();
 
     void showModalOverlay();
+
+    void showModalBackupOverlay();
+
+private:
+    /** Update the current weight of the wallet **/
+    void updateWeight(CWalletRef pwalletMain);
 };
 
 class UnitDisplayStatusBarControl : public QLabel

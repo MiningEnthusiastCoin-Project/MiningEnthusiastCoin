@@ -306,16 +306,11 @@ UniValue verifytxoutproof(const JSONRPCRequest& request)
 
     LOCK(cs_main);
 
-    if (!mapBlockIndex.count(merkleBlock.header.GetHash()) || !chainActive.Contains(mapBlockIndex[merkleBlock.header.GetHash()]) || mapBlockIndex[merkleBlock.header.GetHash()]->nTx == 0)
+    if (!mapBlockIndex.count(merkleBlock.header.GetHash()) || !chainActive.Contains(mapBlockIndex[merkleBlock.header.GetHash()]))
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Block not found in chain");
 
-    // Check if proof is valid, only add results if so
-    if (mapBlockIndex[merkleBlock.header.GetHash()]->nTx == merkleBlock.txn.GetNumTransactions()) {
-        for (const uint256& hash : vMatch) {
-            res.push_back(hash.GetHex());
-        }
-    }
-
+    for (const uint256& hash : vMatch)
+        res.push_back(hash.GetHex());
     return res;
 }
 

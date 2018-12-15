@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.miningenthusiastcoin.MiningEnthusiastCoin-Qt";
+        return @"com.miningenthusiastcoin.MiningEnthusiastCoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

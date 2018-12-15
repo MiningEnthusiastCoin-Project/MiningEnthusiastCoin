@@ -26,10 +26,8 @@
 #include <QNetworkProxy>
 #include <QSettings>
 #include <QStringList>
-
+#include <utilmoneystr.h>
 const char *DEFAULT_GUI_PROXY_HOST = "127.0.0.1";
-
-static const QString GetDefaultProxyAddress();
 
 OptionsModel::OptionsModel(QObject *parent, bool resetSettings) :
     QAbstractListModel(parent)
@@ -98,6 +96,15 @@ void OptionsModel::Init(bool resetSettings)
     if (!gArgs.SoftSetArg("-dbcache", settings.value("nDatabaseCache").toString().toStdString()))
         addOverriddenOption("-dbcache");
 
+    if (!settings.contains("nReserveBalance"))
+        settings.setValue("nReserveBalance", (qint64)nReserveBalance);
+    if (!gArgs.SoftSetArg("-reservebalance", FormatMoney(settings.value("nReserveBalance").toLongLong())))
+        ParseMoney(gArgs.GetArg("-reservebalance", ""), nReserveBalance);
+    else
+        nReserveBalance = settings.value("nReserveBalance").toLongLong();
+
+    Q_EMIT reserveBalanceChanged(nReserveBalance);
+
     if (!settings.contains("nThreadsScriptVerif"))
         settings.setValue("nThreadsScriptVerif", DEFAULT_SCRIPTCHECK_THREADS);
     if (!gArgs.SoftSetArg("-par", settings.value("nThreadsScriptVerif").toString().toStdString()))
@@ -113,6 +120,9 @@ void OptionsModel::Init(bool resetSettings)
     if (!gArgs.SoftSetBoolArg("-spendzeroconfchange", settings.value("bSpendZeroConfChange").toBool()))
         addOverriddenOption("-spendzeroconfchange");
 #endif
+    if (!settings.contains("fCheckForUpdates"))
+        settings.setValue("fCheckForUpdates", DEFAULT_CHECK_FOR_UPDATES);
+    fCheckForUpdates = settings.value("fCheckForUpdates").toBool();
 
     // Network
     if (!settings.contains("fUseUPnP"))
@@ -125,10 +135,14 @@ void OptionsModel::Init(bool resetSettings)
     if (!gArgs.SoftSetBoolArg("-listen", settings.value("fListen").toBool()))
         addOverriddenOption("-listen");
 
+    if (!settings.contains("fNotUseChangeAddress"))
+        settings.setValue("fNotUseChangeAddress", DEFAULT_NOT_USE_CHANGE_ADDRESS);
+    fNotUseChangeAddress = settings.value("fNotUseChangeAddress").toBool();
+
     if (!settings.contains("fUseProxy"))
         settings.setValue("fUseProxy", false);
     if (!settings.contains("addrProxy"))
-        settings.setValue("addrProxy", GetDefaultProxyAddress());
+        settings.setValue("addrProxy", QString("%1:%2").arg(DEFAULT_GUI_PROXY_HOST, DEFAULT_GUI_PROXY_PORT));
     // Only try to set -proxy, if user has enabled fUseProxy
     if (settings.value("fUseProxy").toBool() && !gArgs.SoftSetArg("-proxy", settings.value("addrProxy").toString().toStdString()))
         addOverriddenOption("-proxy");
@@ -138,7 +152,7 @@ void OptionsModel::Init(bool resetSettings)
     if (!settings.contains("fUseSeparateProxyTor"))
         settings.setValue("fUseSeparateProxyTor", false);
     if (!settings.contains("addrSeparateProxyTor"))
-        settings.setValue("addrSeparateProxyTor", GetDefaultProxyAddress());
+        settings.setValue("addrSeparateProxyTor", QString("%1:%2").arg(DEFAULT_GUI_PROXY_HOST, DEFAULT_GUI_PROXY_PORT));
     // Only try to set -onion, if user has enabled fUseSeparateProxyTor
     if (settings.value("fUseSeparateProxyTor").toBool() && !gArgs.SoftSetArg("-onion", settings.value("addrSeparateProxyTor").toString().toStdString()))
         addOverriddenOption("-onion");
@@ -230,11 +244,6 @@ static void SetProxySetting(QSettings &settings, const QString &name, const Prox
     settings.setValue(name, ip_port.ip + ":" + ip_port.port);
 }
 
-static const QString GetDefaultProxyAddress()
-{
-    return QString("%1:%2").arg(DEFAULT_GUI_PROXY_HOST).arg(DEFAULT_GUI_PROXY_PORT);
-}
-
 // read QSettings values and return them
 QVariant OptionsModel::data(const QModelIndex & index, int role) const
 {
@@ -278,6 +287,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
         case SpendZeroConfChange:
             return settings.value("bSpendZeroConfChange");
 #endif
+        case ReserveBalance:
+            return (qint64) nReserveBalance;
         case DisplayUnit:
             return nDisplayUnit;
         case ThirdPartyTxUrls:
@@ -292,6 +303,10 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return settings.value("nThreadsScriptVerif");
         case Listen:
             return settings.value("fListen");
+        case NotUseChangeAddress:
+            return settings.value("fNotUseChangeAddress");
+        case CheckForUpdates:
+            return settings.value("fCheckForUpdates");
         default:
             return QVariant();
         }
@@ -416,6 +431,13 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
                 setRestartRequired(true);
             }
             break;
+        case ReserveBalance:
+            if (settings.value("nReserveBalance") != value) {
+                settings.setValue("nReserveBalance", value);
+                nReserveBalance = value.toLongLong();
+                Q_EMIT reserveBalanceChanged(nReserveBalance);
+            }
+            break;
         case ThreadsScriptVerif:
             if (settings.value("nThreadsScriptVerif") != value) {
                 settings.setValue("nThreadsScriptVerif", value);
@@ -426,6 +448,18 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             if (settings.value("fListen") != value) {
                 settings.setValue("fListen", value);
                 setRestartRequired(true);
+            }
+            break;
+        case NotUseChangeAddress:
+            if (settings.value("fNotUseChangeAddress") != value) {
+                settings.setValue("fNotUseChangeAddress", value);
+                fNotUseChangeAddress = value.toBool();
+            }
+            break;
+        case CheckForUpdates:
+            if (settings.value("fCheckForUpdates") != value) {
+                settings.setValue("fCheckForUpdates", value);
+                fCheckForUpdates = value.toBool();
             }
             break;
         default:
@@ -496,17 +530,5 @@ void OptionsModel::checkAndMigrate()
             settings.setValue("nDatabaseCache", (qint64)nDefaultDbCache);
 
         settings.setValue(strSettingsVersionKey, CLIENT_VERSION);
-    }
-
-    // Overwrite the 'addrProxy' setting in case it has been set to an illegal
-    // default value (see issue #12623; PR #12650).
-    if (settings.contains("addrProxy") && settings.value("addrProxy").toString().endsWith("%2")) {
-        settings.setValue("addrProxy", GetDefaultProxyAddress());
-    }
-
-    // Overwrite the 'addrSeparateProxyTor' setting in case it has been set to an illegal
-    // default value (see issue #12623; PR #12650).
-    if (settings.contains("addrSeparateProxyTor") && settings.value("addrSeparateProxyTor").toString().endsWith("%2")) {
-        settings.setValue("addrSeparateProxyTor", GetDefaultProxyAddress());
     }
 }

@@ -12,6 +12,7 @@
 #include <wallet/rpcwallet.h>
 #include <wallet/wallet.h>
 #include <wallet/walletutil.h>
+#include <miner.h>
 
 std::string GetWalletHelpString(bool showDebug)
 {
@@ -41,6 +42,9 @@ std::string GetWalletHelpString(bool showDebug)
     strUsage += HelpMessageOpt("-walletnotify=<cmd>", _("Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)"));
     strUsage += HelpMessageOpt("-zapwallettxes=<mode>", _("Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup") +
                                " " + _("(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)"));
+
+    strUsage += HelpMessageOpt("-staking=<true/false>", _("Enables or disables staking (enabled by default)"));
+    strUsage += HelpMessageOpt("-stakecache=<true/false>", _("Enables or disables the staking cache; significantly improves staking performance, but can use a lot of memory (enabled by default)"));
 
     if (showDebug)
     {
@@ -294,10 +298,21 @@ void StartWallets(CScheduler& scheduler) {
     for (CWalletRef pwallet : vpwallets) {
         pwallet->postInitProcess(scheduler);
     }
+    // Mine proof-of-stake blocks in the background
+    if (!gArgs.GetBoolArg("-staking", DEFAULT_STAKE)) {
+        LogPrintf("Staking disabled\n");
+    }
+    else {
+        for (CWalletRef pwallet : vpwallets) {
+            if (pwallet)
+                StakeQtums(true, pwallet);
+        }
+    }
 }
 
 void FlushWallets() {
     for (CWalletRef pwallet : vpwallets) {
+        StakeQtums(false, pwallet);
         pwallet->Flush(false);
     }
 }

@@ -81,6 +81,9 @@ void EnsureWalletIsUnlocked(CWallet * const pwallet)
     if (pwallet->IsLocked()) {
         throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
     }
+    if (fWalletUnlockStakingOnly) {
+        throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Wallet is unlocked for staking only.");
+    }
 }
 
 void WalletTxToJSON(const CWalletTx& wtx, UniValue& entry)
@@ -415,6 +418,12 @@ static void SendMoney(CWallet * const pwallet, const CTxDestination &address, CA
 
     if (pwallet->GetBroadcastTransactions() && !g_connman) {
         throw JSONRPCError(RPC_CLIENT_P2P_DISABLED, "Error: Peer-to-peer functionality missing or disabled");
+    }
+
+    if (fWalletUnlockStakingOnly)
+    {
+        std::string strError = _("Error: Wallet unlocked for staking only, unable to create transaction.");
+        throw JSONRPCError(RPC_WALLET_ERROR, strError);
     }
 
     // Parse Bitcoin address
@@ -2087,20 +2096,24 @@ UniValue listsinceblock(const JSONRPCRequest& request)
     return ret;
 }
 
-UniValue gettransaction(const JSONRPCRequest& request)
+UniValue gettransaction(const JSONRPCRequest& request_)
 {
+    // long-poll
+    JSONRPCRequest& request = (JSONRPCRequest&) request_;
+
     CWallet * const pwallet = GetWalletForJSONRPCRequest(request);
     if (!EnsureWalletIsAvailable(pwallet, request.fHelp)) {
         return NullUniValue;
     }
 
-    if (request.fHelp || request.params.size() < 1 || request.params.size() > 2)
+    if (request.fHelp || request.params.size() < 1 || request.params.size() > 3)
         throw std::runtime_error(
-            "gettransaction \"txid\" ( include_watchonly )\n"
+            "gettransaction \"txid\" ( include_watchonly ) (waitconf)\n"
             "\nGet detailed information about in-wallet transaction <txid>\n"
             "\nArguments:\n"
             "1. \"txid\"                  (string, required) The transaction id\n"
             "2. \"include_watchonly\"     (bool, optional, default=false) Whether to include watch-only addresses in balance calculation and details[]\n"
+            "3. \"waitconf\"              (int, optional, default=0) Wait for enough confirmations before returning\n"
             "\nResult:\n"
             "{\n"
             "  \"amount\" : x.xxx,        (numeric) The transaction amount in " + CURRENCY_UNIT + "\n"
@@ -2145,7 +2158,6 @@ UniValue gettransaction(const JSONRPCRequest& request)
     // the user could have gotten from another RPC command prior to now
     pwallet->BlockUntilSyncedToCurrentChain();
 
-    LOCK2(cs_main, pwallet->cs_wallet);
 
     uint256 hash;
     hash.SetHex(request.params[0].get_str());
@@ -2155,12 +2167,55 @@ UniValue gettransaction(const JSONRPCRequest& request)
         if(request.params[1].get_bool())
             filter = filter | ISMINE_WATCH_ONLY;
 
-    UniValue entry(UniValue::VOBJ);
-    auto it = pwallet->mapWallet.find(hash);
-    if (it == pwallet->mapWallet.end()) {
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid or non-wallet transaction id");
+    int waitconf = 0;
+    if(request.params.size() > 2) {
+        waitconf = request.params[2].get_int();
     }
-    const CWalletTx& wtx = it->second;
+
+    bool shouldWaitConf = request.params.size() > 2 && waitconf > 0;
+
+    {
+        LOCK2(cs_main, pwallet->cs_wallet);
+        if (!pwallet->mapWallet.count(hash))
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid or non-wallet transaction id");
+    }
+
+    CWalletTx* _wtx = NULL;
+
+    // avoid long-poll if API caller does not specify waitconf
+    if (!shouldWaitConf) {
+        {
+            LOCK2(cs_main, pwallet->cs_wallet);
+            _wtx = &pwallet->mapWallet[hash];
+        }
+
+    } else {
+        request.PollStart();
+        while (true) {
+            {
+                LOCK2(cs_main, pwallet->cs_wallet);
+                _wtx = &pwallet->mapWallet[hash];
+
+                if (_wtx->GetDepthInMainChain() >= waitconf) {
+                    break;
+                }
+            }
+
+            request.PollPing();
+
+            std::unique_lock<std::mutex> lock(cs_blockchange);
+            cond_blockchange.wait_for(lock, std::chrono::milliseconds(300));
+
+            if (!request.PollAlive() || !IsRPCRunning()) {
+                return NullUniValue;
+            }
+        }
+    }
+
+    LOCK2(cs_main, pwallet->cs_wallet);
+    CWalletTx& wtx = *_wtx;
+
+    UniValue entry(UniValue::VOBJ);
 
     CAmount nCredit = wtx.GetCredit(filter);
     CAmount nDebit = wtx.GetDebit(filter);
@@ -2315,14 +2370,15 @@ UniValue walletpassphrase(const JSONRPCRequest& request)
         return NullUniValue;
     }
 
-    if (request.fHelp || request.params.size() != 2) {
+    if (pwallet->IsCrypted() && (request.fHelp || request.params.size() < 2 || request.params.size() > 3)) {
         throw std::runtime_error(
-            "walletpassphrase \"passphrase\" timeout\n"
+        	"walletpassphrase \"passphrase\" timeout stakingonly\n"
             "\nStores the wallet decryption key in memory for 'timeout' seconds.\n"
-            "This is needed prior to performing transactions related to private keys such as sending miningenthusiastcoins\n"
+            "This is needed prior to performing transactions related to private keys such as sending miningenthusiastcoins and staking\n"
             "\nArguments:\n"
             "1. \"passphrase\"     (string, required) The wallet passphrase\n"
             "2. timeout            (numeric, required) The time to keep the decryption key in seconds; capped at 100000000 (~3 years).\n"
+        	"3. staking only       (bool, optional, omitted=false, enabled=true) Unlock wallet for staking only.\n"
             "\nNote:\n"
             "Issuing the walletpassphrase command while the wallet is already unlocked will set a new unlock\n"
             "time that overrides the old one.\n"
@@ -2331,6 +2387,8 @@ UniValue walletpassphrase(const JSONRPCRequest& request)
             + HelpExampleCli("walletpassphrase", "\"my pass phrase\" 60") +
             "\nLock the wallet again (before 60 seconds)\n"
             + HelpExampleCli("walletlock", "") +
+			"\nUnlock the wallet for staking only, for a long time\n"
+			+ HelpExampleCli("walletpassphrase","\"my pass phrase\" 99999999 true") +
             "\nAs json rpc call\n"
             + HelpExampleRpc("walletpassphrase", "\"my pass phrase\", 60")
         );
@@ -2365,13 +2423,23 @@ UniValue walletpassphrase(const JSONRPCRequest& request)
 
     if (strWalletPass.length() > 0)
     {
+        // Used to restore fWalletUnlockStakingOnly value in case of unlock failure 
+        bool tmpStakingOnly = fWalletUnlockStakingOnly;
+
+        // ppcoin: if user OS account compromised prevent trivial sendmoney commands
+        if (request.params.size() > 2)
+            fWalletUnlockStakingOnly = request.params[2].get_bool();
+        else
+            fWalletUnlockStakingOnly = false;
+    
         if (!pwallet->Unlock(strWalletPass)) {
+            fWalletUnlockStakingOnly = tmpStakingOnly;
             throw JSONRPCError(RPC_WALLET_PASSPHRASE_INCORRECT, "Error: The wallet passphrase entered was incorrect.");
         }
     }
     else
         throw std::runtime_error(
-            "walletpassphrase <passphrase> <timeout>\n"
+        	"walletpassphrase <passphrase> <timeout> <stakingonly>\n"
             "Stores the wallet decryption key in memory for <timeout> seconds.");
 
     pwallet->TopUpKeyPool();
@@ -2390,7 +2458,7 @@ UniValue walletpassphrasechange(const JSONRPCRequest& request)
         return NullUniValue;
     }
 
-    if (request.fHelp || request.params.size() != 2) {
+    if (pwallet->IsCrypted() && (request.fHelp || request.params.size() != 2)) {
         throw std::runtime_error(
             "walletpassphrasechange \"oldpassphrase\" \"newpassphrase\"\n"
             "\nChanges the wallet passphrase from 'oldpassphrase' to 'newpassphrase'.\n"
@@ -2441,7 +2509,7 @@ UniValue walletlock(const JSONRPCRequest& request)
         return NullUniValue;
     }
 
-    if (request.fHelp || request.params.size() != 0) {
+    if (pwallet->IsCrypted() && (request.fHelp || request.params.size() != 0)) {
         throw std::runtime_error(
             "walletlock\n"
             "\nRemoves the wallet encryption key from memory, locking the wallet.\n"
@@ -2481,7 +2549,7 @@ UniValue encryptwallet(const JSONRPCRequest& request)
         return NullUniValue;
     }
 
-    if (request.fHelp || request.params.size() != 1) {
+    if (!pwallet->IsCrypted() && (request.fHelp || request.params.size() != 1)) {
         throw std::runtime_error(
             "encryptwallet \"passphrase\"\n"
             "\nEncrypts the wallet with 'passphrase'. This is for first time encryption.\n"
@@ -2534,6 +2602,43 @@ UniValue encryptwallet(const JSONRPCRequest& request)
     // unencrypted private keys. So:
     StartShutdown();
     return "wallet encrypted; MiningEnthusiastCoin server stopping, restart to run with encrypted wallet. The keypool has been flushed and a new HD seed was generated (if you are using HD). You need to make a new backup.";
+}
+
+UniValue  reservebalance(const JSONRPCRequest& request)
+{
+    if (request.fHelp || request.params.size() > 2)
+        throw std::runtime_error(
+            "reservebalance [<reserve> [amount]]\n"
+            "<reserve> is true or false to turn balance reserve on or off.\n"
+            "<amount> is a real and rounded to cent.\n"
+            "Set reserve amount not participating in network protection.\n"
+            "If no parameters provided current setting is printed.\n");
+
+    if (request.params.size() > 0)
+    {
+        bool fReserve = request.params[0].get_bool();
+        if (fReserve)
+        {
+            if (request.params.size() == 1)
+                throw std::runtime_error("must provide amount to reserve balance.\n");
+            int64_t nAmount = AmountFromValue(request.params[1]);
+            nAmount = (nAmount / CENT) * CENT;  // round to cent
+            if (nAmount < 0)
+                throw std::runtime_error("amount cannot be negative.\n");
+            nReserveBalance = nAmount;
+        }
+        else
+        {
+            if (request.params.size() > 1)
+                throw std::runtime_error("cannot specify amount to turn off reserve.\n");
+            nReserveBalance = 0;
+        }
+    }
+
+    UniValue result(UniValue::VOBJ);
+    result.push_back(Pair("reserve", (nReserveBalance > 0)));
+    result.push_back(Pair("amount", ValueFromAmount(nReserveBalance)));
+    return result;
 }
 
 UniValue lockunspent(const JSONRPCRequest& request)
@@ -2760,6 +2865,7 @@ UniValue getwalletinfo(const JSONRPCRequest& request)
             "  \"walletname\": xxxxx,             (string) the wallet name\n"
             "  \"walletversion\": xxxxx,          (numeric) the wallet version\n"
             "  \"balance\": xxxxxxx,              (numeric) the total confirmed balance of the wallet in " + CURRENCY_UNIT + "\n"
+            "  \"stake\": xxxxxxx,                (numeric) the total stake balance of the wallet in " + CURRENCY_UNIT + "\n"
             "  \"unconfirmed_balance\": xxx,      (numeric) the total unconfirmed balance of the wallet in " + CURRENCY_UNIT + "\n"
             "  \"immature_balance\": xxxxxx,      (numeric) the total immature balance of the wallet in " + CURRENCY_UNIT + "\n"
             "  \"txcount\": xxxxxxx,              (numeric) the total number of transactions in the wallet\n"
@@ -2789,6 +2895,7 @@ UniValue getwalletinfo(const JSONRPCRequest& request)
     obj.push_back(Pair("walletname", pwallet->GetName()));
     obj.push_back(Pair("walletversion", pwallet->GetVersion()));
     obj.push_back(Pair("balance",       ValueFromAmount(pwallet->GetBalance())));
+    obj.push_back(Pair("stake",         ValueFromAmount(pwallet->GetStake())));
     obj.push_back(Pair("unconfirmed_balance", ValueFromAmount(pwallet->GetUnconfirmedBalance())));
     obj.push_back(Pair("immature_balance",    ValueFromAmount(pwallet->GetImmatureBalance())));
     obj.push_back(Pair("txcount",       (int)pwallet->mapWallet.size()));
@@ -3554,7 +3661,7 @@ static const CRPCCommand commands[] =
     { "wallet",             "getrawchangeaddress",      &getrawchangeaddress,      {"address_type"} },
     { "wallet",             "getreceivedbyaccount",     &getreceivedbyaccount,     {"account","minconf"} },
     { "wallet",             "getreceivedbyaddress",     &getreceivedbyaddress,     {"address","minconf"} },
-    { "wallet",             "gettransaction",           &gettransaction,           {"txid","include_watchonly"} },
+    { "wallet",             "gettransaction",           &gettransaction,           {"txid","include_watchonly", "waitconf"} },
     { "wallet",             "getunconfirmedbalance",    &getunconfirmedbalance,    {} },
     { "wallet",             "getwalletinfo",            &getwalletinfo,            {} },
     { "wallet",             "importmulti",              &importmulti,              {"requests","options"} },
@@ -3575,6 +3682,7 @@ static const CRPCCommand commands[] =
     { "wallet",             "listwallets",              &listwallets,              {} },
     { "wallet",             "lockunspent",              &lockunspent,              {"unlock","transactions"} },
     { "wallet",             "move",                     &movecmd,                  {"fromaccount","toaccount","amount","minconf","comment"} },
+    { "wallet",             "reservebalance",           &reservebalance,           {"reserve", "amount"} },
     { "wallet",             "sendfrom",                 &sendfrom,                 {"fromaccount","toaddress","amount","minconf","comment","comment_to"} },
     { "wallet",             "sendmany",                 &sendmany,                 {"fromaccount","amounts","minconf","comment","subtractfeefrom","replaceable","conf_target","estimate_mode"} },
     { "wallet",             "sendtoaddress",            &sendtoaddress,            {"address","amount","comment","comment_to","subtractfeefromamount","replaceable","conf_target","estimate_mode"} },
@@ -3583,7 +3691,7 @@ static const CRPCCommand commands[] =
     { "wallet",             "signmessage",              &signmessage,              {"address","message"} },
     { "wallet",             "walletlock",               &walletlock,               {} },
     { "wallet",             "walletpassphrasechange",   &walletpassphrasechange,   {"oldpassphrase","newpassphrase"} },
-    { "wallet",             "walletpassphrase",         &walletpassphrase,         {"passphrase","timeout"} },
+    { "wallet",             "walletpassphrase",         &walletpassphrase,         {"passphrase","timeout", "stakingonly"} },
     { "wallet",             "removeprunedfunds",        &removeprunedfunds,        {"txid"} },
     { "wallet",             "rescanblockchain",         &rescanblockchain,         {"start_height", "stop_height"} },
 

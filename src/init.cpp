@@ -45,6 +45,7 @@
 #include <validationinterface.h>
 #ifdef ENABLE_WALLET
 #include <wallet/init.h>
+#include <wallet/wallet.h>
 #endif
 #include <warnings.h>
 #include <stdint.h>
@@ -1158,11 +1159,11 @@ bool AppInitParameterInteraction()
     return true;
 }
 
-static bool LockDataDirectory(bool probeOnly)
+static bool LockDataDirectory(bool probeOnly, bool try_lock = true)
 {
     // Make sure only a single Bitcoin process is using the data directory.
     fs::path datadir = GetDataDir();
-    if (!LockDirectory(datadir, ".lock", probeOnly)) {
+    if (!LockDirectory(datadir, ".lock", probeOnly, try_lock)) {
         return InitError(strprintf(_("Cannot obtain a lock on data directory %s. %s is probably already running."), datadir.string(), _(PACKAGE_NAME)));
     }
     return true;
@@ -1377,6 +1378,17 @@ bool AppInitMain()
         else
             return InitError(ResolveErrMsg("externalip", strAddr));
     }
+
+#ifdef ENABLE_WALLET
+    if (gArgs.IsArgSet("-reservebalance")) // ppcoin: reserve balance amount
+    {
+        if (!ParseMoney(gArgs.GetArg("-reservebalance", ""), nReserveBalance))
+        {
+            InitError(_("Invalid amount for -reservebalance=<amount>"));
+            return false;
+        }
+    }
+#endif
 
 #if ENABLE_ZMQ
     pzmqNotificationInterface = CZMQNotificationInterface::Create();
@@ -1750,4 +1762,10 @@ bool AppInitMain()
 #endif
 
     return true;
+}
+
+void UnlockDataDirectory()
+{
+    // Unlock
+    LockDataDirectory(true, false);
 }

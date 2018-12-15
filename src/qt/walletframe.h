@@ -80,10 +80,14 @@ public Q_SLOTS:
     void encryptWallet(bool status);
     /** Backup the wallet */
     void backupWallet();
+    /** Restore the wallet */
+    void restoreWallet();
     /** Change encrypted wallet passphrase */
     void changePassphrase();
     /** Ask for passphrase to unlock wallet temporarily */
     void unlockWallet();
+    /** Lock the wallet */
+    void lockWallet();
 
     /** Show used sending addresses */
     void usedSendingAddresses();
@@ -91,6 +95,8 @@ public Q_SLOTS:
     void usedReceivingAddresses();
     /** Pass on signal over requested out-of-sync-warning information */
     void outOfSyncWarningClicked();
+    
+    void pageChanged(int index);
 };
 
 #endif // BITCOIN_QT_WALLETFRAME_H

@@ -31,7 +31,7 @@ class HTTPRPCTimer : public RPCTimerBase
 {
 public:
     HTTPRPCTimer(struct event_base* eventBase, std::function<void(void)>& func, int64_t millis) :
-        ev(eventBase, false, func)
+        ev(eventBase, false, nullptr, func)
     {
         struct timeval tv;
         tv.tv_sec = millis/1000;
@@ -79,8 +79,14 @@ static void JSONErrorReply(HTTPRequest* req, const UniValue& objError, const Uni
 
     std::string strReply = JSONRPCReply(NullUniValue, objError, id);
 
-    req->WriteHeader("Content-Type", "application/json");
-    req->WriteReply(nStatus, strReply);
+    if (req->isChunkMode()) {
+        // in chunk mode, we assume that the handler had already set the response content-type
+        req->Chunk(strReply);
+        req->ChunkEnd();
+    } else {
+        req->WriteHeader("Content-Type", "application/json");
+        req->WriteReply(nStatus, strReply);
+    }
 }
 
 //This function checks username and password against -rpcauth
@@ -188,6 +194,11 @@ static bool HTTPReq_JSONRPC(HTTPRequest* req, const std::string &)
             jreq.parse(valRequest);
 
             UniValue result = tableRPC.execute(jreq);
+
+            if (jreq.isLongPolling) {
+                jreq.PollReply(result);
+                return true;
+            }
 
             // Send reply
             strReply = JSONRPCReply(result, NullUniValue, jreq.id);

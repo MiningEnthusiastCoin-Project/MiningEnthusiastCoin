@@ -16,21 +16,23 @@ static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
 
-/* Invalid field background style */
-#define STYLE_INVALID "background:#FF8080"
-
 /* Transaction list -- unconfirmed transaction */
 #define COLOR_UNCONFIRMED QColor(128, 128, 128)
 /* Transaction list -- negative amount */
-#define COLOR_NEGATIVE QColor(255, 0, 0)
+#define COLOR_NEGATIVE QColor(255, 255, 255)
 /* Transaction list -- bare address (without label) */
 #define COLOR_BAREADDRESS QColor(140, 140, 140)
 /* Transaction list -- TX status decoration - open until date */
 #define COLOR_TX_STATUS_OPENUNTILDATE QColor(64, 64, 255)
+/* Transaction list -- TX status decoration - offline */
+#define COLOR_TX_STATUS_OFFLINE QColor(192, 192, 192)
 /* Transaction list -- TX status decoration - danger, tx needs attention */
 #define COLOR_TX_STATUS_DANGER QColor(200, 100, 100)
 /* Transaction list -- TX status decoration - default color */
 #define COLOR_BLACK QColor(0, 0, 0)
+
+// Number of different confirmation icons
+#define CONFIRM_ICONS 5
 
 /* Tooltips longer than this (in characters) are converted into rich text,
    so that they can be word-wrapped.
@@ -47,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "MiningEnthusiastCoin"
-#define QAPP_ORG_DOMAIN "miningenthusiastcoin.org"
+#define QAPP_ORG_DOMAIN "miningenthusiastcoin.com"
 #define QAPP_APP_NAME_DEFAULT "MiningEnthusiastCoin-Qt"
 #define QAPP_APP_NAME_TESTNET "MiningEnthusiastCoin-Qt-testnet"
 

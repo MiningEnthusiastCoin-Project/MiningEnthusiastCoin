@@ -18,6 +18,7 @@
 #include <wallet/crypter.h>
 #include <wallet/walletdb.h>
 #include <wallet/rpcwallet.h>
+#include <consensus/params.h>
 
 #include <algorithm>
 #include <atomic>
@@ -36,10 +37,15 @@ extern std::vector<CWalletRef> vpwallets;
 /**
  * Settings
  */
+extern CAmount nReserveBalance;
 extern CFeeRate payTxFee;
 extern unsigned int nTxConfirmTarget;
 extern bool bSpendZeroConfChange;
 extern bool fWalletRbf;
+extern bool fWalletUnlockStakingOnly;
+extern bool fNotUseChangeAddress;
+extern bool fCheckForUpdates;
+extern bool fBatchProcessingMode;
 
 static const unsigned int DEFAULT_KEYPOOL_SIZE = 1000;
 //! -paytxfee default
@@ -70,6 +76,10 @@ static const bool DEFAULT_DISABLE_WALLET = false;
 extern const char * DEFAULT_WALLET_DAT;
 
 static const int64_t TIMESTAMP_MIN = 0;
+
+static const bool DEFAULT_NOT_USE_CHANGE_ADDRESS = false;
+
+static const bool DEFAULT_CHECK_FOR_UPDATES = true;
 
 class CBlockIndex;
 class CCoinControl;
@@ -107,7 +117,7 @@ enum OutputType : int
     OUTPUT_TYPE_P2SH_SEGWIT,
     OUTPUT_TYPE_BECH32,
 
-    OUTPUT_TYPE_DEFAULT = OUTPUT_TYPE_P2SH_SEGWIT
+    OUTPUT_TYPE_DEFAULT = OUTPUT_TYPE_LEGACY
 };
 
 extern OutputType g_address_type;
@@ -198,6 +208,12 @@ struct COutputEntry
     int vout;
 };
 
+unsigned int GetStakeSplitOutputs();
+
+int64_t GetStakeSplitThreshold();
+
+bool GetMPoSOutputScripts(std::vector<CScript> &mposScroptList, int nHeight, const Consensus::Params& consensusParams);
+
 /** A transaction with a merkle branch linking it to the block chain. */
 class CMerkleTx
 {
@@ -268,6 +284,7 @@ public:
 
     const uint256& GetHash() const { return tx->GetHash(); }
     bool IsCoinBase() const { return tx->IsCoinBase(); }
+    bool IsCoinStake() const { return tx->IsCoinStake(); }
 };
 
 /** 
@@ -327,7 +344,6 @@ public:
     char fFromMe;
     std::string strFromAccount;
     int64_t nOrderPos; //!< position in ordered transaction list
-    std::multimap<int64_t, std::pair<CWalletTx*, CAccountingEntry*>>::const_iterator m_it_wtxOrdered;
 
     // memory only
     mutable bool fDebitCached;
@@ -479,6 +495,7 @@ public:
     bool IsTrusted() const;
 
     int64_t GetTxTime() const;
+    int GetRequestCount() const;
 
     // RelayWalletTransaction may only be called if fBroadcastTransactions!
     bool RelayWalletTransaction(CConnman* connman);
@@ -702,7 +719,9 @@ private:
     typedef std::multimap<COutPoint, uint256> TxSpends;
     TxSpends mapTxSpends;
     void AddToSpends(const COutPoint& outpoint, const uint256& wtxid);
+    void RemoveFromSpends(const COutPoint& outpoint, const uint256& wtxid);
     void AddToSpends(const uint256& wtxid);
+    void RemoveFromSpends(const uint256& wtxid);
 
     /* Mark a transaction (and its in-wallet descendants) as conflicting with a particular block. */
     void MarkConflicted(const uint256& hashBlock, const uint256& hashTx);
@@ -834,6 +853,7 @@ public:
 
     int64_t nOrderPosNext;
     uint64_t nAccountingEntryNumber;
+    std::map<uint256, int> mapRequestCount;
 
     std::map<CTxDestination, CAddressBookData> mapAddressBook;
 
@@ -844,10 +864,15 @@ public:
     //! check whether we are allowed to upgrade (or already support) to the named feature
     bool CanSupportFeature(enum WalletFeature wf) const { AssertLockHeld(cs_wallet); return nWalletMaxVersion >= wf; }
 
+    //! select coins for staking from the available coins for staking.
+    bool SelectCoinsForStaking(CAmount& nTargetValue, std::set<std::pair<const CWalletTx*,unsigned int> >& setCoinsRet, CAmount& nValueRet) const;
+	
     /**
      * populate vCoins with vector of available COutputs.
      */
+    void AvailableCoinsForStaking(std::vector<COutput>& vCoins) const;
     void AvailableCoins(std::vector<COutput>& vCoins, bool fOnlySafe=true, const CCoinControl *coinControl = nullptr, const CAmount& nMinimumAmount = 1, const CAmount& nMaximumAmount = MAX_MONEY, const CAmount& nMinimumSumAmount = MAX_MONEY, const uint64_t nMaximumCount = 0, const int nMinDepth = 0, const int nMaxDepth = 9999999) const;
+    bool HaveAvailableCoinsForStaking() const;
 
     /**
      * Return list of available coins and locked coins grouped by non-change output address.
@@ -964,6 +989,8 @@ public:
     CAmount GetImmatureWatchOnlyBalance() const;
     CAmount GetLegacyBalance(const isminefilter& filter, int minDepth, const std::string* account) const;
     CAmount GetAvailableBalance(const CCoinControl* coinControl = nullptr) const;
+    CAmount GetStake() const;
+    CAmount GetWatchOnlyStake() const;
 
     OutputType TransactionChangeType(OutputType change_type, const std::vector<CRecipient>& vecSend);
 
@@ -984,6 +1011,8 @@ public:
     bool CommitTransaction(CWalletTx& wtxNew, CReserveKey& reservekey, CConnman* connman, CValidationState& state);
 
     void ListAccountCreditDebit(const std::string& strAccount, std::list<CAccountingEntry>& entries);
+    uint64_t GetStakeWeight() const;
+    bool CreateCoinStake(const CKeyStore &keystore, unsigned int nBits, const CAmount& nTotalFees, uint32_t nTimeBlock, CMutableTransaction& tx, CKey& key);
     bool AddAccountingEntry(const CAccountingEntry&);
     bool AddAccountingEntry(const CAccountingEntry&, CWalletDB *pwalletdb);
     template <typename ContainerType>
@@ -1058,6 +1087,9 @@ public:
 
     //! get the current wallet format (the oldest client version guaranteed to understand this wallet)
     int GetVersion() { LOCK(cs_wallet); return nWalletVersion; }
+  
+    //! disable transaction for coinstake
+    void DisableTransaction(const CTransaction &tx);   
 
     //! Get wallet transactions that conflict with given transaction (spend same outputs)
     std::set<uint256> GetConflicts(const uint256& txid) const;

@@ -16,6 +16,8 @@
 #include <utility>
 #include <vector>
 
+#include <validation.h>
+
 class CBlockIndex;
 class CCoinsViewDBCursor;
 class uint256;

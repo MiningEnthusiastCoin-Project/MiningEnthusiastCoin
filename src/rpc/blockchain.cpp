@@ -26,6 +26,8 @@
 #include <hash.h>
 #include <validationinterface.h>
 #include <warnings.h>
+#include <pos.h>
+#include <txdb.h>
 
 #include <stdint.h>
 
@@ -80,6 +82,69 @@ double GetDifficulty(const CChain& chain, const CBlockIndex* blockindex)
     return dDiff;
 }
 
+double GetPoWMHashPS()
+{
+    if (pindexBestHeader->nHeight >= Params().GetConsensus().nLastPOWBlock)
+        return 0;
+
+    int nPoWInterval = 72;
+    int64_t nTargetSpacingWorkMin = 30, nTargetSpacingWork = 30;
+
+    CBlockIndex* pindexGenesisBlock = chainActive.Genesis();
+    CBlockIndex* pindex = pindexGenesisBlock;
+    CBlockIndex* pindexPrevWork = pindexGenesisBlock;
+
+    while (pindex)
+    {
+        if (pindex->IsProofOfWork())
+        {
+            int64_t nActualSpacingWork = pindex->GetBlockTime() - pindexPrevWork->GetBlockTime();
+            nTargetSpacingWork = ((nPoWInterval - 1) * nTargetSpacingWork + nActualSpacingWork + nActualSpacingWork) / (nPoWInterval + 1);
+            nTargetSpacingWork = std::max(nTargetSpacingWork, nTargetSpacingWorkMin);
+            pindexPrevWork = pindex;
+        }
+
+        pindex = pindex->pnext;
+    }
+
+    return GetDifficulty() * 4294.967296 / nTargetSpacingWork;
+}
+
+double GetPoSKernelPS()
+{
+    int nPoSInterval = 72;
+    double dStakeKernelsTriedAvg = 0;
+    int nStakesHandled = 0, nStakesTime = 0;
+
+    CBlockIndex* pindex = pindexBestHeader;
+    CBlockIndex* pindexPrevStake = NULL;
+
+    while (pindex && nStakesHandled < nPoSInterval)
+    {
+        if (pindex->IsProofOfStake())
+        {
+            if (pindexPrevStake)
+            {
+                dStakeKernelsTriedAvg += GetDifficulty(pindexPrevStake) * 4294967296.0;
+                nStakesTime += pindexPrevStake->nTime - pindex->nTime;
+                nStakesHandled++;
+            }
+            pindexPrevStake = pindex;
+        }
+
+        pindex = pindex->pprev;
+    }
+
+    double result = 0;
+
+    if (nStakesTime)
+        result = dStakeKernelsTriedAvg / nStakesTime;
+    
+    result *= STAKE_TIMESTAMP_MASK + 1;
+
+    return result;
+}
+
 double GetDifficulty(const CBlockIndex* blockindex)
 {
     return GetDifficulty(chainActive, blockindex);
@@ -112,6 +177,11 @@ UniValue blockheaderToJSON(const CBlockIndex* blockindex)
     CBlockIndex *pnext = chainActive.Next(blockindex);
     if (pnext)
         result.push_back(Pair("nextblockhash", pnext->GetBlockHash().GetHex()));
+	
+    result.push_back(Pair("flags", strprintf("%s", blockindex->IsProofOfStake()? "proof-of-stake" : "proof-of-work")));
+    result.push_back(Pair("proofhash", blockindex->hashProof.GetHex()));
+    result.push_back(Pair("modifier", blockindex->nStakeModifier.GetHex()));
+
     return result;
 }
 
@@ -158,6 +228,13 @@ UniValue blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool tx
     CBlockIndex *pnext = chainActive.Next(blockindex);
     if (pnext)
         result.push_back(Pair("nextblockhash", pnext->GetBlockHash().GetHex()));
+
+    result.push_back(Pair("flags", strprintf("%s", blockindex->IsProofOfStake()? "proof-of-stake" : "proof-of-work")));
+    result.push_back(Pair("proofhash", blockindex->hashProof.GetHex()));
+    result.push_back(Pair("modifier", blockindex->nStakeModifier.GetHex()));
+
+    if (block.IsProofOfStake())
+        result.push_back(Pair("signature", HexStr(block.vchBlockSig.begin(), block.vchBlockSig.end())));
     return result;
 }
 
@@ -348,6 +425,7 @@ UniValue getdifficulty(const JSONRPCRequest& request)
         throw std::runtime_error(
             "getdifficulty\n"
             "\nReturns the proof-of-work difficulty as a multiple of the minimum difficulty.\n"
+            "\nReturns the proof-of-stake difficulty as a multiple of the minimum difficulty.\n"
             "\nResult:\n"
             "n.nnn       (numeric) the proof-of-work difficulty as a multiple of the minimum difficulty.\n"
             "\nExamples:\n"
@@ -356,7 +434,10 @@ UniValue getdifficulty(const JSONRPCRequest& request)
         );
 
     LOCK(cs_main);
-    return GetDifficulty();
+    UniValue obj(UniValue::VOBJ);
+    obj.push_back(Pair("proof-of-work",        GetDifficulty(GetLastBlockIndex(pindexBestHeader, false))));
+    obj.push_back(Pair("proof-of-stake",       GetDifficulty(GetLastBlockIndex(pindexBestHeader, true))));
+    return obj;
 }
 
 std::string EntryDescriptionString()
@@ -657,6 +738,125 @@ UniValue getblockhash(const JSONRPCRequest& request)
     return pblockindex->GetBlockHash().GetHex();
 }
 
+UniValue getaccountinfo(const JSONRPCRequest& request)
+{
+    if (request.fHelp || request.params.size() < 1)
+        throw std::runtime_error(
+            "getaccountinfo \"address\"\n"
+            "\nArgument:\n"
+            "1. \"address\"          (string, required) The account address\n"
+        );
+
+    LOCK(cs_main);
+
+    std::string strAddr = request.params[0].get_str();
+    if(strAddr.size() != 40 || !CheckHex(strAddr))
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Incorrect address");
+
+    dev::Address addrAccount(strAddr);
+    if(!globalState->addressInUse(addrAccount))
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Address does not exist");
+    
+    UniValue result(UniValue::VOBJ);
+
+    result.push_back(Pair("address", strAddr));
+    result.push_back(Pair("balance", CAmount(globalState->balance(addrAccount))));
+    std::vector<uint8_t> code(globalState->code(addrAccount));
+    auto storage(globalState->storage(addrAccount));
+
+    UniValue storageUV(UniValue::VOBJ);
+    for (auto j: storage)
+    {
+        UniValue e(UniValue::VOBJ);
+        e.push_back(Pair(dev::toHex(j.second.first), dev::toHex(j.second.second)));
+        storageUV.push_back(Pair(j.first.hex(), e));
+    }
+        
+    result.push_back(Pair("storage", storageUV));
+
+    result.push_back(Pair("code", HexStr(code.begin(), code.end())));
+
+    std::unordered_map<dev::Address, Vin> vins = globalState->vins();
+    if(vins.count(addrAccount)){
+        UniValue vin(UniValue::VOBJ);
+        valtype vchHash(vins[addrAccount].hash.asBytes());
+        vin.push_back(Pair("hash", HexStr(vchHash.rbegin(), vchHash.rend())));
+        vin.push_back(Pair("nVout", uint64_t(vins[addrAccount].nVout)));
+        vin.push_back(Pair("value", uint64_t(vins[addrAccount].value)));
+        result.push_back(Pair("vin", vin));
+    }
+    return result;
+}
+
+UniValue getstorage(const JSONRPCRequest& request)
+{
+    if (request.fHelp || request.params.size() < 1)
+        throw std::runtime_error(
+            "getstorage \"address\"\n"
+            "\nArgument:\n"
+            "1. \"address\"          (string, required) The address to get the storage from\n"
+            "2. \"blockNum\"         (string, optional) Number of block to get state from, \"latest\" keyword supported. Latest if not passed.\n"
+            "3. \"index\"            (number, optional) Zero-based index position of the storage\n"
+        );
+
+    LOCK(cs_main);
+
+    std::string strAddr = request.params[0].get_str();
+    if(strAddr.size() != 40 || !CheckHex(strAddr))
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Incorrect address"); 
+
+    TemporaryState ts(globalState);
+    if (request.params.size() > 1)
+    {
+        if (request.params[1].isNum())
+        {
+            auto blockNum = request.params[1].get_int();
+            if((blockNum < 0 && blockNum != -1) || blockNum > chainActive.Height())
+                throw JSONRPCError(RPC_INVALID_PARAMS, "Incorrect block number");
+
+            if(blockNum != -1)
+                ts.SetRoot(uintToh256(chainActive[blockNum]->hashStateRoot), uintToh256(chainActive[blockNum]->hashUTXORoot));
+                
+        } else {
+            throw JSONRPCError(RPC_INVALID_PARAMS, "Incorrect block number");
+        }
+    }
+
+    dev::Address addrAccount(strAddr);
+    if(!globalState->addressInUse(addrAccount))
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Address does not exist");
+    
+    UniValue result(UniValue::VOBJ);
+
+    bool onlyIndex = request.params.size() > 2;
+    unsigned index = 0;
+    if (onlyIndex)
+        index = request.params[2].get_int();
+
+    auto storage(globalState->storage(addrAccount));
+
+    if (onlyIndex)
+    {
+        if (index >= storage.size())
+        {
+            std::ostringstream stringStream;
+            stringStream << "Storage size: " << storage.size() << " got index: " << index;
+            throw JSONRPCError(RPC_INVALID_PARAMS, stringStream.str());
+        }
+        auto elem = std::next(storage.begin(), index);
+        UniValue e(UniValue::VOBJ);
+
+        storage = {{elem->first, {elem->second.first, elem->second.second}}};
+    } 
+    for (const auto& j: storage)
+    {
+        UniValue e(UniValue::VOBJ);
+        e.push_back(Pair(dev::toHex(j.second.first), dev::toHex(j.second.second)));
+        result.push_back(Pair(j.first.hex(), e));
+    }
+    return result;
+}
+
 UniValue getblockheader(const JSONRPCRequest& request)
 {
     if (request.fHelp || request.params.size() < 1 || request.params.size() > 2)
@@ -827,11 +1027,11 @@ static void ApplyStats(CCoinsStats &stats, CHashWriter& ss, const uint256& hash,
 {
     assert(!outputs.empty());
     ss << hash;
-    ss << VARINT(outputs.begin()->second.nHeight * 2 + outputs.begin()->second.fCoinBase);
+    ss << VARINT((outputs.begin()->second.nHeight << 2) + outputs.begin()->second.fCoinBase + outputs.begin()->second.fCoinStake);
     stats.nTransactions++;
     for (const auto output : outputs) {
         ss << VARINT(output.first + 1);
-        ss << output.second.out.scriptPubKey;
+        ss << *(const CScriptBase*)(&output.second.out.scriptPubKey);
         ss << VARINT(output.second.out.nValue);
         stats.nTransactionOutputs++;
         stats.nTotalAmount += output.second.out.nValue;
@@ -1047,6 +1247,7 @@ UniValue gettxout(const JSONRPCRequest& request)
     ScriptPubKeyToUniv(coin.out.scriptPubKey, o, true);
     ret.push_back(Pair("scriptPubKey", o));
     ret.push_back(Pair("coinbase", (bool)coin.fCoinBase));
+    ret.push_back(Pair("coinstake", (bool)coin.fCoinStake));
 
     return ret;
 }
@@ -1212,6 +1413,7 @@ UniValue getblockchaininfo(const JSONRPCRequest& request)
     obj.push_back(Pair("headers",               pindexBestHeader ? pindexBestHeader->nHeight : -1));
     obj.push_back(Pair("bestblockhash",         chainActive.Tip()->GetBlockHash().GetHex()));
     obj.push_back(Pair("difficulty",            (double)GetDifficulty()));
+    obj.push_back(Pair("moneysupply",           pindexBestHeader->nMoneySupply / COIN));
     obj.push_back(Pair("mediantime",            (int64_t)chainActive.Tip()->GetMedianTimePast()));
     obj.push_back(Pair("verificationprogress",  GuessVerificationProgress(Params().TxData(), chainActive.Tip())));
     obj.push_back(Pair("initialblockdownload",  IsInitialBlockDownload()));
@@ -1640,7 +1842,8 @@ static const CRPCCommand commands[] =
     { "blockchain",         "pruneblockchain",        &pruneblockchain,        {"height"} },
     { "blockchain",         "savemempool",            &savemempool,            {} },
     { "blockchain",         "verifychain",            &verifychain,            {"checklevel","nblocks"} },
-
+    { "blockchain",         "getaccountinfo",         &getaccountinfo,         {"contract_address"} },
+    { "blockchain",         "getstorage",             &getstorage,             {"address, index, blockNum"} },
     { "blockchain",         "preciousblock",          &preciousblock,          {"blockhash"} },
 
     /* Not shown in help */

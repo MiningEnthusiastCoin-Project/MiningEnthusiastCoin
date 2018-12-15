@@ -104,6 +104,8 @@ namespace BCLog {
         COINDB      = (1 << 18),
         QT          = (1 << 19),
         LEVELDB     = (1 << 20),
+        COINSTAKE   = (1 << 21),
+        HTTPPOLL    = (1 << 22),
         ALL         = ~(uint32_t)0,
     };
 }
@@ -174,7 +176,7 @@ bool TruncateFile(FILE *file, unsigned int length);
 int RaiseFileDescriptorLimit(int nMinFD);
 void AllocateFileRange(FILE *file, unsigned int offset, unsigned int length);
 bool RenameOver(fs::path src, fs::path dest);
-bool LockDirectory(const fs::path& directory, const std::string lockfile_name, bool probe_only=false);
+bool LockDirectory(const fs::path& directory, const std::string lockfile_name, bool probe_only=false, bool try_lock = true);
 
 /** Release all directory locks. This is used for unit testing only, at runtime
  * the global destructor will take care of the locks.
