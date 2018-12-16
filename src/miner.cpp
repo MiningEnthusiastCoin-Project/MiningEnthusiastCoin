@@ -343,7 +343,7 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateEmptyBlock(const CScript& 
 
     // The total fee is the Fees minus the Refund
     if (pTotalFees)
-        *pTotalFees = nFees - bceResult.refundSender;
+        *pTotalFees = nFees;
 
     // Fill in header
     pblock->hashPrevBlock  = pindexPrev->GetBlockHash();

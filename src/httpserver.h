@@ -82,6 +82,10 @@ public:
         PUT
     };
 
+    void setConnClosed();
+    bool isConnClosed();
+    bool isChunkMode();
+
     /** Get requested URI.
      */
     std::string GetURI();
