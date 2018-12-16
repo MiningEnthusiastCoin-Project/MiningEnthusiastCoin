@@ -69,7 +69,7 @@ void AddressField::setComboBoxEditable(bool editable)
     if(editable)
     {
         QValidatedLineEdit *validatedLineEdit = (QValidatedLineEdit*)lineEdit();
-        validatedLineEdit->setCheckValidator(new BitcoinAddressCheckValidator(parent(), m_senderAddress));
+        validatedLineEdit->setCheckValidator(new BitcoinAddressCheckValidator(parent()));
         completer()->setCompletionMode(QCompleter::InlineCompletion);
         connect(validatedLineEdit, SIGNAL(editingFinished()), this, SLOT(on_editingFinished()));
     }
