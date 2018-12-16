@@ -39,16 +39,6 @@
 #include <mutex>
 #include <condition_variable>
 
-struct CUpdatedBlock
-{
-    uint256 hash;
-    int height;
-};
-
-static std::mutex cs_blockchange;
-static std::condition_variable cond_blockchange;
-static CUpdatedBlock latestblock;
-
 extern void TxToJSON(const CTransaction& tx, const uint256 hashBlock, UniValue& entry);
 
 /* Calculate the difficulty for a given block index,
@@ -1720,8 +1710,6 @@ static const CRPCCommand commands[] =
     { "blockchain",         "pruneblockchain",        &pruneblockchain,        {"height"} },
     { "blockchain",         "savemempool",            &savemempool,            {} },
     { "blockchain",         "verifychain",            &verifychain,            {"checklevel","nblocks"} },
-    { "blockchain",         "getaccountinfo",         &getaccountinfo,         {"contract_address"} },
-    { "blockchain",         "getstorage",             &getstorage,             {"address, index, blockNum"} },
     { "blockchain",         "preciousblock",          &preciousblock,          {"blockhash"} },
 
     /* Not shown in help */

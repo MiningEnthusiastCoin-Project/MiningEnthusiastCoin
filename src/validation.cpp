@@ -1262,6 +1262,20 @@ bool ReadFromDisk(CMutableTransaction& tx, CDiskTxPos& txindex, CBlockTreeDB& tx
     return true;
 }
 
+CAmount GetProofOfStakeReward(int nHeight, const Consensus::Params& consensusParams)
+{
+    CAmount nSubsidy = 50 * COIN;
+    if (nHeight <= 1401600)
+        return 10 * COIN;
+    if (nHeight >= 1401601 && nHeight <= 2803200)
+        return 20 * COIN;
+    if (nHeight >= 2803201 && nHeight <= 4204800)
+        return 30 * COIN;
+    if (nHeight >= 4204801 && nHeight <= 5606400)
+        return 40 * COIN;
+    return nSubsidy;
+}
+
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
     CAmount nSubsidy = 50 * COIN;
