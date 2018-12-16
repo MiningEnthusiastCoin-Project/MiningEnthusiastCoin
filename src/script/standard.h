@@ -146,7 +146,7 @@ bool Solver(const CScript& scriptPubKey, txnouttype& typeRet, std::vector<std::v
  * scripts, instead use ExtractDestinations. Currently only works for P2PK,
  * P2PKH, P2SH, P2WPKH, and P2WSH scripts.
  */
-bool ExtractDestination(const CScript& scriptPubKey, CTxDestination& addressRet);
+bool ExtractDestination(const CScript& scriptPubKey, CTxDestination& addressRet, txnouttype* typeRet = NULL);
 
 /**
  * Parse a standard scriptPubKey with one or more destination addresses. For
