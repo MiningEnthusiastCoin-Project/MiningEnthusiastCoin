@@ -449,7 +449,7 @@ static UniValue JSONRPCExecOne(JSONRPCRequest jreq, const UniValue& req)
     return rpc_result;
 }
 
-std::string JSONRPCExecBatch(const JSONRPCRequest& jreq, const UniValue& vReq)
+std::string JSONRPCExecBatch(JSONRPCRequest jreq, const UniValue& vReq)
 {
     UniValue ret(UniValue::VARR);
     for (unsigned int reqIdx = 0; reqIdx < vReq.size(); reqIdx++)

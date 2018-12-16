@@ -165,7 +165,7 @@ static bool HTTPReq_JSONRPC(HTTPRequest* req, const std::string &)
         return false;
     }
 
-    JSONRPCRequest jreq;
+    JSONRPCRequest jreq(req);
     if (!RPCAuthorized(authHeader.second, jreq.authUser)) {
         LogPrintf("ThreadRPCServer incorrect password attempt from %s\n", req->GetPeer().ToString());
 
