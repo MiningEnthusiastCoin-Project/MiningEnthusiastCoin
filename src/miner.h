@@ -181,7 +181,6 @@ public:
     explicit BlockAssembler(const CChainParams& params);
     BlockAssembler(const CChainParams& params, const Options& options);
 
-    ByteCodeExecResult bceResult;
 
     // The original constructed reward tx (either coinbase or coinstake) without gas refund adjustments
     CMutableTransaction originalRewardTx;
@@ -205,6 +204,8 @@ private:
       * statistics from the package selection (for logging statistics). */
     void addPackageTxs(int &nPackagesSelected, int &nDescendantsUpdated);
 
+    /** Rebuild the coinbase/coinstake transaction to account for new gas refunds **/
+    void RebuildRefundTransaction();
     // helper functions for addPackageTxs()
     /** Remove confirmed (inBlock) entries from given set */
     void onlyUnconfirmed(CTxMemPool::setEntries& testSet);

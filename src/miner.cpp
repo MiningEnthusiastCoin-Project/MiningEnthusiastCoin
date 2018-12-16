@@ -117,14 +117,7 @@ void BlockAssembler::RebuildRefundTransaction(){
         contrTx.vout[refundtx].nValue = nFees + GetProofOfStakeReward(nHeight, chainparams.GetConsensus());
     else
         contrTx.vout[refundtx].nValue = nFees + GetBlockSubsidy(nHeight, chainparams.GetConsensus());
-    contrTx.vout[refundtx].nValue -= bceResult.refundSender;
     //note, this will need changed for MPoS
-    int i=contrTx.vout.size();
-    contrTx.vout.resize(contrTx.vout.size()+bceResult.refundOutputs.size());
-    for(CTxOut& vout : bceResult.refundOutputs){
-        contrTx.vout[i]=vout;
-        i++;
-    }
     pblock->vtx[refundtx] = MakeTransactionRef(std::move(contrTx));
 }
 
@@ -237,7 +230,7 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
 
     // The total fee is the Fees minus the Refund
     if (pTotalFees)
-        *pTotalFees = nFees - bceResult.refundSender;
+        *pTotalFees = nFees;
 
     // Fill in header
     pblock->hashPrevBlock  = pindexPrev->GetBlockHash();
@@ -347,7 +340,7 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateEmptyBlock(const CScript& 
 
     // The total fee is the Fees minus the Refund
     if (pTotalFees)
-        *pTotalFees = nFees - bceResult.refundSender;
+        *pTotalFees = nFees;
 
     // Fill in header
     pblock->hashPrevBlock  = pindexPrev->GetBlockHash();
