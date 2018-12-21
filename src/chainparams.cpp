@@ -5,6 +5,7 @@
 
 #include <chainparams.h>
 #include <consensus/merkle.h>
+#include <consensus/consensus.h>
 
 #include <tinyformat.h>
 #include <util.h>
@@ -156,8 +157,7 @@ public:
         };
 
         consensus.nMPoSRewardRecipients = 10;
-        consensus.nFirstMPoSBlock = consensus.nLastPOWBlock + 
-                                    consensus.nMPoSRewardRecipients + 
+        consensus.nFirstMPoSBlock = consensus.nMPoSRewardRecipients + 
                                     COINBASE_MATURITY;
     }
 };
@@ -247,8 +247,7 @@ public:
         };
 
         consensus.nMPoSRewardRecipients = 10;
-        consensus.nFirstMPoSBlock = consensus.nLastPOWBlock + 
-                                    consensus.nMPoSRewardRecipients + 
+        consensus.nFirstMPoSBlock = consensus.nMPoSRewardRecipients + 
                                     COINBASE_MATURITY;
     }
 };
@@ -322,7 +321,7 @@ public:
             0
         };
         consensus.nMPoSRewardRecipients = 10;
-        consensus.nFirstMPoSBlock = 5000;
+        consensus.nFirstMPoSBlock = 0;
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,110);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,92);

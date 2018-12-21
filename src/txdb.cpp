@@ -24,9 +24,6 @@ static const char DB_BLOCK_FILES = 'f';
 static const char DB_TXINDEX = 't';
 static const char DB_BLOCK_INDEX = 'b';
 
-static const char DB_HEIGHTINDEX = 'h';
-static const char DB_STAKEINDEX = 's';
-
 static const char DB_BEST_BLOCK = 'B';
 static const char DB_HEAD_BLOCKS = 'H';
 static const char DB_FLAG = 'F';
@@ -262,72 +259,6 @@ bool CBlockTreeDB::ReadFlag(const std::string &name, bool &fValue) {
     return true;
 }
 
-bool CBlockTreeDB::WriteStakeIndex(unsigned int height, uint160 address) {
-    CDBBatch batch(*this);
-    batch.Write(std::make_pair(DB_STAKEINDEX, height), address);
-    return WriteBatch(batch);
-}
-
-bool CBlockTreeDB::ReadStakeIndex(unsigned int height, uint160& address){
-    boost::scoped_ptr<CDBIterator> pcursor(NewIterator());
-
-    pcursor->Seek(std::make_pair(DB_STAKEINDEX, height));
-
-    while (pcursor->Valid()) {
-        boost::this_thread::interruption_point();
-        std::pair<char, CHeightTxIndexKey> key;
-        pcursor->GetKey(key); //note: it's apparently ok if this returns an error https://github.com/bitcoin/bitcoin/issues/7890
-        if (key.first == DB_STAKEINDEX) {
-            pcursor->GetValue(address);
-            return true;
-        }else{
-            return false;
-        }
-    }
-    return false;
-}
-bool CBlockTreeDB::ReadStakeIndex(unsigned int high, unsigned int low, std::vector<uint160> addresses){
-    boost::scoped_ptr<CDBIterator> pcursor(NewIterator());
-
-    pcursor->Seek(std::make_pair(DB_STAKEINDEX, low));
-
-    while (pcursor->Valid()) {
-        boost::this_thread::interruption_point();
-        std::pair<char, CHeightTxIndexKey> key;
-        pcursor->GetKey(key); //note: it's apparently ok if this returns an error https://github.com/bitcoin/bitcoin/issues/7890
-        if (key.first == DB_STAKEINDEX && key.second.height < high) {
-            uint160 value;
-            pcursor->GetValue(value);
-            addresses.push_back(value);
-            pcursor->Next();
-        } else {
-            break;
-        }
-    }
-
-    return true;
-}
-
-bool CBlockTreeDB::EraseStakeIndex(unsigned int height) {
-
-    boost::scoped_ptr<CDBIterator> pcursor(NewIterator());
-    CDBBatch batch(*this);
-
-    pcursor->Seek(std::make_pair(DB_STAKEINDEX, height));
-
-    while (pcursor->Valid()) {
-        boost::this_thread::interruption_point();
-        std::pair<char, CHeightTxIndexKey> key;
-        if (pcursor->GetKey(key) && key.first == DB_HEIGHTINDEX && key.second.height == height) {
-            batch.Erase(key);
-            pcursor->Next();
-        } else {
-            break;
-        }
-    }
-
-    return WriteBatch(batch);
-}
 
 bool CBlockTreeDB::LoadBlockIndexGuts(const Consensus::Params& consensusParams, std::function<CBlockIndex*(const uint256&)> insertBlockIndex)
 {
