@@ -1,7 +1,7 @@
 MiningEnthusiastCoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/MiningEnthusiastCoin-Project/MiningEnthusiastCoin.svg?branch=develop)](https://travis-ci.org/MiningEnthusiastCoin-Project/MiningEnthusiastCoin)
+[![Build Status](https://travis-ci.org/MiningEnthusiastCoin-Project/MiningEnthusiastCoin.svg?branch=develop-2.0)](https://travis-ci.org/MiningEnthusiastCoin-Project/MiningEnthusiastCoin)
 
 (Japanese HP)https://miningenthusiastcoin.com/
 (English HP)https://miningenthusiastcoin.com/en/
