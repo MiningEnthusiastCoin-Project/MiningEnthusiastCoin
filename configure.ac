@@ -8,7 +8,7 @@ define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2018)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
 define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[MiningEnthusiastCoin Core]])
-AC_INIT([MiningEnthusiastCoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/miningenthusiastcoin-project/miningenthusiastcoin/issues],[miningenthusiastcoin],[https://miningenthusiastcoin.org/])
+AC_INIT([MiningEnthusiastCoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/MiningEnthusiastCoin-Project/MiningEnthusiastCoin/issues],[miningenthusiastcoin],[https://miningenthusiastcoin.com/])
 AC_CONFIG_SRCDIR([src/validation.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -116,19 +116,19 @@ AC_ARG_ENABLE([upnp-default],
   [use_upnp_default=no])
 
 AC_ARG_ENABLE(tests,
-    AS_HELP_STRING([--disable-tests],[do not compile tests (default is to compile)]),
+    AS_HELP_STRING([--enable-tests],[do compile tests (default is to compile)]),
     [use_tests=$enableval],
-    [use_tests=yes])
+    [use_tests=no])
 
 AC_ARG_ENABLE(gui-tests,
-    AS_HELP_STRING([--disable-gui-tests],[do not compile GUI tests (default is to compile if GUI and tests enabled)]),
+    AS_HELP_STRING([--enable-gui-tests],[do compile GUI tests (default is to compile if GUI and tests enabled)]),
     [use_gui_tests=$enableval],
     [use_gui_tests=$use_tests])
 
 AC_ARG_ENABLE(bench,
-    AS_HELP_STRING([--disable-bench],[do not compile benchmarks (default is to compile)]),
+    AS_HELP_STRING([--enable-bench],[do compile benchmarks (default is to compile)]),
     [use_bench=$enableval],
-    [use_bench=yes])
+    [use_bench=no])
 
 AC_ARG_ENABLE([extended-functional-tests],
     AS_HELP_STRING([--enable-extended-functional-tests],[enable expensive functional tests when using lcov (default no)]),
@@ -199,12 +199,6 @@ AC_ARG_ENABLE([zmq],
   [use_zmq=$enableval],
   [use_zmq=yes])
 
-AC_ARG_ENABLE([sse2],
-    [AS_HELP_STRING([--enable-sse2],
-    [enable SSE2 instructions in the scrypt library. (default is disabled)])],
-    [use_sse2=$enableval],
-    [use_sse2=no])
-
 AC_ARG_WITH([protoc-bindir],[AS_HELP_STRING([--with-protoc-bindir=BIN_DIR],[specify protoc bin path])], [protoc_bin_path=$withval], [])
 
 AC_ARG_ENABLE(man,
@@ -240,6 +234,8 @@ if test "x$enable_debug" = xyes; then
         CXXFLAGS="$CXXFLAGS -g3 -O0"
     fi
 fi
+
+CFLAGS="$CFLAGS -fPIC"
 
 ERROR_CXXFLAGS=
 if test "x$enable_werror" = "xyes"; then
@@ -299,7 +295,7 @@ CPPFLAGS="$CPPFLAGS -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS"
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build miningenthusiastcoin-cli bitcoin-tx (default=yes)])],
+  [build bitcoin-cli bitcoin-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -311,7 +307,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build miningenthusiastcoind daemon (default=yes)])],
+  [build bitcoind daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
@@ -1066,11 +1062,11 @@ AC_SUBST(UNIVALUE_LIBS)
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build miningenthusiastcoind])
+AC_MSG_CHECKING([whether to build bitcoind])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (miningenthusiastcoin-cli miningenthusiastcoin-tx)])
+AC_MSG_CHECKING([whether to build utils (bitcoin-cli bitcoin-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
@@ -1171,7 +1167,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_miningenthusiastcoin-qt])
+  AC_MSG_CHECKING([whether to build test_bitcoin-qt])
   if test x$use_gui_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="yes"
@@ -1182,23 +1178,13 @@ fi
 
 AM_CONDITIONAL([ENABLE_ZMQ], [test "x$use_zmq" = "xyes"])
 
-AC_MSG_CHECKING([whether to build test_miningenthusiastcoin])
+AC_MSG_CHECKING([whether to build test_bitcoin])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="yes"
 else
   AC_MSG_RESULT([no])
   BUILD_TEST=""
-fi
-
-AC_MSG_CHECKING([whether to enable sse2 instructions])
-if test x$use_sse2 != xno; then
-  AC_MSG_RESULT(yes)
-  AC_DEFINE([USE_SSE2],[1],[Define if SSE2 support should be compiled in])
-  use_sse2=yes
-  CPPFLAGS="$CPPFLAGS -DUSE_SSE2=1"
-else
-  AC_MSG_RESULT(no)
 fi
 
 AC_MSG_CHECKING([whether to reduce exports])
@@ -1221,7 +1207,6 @@ AM_CONDITIONAL([ENABLE_QT],[test x$bitcoin_enable_qt = xyes])
 AM_CONDITIONAL([ENABLE_QT_TESTS],[test x$BUILD_TEST_QT = xyes])
 AM_CONDITIONAL([ENABLE_BENCH],[test x$use_bench = xyes])
 AM_CONDITIONAL([USE_QRCODE], [test x$use_qr = xyes])
-AM_CONDITIONAL([USE_SSE2], [test x$use_sse2 = xyes])
 AM_CONDITIONAL([USE_LCOV],[test x$use_lcov = xyes])
 AM_CONDITIONAL([GLIBC_BACK_COMPAT],[test x$use_glibc_compat = xyes])
 AM_CONDITIONAL([HARDEN],[test x$use_hardening = xyes])
@@ -1263,7 +1248,6 @@ AC_SUBST(SSE42_CXXFLAGS)
 AC_SUBST(LIBTOOL_APP_LDFLAGS)
 AC_SUBST(USE_UPNP)
 AC_SUBST(USE_QRCODE)
-AC_SUBST(USE_SSE2)
 AC_SUBST(BOOST_LIBS)
 AC_SUBST(TESTDEFS)
 AC_SUBST(LEVELDB_TARGET_FLAGS)
@@ -1347,7 +1331,6 @@ echo "  with test     = $use_tests"
 echo "  with bench    = $use_bench"
 echo "  with upnp     = $use_upnp"
 echo "  use asm       = $use_asm"
-echo "  scrypt sse2   = $use_sse2"
 echo "  debug enabled = $enable_debug"
 echo "  werror        = $enable_werror"
 echo
