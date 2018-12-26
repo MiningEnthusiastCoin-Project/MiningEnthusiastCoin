@@ -278,10 +278,10 @@ public:
         nDefaultPort = 29635;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1546268400, 1, 0x207fffff, 2, 1000 * COIN);
+        genesis = CreateGenesisBlock(1546268400, 0, 0x207fffff, 4, 1000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x38030824766bb4a26ed1d7ebece7ec44b4d737a546c382575c71f90807fbfc73"));
-        assert(genesis.hashMerkleRoot == uint256S("0xd20e12cf6910c3069f3d292f2884607458a57c56a453ee003fd21fe5c17b2480"));
+        assert(consensus.hashGenesisBlock == uint256S("0x9724ea425cddbae1cf17d01114ed8086d67e8bedb222d31c3b869b2f5d7f0fae"));
+        assert(genesis.hashMerkleRoot == uint256S("0x8e14e6308ee9c569ddaecbc5b54c26d2f6ce4ae2cf6d178e3a096c64c1c98ad4"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
